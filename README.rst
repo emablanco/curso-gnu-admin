@@ -1,26 +1,25 @@
-Temario - Tramo 3 :: Avanzado
-=============================
+Curso de administración GNU/Linux
+=================================
 
-Módulo 1
---------
+El presente curso consiste en clases con una breve introducción teórica y casos
+prácticos de implementación y configuración. 
 
-01 - Gestores de Arranque. Grub. 
-02 - NTP. 
-03 - VNC. Servidor, Viewer.
-04 - Update. Upgrade.
-05 - IPTables. Opciones de comandos para IPTables. Reglas IPTables
-06 - Firewall. Configuración.
+Unidades temáticas
+------------------
 
-Módulo 2
---------
+1. Gestores de Arranque. Grub. 
+2. NTP. 
+3. VNC. Servidor, Viewer.
+4. Update. Upgrade.
+5. IPTables. Opciones de comandos para IPTables. Reglas IPTables.
+6. Firewall. Configuración.
+7. Backup. Sistemas de backup.
+8. VPN. 
+9. DNS.
+10. NFS.
 
-07 - Backup. Sistema de backup.
-08 - VPN. 
-09 - DNS.
-10 - NFS.
-
-Cronograma
-----------
+Cronograma tentativo
+--------------------
 
 Clase 1
 '''''''
