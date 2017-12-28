@@ -21,40 +21,15 @@ Unidades temáticas
 Cronograma tentativo
 --------------------
 
-Clase 1
-'''''''
-- Grub
-- NTP
-    
-Clase 2
-'''''''
-- Update/Upgrade
-- VPN
-
-Clase 3 y 4
-'''''''''''
-- IPtables
-
-Clase 5 y 6
-'''''''''''
-- Firewalls
-
-Clase 7 y 8
-''''''''''''
-- Backup
-
-Clase 9
-'''''''
-- VNC
-
-Clase 10
-'''''''
-- DNS
-
-Clase 11
-''''''''
-- NFS
-
-Clase 12
-''''''''
-- Examen
+- Clase 1: VPN, NTP, 
+- Clase 2: Update/Upgrade, Grub
+- Clase 3: IPtables
+- Clase 4: IPtables
+- Clase 5: Firewalls
+- Clase 6: Firewalls 
+- Clase 7: **Examen**
+- Clase 8: Backup
+- Clase 9: VNC
+- Clase 10: DNS
+- Clase 11: NFS
+- Clase 12: **Examen**
