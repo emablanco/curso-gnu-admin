@@ -43,7 +43,12 @@ Cronograma tentativo
 Referencias
 -----------
 
-Gran parte de la documentacion fue basada en documentos de la carrera Tecnicatura Universitaria en Software Libre dictada en la FICH, UNL (Santa Fe, Argentina) cuyas licencias CC permiten su libre uso y modificación.
+Los documentos generados están basados en tres fuentes principales:
 
-(*) Curso Administración GNU/LINUX II
-(**) Curso Administración GNU/LINUX III
+- Red Hat Enterprise Linux 7 System Administrator's Guide
+- (*) Curso Administración GNU/LINUX II, Tec. Universitaria en Software Libre. FICH, UNL.
+- (**) Curso Administración GNU/LINUX III, Tec. Universitaria en Software Libre. FICH, UNL.
+
+
+Parte de la documentacion fue basada en documentos de la carrera Tecnicatura Universitaria en Software Libre dictada en la FICH, UNL (Santa Fe, Argentina) cuyas licencias CC permiten su libre uso y modificación.
+
