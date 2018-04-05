@@ -21,21 +21,23 @@ Unidades temáticas
 - IPTables. Opciones de comandos para IPTables. Reglas IPTables. (**)
 - Firewall. Configuración. (**)
 
+``(#)`` significa unidad Lista
+
 
 Cronograma tentativo
 --------------------
 
-- Clase 1: VPN, NTP, 
-- Clase 2: Update/Upgrade, Grub
-- Clase 3: IPtables
-- Clase 4: IPtables
-- Clase 5: Firewalls
-- Clase 6: Firewalls 
+- Clase 1: Repaso + Update/Upgrade
+- Clase 2: VNC. Servidor, Viewer.
+- Clase 3: VPN
+- Clase 4: NFS
+- Clase 5: NTP
+- Clase 6: Gestores de Arranque. Grub 
 - Clase 7: **Examen**
 - Clase 8: Backup
-- Clase 9: VNC
-- Clase 10: DNS
-- Clase 11: NFS
+- Clase 9: IPTables
+- Clase 10: Firewall
+- Clase 11: DNS
 - Clase 12: **Examen**
 
 Referencias
