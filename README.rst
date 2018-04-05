@@ -24,21 +24,21 @@ Unidades temáticas
 ``(#)`` significa unidad Lista
 
 
-Cronograma tentativo
---------------------
+Cronograma
+----------
 
-- Clase 1: Repaso + Update/Upgrade
-- Clase 2: VNC. Servidor, Viewer.
-- Clase 3: VPN
-- Clase 4: NFS
-- Clase 5: NTP
-- Clase 6: Gestores de Arranque. Grub 
-- Clase 7: **Examen**
-- Clase 8: Backup
-- Clase 9: IPTables
-- Clase 10: Firewall
-- Clase 11: DNS
-- Clase 12: **Examen**
+- Clase 1 (18/04): Repaso + Update/Upgrade
+- Clase 2 (25/04): VNC. Servidor, Viewer.
+- Clase 3 (02/05): VPN
+- Clase 4 (09/05): NFS
+- Clase 5 (16/05): NTP
+- Clase 6 (23/05): Gestores de Arranque. Grub 
+- Clase 7 (30/05): **Examen**
+- Clase 8 (06/06): Backup
+- Clase 9 (13/06): IPTables
+- Clase 10 (20/06): Firewall
+- Clase 11 (/05): DNS
+- Clase 12 (02/05): **Examen**
 
 Referencias
 -----------
