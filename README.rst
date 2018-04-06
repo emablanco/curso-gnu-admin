@@ -37,8 +37,8 @@ Cronograma
 - Clase 8 (06/06): Backup
 - Clase 9 (13/06): IPTables
 - Clase 10 (20/06): Firewall
-- Clase 11 (/05): DNS
-- Clase 12 (02/05): **Examen**
+- Clase 11 (27/06): DNS
+- Clase 12 (04/07): **Examen**
 
 Referencias
 -----------
