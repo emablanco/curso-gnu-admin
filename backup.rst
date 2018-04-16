@@ -21,7 +21,7 @@ Algunos de los logs más utilizados
 - **/var/log/lastlog**: contiene el *login* de cada usuario.
 - **/var/log/syslog**: es el archivo de **log** por defecto del demonio **rsyslogd**. Este archivo contiene una amplia variedad de mensajes de orígenes diversos (diferentes demonios, servicios o el mismo kernel). Dentro de este archivo se encuentra una lista larga de los eventos (en orden cronológico), con cada entrada representando un registro individual. El archivo */var/log/syslog* es el archivo central del sistema de mensajes y registros del sistema. Almacena los mensajes de kernel con todos los programas que efectúan eventos que generan un registro. La mayor parte de los errores y mensajes del sistema se encuentran aquí en este archivo.
 - **/var/log/utmp**: este archivo contiene información binaria para cada usuario que está actualmente activo. Es interesante para determinar quién está dentro del sistema.
-- **/var/log/wtmp**: cada vez que un usuario entra en el sistema, sale, o la máquina reinicia, se guarda una entrada en este archivo binario. 
+- **/var/log/wtmp**: cada vez que un usuario entra en el sistema, sale, o la máquina reinicia, se guarda una entrada en este archivo binario.
 
 .. raw:: pdf
 
@@ -148,7 +148,7 @@ El archivo /etc/rsyslog.conf en **Debian Jessie**:
 	lpr.*                           -/var/log/lpr.log
 	mail.*                          -/var/log/mail.log
 	user.*                          -/var/log/user.log
-	
+
 	#
 	# Logging for the mail system.  Split it up so that
 	# it is easy to write scripts to parse these files.
@@ -156,7 +156,7 @@ El archivo /etc/rsyslog.conf en **Debian Jessie**:
 	mail.info                       -/var/log/mail.info
 	mail.warn                       -/var/log/mail.warn
 	mail.err                        /var/log/mail.err
-	
+
 	#
 	# Logging for INN news system.
 	#
@@ -174,12 +174,12 @@ El archivo /etc/rsyslog.conf en **Debian Jessie**:
         	auth,authpriv.none;\
         	cron,daemon.none;\
         	mail,news.none          -/var/log/messages
-	
+
 	#
 	# Emergencies are sent to everybody logged in.
 	#
 	*.emerg                         :omusrmsg:*
-	
+
 	#
 	# I like to have messages displayed on the console, but only on a virtual
 	# console I usually leave idle.
@@ -191,7 +191,7 @@ El archivo /etc/rsyslog.conf en **Debian Jessie**:
 
 	# The named pipe /dev/xconsole is for the `xconsole' utility.  To use it,
 	# you must invoke `xconsole' with the `-file' option:
-	# 
+	#
 	#    $ xconsole -file /dev/xconsole [...]
 	#
 	# NOTE: adjust the list below, or you'll go crazy if you have a reasonably
@@ -310,7 +310,7 @@ logrotate
 
 Los **logs** siempre están recolectando información. El archivo */var/log/syslog* es donde la mayoría de los mensajes del sistema se registran. Este archivo puede crecer rápidamente. Si se dejase solo, continuaría creciendo de tamaño hasta llegar a ser imposible de manejar. Muchos archivos de **logs** tienden a volverse excesivamente grandes (especialmente si se tratan de los **logs** de algún servicio especial, como un servidor web o un servidor de correo electrónico), lo que hace necesario que sean administrados.
 
-El esquema más común es el del archivado rotativo: el archivo de **log** es almacenado regularmente y sólo se mantienen los últimos *N* archivos. 
+El esquema más común es el del archivado rotativo: el archivo de **log** es almacenado regularmente y sólo se mantienen los últimos *N* archivos.
 
 Esta tarea puede realizarse de forma manual. Periódicamente habría que revisar y limpiar los archivos de **logs**. Hacer esto, lleva a tener que decidir si se quiere salvar la información vieja o no (lo que se conoce como rotar los **logs**). Una manera sería copiar o mover periódicamente cada archivo de **log** que se desea conservar a otro sitio. Luego hay dos opciones, o recrear el archivo de **log** (si el original fue movido) o vaciar el **log** original (si se copió a otro directorio). Además en muchos casos, sería necesario reiniciar el servicio que hace uso del **log**.
 
@@ -324,7 +324,7 @@ La sintaxis de **logrotate** es:
 
 **logrotate [opciones] archivo_de_configuración**
 
-Por defecto, **logrotate** almacena información sobre su estado en el sistema en el archivo */var/lib/logrotate/status* , pero este comportamiento puede ser sobrescrito usando la opción *-s* y el nombre de otro archivo. Se le puede pasar más de un archivo de configuración al comando **logrotate** pero las instrucciones contenidas en el último archivo pueden sobrescribir las de los anteriores. 
+Por defecto, **logrotate** almacena información sobre su estado en el sistema en el archivo */var/lib/logrotate/status* , pero este comportamiento puede ser sobrescrito usando la opción *-s* y el nombre de otro archivo. Se le puede pasar más de un archivo de configuración al comando **logrotate** pero las instrucciones contenidas en el último archivo pueden sobrescribir las de los anteriores.
 
 **logrotate** responde a las directivas presentes en el archivo */etc/logrotate.conf*, y a todos los archivos en el directorio */etc/logrotate.d/* . El administrador puede modificar estos archivos si desea adaptar la política por defecto de rotación de **logs** definida en **Debian**. Entre las opciones posibles, se podría desear aumentar la cantidad de archivos mantenidos en la rotación, o mover los archivos de **logs** a un directorio específico dedicado a su archivado, en lugar de eliminarlos. También puede enviar los **logs** por *email* para archivarlos en otro lado. La página del manual de **logrotate** describe todas las opciones disponibles en estos archivos de configuración. El programa **logrotate** es ejecutado diariamente por la aplicación *cron*.
 
@@ -339,19 +339,19 @@ El archivo */etc/logrotate.conf* en **Debian Jessie**:
 	# see "man logrotate" for details
 	# rotate log files weekly
 	weekly
-	
+
 	# keep 4 weeks worth of backlogs
 	rotate 4
-	
+
 	# create new (empty) log files after rotating old ones
 	create
-	
+
 	# uncomment this if you want your log files compressed
 	#compress
-	
+
 	# packages drop log rotation information into this directory
 	include /etc/logrotate.d
-	
+
 	# no packages own wtmp, or btmp -- we'll rotate them here
 	/var/log/wtmp {
 	    missingok
@@ -359,14 +359,14 @@ El archivo */etc/logrotate.conf* en **Debian Jessie**:
 	    create 0664 root utmp
 	    rotate 1
 	}
-	
+
 	/var/log/btmp {
 	    missingok
 	    monthly
 	    create 0660 root utmp
 	    rotate 1
 	}
-	
+
 	# system-specific logs may be configured here
 
 
@@ -404,7 +404,7 @@ dmesg
 
 Uno de los mayores usos de los archivos de **logs** es diagnosticar y resolver problemas del sistema.
 
-Una forma de diagnosticar problemas del sistema detectados durante la etapa de arranque, es utilizar el comando **dmesg** para desplegar el mensaje del sistema desde el *kernel ring buffer*. 
+Una forma de diagnosticar problemas del sistema detectados durante la etapa de arranque, es utilizar el comando **dmesg** para desplegar el mensaje del sistema desde el *kernel ring buffer*.
 
 La sintaxis del **dmesg** es:
 
@@ -560,7 +560,7 @@ Parámetros indicadores de tiempo
 
     Spacer 0 10
 
-**at** es muy flexible en aceptar formatos de fecha y hora. Es posible especificar el tiempo en formato de *hh:mm* o simplemente la hora. Cuando se especifica una hora, se asume que se está usando el reloj de 24 horas, así que las *4p.m*. es expresada como las *16:00*. También se puede programar tareas relativas al momento presente, como es el número de minutos, horas, días, semanas, o años midiendo desde ahora. Usar *now* como el tiempo también va a requerir un incremento de la fecha. El incremento es seguido por minuto(s), hora(s), día(s), o semana(s). 
+**at** es muy flexible en aceptar formatos de fecha y hora. Es posible especificar el tiempo en formato de *hh:mm* o simplemente la hora. Cuando se especifica una hora, se asume que se está usando el reloj de 24 horas, así que las *4p.m*. es expresada como las *16:00*. También se puede programar tareas relativas al momento presente, como es el número de minutos, horas, días, semanas, o años midiendo desde ahora. Usar *now* como el tiempo también va a requerir un incremento de la fecha. El incremento es seguido por minuto(s), hora(s), día(s), o semana(s).
 
 .. code-block:: bash
 
@@ -571,7 +571,7 @@ Parámetros indicadores de tiempo
 	at now sat reboot
 
 
-También es posible especificar la fecha en varios formatos europeos u occidentales, incluyendo *DD.MM.AA* (*27.07.17* representaría el 27 de Julio de 2017), *AAAA-MM-DD* (la misma fecha se representaría como *2017-07-27*), *MM/DD/[CC]AA* (es decir: *12/25/17* o *12/25/2017* representan, ambas, el 25 de Diciembre de 2017) o simplemente *MMDDCCAA* (de forma que *122517* o *12252017* también representaría el 25 de Diciembre de 2017). Sin fecha, ejecutará el programa tan pronto como el reloj indique la hora especificada (el mismo día o el siguiente si ya pasó dicha hora ese día). 
+También es posible especificar la fecha en varios formatos europeos u occidentales, incluyendo *DD.MM.AA* (*27.07.17* representaría el 27 de Julio de 2017), *AAAA-MM-DD* (la misma fecha se representaría como *2017-07-27*), *MM/DD/[CC]AA* (es decir: *12/25/17* o *12/25/2017* representan, ambas, el 25 de Diciembre de 2017) o simplemente *MMDDCCAA* (de forma que *122517* o *12252017* también representaría el 25 de Diciembre de 2017). Sin fecha, ejecutará el programa tan pronto como el reloj indique la hora especificada (el mismo día o el siguiente si ya pasó dicha hora ese día).
 
 .. code-block:: bash
 
@@ -639,7 +639,7 @@ Si los usuarios de un sistema tienen permitido programar tareas usando el comand
 Batch
 =====
 
-El comando **batch** es idéntico a ejecutar **at -b** y programar un trabajo para ejecutarse una sola vez. 
+El comando **batch** es idéntico a ejecutar **at -b** y programar un trabajo para ejecutarse una sola vez.
 
 Su sintaxis es:
 
@@ -662,7 +662,7 @@ Es un sistema para programar procesos que van a ser ejecutados con regularidad. 
 El demonio cron
 ---------------
 
-Como en la mayoría de los servicios del sistema, la funcionalidad de cron es proveída por un sistema *daemon* **cron** o **crond** dependiendo de la distribución utilizada. El **Cron** lee el archivo de configuración para determinar cuales comandos debe ejecutar y cuando. Cada un minuto **cron** lee todos los archivos **crontab** para ver qué comando debe ejecutar. Si encuentra una entrada que coincida con la hora actual, ejecuta el
+Como en la mayoría de los servicios del sistema, la funcionalidad de cron es provista por un sistema *daemon* **cron** o **crond** dependiendo de la distribución utilizada. El **Cron** lee el archivo de configuración para determinar cuales comandos debe ejecutar y cuando. Cada un minuto **cron** lee todos los archivos **crontab** para ver qué comando debe ejecutar. Si encuentra una entrada que coincida con la hora actual, ejecuta el
 comando correspondiente con el *UID* del dueño del archivo **crontab**. **Cron** puede ser configurado para permitir o denegar a usuarios específicos la habilidad para programar eventos. Los archivos para especificar quien puede utilizar **cron** son */etc/cron.allow* y */etc/cron.deny*. Si el archivo *cron.allow* existe, sólo los usuarios listados en el pueden utilizar **cron**, si el archivo no existe, sólo los usuarios que no aparecen en el archivo *cron.deny* podrán ejecutar tareas. Un archivo *cron.deny* vacío significa que todos los usuarios pueden utilizar **cron**.
 
 Si los archivos no existen el programa puede permitir, o a todos los usuarios, o sólo a *root* (esto es dependiente de la configuración y la distribución en uso). El **cron** mantiene un directorio en *spool* para almacenar los archivos **crontab**. Casi siempre este directorio se encuentra en */var/spool/cron* y contiene un archivo **crontab** para cada usuario que tiene un trabajo programado. Normalmente la salida del trabajo ejecutado por **cron** es enviada por correo al usuario. Esto puede ser cambiado y redireccionar la salida a un archivo o especificar un usuario diferente para enviar el correo.
