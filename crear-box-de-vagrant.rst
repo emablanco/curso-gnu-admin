@@ -126,7 +126,7 @@ NOTA: La imágen me quedo de 1.2Gb
 
 
 
-19 - LUego ingreso al directorio y ejecuto vagrant up
+19 - Luego ingreso al directorio y ejecuto vagrant up
 
 .. code:: bash
 
@@ -138,4 +138,22 @@ NOTA: La imágen me quedo de 1.2Gb
     
     vagrant ssh
     
+21 - Como todo anduvo bien, lo subo a mi cuenta de vagrantcloud.com para que 
+este disponible desde cualquier lugar. Para probar descargarlo desde internet, 
+tenemos que poner lo siguiente en el Vagrantfile
+
+.. code:: bash
+
+    # -*- mode: ruby -*-
+    # vi: set ft=ruby :
     
+    Vagrant.configure("2") do |config|
+      config.vm.box = "mboscovich/Centos7Base"
+      config.vm.provider "virtualbox" do |vb|
+        vb.gui = false
+        vb.name = "Centos 7 (Vagrant)"
+        vb.memory = "1024"
+      end
+    end   
+    
+NOTA: Cambie el gui a false, para que no levante el GUI de virtualbox y se pueda manejar por consola
