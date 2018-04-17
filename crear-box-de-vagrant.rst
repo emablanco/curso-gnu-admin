@@ -11,28 +11,30 @@ Dentro de la maquina virtual
 
         wget --no-check-certificate https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub -O /home/vagrant/.ssh/authorized_keys
 
-4 - Apagamos la VM
+4- Crear el usuario vagrant
+
+5 - Apagamos la VM
 
 Fuera de la maquina virtual
 ###########################
 
-5 - Llenamos con ceros el espacio libre para que ocupe menos
+6 - Llenamos con ceros el espacio libre para que ocupe menos
 
 .. code:: bash
 
         vagrant ssh
         sudo dd if=/dev/zero of=wipefile bs=1024x1024; rm wipefile
 
-6 - Empaquetamos la instancia con
+7 - Empaquetamos la instancia con
 
 .. code:: bash
 
         vagrant package --base debianStretch64TUSL --output debianStretch64TUSL.box
 
-7 - Si deseamos agregar el box localmente
+8 - Si deseamos agregar el box localmente
 
 .. code:: bash
 
         vagrant box add --name debianStretch64TUSL --box-version 1.1 --provider virtualbox debianStretch64TUSL.box
 
-8 - Sino podemos subirlo a vagrantcloud.com
+9 - Sino podemos subirlo a vagrantcloud.com
