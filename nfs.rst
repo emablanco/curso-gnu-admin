@@ -4,7 +4,7 @@ NFS
 
 NFS (Network File System) es un protocolo que permite a clientes acceder a recursos compartidos por un servidor como si fuesen locales. Fue desarrollado por Sun Microsystem en 1984.
 
-Todas las versiones de NFS dependen de RPC (Remote Procedure Calls) entre clientes y servidor. RPC en Red Hat LE 7 son controlados por el servicio *rpcbind*. 
+Todas las versiones de NFS dependen de RPC (Remote Procedure Calls) entre clientes y servidor. RPC en Red Hat LE 7 son controlados por el servicio *rpcbind*.
 
 Instalación
 ===========
@@ -12,7 +12,7 @@ Instalación
 .. code-block:: bash
 
     yum install nfs-utils
-    
+
 Configuración del servidor
 ==========================
 
@@ -31,7 +31,7 @@ La forma más fácil de configuración únicamente indica el directorio exportad
 .. code-block:: bash
 
     /directorio/exportado yo.ejemplo.com
-    
+
 Aquí, ``yo.ejemplo.com``, puede montar el directorio ``/directorio/exportado`` del servidor NFS con sus opciones por defecto. Una vez modificado el archivo exports se debe ejecutar ``exportfs -a`` para que los cambios surtan efecto.
 
 Luego basta con hacer ``#systemctl start nfs`` que inicia NFS y los procesos RPC apropiados.
@@ -47,7 +47,7 @@ En caso que no se especifiquen opciones de configuración, se tomarán por defec
 
 - *wdelay* Provoca que el servidor NFS retrase el escribir a disco si sospecha que otra petición de escritura es inminente. Esto puede mejorar el rendimiento reduciendo las veces que se debe acceder al disco por comandos de escritura separados. Use *no_wdelay* para desactivar esta opción, la cual solo funciona si está usando la opción por defecto *sync*.
 
-- *root_squash* Previene a los usuarios root conectados remotamente de tener privilegios como root asignándoles el id del usuario de **nfsnobody**. Esto reconvierte el nivel de acceso del usuario root remoto al de usuario local más bajo, previniendo la alteración desautorizada de archivos en el servidor remoto. Alternativamente, la opción *no_root_squash* lo desactiva. Para reconvertir a todos los usuarios, incluyendo a root, use la opción *all_squash*. Para especificar los ID de usuario y grupo para usar con usuarios remotos desde un host particular, utilice las opciones anonuid y anongid, respectivamente. De esta manera, puede crear una cuenta de usuario especial para que los usuarios NFS remotos compartan y especificar (anonuid=<uid-value>,anongid=<gid-value>), donde <uid-value> es el número de ID del usuario y <gid-value> es el número de ID del grupo. 
+- *root_squash* Previene a los usuarios root conectados remotamente de tener privilegios como root asignándoles el id del usuario de **nfsnobody**. Esto reconvierte el nivel de acceso del usuario root remoto al de usuario local más bajo, previniendo la alteración desautorizada de archivos en el servidor remoto. Alternativamente, la opción *no_root_squash* lo desactiva. Para reconvertir a todos los usuarios, incluyendo a root, use la opción *all_squash*. Para especificar los ID de usuario y grupo para usar con usuarios remotos desde un host particular, utilice las opciones anonuid y anongid, respectivamente. De esta manera, puede crear una cuenta de usuario especial para que los usuarios NFS remotos compartan y especificar (anonuid=<uid-value>,anongid=<gid-value>), donde <uid-value> es el número de ID del usuario y <gid-value> es el número de ID del grupo.
 
 Para conocer todas las opciones soportadas vea el manual haciendo ``man exports``.
 
@@ -56,8 +56,8 @@ Reglas de sintaxis
 
 El archivo ``/etc/exports`` controla los directorios que son exportados hacia equipos remotos y especifica opciones. Tiene las siguientes **reglas de sintaxis**:
 
-- Líneas en blanco son ingnoradas . 
-- Para agregar un comentario, comience la línea con el caracter numeral (#). 
+- Líneas en blanco son ingnoradas .
+- Para agregar un comentario, comience la línea con el caracter numeral (#).
 - Cada directorio exportado debe tener su propia línea individual.
 - Cualquier lista de equipos autorizados ubicados después de un directorio exportado debe ser separada por un espacio.
 - Las opciones para cada equipo deben ir entre paréntesis. El parétesis de apertura debe ser ubicado exactamente después del nombre del equipo o dirección IP, sin ningún espacio entre medio.
@@ -67,7 +67,7 @@ Por ejemplo, las siguientes dos líneas no significan lo mismo:
 
 .. code-block:: bash
 
-    /home bob.example.com(rw) 
+    /home bob.example.com(rw)
     /home bob.example.com (rw)
 
 La primer línea permite únicamente usuarios del equipo bob.example.com con acceso de lectura/escritura al directorio /home. En cambio, la segunda línea permite a los usuarios de bob.example.com montarlo al directorio solo para lectura, mientras que el resto del mundo puede montarlo para lectura-escritura.
@@ -80,7 +80,7 @@ NFS requiere *rpcbind*, que asigna dinámicamente los puertos para los servicios
 .. code-block:: bash
 
     RPCMOUNTDOPTS="-p port"
-    
+
 Esto agrega "-p port" al comando ``rpc.mount``: rpc.mount -p port. Para especificar los puertos a ser usados por el servicio  *nlockmgr*, especifique el número de puerto para la opción ``nlm_tcpport`` y ``nlm_udpport`` en el archivo ``/etc/modprobe.d/lockd.conf``.
 
 Si falla el inicio de NFS, se debe observar los logs en ``/var/log/messages``. Comunmente NFS falla el inicio si se indica un puerto que ya se encuentra en uso. Luego de editar ``/etc/sysconfig/nfs``, se debe reiniciar el servicio *nfs-config*  para que los nuevos valores tengan efecto, haciendo:
@@ -98,7 +98,7 @@ Una vez instalado ``nfs-utils`` se debe montar localmente el directorio remoto. 
 .. code-block:: bash
 
         #mount -t nfs 10.10.10.13:/home/usuario/compartido traidoxnfs
-        
+
 El comando previo monta el directorio remoto mientras el sistema no se reinicie, para hacerlo permanente se debe utilizar el montado automático agregándo la línea correspondiente en el archivo ``/etc/fstab``:
 
 .. code-block:: bash
@@ -119,7 +119,7 @@ Una alternativa a ``/etc/fstab`` es la herramienta basada en el kernel *automoun
 - un módulo del kernel que implementa el sistema de archivos, y
 - un demonio en el espacio de usuario que realiza todas las otras funciones
 
-La utilidad **automount**  puede mountar y desmountar el sistema de archivos NFS automáticamente (bajo demanda), por lo que ahorra recursos de sistema. Se encuentra en el paquete **autofs**: ``yum install autofs``.
+La utilidad **automount**  puede montar y desmontar el sistema de archivos NFS automáticamente (bajo demanda), por lo que ahorra recursos de sistema. Se encuentra en el paquete **autofs**: ``yum install autofs``.
 
 Primeramente se debe configurar el archivo ``/etc/auto.master``. El formato consiste en un punto de montaje, un mapa y opciones.
 
@@ -135,7 +135,7 @@ Luego se debe configurar el archivo que realiza el mapeo, aquí se ingresa infor
 
     nfslocaldir -fstype=nfs  10.10.10.13:/home/usuario/compartido
 
-La primer columna en el archivo de mapeo indica el directorio punto de montaje (nfslocaldir debe existir). La segunda columna indica las opciones de montado para autofs, mientras que la tercera incica la fuente de montado. Siguiendo la configuración realizada, el punto de montaje será /home/nfslocaldir. 
+La primer columna en el archivo de mapeo indica el directorio punto de montaje (nfslocaldir debe existir). La segunda columna indica las opciones de montado para autofs, mientras que la tercera incica la fuente de montado. Siguiendo la configuración realizada, el punto de montaje será /home/nfslocaldir.
 
 Referencias
 ===========
