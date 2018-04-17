@@ -2,6 +2,13 @@
 VNC en Centos 7
 ===============
 
+Para utilizar el escritorio remoto se debe contar con algún entorno de escritorio. En nuestro caso vamos a utilizar GNOME, cuya instalación se simplifica utilizando la opción ``groupinstall`` del siguiente modo:
+
+.. code-block:: bash
+
+    # yum groupinstall "GNOME Desktop"
+
+
 .. code-block:: bash
 
     # yum install tigervnc-server
@@ -12,13 +19,13 @@ VNC en Centos 7
 
     # cp /usr/lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@.service
 
-There is no need to include the display number in the file name because systemd automatically creates the appropriately named instance in memory on demand, replacing '%i' in the service file by the display number. For a single user it is not necessary to rename the file. For multiple users, a uniquely named service file for each user is required, for example, by adding the user name to the file name in some way. 
+There is no need to include the display number in the file name because systemd automatically creates the appropriately named instance in memory on demand, replacing '%i' in the service file by the display number. For a single user it is not necessary to rename the file. For multiple users, a uniquely named service file for each user is required, for example, by adding the user name to the file name in some way.
 
 2. Edit ``/etc/systemd/system/vncserver@.service``, replacing USER with the actual user name. Leave the remaining lines of the file unmodified. The -geometry argument specifies the size of the VNC desktop to be created; by default, it is set to 1024x768.
 
 .. code-block:: bash
 
-    ExecStart=/usr/sbin/runuser -l USER -c "/usr/bin/vncserver %i - geometry 1280x1024" 
+    ExecStart=/usr/sbin/runuser -l USER -c "/usr/bin/vncserver %i - geometry 1280x1024"
     PIDFile=/home/USER/.vnc/%H%i.pid
 
 3. Save the changes. 4. To make the changes take effect immediately, issue the following command:
@@ -31,11 +38,11 @@ There is no need to include the display number in the file name because systemd 
 
 .. code-block:: bash
 
-    # su - USER 
-    $ vncpasswd 
-    Password: 
+    # su - USER
+    $ vncpasswd
+    Password:
     Verify:
-    
+
 IMPORTANT: The stored password is not encrypted; anyone who has access to the password file can find the plain-text password
 
 12.1.3. Starting VNC Server
@@ -118,8 +125,8 @@ Bug de la versión 1.8.0-2
 
 No muestra el menú al iniciar un escritorio remoto.
 
-En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descripto en 
-``https://bugzilla.redhat.com/show_bug.cgi?id=1506273 ``. 
+En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descripto en
+``https://bugzilla.redhat.com/show_bug.cgi?id=1506273 ``.
 
 
 
