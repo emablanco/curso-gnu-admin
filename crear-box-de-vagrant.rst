@@ -5,17 +5,17 @@ Creación del box de Centos
 
 2 - Creo una máquina virtual en virtualbox con 50Gb de disco, 1024Mb de Ram y tipo Redhat 64bits.
 
-3 - Instalo la iso en la VM, y le doy particionado automatica y siguiente siguiente. En la parte de 
+3 - Instalo la iso en la VM, y le doy particionado automatica y siguiente siguiente. En la parte de
 configuración de la contraseña de root, le pongo que solo cree un usuario con permisos de administrador (usuario: vagrant, password: vagrant).
 
 4 - Una vez instalada la VM, me logueo y edito el archivo /etc/sysconfig/network-scripts/ifcfg-enp0s3, para cambiar la opción ONBOOT a yes.
 
-5 - Luego reinicio la red 
+5 - Luego reinicio la red
 
 .. code:: bash
 
     sudo systemctl restart network
-    
+
 6 - Actualizo los paquetes que tiene la instancia
 
 .. code:: bash
@@ -37,7 +37,7 @@ configuración de la contraseña de root, le pongo que solo cree un usuario con 
     sudo umount /mnt/
     rm VBoxGuestAdditions_5.2.10.iso
     sudo reboot
-    
+
 8 - Hago un poco de limpieza
 
 .. code:: bash
@@ -46,11 +46,11 @@ configuración de la contraseña de root, le pongo que solo cree un usuario con 
     sudo yum remove kernel-devel
     sudo yum clean all
     sudo rm -rf /var/cache/yum/
-    
+
 9 - Descargo los paquetes necesarios
 
 .. code:: bash
-    
+
     sudo yum install --downloadonly tigervnc-server nfs-utils autofs openvpn easy-rsa
     sudo yum groupinstall "GNOME Desktop" --downloadonly
 
@@ -59,7 +59,7 @@ configuración de la contraseña de root, le pongo que solo cree un usuario con 
 .. code:: bash
 
     ssh-keygen
-    
+
 11 - Descargo la key insecure, y le pongo permisos 600 al archivo de authorized_keys
 
 .. code:: bash
@@ -71,7 +71,7 @@ configuración de la contraseña de root, le pongo que solo cree un usuario con 
 
 .. code:: bash
 
-    sudo mkdir /vagrant 
+    sudo mkdir /vagrant
 
 13 - Agrego al usuario vagrant a los grupos wheel y vboxfs
 
@@ -87,8 +87,8 @@ configuración de la contraseña de root, le pongo que solo cree un usuario con 
     Defaults     env_keep += “SSH_AUTH_SOCK“
     %wheel   ALL=(ALL)     NOPASSWD: ALL
 
-    
-15 - Llenamos de cero el espacio libre del disco para que ocupe menos espacio 
+
+15 - Llenamos de cero el espacio libre del disco para que ocupe menos espacio
 
 .. code:: bash
 
@@ -114,7 +114,7 @@ NOTA: La imágen me quedo de 1.2Gb
 
     # -*- mode: ruby -*-
     # vi: set ft=ruby :
-    
+
     Vagrant.configure("2") do |config|
       config.vm.box = "Centos-7-Base"
       config.vm.provider "virtualbox" do |vb|
@@ -135,25 +135,30 @@ NOTA: La imágen me quedo de 1.2Gb
 20 - Si todo fue bien deberia poder loguearme con vagrant ssh
 
 .. code:: bash
-    
+
     vagrant ssh
-    
-21 - Como todo anduvo bien, lo subo a mi cuenta de vagrantcloud.com para que 
-este disponible desde cualquier lugar. Para probar descargarlo desde internet, 
+
+21 - Como todo anduvo bien, lo subo a mi cuenta de vagrantcloud.com para que
+este disponible desde cualquier lugar. Para probar descargarlo desde internet,
 tenemos que poner lo siguiente en el Vagrantfile
 
 .. code:: bash
 
     # -*- mode: ruby -*-
     # vi: set ft=ruby :
-    
+
     Vagrant.configure("2") do |config|
       config.vm.box = "mboscovich/Centos7Base"
+      config.vm.network "public_network"
       config.vm.provider "virtualbox" do |vb|
         vb.gui = false
         vb.name = "Centos 7 (Vagrant)"
         vb.memory = "1024"
       end
-    end   
-    
+      config.vm.provision "shell", inline: <<-SHELL
+    IP=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1  -d'/')
+        echo "La dirección IP para conectarse a la VM es: $IP"
+  SHELL
+    end
+
 NOTA: Cambie el gui a false, para que no levante el GUI de virtualbox y se pueda manejar por consola
