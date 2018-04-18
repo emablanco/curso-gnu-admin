@@ -8,6 +8,8 @@ Vagrant.configure("2") do |config|
     vb.gui = false
     vb.name = "Centos 7 (Vagrant)"
     vb.memory = "1024"
+    vb.customize ["modifyvm", :id, "--usb", "on"]
+    vb.customize ["modifyvm", :id, "--usbehci", "off"]
   end
   config.vm.provision "shell", inline: <<-SHELL 	
 	IP=$(ip address show enp0s8|grep "inet "|awk '{ print $2 }'|cut -f 1 -d /)   	
