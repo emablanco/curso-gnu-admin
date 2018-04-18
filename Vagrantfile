@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "Centos-7-Base2"
+  config.vm.box = "mboscovich/Centos7Base"
   config.vm.network "public_network"
   config.vm.provider "virtualbox" do |vb|
     vb.gui = false
