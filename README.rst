@@ -10,7 +10,7 @@ Docente
 Unidades temáticas
 ------------------
 
-- [x] Unidad01_: Update. Upgrade.
+- Unidad01_: Update. Upgrade. [x]
 - Unidad02_: VNC. Servidor, Viewer. (*) [x]
 - Unidad03_: VPN. (**) [x]
 - Unidad04_: NFS. [x]
