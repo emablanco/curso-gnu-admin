@@ -64,6 +64,10 @@ en ``# vim /etc/sysconfig/network-scripts/ifcfg-enp0s3``. Por ejemplo:
 Varieté
 '''''''
 
+Se puede encontrar una comparación entre los comando útiles de ifconfig y ip en https://p5r.uk/blog/2010/ifconfig-ip-comparison.html.
+
+Veamos los más usuales:
+
 .. code-block:: bash
 
     ip addr add 192.168.50.5 dev eth1       # agregar ip
@@ -87,6 +91,43 @@ agregándola del siguiente modo:
 .. code-block:: bash
 
     10.10.20.0/24 via 192.168.50.100 dev eth0
+
+Interfaces virtuales
+''''''''''''''''''''
+
+Con el ya casi obsoleto comando ``ifconfig`` se creaba una interfaz virtual asociada a una real (física)
+haciendo ``ifconfig eth0:0 192.168.1.2 netmask 255.255.255.0 up``. El número luego de los dos puntos
+la identificaba, y el nombre previo era la placa física a la que estaba asociada.
+
+**Con el comando ip**, se asocia una nueva dirección ip a un dispositivo de red haciendo
+``ip address add [ip]/[mask] dev [nic] label [nic]:[name] ``, donde *[ip]/[mask]* hace referencia a la dirección
+ip y a la máscara de red, *nic* al nombre del dispositivo físico y *[name]* al nombre de interfaz virtual, que en general suele ser un número aunque no está limitado a ello. En el siguiente ejemplo creamos una interfaz virtual asociada a la placa
+inalámbrica wlp2s:
+
+.. code-block:: bash
+
+    ip address add 10.10.10.47/24 dev wlp2s0 label wlp2s0:1
+
+Con lo precedente se agregan ips en forma temporal, si es necesario hacer el cambio permanente
+se deben crear tantos archivos como interfaces virtuales se requieran en ``/etc/sysconfig/network-scripts``,
+usando la nomeclatura ``ifcfg-[nic]:[name]``, donde *[nic]* es el nombre de la interfaz física y *[name]*
+el número de la interfaz alias.
+
+Por ejemplo, el archivo ``/etc/sysconfig/network-scripts/ifcfg-enp0s3:1`` tendría algo similar a lo
+siguiente:
+
+.. code-block:: bash
+
+    DEVICE="enp0s3:1"
+    BOOTPROTO=static
+    ONBOOT=yes
+    TYPE="Ethernet"
+    IPADDR=10.10.10.66
+    NETMASK=255.255.255.0
+    HWADDR=00:0C:29:28:FD:CC
+    GATEWAY=10.10.10.1
+
+Finalmente reiniciar el servicio de red: ``systemctl restart network``
 
 ss
 ''
