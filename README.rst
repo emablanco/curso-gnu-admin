@@ -10,9 +10,9 @@ Docente
 Unidades temáticas
 ------------------
 
-- Update. Upgrade. #
-- VNC. Servidor, Viewer. (*) #
-- VPN. (**) #
+- Tema01_:Update. Upgrade. #
+- Tema02_:VNC. Servidor, Viewer. (*) #
+- Tema03_:VPN. (**) #
 - NFS. #
 - NTP.
 - Gestores de Arranque. Grub. (*)
@@ -21,6 +21,7 @@ Unidades temáticas
 - IPTables. Opciones de comandos para IPTables. Reglas IPTables. (**)
 - Firewall. Configuración. (**)
 
+.. _Tema01: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/update.rst
 
 Cronograma
 ----------
