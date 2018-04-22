@@ -81,7 +81,7 @@ Algunos para rutas:
     ip route del 10.10.20.0/24                              # borra ruta
     ip route add default via 192.168.50.100                 # default gateway
 
-Para agregar una ruta estática se debe modificar ``/etc/sysconfig/network-scripts/route-eth0``
+Para agregar una ruta estática en forma permanente se debe modificar ``/etc/sysconfig/network-scripts/route-eth0``
 agregándola del siguiente modo:
 
 .. code-block:: bash
@@ -147,7 +147,7 @@ Firewalld es un frontend para iptables que viene por defecto a partir de CentOS 
 Virtualbox
 ----------
 
-Para que funcionen los guestaddition en un CentOS dentro de una VM (guest) es necesario
+Para que funcionen los ``guestaddition`` en un CentOS dentro de una VM (guest) es necesario
 instalar:
 
 .. code-block:: bash
@@ -205,8 +205,10 @@ Estos *service units* finalizan con la extensión **.service**. A continuación 
     systemctl [start|stop|restart|status] name.service
     systemctl reload name.service
     systemctl [enable|disable|is-enabled] name.service
+
     # Displays the status of all services.
     systemctl list-units --type service --all
+
     # Lists all services and checks if they are enabled
     systemctl list-unit-files --type service
 
