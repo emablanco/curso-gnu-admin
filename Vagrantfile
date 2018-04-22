@@ -3,7 +3,8 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "mboscovich/Centos7Base"
-  config.vm.network "public_network"
+  config.vm.network "public_network", ip: "192.168.10.1"
+
   config.vm.provider "virtualbox" do |vb|
     vb.gui = false
     vb.name = "Centos 7 (Vagrant)"
@@ -11,8 +12,8 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--usb", "on"]
     vb.customize ["modifyvm", :id, "--usbehci", "off"]
   end
-  config.vm.provision "shell", inline: <<-SHELL 	
-	IP=$(ip address show enp0s8|grep "inet "|awk '{ print $2 }'|cut -f 1 -d /)   	
-	echo "La dirección IP para conectarse a la VM es: $IP"   
+  config.vm.provision "shell", inline: <<-SHELL
+	IP=$(ip address show enp0s8|grep "inet "|awk '{ print $2 }'|cut -f 1 -d /)
+	echo "La dirección IP para conectarse a la VM es: $IP"
   SHELL
 end
