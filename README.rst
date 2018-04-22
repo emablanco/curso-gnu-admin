@@ -10,18 +10,29 @@ Docente
 Unidades temáticas
 ------------------
 
-- Tema01_:Update. Upgrade. #
-- Tema02_:VNC. Servidor, Viewer. (*) #
-- Tema03_:VPN. (**) #
-- NFS. #
-- NTP.
-- Gestores de Arranque. Grub. (*)
-- Backup. Sistemas de backup. (*)
-- DNS.
-- IPTables. Opciones de comandos para IPTables. Reglas IPTables. (**)
-- Firewall. Configuración. (**)
+- Unidad01_: Update. Upgrade. #
+- Unidad02_: VNC. Servidor, Viewer. (*) #
+- Unidad03_: VPN. (**) #
+- Unidad04_: NFS. #
+- Unidad05_: NTP.
+- Unidad06_: Gestores de Arranque. Grub. (*)
+- Unidad07_: Backup. Sistemas de backup. (*)
+- Unidad08_: DNS.
+- Unidad09_: IPTables. Opciones de comandos para IPTables. Reglas IPTables. (**)
+- Unidad10_: Firewall. Configuración. (**)
+- SELinux
+- Hardening
 
-.. _Tema01: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/update.rst
+.. _Unidad01: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/update.rst
+.. _Unidad02: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/vnc-centos.rst
+.. _Unidad03: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/vpn-centos.rst
+.. _Unidad04: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/nfs.rst
+.. _Unidad05: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/ntp.rst
+.. _Unidad06: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/grub-centos.rst
+.. _Unidad07: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/backup-centos.rst
+.. _Unidad08: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/dns.rst
+.. _Unidad09: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/firewall.rst
+.. _Unidad10: https://gitlab.com/emilopez/curso-admin-gnu-linux/blob/master/firewall.rst
 
 Cronograma
 ----------
