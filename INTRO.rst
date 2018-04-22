@@ -88,6 +88,34 @@ agregándola del siguiente modo:
 
     10.10.20.0/24 via 192.168.50.100 dev eth0
 
+ss
+''
+
+.. code-block:: bash
+
+    ss              # lista todas las conexiones establecidas (tcp/udp/unix)
+    ss -[tux]       # t tcp, u udp, x unix establecidos
+    ss -ta          # sockets tcp establecidos y escuchando
+    ss -tan         # muestra números de puertos e ips en vez de nombres
+    ss -ltn         # solo escuchando, tcp, números
+    ss -ltnp        # procesos que abrieron los sockets (sudo)
+
+Es interesante utilizar el filtrado basado en direcciones y puertos. Por ejemplo
+para mostrar todas las conexiones cuyo puerto de origen o destino sean ssh:
+
+``ss -at '( dport = :ssh or sport = :ssh )'``
+
+U otro ejemplo donde el número de puerto destino es el 80 o 443:
+
+``ss -nt '( dst :443 or dst :80 )'``
+
+Combinado con el comando watch es posible ver en tiempo real las conexiones que se establecen
+bajo el filtrado previo. Por ejemplo, para ver en tiempo real con un intervalo de 1 segundo
+el filtrado previo:
+
+``watch -n1 "ss -nt '( dst :443 or dst :80 )'"``
+
+
 dhclient
 ''''''''
 
