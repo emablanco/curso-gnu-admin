@@ -1,25 +1,27 @@
 Actualización de CentOS
 =======================
 
-El software de CentOS y su documentación se proveen en archivos llamados paquetes RPM. Cada paquete es un archivo comprimido que contiene metadatos y varios archivos, íconos, documentación, scripts, etc. Estos paquetes además cuentan con una firma digital que comprueban su origen. 
+El software de CentOS y su documentación se proveen en archivos llamados paquetes RPM. Cada paquete es un archivo comprimido que contiene metadatos y varios archivos, íconos, documentación, scripts, etc. Estos paquetes además cuentan con una firma digital que comprueban su origen.
 
 Nombre de los paquetes
 ----------------------
 
-Un paquete puede ser referenciado para instalar, actualizar, eliminar, listar, etc. con cualquiera de 
+Un paquete puede ser referenciado para instalar, actualizar, eliminar, listar, etc. con cualquiera de
 los siguientes identificadores (entre otros):
 
 - nombre
 - nombre.arquitectura
 - nombre-version-release
 - nombre-version-release.arch
-    
+
 Por ejemplo: ``yum install kernel-2.4.1-10.i686``
 
 Sobre los repositorios
 ----------------------
 
-Un repositorio es un directorio o sitio web que contiene paquetes de software y archivos índice. Aplicaciones de administración de paquetes como ``yum`` automaticamente ubican y obtienen el paquete RPM desde estos repositorios. Este método libera al usuario de tener que buscar e instalar nuevas aplicaciones o actualizarlas. 
+Un repositorio es un directorio o sitio web que contiene paquetes de software y archivos índice. Aplicaciones de administración de paquetes como ``yum`` automaticamente ubican y obtienen el paquete RPM desde estos repositorios. Este método libera al usuario de tener que buscar e instalar nuevas aplicaciones o actualizarlas.
+
+Los repositorios del sistema están almacenados con extensión ``.repo`` bajo el directorio ``/etc/yum.repos.d/``, cada uno tiene el formato de archivo de configuración, formado por secciones y luego clave-valor, donde se indica su url, si está habilitado (``enable=0``), entre otros.
 
 CentOS viene preconfigurado para usar una red de servidores que proveen varios repositorios:
 
@@ -37,9 +39,7 @@ CentOS viene preconfigurado para usar una red de servidores que proveen varios r
 
 - [extras] - Packages built and maintained by the CentOS developers that add functionality to the core distribution. These packages have undergone some basic testing, should track upstream release versions fairly closely and will never replace any core distribution package. It is enabled by default.
 
-- [testing] - Packages that are being tested proir to release, you should not use this repository except for a specific reason. It is disabled by default. 
-
-Los repositorios del sistema están almacenados con extensión ``.repo`` bajo el directorio ``/etc/yum.repos.d/``, cada uno tiene el formato de archivo de configuración, formado por secciones y luego clave-valor, donde se indica su url, si está habilitado (``enable=0``), entre otros.
+- [testing] - Packages that are being tested proir to release, you should not use this repository except for a specific reason. It is disabled by default.
 
 Yellowdog Updater Modified (yum)
 --------------------------------
@@ -57,10 +57,10 @@ Instalación
 Se debe ingresar el nombre exacto del paquete, por ejemplo firefox:
 
 .. code-block:: bash
-    
+
     yum install firefox
 
-Al instalar un paquete del modo previo nos solicitará confirmación del siguiente modo: 
+Al instalar un paquete del modo previo nos solicitará confirmación del siguiente modo:
 
 ``Is this ok [y/d/N]:``
 
@@ -69,12 +69,12 @@ Al instalar un paquete del modo previo nos solicitará confirmación del siguien
 - ``N``: abortamos acción (en mayúsculas al ser la opción por defecto)
 
 Con este comando también es posible instalar un paquete manualmente, es decir, a partir de un
-archivo .rpm. 
+archivo .rpm.
 
 .. code-block:: bash
-    
+
     yum install paquete.rpm
-    
+
 Como toda distribución que provee un sistema de instalación a través de repositorios, siempre
 es recomendable hacer toda instalación o actualización a través del repositorio.
 
@@ -84,9 +84,9 @@ Eliminación
 Al igual que el anterior pero usando la palabra remove:
 
 .. code-block:: bash
-    
+
     yum remove firefox
-    
+
 Actualización
 '''''''''''''
 
@@ -94,21 +94,21 @@ Es posible actualizar un paquete específico o bien el sistema completo. Para el
 caso hacemos:
 
 .. code-block:: bash
-    
+
     yum update mysql
-    
+
 Esto actualizará el paquete mysql a la última versión estable. Para actualizar el sistema
 hacemos:
 
 .. code-block:: bash
-    
+
     yum update
 
-Otra opción es comprobar si existen actualizaciones disponibles de los paquetes instalados, 
+Otra opción es comprobar si existen actualizaciones disponibles de los paquetes instalados,
 para esto debemos hacer:
 
 .. code-block:: bash
-    
+
     yum check-update
 
 En versiones previas había diferencia entre los comandos update y upgrade, actualmente ejecutan
@@ -119,7 +119,7 @@ Si los paquetes cuentan con actualizaciones de seguridad, es posible solamente a
 .. code-block:: bash
 
     yum update --security
-    
+
 También es posible actualizar paquetes solamente hasta la versión que contiene actualizaciones de seguridad:
 
 .. code-block:: bash
@@ -128,7 +128,7 @@ También es posible actualizar paquetes solamente hasta la versión que contiene
 
 Por ejemplo, asumamos que:
 
-- el kernel-3.10.0-1 esta instalado en el sistema; 
+- el kernel-3.10.0-1 esta instalado en el sistema;
 - el kernel-3.10.0-2 fue lanzado como una actualización de seguridad
 - el kernel-3.10.0-3 fue lanzado como una actualización de un bug
 
@@ -142,15 +142,15 @@ primeramente en el nombre del paquete y resumen, si no hubo aciertos continúa l
 en la descripción o en la URL.
 
 .. code-block:: bash
-    
+
     yum search KDE
 
-El resultado de este comando es un listado de los paquetes que coincidieron y su resumen. 
+El resultado de este comando es un listado de los paquetes que coincidieron y su resumen.
 En caso que se quiera acceder a la descripción completa del paquete se utiliza la opción
 info.
 
 .. code-block:: bash
-    
+
     yum info firefox
 
 Grupos de paquetes
@@ -162,39 +162,39 @@ listar o instalar todos los paquetes que pertenecen a un mismo grupo.
 Para listar los grupos disponibles se utiliza el siguiente comando:
 
 .. code-block:: bash
-    
+
     yum grouplist
-    
+
 Para instalarlos, se utiliza el nombre del grupo entre comillas:
 
 .. code-block:: bash
-    
+
     yum groupinstall "KDE" "X Window System"
 
 Para actualizar un grupo de paquetes:
 
 .. code-block:: bash
-    
+
     yum groupupdate "KDE"
-    
+
 Para eliminar
 
 .. code-block:: bash
-    
+
     yum groupremove "KDE"
-    
+
 Repositorios disponibles
 ''''''''''''''''''''''''
 
 Para listar los repositorio yum habilitados:
 
 .. code-block:: bash
-    
+
     yum repolist
-    
+
 Para listar también los deshabilitados se agrega el parámetro ``all``.
 En caso de pretender instalar un paquete de un repositorio específico se debe
-agregar el parámetro ``--enablerepo=NOMBRE_REPO`` al comando de instalación de 
+agregar el parámetro ``--enablerepo=NOMBRE_REPO`` al comando de instalación de
 paquetes.
 
 Listados
@@ -206,25 +206,25 @@ o instalados en el sistema. A continuación veremos los más utilizados.
 Para listar tanto los paquetes disponibles como los instalados:
 
 .. code-block:: bash
-    
+
     yum list all
-    
+
 Para listar solamente los paquetes disponibles en los repositorios:
 
 .. code-block:: bash
-    
+
     yum list available
 
 Para listar todos los paquetes instalados en el sistema:
 
 .. code-block:: bash
-    
+
     yum list installed
-    
+
 Para listar los paquetes instalados en el sistema pero que no están disponibles en ningún repositorio
 
 .. code-block:: bash
-    
+
     yum list extras
 
 RPM
