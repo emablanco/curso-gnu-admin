@@ -1,11 +1,14 @@
 Curso de administración GNU/Linux
 =================================
 
-El presente curso consiste en clases con una breve introducción teórica y casos
+El presente curso consiste en clases con una introducción teórica y casos
 prácticos de implementación y configuración.
 
-Docente
--------
+Docentes
+--------
+
+- Emiliano López (emiliano.lopez@gmail.com)
+- Maximiliano Boscovich (maximiliano@boscovich.com.ar)
 
 Unidades temáticas
 ------------------
@@ -57,10 +60,10 @@ Miercoles de 15 a 18hs.
 Referencias
 -----------
 
-Los documentos generados están basados en tres fuentes principales:
+Los documentos generados son de propia producción pero basados la documentación oficial de cada servicio/paquete como de sus manuales de sistema y en las siguiente tres fuentes:
 
 - Red Hat Enterprise Linux 7 System Administrator's Guide
-- (*) Curso Administración GNU/LINUX II, Tec. Universitaria en Software Libre. FICH, UNL.
-- (**) Curso Administración GNU/LINUX III, Tec. Universitaria en Software Libre. FICH, UNL.
+- Curso Administración GNU/LINUX II, Tec. Universitaria en Software Libre. FICH, UNL.
+- Curso Administración GNU/LINUX III, Tec. Universitaria en Software Libre. FICH, UNL.
 
 
