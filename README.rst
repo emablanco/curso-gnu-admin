@@ -10,16 +10,16 @@ Docente
 Unidades temáticas
 ------------------
 
-- Unidad01_: Update. Upgrade. #
-- Unidad02_: VNC. Servidor, Viewer. (*) #
-- Unidad03_: VPN. (**) #
-- Unidad04_: NFS. #
-- Unidad05_: NTP.
-- Unidad06_: Gestores de Arranque. Grub. (*)
-- Unidad07_: Backup. Sistemas de backup. (*)
-- Unidad08_: DNS.
-- Unidad09_: IPTables. Opciones de comandos para IPTables. Reglas IPTables. (**)
-- Unidad10_: Firewall. Configuración. (**)
+- Unidad01_: Update. Upgrade. [x]
+- Unidad02_: VNC. Servidor, Viewer. (*) [x]
+- Unidad03_: VPN. (**) [x]
+- Unidad04_: NFS. [x]
+- Unidad05_: NTP. [ ]
+- Unidad06_: Gestores de Arranque. Grub. [ ]
+- Unidad07_: Backup. Sistemas de backup. [ ]
+- Unidad08_: DNS. [ ]
+- Unidad09_: IPTables. Opciones de comandos para IPTables. Reglas IPTables. [ ]
+- Unidad10_: Firewall. Configuración. [ ]
 - SELinux
 - Hardening
 
