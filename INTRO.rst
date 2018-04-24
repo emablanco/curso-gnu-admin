@@ -256,6 +256,23 @@ Estos *service units* finalizan con la extensión **.service**. A continuación 
 Para más detalles se recomienda la lectura de *CHAPTER 9. MANAGING SERVICES WITH SYSTEMD*
 de *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
+Proxy
+-----
+
+Con el fin de economizar tráfico frecuentemente se accede a una red a través de un servidor proxy. Muchos de los comandos que realizamos en el sistema pueden ser redireccionados a través de un proxy con solo configurar la variable de entorno ``http_proxy`` y ``https_proxy``.
+
+Esto se realiza haciendo uso del comando ``export`` del siguiente modo:
+
+``$export http_proxy="http://PROXY:PUERTO"`` y ``$export https_proxy="http://PROXY:PUERTO"``
+
+Se debe tener en cuenta que esto se mantiene siempre y cuando persista el usuario en la misma terminal. Si se desea realizar una acción con permisos de ``sudo`` entonces primero debe pasarse a administrador con ``sudo -s`` y finalmente realizar el ``export``.
+
+Si se desea habilitar el proxy para YUM en forma permanente entonces se debe modificar el archivo ``/etc/yum.conf`` agregando una linea que contenga
+``proxy=http://PROXY:PUERTO``. Para conocer todas las opciones de configuración ver ``man yum.conf``.
+
+En los labs de la UTN FRSF el proxy es ``frsf.utn.edu.ar`` y el puerto ``8080``.
+
+
 Referencias
 -----------
 
