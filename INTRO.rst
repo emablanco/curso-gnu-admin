@@ -61,8 +61,8 @@ en ``# vim /etc/sysconfig/network-scripts/ifcfg-enp0s3``. Por ejemplo:
     HWADDR=00:0C:29:28:FD:4C
     GATEWAY=192.168.20.1
 
-Varieté
-'''''''
+ip
+''
 
 Se puede encontrar una comparación entre los comando útiles de ifconfig y ip en https://p5r.uk/blog/2010/ifconfig-ip-comparison.html.
 
@@ -195,6 +195,22 @@ instalar:
 
     yum groupinstall "Development Tools"
     yum install kernel-devel
+
+Vagrant
+-------
+
+Vagrant nos permite gestionar máquinas virtuales de un modo muy cómodo. A continuación algunos de los comandos más usados:
+
+.. code:: bash
+
+        vagrant up      # levanta la vm
+        vagrant halt    # apaga la vm
+        vagrant reload  # recargar la vm
+        vagrant destroy # elimina la vm
+        vagrant ssh     # sesión ssh a la vm
+
+Para que inicie la máquina virtual en modo gráfico se debe especificar en el Vagrantfile la opción ``vb.gui = true``.
+
 
 Modos de inicio
 ---------------
