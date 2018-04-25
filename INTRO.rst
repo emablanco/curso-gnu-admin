@@ -1,6 +1,21 @@
 Comandos útiles
 ===============
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 Vagrant
 -------
 
@@ -125,7 +140,8 @@ asociada a una real (física) haciendo ``ifconfig eth0:0 192.168.1.2 netmask 255
 la identificaba, y el nombre previo era la placa física a la que estaba asociada.
 
 **Con el comando ip**, se asocia una nueva dirección ip a un dispositivo de red haciendo
-``ip address add [ip]/[mask] dev [nic] label [nic]:[name] ``, donde *[ip]/[mask]* hace referencia a la dirección
+
+``ip address add [ip]/[mask] dev [nic] label [nic]:[name]``, donde *[ip]/[mask]* hace referencia a la dirección
 ip y a la máscara de red, *nic* al nombre del dispositivo físico y *[name]* al nombre de interfaz virtual, que en general suele ser un número aunque no está limitado a ello. En el siguiente ejemplo creamos una interfaz virtual asociada a la placa
 inalámbrica wlp2s:
 
@@ -280,7 +296,10 @@ Con el fin de economizar tráfico frecuentemente se accede a una red a través d
 
 Esto se realiza haciendo uso del comando ``export`` del siguiente modo:
 
-``$export http_proxy="http://PROXY:PUERTO"`` y ``$export https_proxy="http://PROXY:PUERTO"``
+.. code-block:: bash
+
+    $export http_proxy="http://PROXY:PUERTO"
+    $export https_proxy="http://PROXY:PUERTO"
 
 Se debe tener en cuenta que esto se mantiene siempre y cuando persista el usuario en la misma terminal. Si se desea realizar una acción con permisos de ``sudo`` entonces primero debe pasarse a administrador con ``sudo -s`` y finalmente realizar el ``export``.
 

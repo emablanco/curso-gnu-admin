@@ -1,6 +1,21 @@
 Actualización de CentOS
 =======================
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 El software de CentOS y su documentación se proveen en archivos llamados paquetes RPM. Cada paquete es un archivo comprimido que contiene metadatos y varios archivos, íconos, documentación, scripts, etc. Estos paquetes además cuentan con una firma digital que comprueban su origen.
 
 Nombre de los paquetes
@@ -50,7 +65,7 @@ Yellowdog Updater Modified (yum)
 Veamos a continuación algunos de los comandos más útiles. Para conocer el resto de las opciones
 vea el manual ejecutando ``man yum``.
 
-**ACTIVIDAD 1.1: **  Corrobore los repositorios del sistema en ``/etc/yum.repos.d/``. Observe el contenido del repositorio base y compare con el listado de servidores previamente mencionado.
+**ACTIVIDAD 1.1:**  Corrobore los repositorios del sistema en ``/etc/yum.repos.d/``. Observe el contenido del repositorio base y compare con el listado de servidores previamente mencionado.
 
 Instalación
 '''''''''''
