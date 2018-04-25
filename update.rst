@@ -44,12 +44,13 @@ CentOS viene preconfigurado para usar una red de servidores que proveen varios r
 Yellowdog Updater Modified (yum)
 --------------------------------
 
-``Yum`` es un administrador de paquetes por línea de comandos para distribuciones basadas en RPM como Red Hat, Centos y Fedora. Como la mayoría de administradores de paquetes cuenta con interfaces gráficas como yumex (yum Extender) o PackageKit. ``yum`` resuelve automáticamente las dependencias, descargando los paquetes
-necesarios y luego instalándolos en el orden correcto. Estos paquetes se almacenan bajo el directorio
+``Yum`` es un administrador de paquetes por línea de comandos para distribuciones basadas en RPM como Red Hat, Centos y Fedora. Como la mayoría de administradores de paquetes cuenta con interfaces gráficas como yumex (yum Extender) o PackageKit. ``yum`` resuelve automáticamente las dependencias, descargando los paquetes necesarios e instalándolos en el orden correcto. Estos paquetes se almacenan bajo el directorio
 ``/var/cache/yum/`` y en caso que se requiera eliminarlos se debe ejecutar ``yum clean all``.
 
 Veamos a continuación algunos de los comandos más útiles. Para conocer el resto de las opciones
 vea el manual ejecutando ``man yum``.
+
+**ACTIVIDAD 1.1: **  Corrobore los repositorios del sistema en ``/etc/yum.repos.d/``. Observe el contenido del repositorio base y compare con el listado de servidores previamente mencionado.
 
 Instalación
 '''''''''''
@@ -129,15 +130,18 @@ También es posible actualizar paquetes solamente hasta la versión que contiene
 Por ejemplo, asumamos que:
 
 - el kernel-3.10.0-1 esta instalado en el sistema;
-- el kernel-3.10.0-2 fue lanzado como una actualización de seguridad
-- el kernel-3.10.0-3 fue lanzado como una actualización de un bug
+- el kernel-3.10.0-2 fue lanzado como una actualización de **seguridad**
+- el kernel-3.10.0-3 fue lanzado como una actualización de un **bug**
 
 Entonces, ``yum update-minimal --security`` actualizará el paquete a kernel-3.10.0-2, y ``yum update --security`` lo hará a kernel-3.10.0-3.
+
+**ACTIVIDAD 1.2: ** Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
+
 
 Búsqueda
 ''''''''
 
-Para buscar un paquete se utiliza la opción search. El algoritmo busca coincidencias
+Para buscar un paquete se utiliza la opción ``search``. El algoritmo busca coincidencias
 primeramente en el nombre del paquete y resumen, si no hubo aciertos continúa la búsqueda
 en la descripción o en la URL.
 
@@ -153,8 +157,13 @@ info.
 
     yum info firefox
 
+**ACTIVIDAD 1.2: ** Busque el paquete ``htop``. Corrobore la información disponible (versión, repositorio, descripción, etc) y luego realice la instalación.
+
+**ACTIVIDAD 1.3: ** Investigue la opción de búsqueda ``yum search all`` para encontrar un paquete en cuya descripción contiene las palabras *Japanese enhancement screens*. Instale aquel paquete que en el que coinciden todas las palabras. ¿Para qué sirve, analice y aprenda su uso básico?
+
+
 Grupos de paquetes
-'''''''''''
+''''''''''''''''''
 
 Ciertos paquetes individuales están clasificados en grupos, por lo que es posible
 listar o instalar todos los paquetes que pertenecen a un mismo grupo.
@@ -169,19 +178,19 @@ Para instalarlos, se utiliza el nombre del grupo entre comillas:
 
 .. code-block:: bash
 
-    yum groupinstall "KDE" "X Window System"
+    yum groupinstall "GNOME Desktop"
 
 Para actualizar un grupo de paquetes:
 
 .. code-block:: bash
 
-    yum groupupdate "KDE"
+    yum groupupdate "GNOME Desktop"
 
 Para eliminar
 
 .. code-block:: bash
 
-    yum groupremove "KDE"
+    yum groupremove "GNOME Desktop"
 
 Repositorios disponibles
 ''''''''''''''''''''''''
@@ -200,8 +209,8 @@ paquetes.
 Listados
 ''''''''
 
-Funcionalidad utilizada para listar información sobre paquetes disponibles en los repositorio
-o instalados en el sistema. A continuación veremos los más utilizados.
+Funcionalidad utilizada para listar información sobre paquetes disponibles en los repositorios
+o aquellos instalados en el sistema. A continuación veremos los más utilizados.
 
 Para listar tanto los paquetes disponibles como los instalados:
 
