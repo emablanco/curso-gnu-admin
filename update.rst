@@ -192,6 +192,8 @@ Para eliminar
 
     yum groupremove "GNOME Desktop"
 
+**ACTIVIDAD 1.4:** Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto.
+
 Repositorios disponibles
 ''''''''''''''''''''''''
 
@@ -235,6 +237,8 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 .. code-block:: bash
 
     yum list extras
+
+**ACTIVIDAD 1.5:** Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
 
 RPM
 ---
