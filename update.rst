@@ -61,7 +61,9 @@ Repositorios externos
 
 En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros cuando deseemos instalar una versión más reciente de un programa que la que se encuentre disponible en los repositorios oficiales de la distribución.
 
-El repositorio se debe agregar manteniendo la extensión .repo, por ejemplo ``/etc/yum.repos.d/LABEL.repo``.
+La manera recomendada de agregar un repositorio es incluyendo un archivo de extensión .repo, bajo ``/etc/yum.repos.d/``. Además, CentOS provee la herramienta ``yum-config-manager --add-repo REPO_URL`` que automáticamente crea el archivo necesario.
+
+Para mayor detalle sobre esto vea el capítulo *8.5.5 (pág. 90). Adding, Enabling, and Disabling a Yum Repository* de *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
 Yellowdog Updater Modified (yum)
 --------------------------------
