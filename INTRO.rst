@@ -1,6 +1,26 @@
 Comandos útiles
 ===============
 
+Vagrant
+-------
+
+Vagrant nos permite gestionar máquinas virtuales de un modo muy cómodo. A continuación algunos de los comandos más usados:
+
+.. code:: bash
+
+        vagrant up      # levanta la vm
+        vagrant reload  # recargar la vm
+        vagrant halt    # apaga la vm
+        vagrant ssh     # sesión ssh a la vm
+        vagrant destroy # elimina la vm
+
+Para que inicie la máquina virtual en modo gráfico se debe especificar en el Vagrantfile la opción ``vb.gui = true``.
+
+Ejercicio
+''''''''''
+Pruebe los comandos anteriores parado en el directorio donde se encuentra
+el archivo Vagrantfile provisto.
+
 Redes
 -----
 
@@ -31,6 +51,9 @@ At PCI bus address 02:00.0.
 
 A card plugged into PCIe slot #7.
 
+Ejercicio
+'''''''''
+Examine con el comando ls todas las interfaces de red disponibles.
 
 Servicio de red
 '''''''''''''''
@@ -43,6 +66,11 @@ un servicio del siguiente modo:
 
     systemctl [status|stop|start|restart] network.service
 
+
+Ejercicio
+'''''''''
+Pruebe reiniciar la red, y luego verifique el estado de la misma
+utilizando systemctl. Que información del estado se muestra?.
 
 Direcciones estáticas
 '''''''''''''''''''''
@@ -61,10 +89,16 @@ en ``# vim /etc/sysconfig/network-scripts/ifcfg-enp0s3``. Por ejemplo:
     HWADDR=00:0C:29:28:FD:4C
     GATEWAY=192.168.20.1
 
+Ejercicio
+'''''''''
+Examine el directorio /etc/sysconfig/network-scripts y comente que
+se encuentra dentro del mismo.
+
 ip
 ''
 
-Se puede encontrar una comparación entre los comando útiles de ifconfig y ip en https://p5r.uk/blog/2010/ifconfig-ip-comparison.html.
+Se puede encontrar una comparación entre los comando útiles de ifconfig y ip en
+https://p5r.uk/blog/2010/ifconfig-ip-comparison.html.
 
 Veamos los más usuales:
 
@@ -80,7 +114,7 @@ Algunos para rutas:
 
 .. code-block:: bash
 
-    ip route show   # muestra ruta
+    ip route show # muestra ruta
     ip route add 10.10.20.0/24 via 192.168.50.100 dev eth0  # agrega ruta
     ip route del 10.10.20.0/24                              # borra ruta
     ip route add default via 192.168.50.100                 # default gateway
@@ -92,11 +126,18 @@ agregándola del siguiente modo:
 
     10.10.20.0/24 via 192.168.50.100 dev eth0
 
+Ejercicio
+'''''''''
+Pruebe agregar una ruta estática de manera temporal, utilizando el
+comando ´ip´, verifique su creación y luego elimínela. Ahora prueba agregar
+la misma ruta pero de forma permanente. Reinicie la máquina virtual y verifique
+que la misma se encuentre seteada.
+
 Interfaces virtuales
 ''''''''''''''''''''
 
-Con el ya casi obsoleto comando ``ifconfig`` se creaba una interfaz virtual asociada a una real (física)
-haciendo ``ifconfig eth0:0 192.168.1.2 netmask 255.255.255.0 up``. El número luego de los dos puntos
+Con el ya casi obsoleto comando ``ifconfig`` se creaba una interfaz virtual
+asociada a una real (física) haciendo ``ifconfig eth0:0 192.168.1.2 netmask 255.255.255.0 up``. El número luego de los dos puntos
 la identificaba, y el nombre previo era la placa física a la que estaba asociada.
 
 **Con el comando ip**, se asocia una nueva dirección ip a un dispositivo de red haciendo
@@ -156,6 +197,11 @@ el filtrado previo:
 
 ``watch -n1 "ss -nt '( dst :443 or dst :80 )'"``
 
+Ejercicio
+'''''''''
+Deje corriendo el comando anterior en una consola, y pídale a su
+compañero que desde su equipo se conecte vía ssh al suyo para verificar como
+se muestran las conexiones (estado, origen, etc).
 
 dhclient
 ''''''''
@@ -185,32 +231,44 @@ Firewalld es un frontend para iptables que viene por defecto a partir de CentOS 
     systemctl [disable|stop|start|status] firewalld
     firewall-cmd --state                                # ver estado
 
-Virtualbox
-----------
+Administrar servicios
+---------------------
 
-Para que funcionen los ``guestaddition`` en un CentOS dentro de una VM (guest) es necesario
-instalar:
+*Systemd* es un administrador de sistema y servicios para los sistemas
+operativos Linux. Está diseñado para mantener compatibilidad con los scripts
+init de SysV.
+
+*Systemd* introduce el concepto de *unidades* que son representadas por archivos
+de configuración almacenados en
+
+- ``/usr/lib/systemd/system/`` creados con la instalación de paquetes RPM
+- ``/run/systemd/system/`` creados en tiempo de ejecución
+- ``/etc/systemd/system/`` creados por ``systemctl enable``
+
+que encapsulan información sobre los servicios del sistema, sockets, etc. Para
+una lista completa sobre los tipos de unidades de systemd vea la
+Tabla 9.1 "Available systemd Unit Types" (p.99) del *Red Hat Enterprise Linux 7 System Administrator's Guide*.
+
+En versiones previas se utilizaban los scripts *init* que se almacenaban en
+``/etc/rc.d/init.d`` y generalmente eran escritos en Bash y permitian al administrador controlar el estado de los servicios
+y demonios en el sistema. Bien, ahora estos script han sido reemplazados con los *service units*.
+
+Estos *service units* finalizan con la extensión **.service**. A continuación un resumen de su uso mas frecuente:
 
 .. code-block:: bash
 
-    yum groupinstall "Development Tools"
-    yum install kernel-devel
+    systemctl [start|stop|restart|status] name.service
+    systemctl reload name.service
+    systemctl [enable|disable|is-enabled] name.service
 
-Vagrant
--------
+    # Displays the status of all services.
+    systemctl list-units --type service --all
 
-Vagrant nos permite gestionar máquinas virtuales de un modo muy cómodo. A continuación algunos de los comandos más usados:
+    # Lists all services and checks if they are enabled
+    systemctl list-unit-files --type service
 
-.. code:: bash
-
-        vagrant up      # levanta la vm
-        vagrant halt    # apaga la vm
-        vagrant reload  # recargar la vm
-        vagrant destroy # elimina la vm
-        vagrant ssh     # sesión ssh a la vm
-
-Para que inicie la máquina virtual en modo gráfico se debe especificar en el Vagrantfile la opción ``vb.gui = true``.
-
+Para más detalles se recomienda la lectura de *CHAPTER 9. MANAGING SERVICES WITH SYSTEMD*
+de *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
 Modos de inicio
 ---------------
@@ -234,43 +292,6 @@ Para saber el target en el que se encuentra basta con ejecutar ``systemctl get-d
 Al setear un target por defecto lo que se hace es crear un enlace simbólico en
 ``/etc/systemd/system/default.target`` apuntando a ``graphical.target`` o ``multi-user.target``
 en /usr/lib/systemd/system/
-
-Administrar servicios
----------------------
-
-*Systemd* es un administrador de sistema y servicios para los sistemas operativos Linux. Está diseñado
-para mantener compatibilidad con los scripts init de SysV.
-
-*Systemd* intruduce el concepto de *unidades* que son representadas por archivos de configuración almacenados en
-
-- ``/usr/lib/systemd/system/`` creados con la instalación de paquetes RPM
-- ``/run/systemd/system/`` creados en tiempo de ejecución
-- ``/etc/systemd/system/`` creados por ``systemctl enable``
-
-que encapsulan información sobre los servicios del sistema, sockets, etc. Para una lista completa
-sobre los tipos de unidades de systemd vea la Tabla 9.1 "Available systemd Unit Types" (p.99) del
-*Red Hat Enterprise Linux 7 System Administrator's Guide*.
-
-En versiones previas se utilizaban los scripts *init* que se almacenaban en ``/etc/rc.d/init.d`` y
-generalmente eran escritos en Bash y permitian al administrador controlar el estado de los servicios
-y demonios en el sistema. Bien, ahora estos script han sido reemplazados con los *service units*.
-
-Estos *service units* finalizan con la extensión **.service**. A continuación un resumen de su uso mas frecuente:
-
-.. code-block:: bash
-
-    systemctl [start|stop|restart|status] name.service
-    systemctl reload name.service
-    systemctl [enable|disable|is-enabled] name.service
-
-    # Displays the status of all services.
-    systemctl list-units --type service --all
-
-    # Lists all services and checks if they are enabled
-    systemctl list-unit-files --type service
-
-Para más detalles se recomienda la lectura de *CHAPTER 9. MANAGING SERVICES WITH SYSTEMD*
-de *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
 Proxy
 -----
