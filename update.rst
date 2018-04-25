@@ -135,7 +135,7 @@ Por ejemplo, asumamos que:
 
 Entonces, ``yum update-minimal --security`` actualizará el paquete a kernel-3.10.0-2, y ``yum update --security`` lo hará a kernel-3.10.0-3.
 
-**ACTIVIDAD 1.2: ** Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
+**ACTIVIDAD 1.2:** Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
 
 
 Búsqueda
@@ -157,9 +157,9 @@ info.
 
     yum info firefox
 
-**ACTIVIDAD 1.2: ** Busque el paquete ``htop``. Corrobore la información disponible (versión, repositorio, descripción, etc) y luego realice la instalación.
+**ACTIVIDAD 1.2:** Busque el paquete ``htop``. Corrobore la información disponible (versión, repositorio, descripción, etc) y luego realice la instalación.
 
-**ACTIVIDAD 1.3: ** Investigue la opción de búsqueda ``yum search all`` para encontrar un paquete en cuya descripción contiene las palabras *Japanese enhancement screens*. Instale aquel paquete que en el que coinciden todas las palabras. ¿Para qué sirve, analice y aprenda su uso básico?
+**ACTIVIDAD 1.3:** Investigue la opción de búsqueda ``yum search all`` para encontrar un paquete en cuya descripción contiene las palabras *Japanese enhancement screens*. Instale aquel paquete que en el que coinciden todas las palabras. ¿Para qué sirve, analice y aprenda su uso básico?
 
 
 Grupos de paquetes
