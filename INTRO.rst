@@ -83,7 +83,7 @@ Direcciones estáticas
 '''''''''''''''''''''
 
 Para una interfaz de red que se denomine ``enp0s3`` la configuración se encuentra
-en ``# vim /etc/sysconfig/network-scripts/ifcfg-enp0s3``. Por ejemplo:
+en ``# /etc/sysconfig/network-scripts/ifcfg-enp0s3``. Por ejemplo:
 
 .. code-block:: bash
 
@@ -130,7 +130,7 @@ agregándola del siguiente modo:
 
     10.10.20.0/24 via 192.168.50.100 dev eth0
 
-**ACTIVIDAD 0.5:** Pruebe agregar una ruta estática de manera temporal, utilizando el comando ``ip``, verifique su creación y luego elimínela. Ahora prueba agregar la misma ruta pero de forma permanente. Reinicie la máquina virtual y verifique que la misma se encuentre seteada.
+**ACTIVIDAD 0.5:** Pruebe agregar una ruta estática de manera temporal, utilizando el comando ``ip``. Verifique su creación y luego elimínela. Ahora prueba agregar la misma ruta pero de forma permanente, reinicie la máquina virtual y verifique que la misma se encuentre definida.
 
 Interfaces virtuales
 ''''''''''''''''''''
@@ -197,7 +197,7 @@ el filtrado previo:
 
 ``watch -n1 "ss -nt '( dst :443 or dst :80 )'"``
 
-**ACTIVIDAD 0.6:** Deje corriendo el comando anterior en una consola, y pídale a su compañero que desde su equipo se conecte vía ssh al suyo para verificar como se muestran las conexiones (estado, origen, etc).
+**ACTIVIDAD 0.6:** Deje corriendo el comando watch junto a ss, para que muestre las conexiones SSH, y pídale a su compañero que desde su equipo se conecte vía ssh al suyo para verificar como se muestran las conexiones (estado, origen, etc).
 
 dhclient
 ''''''''
