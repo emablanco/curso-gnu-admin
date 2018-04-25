@@ -16,10 +16,7 @@ Vagrant nos permite gestionar máquinas virtuales de un modo muy cómodo. A cont
 
 Para que inicie la máquina virtual en modo gráfico se debe especificar en el Vagrantfile la opción ``vb.gui = true``.
 
-Ejercicio
-''''''''''
-Pruebe los comandos anteriores parado en el directorio donde se encuentra
-el archivo Vagrantfile provisto.
+**ACTIVIDAD 0.1:** Pruebe los comandos anteriores parado en el directorio donde se encuentra el archivo Vagrantfile provisto.
 
 Redes
 -----
@@ -51,9 +48,7 @@ At PCI bus address 02:00.0.
 
 A card plugged into PCIe slot #7.
 
-Ejercicio
-'''''''''
-Examine con el comando ls todas las interfaces de red disponibles.
+**ACTIVIDAD 0.2:** Examine con el comando ``ls`` todas las interfaces de red disponibles.
 
 Servicio de red
 '''''''''''''''
@@ -67,10 +62,7 @@ un servicio del siguiente modo:
     systemctl [status|stop|start|restart] network.service
 
 
-Ejercicio
-'''''''''
-Pruebe reiniciar la red, y luego verifique el estado de la misma
-utilizando systemctl. Que información del estado se muestra?.
+**ACTIVIDAD 0.3:** Pruebe reiniciar la red, y luego verifique el estado de la misma utilizando ``systemctl``. ¿Qué información del estado se muestra?.
 
 Direcciones estáticas
 '''''''''''''''''''''
@@ -89,10 +81,7 @@ en ``# vim /etc/sysconfig/network-scripts/ifcfg-enp0s3``. Por ejemplo:
     HWADDR=00:0C:29:28:FD:4C
     GATEWAY=192.168.20.1
 
-Ejercicio
-'''''''''
-Examine el directorio /etc/sysconfig/network-scripts y comente que
-se encuentra dentro del mismo.
+**ACTIVIDAD 0.4:** Examine el directorio ``/etc/sysconfig/network-scripts`` y comente que se encuentra dentro del mismo.
 
 ip
 ''
@@ -126,12 +115,7 @@ agregándola del siguiente modo:
 
     10.10.20.0/24 via 192.168.50.100 dev eth0
 
-Ejercicio
-'''''''''
-Pruebe agregar una ruta estática de manera temporal, utilizando el
-comando ´ip´, verifique su creación y luego elimínela. Ahora prueba agregar
-la misma ruta pero de forma permanente. Reinicie la máquina virtual y verifique
-que la misma se encuentre seteada.
+**ACTIVIDAD 0.5:** Pruebe agregar una ruta estática de manera temporal, utilizando el comando ``ip``, verifique su creación y luego elimínela. Ahora prueba agregar la misma ruta pero de forma permanente. Reinicie la máquina virtual y verifique que la misma se encuentre seteada.
 
 Interfaces virtuales
 ''''''''''''''''''''
@@ -197,11 +181,7 @@ el filtrado previo:
 
 ``watch -n1 "ss -nt '( dst :443 or dst :80 )'"``
 
-Ejercicio
-'''''''''
-Deje corriendo el comando anterior en una consola, y pídale a su
-compañero que desde su equipo se conecte vía ssh al suyo para verificar como
-se muestran las conexiones (estado, origen, etc).
+**ACTIVIDAD 0.6:** Deje corriendo el comando anterior en una consola, y pídale a su compañero que desde su equipo se conecte vía ssh al suyo para verificar como se muestran las conexiones (estado, origen, etc).
 
 dhclient
 ''''''''
