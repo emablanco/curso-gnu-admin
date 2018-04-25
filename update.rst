@@ -56,6 +56,13 @@ CentOS viene preconfigurado para usar una red de servidores que proveen varios r
 
 - [testing] - Packages that are being tested proir to release, you should not use this repository except for a specific reason. It is disabled by default.
 
+Repositorios externos
+'''''''''''''''''''''
+
+En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros cuando deseemos instalar una versión más reciente de un programa que la que se encuentre disponible en los repositorios oficiales de la distribución.
+
+El repositorio se debe agregar manteniendo la extensión .repo, por ejemplo ``/etc/yum.repos.d/LABEL.repo``.
+
 Yellowdog Updater Modified (yum)
 --------------------------------
 
@@ -65,7 +72,9 @@ Yellowdog Updater Modified (yum)
 Veamos a continuación algunos de los comandos más útiles. Para conocer el resto de las opciones
 vea el manual ejecutando ``man yum``.
 
-**ACTIVIDAD 1.1:**  Corrobore los repositorios del sistema en ``/etc/yum.repos.d/``. Observe el contenido del repositorio base y compare con el listado de servidores previamente mencionado.
+**ACTIVIDAD 1.1:**  Corrobore los repositorios del sistema en ``/etc/yum.repos.d/``. Observe el contenido del repositorio base y compare con el listado de servidores previamente mencionado. Corrobore la configuración global de yum en ``yum.conf``.
+
+Para más información puede referirse a la ayuda haciendo man ``yum.conf`` o en el capítulo 8.5 (pág. 82) del libro *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
 Instalación
 '''''''''''
@@ -265,4 +274,5 @@ Referencias
 -----------
 
 - https://www.centos.org/docs/5/html/yum/sn-software-management-concepts.html
+- Red Hat Enterprise Linux 7 System Administrator's Guide
 
