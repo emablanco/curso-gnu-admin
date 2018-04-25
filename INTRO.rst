@@ -36,11 +36,13 @@ Para que inicie la máquina virtual en modo gráfico se debe especificar en el V
 Redes
 -----
 
-El amado ``ifconfig`` ha sido deprecado, ahora se utiliza el comando ``ip``.
+El amado ``ifconfig`` y el entrañable ``route`` han sido deprecados, ahora se utiliza el comando ``ip``.
 
 El querido ``netstat`` también se esfumó y ahora usamos ``ss`` (socket statistics).
 
 Los nombres ``ethX`` también desaparecieron por los fácilmente memorizables ``esp02n0x``.
+
+Los nostálgicos aun pueden hacer uso de estas herramientas instalando el paquete ``net-tools``.
 
 Nombres de las interfaces
 '''''''''''''''''''''''''
