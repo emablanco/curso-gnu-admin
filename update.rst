@@ -218,7 +218,10 @@ Para eliminar
 
     yum groupremove "GNOME Desktop"
 
-**ACTIVIDAD 1.4:** Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto.
+**ACTIVIDAD 1.4:** 
+
+- Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto (vea modos de inicio del apunte introductorio).
+- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm`` 
 
 Repositorios disponibles
 ''''''''''''''''''''''''
