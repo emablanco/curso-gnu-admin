@@ -1,0 +1,15 @@
+{
+    "editor.fontSize": 18,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vagrant": true,
+        "**/.gitignore": true,
+        "**/.vscode": true,
+        "*.pdf":true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true
+    }
+}
