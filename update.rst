@@ -218,7 +218,10 @@ Para eliminar
 
     yum groupremove "GNOME Desktop"
 
-**ACTIVIDAD 1.4:** Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto.
+**ACTIVIDAD 1.4:** 
+
+- Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto (vea modos de inicio del apunte introductorio).
+- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm`` 
 
 Repositorios disponibles
 ''''''''''''''''''''''''
@@ -264,13 +267,21 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 
     yum list extras
 
-**ACTIVIDAD 1.5:** Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
+**ACTIVIDAD 1.5:** 
+
+- Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
+- Corrobore los paquetes que fueron instalados por fuera de los respositorios
 
 RPM
 ---
 
 En el apéndice A del manual oficial *Red Hat Enterprise Linux 7 System Administrator's Guide* puede encontrar
 instrucciones detalladas sobre el uso del administrador de paquetes ``rpm``.
+
+Repositorio local
+-----------------
+
+https://www.itzgeek.com/how-tos/linux/centos-how-tos/create-local-yum-repository-on-centos-7-rhel-7-using-dvd.html
 
 Referencias
 -----------
