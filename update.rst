@@ -278,6 +278,11 @@ RPM
 En el apéndice A del manual oficial *Red Hat Enterprise Linux 7 System Administrator's Guide* puede encontrar
 instrucciones detalladas sobre el uso del administrador de paquetes ``rpm``.
 
+Repositorio local
+-----------------
+
+https://www.itzgeek.com/how-tos/linux/centos-how-tos/create-local-yum-repository-on-centos-7-rhel-7-using-dvd.html
+
 Referencias
 -----------
 
