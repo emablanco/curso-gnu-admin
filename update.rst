@@ -267,7 +267,9 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 
     yum list extras
 
-**ACTIVIDAD 1.5:** Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
+**ACTIVIDAD 1.5:** 
+- Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
+- Corrobore los paquetes que fueron instalados por fuera de los respositorios
 
 RPM
 ---
