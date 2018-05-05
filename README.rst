@@ -42,18 +42,19 @@ Cronograma
 
 Miercoles de 15 a 18hs.
 
-- Clase 1 (25/04): INTRO + Update/Upgrade
-- Clase 2 (09/05): VNC. Servidor, Viewer.
-- Clase 3 (16/05): VPN
-- Clase 4 (23/05): NFS
-- Clase 5 (30/05): NTP
-- Clase 6 (06/06): Gestores de Arranque. Grub
-- Clase 7 (13/06): **Examen**
-- Clase 8 (20/06): Backup
-- Clase 9 (27/06): IPTables
-- Clase 10 (04/07): Firewall
-- Clase 11 (11/07): DNS         (Receso UTN)
-- Clase 12 (18/07): **Examen**  (Receso UTN)
+- Clase 1 (25/04): INTRO
+- Clase 2 (09/05): Update/Upgrade
+- Clase 3 (16/05): VNC. Servidor, Viewer.
+- Clase 4 (23/05): VPN
+- Clase 5 (30/05): NFS
+- Clase 6 (06/06): NTP
+- Clase 7 (13/06): Gestores de Arranque. Grub
+- Clase 8 (20/06): **Examen**
+- Clase 9 (27/06): Backup
+- Clase 10 (04/07): IPTables
+- Clase 11 (11/07): Firewall    (Receso UTN)
+- Clase 12 (18/07): DNS         (Receso UTN)
+
 - SELinux
 - Hardening
 
