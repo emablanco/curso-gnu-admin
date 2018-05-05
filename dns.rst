@@ -62,14 +62,14 @@ nombres de dominio IDN dependen directamente del contenido mismo del nombre.
 
 Para resumir: un FQDN es un nombre de anfitrión único con un punto al final.
 
-Componentes de DNS.
+Componentes de DNS
 ------------------
 
 El protocolo DNS opera a través de tres componentes: Clientes DNS, Servidores DNS
 y Zonas de Autoridad.
 
-Clientes DNS.
-~~~~~~~~~~~~~
+Clientes DNS
+~~~~~~~~~~~~
 
 Son todos aquellos programas que ejecuta un usuario y que generan peticiones de
 consulta para resolver nombres y direcciones IP. Básicamente preguntan por la
@@ -81,8 +81,8 @@ Por ejemplo: un cliente SSH —aún siendo cliente de otro protocolo— realiza 
 consulta de DNS para determinar la dirección IP de un servidor al cual se va a
 conectar.
 
-Servidores DNS.
-~~~~~~~~~~~~~~~
+Servidores DNS
+~~~~~~~~~~~~~~
 
 Son servicios que contestan las consultas realizadas por los Clientes DNS. Hay
 dos tipos de servidores de nombres:
@@ -119,10 +119,11 @@ configurados y una vez creados los datos para una zona, es innecesario copiarlos
 a cada Servidor Esclavo o Secundario, pues éste se encargará de transferir los
 datos de manera automática cada vez que sea necesario.
 
-Tipos de consultas hacia un servidor DNS.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tipos de consultas hacia un servidor DNS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Los Servidores DNS responden dos tipos de consultas:
+
 * Consultas Iterativas (no recursivas): El cliente hace una consulta al Servidor
   DNS y éste le responde con la mejor respuesta que pueda darse basada sobre su
   caché o en las zonas locales. Si es imposible dar una respuesta, la consulta
@@ -135,18 +136,18 @@ Los Servidores DNS responden dos tipos de consultas:
   DNS (en lugar de hacerlo el Cliente DNS) para obtener la respuesta solicitada.
 
 
-  Zonas de Autoridad
-  ~~~~~~~~~~~~~~~~~~
+Zonas de Autoridad
+~~~~~~~~~~~~~~~~~~
 
-  Éstas permiten al Servidor Maestro o Primario cargar la información de una zona.
-  Cada Zona de Autoridad abarca al menos un dominio y —posiblemente— sus
-  sub-dominios, cuando estos últimos son imposibles de delegar a otras zonas de
-  autoridad.
+Éstas permiten al Servidor Maestro o Primario cargar la información de una zona.
+Cada Zona de Autoridad abarca al menos un dominio y —posiblemente— sus
+sub-dominios, cuando estos últimos son imposibles de delegar a otras zonas de
+autoridad.
 
-  Las zonas de autoridad se crean en archivos de texto simple o registros de una
-  base de datos. Deben incluir el tiempo total de vida (TTL) predeterminado, la
-  información del servidor DNS principal y los registros que componen la zona.
-  El contenido mínimo de éstos archivos debe ser el siguiente:
+Las zonas de autoridad se crean en archivos de texto simple o registros de una
+base de datos. Deben incluir el tiempo total de vida (TTL) predeterminado, la
+información del servidor DNS principal y los registros que componen la zona.
+El contenido mínimo de éstos archivos debe ser el siguiente:
 
 .. code:: bash
 
@@ -165,22 +166,31 @@ de registro que se pueden utilizar.
 
 Tipos de registros en la zonas de autoridad
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 La información de cada Zona de Autoridad es almacenada de forma local en un
 archivo en el Servidor DNS. Este archivo puede incluir varios tipos de registros:
 
-========================  ======================================================
-Tipo de Registro          Descripción
------------------         --------------
-A (Address)               Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv4 de 32 bits.
-AAAA 	                    Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv6 de 128 bits.
-CNAME (Canonical Name) 	  Registro de nombre canónico que hace que un nombre sea alias de otro. Los dominios con alias obtienen los sub-dominios y registros DNS del dominio original.
-MX (Mail Exchanger) 	    Registro de servidor de correo que sirve para definir una lista de servidores de correo para un dominio, así como la prioridad entre éstos.
-PTR (Pointer) 	          Registro de apuntador que resuelve direcciones IPv4 hacia los nombres anfitriones. Es decir, hace lo contrario al registro A. Se utiliza en zonas de Resolución Inversa.
-NS (Name Server) 	        Registro de servidor de nombres, que sirve para definir una lista de servidores de nombres con autoridad para un dominio.
-SOA (Start of Authority) 	Registro de inicio de autoridad, encargado de especificar el Servidor DNS Maestro (o Primario) que proporcionará la información con autoridad acerca de un dominio de Internet, dirección de correo electrónico del administrador, número de serie del dominio y parámetros de tiempo para la zona.
-SRV (Service) 	          Registros de servicios, encargados de especificar información acerca de servicios disponibles a través del dominio. Protocolos como SIP (Session Initiation Protocol) y XMPP (Extensible Messaging and Presence Protocol) suelen requerir registros SRV en la zona para proporcionar información a los clientes.
-TXT (Text) 	              Registros de texto, encargados de permitir al administrador insertar texto arbitrariamente en un registro DNS. Este tipo de registro es muy utilizado por los servidores de listas negras DNSBL (DNS-based Blackhole List) para la filtración de Spam. Otro ejemplo de uso sería el caso de las VPN, donde suele requerirse un registro TXT, para definir una firma digital que será utilizada por los clientes.
-========================  ======================================================
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Tipo de Registro         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                      |
++==========================+==================================================================================================================================================================================================================================================================================================================================================================================================================+
+| A (Address)              | Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv4 de 32 bits.                                                                                                                                                                                                                                                                                                                |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| AAAA                     | Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv6 de 128 bits.                                                                                                                                                                                                                                                                                                               |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CNAME (Canonical Name)   | Registro de nombre canónico que hace que un nombre sea alias de otro. Los dominios con alias obtienen los sub-dominios y registros DNS del dominio original.                                                                                                                                                                                                                                                     |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MX (Mail Exchanger)      | Registro de servidor de correo que sirve para definir una lista de servidores de correo para un dominio, así como la prioridad entre éstos.                                                                                                                                                                                                                                                                      |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PTR (Pointer)            | Registro de apuntador que resuelve direcciones IPv4 hacia los nombres anfitriones. Es decir, hace lo contrario al registro A. Se utiliza en zonas de Resolución Inversa.                                                                                                                                                                                                                                         |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NS (Name Server)         | Registro de servidor de nombres, que sirve para definir una lista de servidores de nombres con autoridad para un dominio.                                                                                                                                                                                                                                                                                        |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| SOA (Start of Authority) | Registro de inicio de autoridad, encargado de especificar el Servidor DNS Maestro (o Primario) que proporcionará la información con autoridad acerca de un dominio de Internet, dirección de correo electrónico del administrador, número de serie del dominio y parámetros de tiempo para la zona.                                                                                                              |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| SRV (Service)            | Registros de servicios, encargados de especificar información acerca de servicios disponibles a través del dominio. Protocolos como SIP (Session Initiation Protocol) y XMPP (Extensible Messaging and Presence Protocol) suelen requerir registros SRV en la zona para proporcionar información a los clientes.                                                                                                 |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| TXT (Text)               | Registros de texto, encargados de permitir al administrador insertar texto arbitrariamente en un registro DNS. Este tipo de registro es muy utilizado por los servidores de listas negras DNSBL (DNS-based Blackhole List) para la filtración de Spam. Otro ejemplo de uso sería el caso de las VPN, donde suele requerirse un registro TXT, para definir una firma digital que será utilizada por los clientes. |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Tipos de zonas de autoridad
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -270,8 +280,8 @@ TIPO corresponde al tipo de consulta requerido (ANY, A, MX, SOA, NS, etc.)
 
 Ejemplo:
 
-..code:: bash
-
+.. code:: bash
+  
   dig @8.8.8.8 fsf.org MX
 
 Lo anterior realiza una búsqueda en el Servidor DNS en la dirección IP 8.8.8.8
@@ -365,7 +375,7 @@ Por ejemplo
   };
 
 Opciones (options)
---------
+------------------
 Las opciones, permiten definir configuraciones globales y por defecto del
 servidor. Se utilizan para definir la ubicación del directorio de trabajo,
 los tipos de consultas que están permitidas y mucho más.
@@ -388,8 +398,8 @@ Las opciones más comunes son:
   como lo son las consultas recursivas. Solo localhost y localnets están
   permitidas por defecto.
 
-* blackhole: Especifica que host no tienen permitido realizar consultas
- 	de ningún tipo al servidor. Esta opción debería utilizarse cuando un
+* blackhole: Especifica que host no tienen permitido realizar consultas 
+  de ningún tipo al servidor. Esta opción debería utilizarse cuando un
   determinado host o red realiza un ataque al servidor. El valor por defecto es
   none.
 
@@ -410,10 +420,12 @@ Las opciones más comunes son:
 * forwarders: Especifica una lista de IPs de servidores de nombre válidas a las
   cuales se les pueden reenviar consultas de resolución.
 
-* forward: Especifica el comportamiento de la directiva forwarders. Acepta los
+* forward: Especifica el comportamiento de la directiva forwarders. Acepta los 
   siguientes valores:
-  * first: El servidor consultara al listado de servidores de nombres antes de
+  
+  * first: El servidor consultara al listado de servidores de nombres antes de 
     tratar de resolver el mismo dicha consulta.
+
   * only: Cuando no se pueda consultar al listado de servidores forwarders,
     el servidor no intentará resolver por el mismo dicha consulta.
 
@@ -430,8 +442,11 @@ Las opciones más comunes son:
 * notify: Especifica a cuales de sus servidores secundarios se debe notificar
   cuando una de sus zonas es actualizada. Las opciones que acepta son las siguientes:
   * yes: Se notificará a todos los secundarios.
+
   * no : No se notificará a nadie.
+
   * master-only: El servidor notificará solo a los primarios.
+
   * explicit: El servidor notificará solo a los servidores secundarios especificados
     en la clausula also-notify de dicha zona.
 
@@ -456,7 +471,7 @@ Ejemplo de una archivo de configuración
   };
 
 La sentencia Zone (zonas)
-------------
+-------------------------
 
 La sentencia zone permite definir características de una zona particular, como
 es la ubicación de su archivo de configuración u opciones especificas de la misma,
@@ -480,9 +495,9 @@ opciones particulares dentro de dicha zona, entre las que podemos destacar
   transferencia de esta zona. Por defecto todas las peticiones de transferencia
   estan permitidas.
 
-*  allow-update: Especifica que hosts tienen permitido actualizar dinámicamente
- 	 la información en esta zona. Por defecto esta en deny all.
-   Se debe ser cuidadoso al permitir quien puede actualizar estas.
+* allow-update: Especifica que hosts tienen permitido actualizar dinámicamente
+  la información en esta zona. Por defecto esta en deny all.
+  Se debe ser cuidadoso al permitir quien puede actualizar estas.
 
 * file: Especifica el nombre del archivo que contiene la especificación de la zona.
 
@@ -493,6 +508,7 @@ opciones particulares dentro de dicha zona, entre las que podemos destacar
 * notify: Similar a la opción global, pero aplicable solo para esta zona.
 
 * type: Especifica el tipo de zona. Esta opción acepta los siguientes valores:
+  
   * delegation-only: Fuerza la delegación de zonas de infrastructuras como COM,
     NET, ó ORG. Cualquier respuesta qu es recibida sin una delegación explicita
     o implicita, son tratadas como NXDOMAIN. Esta opción es solo aplicable en
