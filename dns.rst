@@ -521,8 +521,11 @@ opciones particulares dentro de dicha zona, entre las que podemos destacar
     reside en el sistema solamente.
     slave: Especifica los servidores esclavos para esta zona.
 
-Ejemplo configuración de zona en un servidor primario
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ejemplo de archivo de configuración de zona en un servidor primario
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Este archivo debería guardarse en el directorio /etc/named/example.com y luego ser incluido en el 
+archivo /etc/named.conf
 
 .. code:: bash
 
@@ -534,12 +537,15 @@ Ejemplo configuración de zona en un servidor primario
 
 En este caso le decimos que la zona que se denomina "example.com" esta definida
 como master en este servidor, que su archivo con la definición de los host que
-pertenecen a la misma se encuentra en "example.com.zone" y que se le permite
-la transferencia de la misma al equipo 192.168.0.2 (el que debería ser otro
+pertenecen a la misma se encuentra en "example.com.zone" (por defecto en /var/named/example.com.zone) 
+y que se le permite la transferencia de la misma al equipo 192.168.0.2 (el que debería ser otro
 servidor dns definido como esclavo de esta zona)
 
-Ejemplo configuración de zona en un servidor secundario
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ejemplo de archivo de configuración de zona en un servidor secundario
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Este archivo debería guardarse en el directorio /etc/named/example.com y luego ser incluido en el 
+archivo /etc/named.conf
 
 .. code:: bash
 
@@ -553,9 +559,117 @@ Como verán la diferencia es muy mínima, solo cambia el tipo y bueno, en este
 caso le decimos quien es el master de dicha zona para que acepte las actualizaciones
 cuando se realizan cambios en la misma.
 
-El archivo de zonas
--------------------
+Ejemplo de definición de zona
+------------------------------
 
+Este archivo contendrá la definición de los registros y su correspondiente valor. Por 
+ejemplo el archivo /var/named/example.com.zone
+
+.. code:: bash
+
+  $TTL	86400 ; 24 horas
+  $ORIGIN example.com. 
+  @  1D  IN  SOA ns1.example.com. hostmaster.example.com. (
+              2002022401 ; serial
+              3H ; refresh
+              15 ; retry
+              1w ; expire
+              3h ; nxdomain ttl
+            )
+            
+        IN  NS     ns1.example.com.  ; Servidor de nombres en el dominio
+        IN  NS     ns2.example.com.  ; Otro servidor de nombres
+        IN  MX  10 mail.example.com. ; Servidor de mail del dominio.
+
+  ; Definicion de host en el dominio
+  ns1    IN  A      192.168.0.1  ; Servidor de nombres (el mismo)
+  ns2    IN  A      192.168.0.2  ; Servidor de nombres (el mismo)
+
+  www    IN  A      192.168.0.3  ; Servidor web del dominio
+  ftp    IN  CNAME  www.example.com.  ; Servidor ftp del dominio
+
+  ; Otras definiciones de hosts
+  mickyvainilla    IN  A      192.168.0.4 ; Este seria el host mickyvainilla.example.com
+  capitanpiluso    IN  A      192.168.0.5 ; Este seria el host capitanpiluso.example.com
+
+
+Resolución inversa de DNS (Reverse DNS ó rDNS)
+----------------------------------------------
+
+La resolución inversa o rDNS se encuentra completamente separada de la resolución DNS regular, 
+por lo tanto, si el dominio "www.example.com" apunta hacia la IP 192.168.0.3, no 
+necesariamente significa que la IP 192.168.0.3 apunte a www.example.com.
+
+Para almacenar los registros de resolución inversa, se utiliza un tipo de registro DNS específico: 
+el registro PTR. El registro PTR es el registro de recurso (RR) de un dominio que define las 
+direcciones IP de todos los sistemas en una notación invertida. Esta inversión permite que se pueda 
+buscar una IP en el DNS, ya que a la notación de la IP invertida se le añade el dominio in-addr.arpa, 
+convirtiendo la IP en un nombre de dominio. Un ejemplo, para convertir la dirección IP 11.22.33.44 en 
+un registro PTR, invertimos la IP y añadimos el dominio in-addr.arpa siendo el registro resultante: 
+44.33.22.11.in-addr.arpa.
+
+Aunque la operación más habitual con el Sistema de Nombres de Dominio o DNS es obtener o resolver la 
+dirección IP partiendo de un nombre; hay veces queremos hacer la operación opuesta, encontrar el 
+nombre de un elemento conectado a Internet o en la red local (como es nuestro caso) a partir de su 
+dirección IP. A este proceso se le conoce como resolución inversa o rDNS.
+
+La configuración de la resolución reverse DNS es importante para una aplicación en concreto, y es 
+que muchos servidores de correo electrónico en Internet están configurados para rechazar los correos 
+electrónicos entrantes desde cualquier dirección IP que no tenga reverse DNS.
+
+Por ello, si utiliza su propio servidor de correo debe tener la DNS inversa para la dirección IP 
+desde la que se envía el correo saliente.
+
+No importa a qué dirección IP apunte el registro DNS inverso siempre y cuando el dominio esté alojado 
+en ese servidor. Si aloja varios dominios en un servidor de correo electrónico, simplemente debe 
+configurar la reverse DNS para cualquier nombre de dominio que considere prioritario.
+
+Ejemplo de definición de zona reversa
+-------------------------------------
+
+Nuevamente el archivo se debe guardar en el directorio /var/named/ y luego ser incluido en el 
+archivo /etc/named.conf. Supongamos que lo llamamos /var/named/reverso.example.com.zone
+
+.. code:: bash
+
+  $ORIGIN .
+  $TTL 24h;
+  168.192.in-addr.arpa IN      SOA     168.192.in-addr.arpa. root.example.com. (
+                  2016070192 ; serial
+                  3h         ; refresh
+                  15         ; retry
+                  1w         ; expire
+                  3h         ; minimum
+                  )
+
+                  NS dns1.example.com.
+                  NS dns2.example.com.
+
+  $ORIGIN 0.168.192.in-addr.arpa.
+  1       IN PTR ns1.example.com.
+  2       IN PTR ns2.example.com.
+  3       IN PTR www.example.com.
+  4       IN PTR mickyvainilla.example.com.
+  5       IN PTR capitanpiluso.example.com.
+
+En resumen:
+-----------
+
+* Debemos crear los archivos de configuración de zona. Por 
+  ejemplo /etc/named/example.com y /etc/named/reverse.example.com. Estos archivos permiten definir 
+  las características y opciones de la zona (permisos sobre la zona, a quien se le puede transferir 
+  la misma, donde se encuentra su archivo de definición, etc).
+
+* Luego debemos crear el archivo de definición de zona, y cargar allí los registros correspondiente.
+  Por ejemplo los archivos /var/named/example.com.zone y /var/named/reverse.example.com.zone
+
+* Por último debemos editar el archivo /etc/named.conf e incluir los archivos de "configuración" de zona 
+  del siguiente modo
+
+.. code:: bash
+
+  include "/etc/named/example.com";
+  include "/etc/named/reverse.example.com";
 
 
 Referencias
