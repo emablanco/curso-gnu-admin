@@ -93,11 +93,11 @@ Para más información puede referirse a la ayuda haciendo man ``yum.conf`` o en
 Instalación
 '''''''''''
 
-Se debe ingresar el nombre exacto del paquete, por ejemplo firefox:
+Se debe ingresar el nombre exacto del paquete, por ejemplo nmap:
 
 .. code-block:: bash
 
-    yum install firefox
+    yum install nmap
 
 Al instalar un paquete del modo previo nos solicitará confirmación del siguiente modo:
 
@@ -124,7 +124,7 @@ Al igual que el anterior pero usando la palabra remove:
 
 .. code-block:: bash
 
-    yum remove firefox
+    yum remove nmap
 
 Actualización
 '''''''''''''
@@ -173,8 +173,10 @@ Por ejemplo, asumamos que:
 
 Entonces, ``yum update-minimal --security`` actualizará el paquete a kernel-3.10.0-2, y ``yum update --security`` lo hará a kernel-3.10.0-3.
 
-**ACTIVIDAD 1.2:** Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
+**ACTIVIDAD 1.2:**
 
+- Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
+- Instale el paquete ``vim``, observe y explique las sugerencias que recibe del sistema
 
 Búsqueda
 ''''''''
