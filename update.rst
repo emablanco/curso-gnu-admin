@@ -281,7 +281,38 @@ instrucciones detalladas sobre el uso del administrador de paquetes ``rpm``.
 Repositorio local
 -----------------
 
-https://www.itzgeek.com/how-tos/linux/centos-how-tos/create-local-yum-repository-on-centos-7-rhel-7-using-dvd.html
+En una infraestrura de varios equipos una alternativa interesante para acelerar las descargas de paquetes es implementar
+un repositorio local. De este modo, los equipos descargaran por la red LAN los paquetes para instalaciones economizando
+el uso del enlace a internet.
+
+Si bien no entraremos en detalle sobre el modo de implementarlo, veremos unas pautas generales sobre la manera de llevarlo
+a cabo:
+
+- Copiar todos los paquetes ``.rpm`` (desde un DVD o la web oficial) a un directorio local (DIRLOCAL) que a su vez debe 
+ser servido mediante ftp o http.
+- Crear un archivo ``.repo`` bajo ``/etc/yum.repos.d/`` con el contenido
+
+.. code-block:: bash
+
+    [localrepo]
+    name=Unixmen Repository
+    baseurl=file://DIRLOCAL
+    gpgcheck=0
+    enabled=1
+
+- Crear el repositorio usando el comando ``createrepo -v DIRLOCAL``
+- Deshabilitar el resto de los repositorios
+- Configurar en los clientes creando el archivo ``/etc/yum.repos.d/localrepo.repo`` con el siguiente contenido
+
+.. code-block:: bash
+
+    [localrepo]
+    name=Unixmen Repository
+    baseurl=http://IP/DIRLOCAL
+    gpgcheck=0
+    enabled=1
+
+- Restará desahilitar el resto de los repositorios
 
 Referencias
 -----------
