@@ -61,7 +61,19 @@ Repositorios externos
 
 En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros cuando deseemos instalar una versión más reciente de un programa que la que se encuentre disponible en los repositorios oficiales de la distribución.
 
-La manera recomendada de agregar un repositorio es incluyendo un archivo de extensión .repo, bajo ``/etc/yum.repos.d/``. Además, CentOS provee la herramienta ``yum-config-manager --add-repo REPO_URL`` que automáticamente crea el archivo necesario y luego resta habilitarlo haciendo: ``yum-config-manager --enable REPO_ID`` donde *REPO_ID* es la identificación del repositorio (use ``yum repolist all`` para listar las IDs de los repositorios disponibles).
+La manera recomendada de agregar un repositorio es incluyendo un archivo de extensión .repo, bajo ``/etc/yum.repos.d/``. Además, CentOS provee la herramienta
+
+.. code-block:: bash
+
+    yum-config-manager --add-repo REPO_URL
+
+que automáticamente crea el archivo necesario y luego resta habilitarlo haciendo:
+
+.. code-block:: bash
+
+    yum-config-manager --enable REPO_ID
+
+donde *REPO_ID* es la identificación del repositorio (use ``yum repolist all`` para listar las IDs de los repositorios disponibles).
 
 Para mayor detalle sobre esto vea el capítulo *8.5.5 (pág. 90). Adding, Enabling, and Disabling a Yum Repository* de *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
@@ -218,10 +230,10 @@ Para eliminar
 
     yum groupremove "GNOME Desktop"
 
-**ACTIVIDAD 1.4:** 
+**ACTIVIDAD 1.4:**
 
 - Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto (vea modos de inicio del apunte introductorio).
-- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm`` 
+- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm``
 
 Repositorios disponibles
 ''''''''''''''''''''''''
@@ -267,7 +279,7 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 
     yum list extras
 
-**ACTIVIDAD 1.5:** 
+**ACTIVIDAD 1.5:**
 
 - Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
 - Corrobore los paquetes que fueron instalados por fuera de los respositorios
@@ -317,6 +329,8 @@ a cabo:
 
 
 - Restará desahilitar el resto de los repositorios
+
+Una guía detallada sobre este proceso puede encontrarse en https://access.redhat.com/solutions/9892
 
 Referencias
 -----------
