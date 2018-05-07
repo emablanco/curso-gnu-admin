@@ -288,8 +288,8 @@ el uso del enlace a internet.
 Si bien no entraremos en detalle sobre el modo de implementarlo, veremos unas pautas generales sobre la manera de llevarlo
 a cabo:
 
-- Copiar todos los paquetes ``.rpm`` (desde un DVD o la web oficial) a un directorio local (DIRLOCAL) que a su vez debe 
-ser servido mediante ftp o http.
+- Copiar todos los paquetes ``.rpm`` (desde un DVD o la web oficial) a un directorio local (DIRLOCAL) que a su vez debe ser servido mediante ftp o http.
+
 - Crear un archivo ``.repo`` bajo ``/etc/yum.repos.d/`` con el contenido
 
 .. code-block:: bash
@@ -300,8 +300,11 @@ ser servido mediante ftp o http.
     gpgcheck=0
     enabled=1
 
+
 - Crear el repositorio usando el comando ``createrepo -v DIRLOCAL``
+
 - Deshabilitar el resto de los repositorios
+
 - Configurar en los clientes creando el archivo ``/etc/yum.repos.d/localrepo.repo`` con el siguiente contenido
 
 .. code-block:: bash
@@ -311,6 +314,7 @@ ser servido mediante ftp o http.
     baseurl=http://IP/DIRLOCAL
     gpgcheck=0
     enabled=1
+
 
 - Restará desahilitar el resto de los repositorios
 
