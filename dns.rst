@@ -852,9 +852,8 @@ Ejemplo del archivo /etc/named.conf
 
 Referencias
 ===========
-http://www.alcancelibre.org/staticpages/index.php/introduccion-protocolo-dns
-https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts
-https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-bind
+* http://www.alcancelibre.org/staticpages/index.php/introduccion-protocolo-dns
 
-investigar
-https://calomel.org/unbound_dns.html
+* https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts
+
+* https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-bind
