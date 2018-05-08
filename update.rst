@@ -61,7 +61,19 @@ Repositorios externos
 
 En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros cuando deseemos instalar una versión más reciente de un programa que la que se encuentre disponible en los repositorios oficiales de la distribución.
 
-La manera recomendada de agregar un repositorio es incluyendo un archivo de extensión .repo, bajo ``/etc/yum.repos.d/``. Además, CentOS provee la herramienta ``yum-config-manager --add-repo REPO_URL`` que automáticamente crea el archivo necesario y luego resta habilitarlo haciendo: ``yum-config-manager --enable REPO_ID`` donde *REPO_ID* es la identificación del repositorio (use ``yum repolist all`` para listar las IDs de los repositorios disponibles).
+La manera recomendada de agregar un repositorio es incluyendo un archivo de extensión .repo, bajo ``/etc/yum.repos.d/``. Además, CentOS provee la herramienta
+
+.. code-block:: bash
+
+    yum-config-manager --add-repo REPO_URL
+
+que automáticamente crea el archivo necesario y luego resta habilitarlo haciendo:
+
+.. code-block:: bash
+
+    yum-config-manager --enable REPO_ID
+
+donde *REPO_ID* es la identificación del repositorio (use ``yum repolist all`` para listar las IDs de los repositorios disponibles).
 
 Para mayor detalle sobre esto vea el capítulo *8.5.5 (pág. 90). Adding, Enabling, and Disabling a Yum Repository* de *Red Hat Enterprise Linux 7 System Administrator's Guide*.
 
@@ -81,11 +93,11 @@ Para más información puede referirse a la ayuda haciendo man ``yum.conf`` o en
 Instalación
 '''''''''''
 
-Se debe ingresar el nombre exacto del paquete, por ejemplo firefox:
+Se debe ingresar el nombre exacto del paquete, por ejemplo nmap:
 
 .. code-block:: bash
 
-    yum install firefox
+    yum install nmap
 
 Al instalar un paquete del modo previo nos solicitará confirmación del siguiente modo:
 
@@ -112,7 +124,7 @@ Al igual que el anterior pero usando la palabra remove:
 
 .. code-block:: bash
 
-    yum remove firefox
+    yum remove nmap
 
 Actualización
 '''''''''''''
@@ -161,8 +173,10 @@ Por ejemplo, asumamos que:
 
 Entonces, ``yum update-minimal --security`` actualizará el paquete a kernel-3.10.0-2, y ``yum update --security`` lo hará a kernel-3.10.0-3.
 
-**ACTIVIDAD 1.2:** Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
+**ACTIVIDAD 1.2:**
 
+- Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo realícela.
+- Instale el paquete ``vim``, observe y explique las sugerencias que recibe del sistema
 
 Búsqueda
 ''''''''
@@ -218,10 +232,10 @@ Para eliminar
 
     yum groupremove "GNOME Desktop"
 
-**ACTIVIDAD 1.4:** 
+**ACTIVIDAD 1.4:**
 
 - Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto (vea modos de inicio del apunte introductorio).
-- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm`` 
+- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm``
 
 Repositorios disponibles
 ''''''''''''''''''''''''
@@ -267,7 +281,7 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 
     yum list extras
 
-**ACTIVIDAD 1.5:** 
+**ACTIVIDAD 1.5:**
 
 - Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
 - Corrobore los paquetes que fueron instalados por fuera de los respositorios
@@ -281,7 +295,44 @@ instrucciones detalladas sobre el uso del administrador de paquetes ``rpm``.
 Repositorio local
 -----------------
 
-https://www.itzgeek.com/how-tos/linux/centos-how-tos/create-local-yum-repository-on-centos-7-rhel-7-using-dvd.html
+En una infraestrura de varios equipos una alternativa interesante para acelerar las descargas de paquetes es implementar
+un repositorio local. De este modo, los equipos descargaran por la red LAN los paquetes para instalaciones economizando
+el uso del enlace a internet.
+
+Si bien no entraremos en detalle sobre el modo de implementarlo, veremos unas pautas generales sobre la manera de llevarlo
+a cabo:
+
+- Copiar todos los paquetes ``.rpm`` (desde un DVD o la web oficial) a un directorio local (DIRLOCAL) que a su vez debe ser servido mediante ftp o http.
+
+- Crear un archivo ``.repo`` bajo ``/etc/yum.repos.d/`` con el contenido
+
+.. code-block:: bash
+
+    [localrepo]
+    name=Unixmen Repository
+    baseurl=file://DIRLOCAL
+    gpgcheck=0
+    enabled=1
+
+
+- Crear el repositorio usando el comando ``createrepo -v DIRLOCAL``
+
+- Deshabilitar el resto de los repositorios
+
+- Configurar en los clientes creando el archivo ``/etc/yum.repos.d/localrepo.repo`` con el siguiente contenido
+
+.. code-block:: bash
+
+    [localrepo]
+    name=Unixmen Repository
+    baseurl=http://IP/DIRLOCAL
+    gpgcheck=0
+    enabled=1
+
+
+- Restará desahilitar el resto de los repositorios
+
+Una guía detallada sobre este proceso puede encontrarse en https://access.redhat.com/solutions/9892
 
 Referencias
 -----------
