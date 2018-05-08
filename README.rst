@@ -18,9 +18,9 @@ Unidades temáticas
 - Unidad03_: VPN. (**) [x]
 - Unidad04_: NFS. [x]
 - Unidad05_: NTP. [ ]
-- Unidad06_: Gestores de Arranque. Grub. [ ]
+- Unidad06_: Gestores de Arranque. Grub. [x]
 - Unidad07_: Backup. Sistemas de backup. [ ]
-- Unidad08_: DNS. [ ]
+- Unidad08_: DNS. [x]
 - Unidad09_: IPTables. Opciones de comandos para IPTables. Reglas IPTables. [ ]
 - Unidad10_: Firewall. Configuración. [ ]
 - SELinux
