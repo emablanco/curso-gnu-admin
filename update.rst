@@ -295,6 +295,15 @@ previa. Esto es posible salvo para paquetes críticos como ``selinux``, ``selinu
 
 **ACTIVIDAD 1.6:** busque en el manual de yum para qué es la opción ``downgrade`` y comente para qué casos lo utilizaría.
 
+Cabe preguntarse, ¿qué sucede en la próxima actualización? ¿es posible fijar un paquete a una determinada versión?
+
+Ver el paquete ``yum-plugin-versionlock`` en el siguiente enlace_.
+
+Básicamente se agrega la versión del paquete a fijar en 
+``/etc/yum/pluginconf.d/versionlock.list``
+
+.. _enlace: https://access.redhat.com/solutions/98873
+
 RPM
 ---
 
