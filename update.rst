@@ -59,7 +59,7 @@ CentOS viene preconfigurado para usar una red de servidores que proveen varios r
 Repositorios externos
 '''''''''''''''''''''
 
-En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros cuando deseemos instalar una versión más reciente de un programa que la que se encuentre disponible en los repositorios oficiales de la distribución.
+En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros para instalar una versión más reciente de un programa que la disponible en los repositorios oficiales.
 
 La manera recomendada de agregar un repositorio es incluyendo un archivo de extensión .repo, bajo ``/etc/yum.repos.d/``. Además, CentOS provee la herramienta
 
@@ -80,7 +80,7 @@ Para mayor detalle sobre esto vea el capítulo *8.5.5 (pág. 90). Adding, Enabli
 Yellowdog Updater Modified (yum)
 --------------------------------
 
-``Yum`` es un administrador de paquetes por línea de comandos para distribuciones basadas en RPM como Red Hat, Centos y Fedora. Como la mayoría de administradores de paquetes cuenta con interfaces gráficas como yumex (yum Extender) o PackageKit. ``yum`` resuelve automáticamente las dependencias, descargando los paquetes necesarios e instalándolos en el orden correcto. Estos paquetes se almacenan bajo el directorio
+``yum`` es un administrador de paquetes por línea de comandos para distribuciones basadas en RPM como Red Hat, Centos y Fedora. Como la mayoría de administradores de paquetes cuenta con interfaces gráficas como yumex (yum Extender) o PackageKit. ``yum`` resuelve automáticamente las dependencias, descargando los paquetes necesarios e instalándolos en el orden correcto. Estos paquetes se almacenan bajo el directorio
 ``/var/cache/yum/`` y en caso que se requiera eliminarlos se debe ejecutar ``yum clean all``.
 
 Veamos a continuación algunos de los comandos más útiles. Para conocer el resto de las opciones
@@ -120,7 +120,7 @@ es recomendable hacer toda instalación o actualización a través del repositor
 Eliminación
 '''''''''''
 
-Al igual que el anterior pero usando la palabra remove:
+Al igual que el anterior pero usando la palabra ``remove``:
 
 .. code-block:: bash
 
@@ -129,31 +129,29 @@ Al igual que el anterior pero usando la palabra remove:
 Actualización
 '''''''''''''
 
-Es posible actualizar un paquete específico o bien el sistema completo. Para el primer
-caso hacemos:
+Para comprobar si existen actualizaciones disponibles de los paquetes instalados debemos hacer:
+
+.. code-block:: bash
+
+    yum check-update
+
+En versiones previas de CentOS había diferencia entre los comandos ``update`` y ``upgrade``, actualmente ejecutan
+las mismas acciones.
+
+Es posible actualizar un paquete específico o bien el sistema completo. Para el primer caso hacemos:
 
 .. code-block:: bash
 
     yum update mysql
 
-Esto actualizará el paquete mysql a la última versión estable. Para actualizar el sistema
+Esto actualizará el paquete ``mysql`` a la última versión estable. Para actualizar el sistema
 hacemos:
 
 .. code-block:: bash
 
     yum update
 
-Otra opción es comprobar si existen actualizaciones disponibles de los paquetes instalados,
-para esto debemos hacer:
-
-.. code-block:: bash
-
-    yum check-update
-
-En versiones previas había diferencia entre los comandos update y upgrade, actualmente ejecutan
-las mismas acciones.
-
-Si los paquetes cuentan con actualizaciones de seguridad, es posible solamente actualizar esos paquetes a su última versión:
+Si los paquetes cuentan con actualizaciones de seguridad, es posible **solamente** actualizar esos paquetes a su última versión:
 
 .. code-block:: bash
 
@@ -199,7 +197,10 @@ info.
 
 **ACTIVIDAD 1.2:** Busque el paquete ``htop``. Corrobore la información disponible (versión, repositorio, descripción, etc) y luego realice la instalación.
 
-**ACTIVIDAD 1.3:** Investigue la opción de búsqueda ``yum search all`` para encontrar un paquete en cuya descripción contiene las palabras *Japanese enhancement screens*. Instale aquel paquete que en el que coinciden todas las palabras. ¿Para qué sirve, analice y aprenda su uso básico?
+**ACTIVIDAD 1.3:** 
+
+- Investigue la opción de búsqueda ``yum search all`` para encontrar un paquete en cuya descripción contiene las palabras *Japanese enhancement screens*. Instale aquel paquete que en el que coinciden todas las palabras. ¿Para qué sirve, analice y aprenda su uso básico?
+- Corrobore en qué paquete se encuentra la herramienta ``ifconfig``. Instale dicho paquete.
 
 
 Grupos de paquetes
@@ -234,8 +235,8 @@ Para eliminar
 
 **ACTIVIDAD 1.4:**
 
-- Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto (vea modos de inicio del apunte introductorio).
-- Descargue e instale el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm``
+- Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando ``startx``. Investigue cómo cambiar la configuración de CentOS para que se inicie el entorno gráfico por defecto (vea ``systemctl set-default ...`` en modos de inicio del apunte introductorio).
+- Descargue e instale manualmente el paquete rpm ``https://code.visualstudio.com/docs/?dv=linux64_rpm``
 
 Repositorios disponibles
 ''''''''''''''''''''''''
@@ -257,7 +258,7 @@ Listados
 Funcionalidad utilizada para listar información sobre paquetes disponibles en los repositorios
 o aquellos instalados en el sistema. A continuación veremos los más utilizados.
 
-Para listar tanto los paquetes disponibles como los instalados:
+Para listar tanto los paquetes **disponibles** como los **instalados**:
 
 .. code-block:: bash
 
@@ -290,7 +291,7 @@ Downgrade de paquetes
 ---------------------
 
 Ante una actualización de paquetes es posible que no obtengamos el comportamiento deseado, y sea necesario volver a una versión
-previa. Esto es posible salvo para paquetes críticos como ``selinux``, selinux-policy-*`, `kernel`` y ``glibc`` que no está soportado.
+previa. Esto es posible salvo para paquetes críticos como ``selinux``, ``selinux-policy-*``, `kernel`` y ``glibc`` que no está soportado.
 
 **ACTIVIDAD 1.6:** busque en el manual de yum para qué es la opción ``downgrade`` y comente para qué casos lo utilizaría.
 
