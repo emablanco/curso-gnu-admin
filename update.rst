@@ -93,11 +93,11 @@ Para más información puede referirse a la ayuda haciendo man ``yum.conf`` o en
 Instalación
 '''''''''''
 
-Se debe ingresar el nombre exacto del paquete, por ejemplo nmap:
+Se debe ingresar el nombre exacto del paquete, por ejemplo nmap y python34:
 
 .. code-block:: bash
 
-    yum install nmap
+    yum install nmap python34
 
 Al instalar un paquete del modo previo nos solicitará confirmación del siguiente modo:
 
