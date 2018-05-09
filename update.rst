@@ -286,6 +286,13 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 - Corrobore si se encuentra instalado el paquete ``wget`` y ``links`` mediante el uso de ``yum list``. ¿Qué diferencias encuentra con ``yum search`` y ``yum info``?
 - Corrobore los paquetes que fueron instalados por fuera de los respositorios
 
+Downgrade de paquetes
+---------------------
+- https://access.redhat.com/solutions/29617
+- https://www.if-not-true-then-false.com/2010/yum-downgrade-packages-on-fedora-centos-red-hat-rhel/
+
+**ACTIVIDAD 1.6:** busque en el manual de yum para qué es la opción ``downgrade`` y comente para qué casos lo utilizaría.
+
 RPM
 ---
 
