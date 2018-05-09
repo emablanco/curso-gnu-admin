@@ -288,8 +288,9 @@ Para listar los paquetes instalados en el sistema pero que no están disponibles
 
 Downgrade de paquetes
 ---------------------
-- https://access.redhat.com/solutions/29617
-- https://www.if-not-true-then-false.com/2010/yum-downgrade-packages-on-fedora-centos-red-hat-rhel/
+
+Ante una actualización de paquetes es posible que no obtengamos el comportamiento deseado, y sea necesario volver a una versión
+previa. Esto es posible salvo para paquetes críticos como ``selinux``, selinux-policy-*`, `kernel`` y ``glibc`` que no está soportado.
 
 **ACTIVIDAD 1.6:** busque en el manual de yum para qué es la opción ``downgrade`` y comente para qué casos lo utilizaría.
 
@@ -346,4 +347,5 @@ Referencias
 
 - https://www.centos.org/docs/5/html/yum/sn-software-management-concepts.html
 - Red Hat Enterprise Linux 7 System Administrator's Guide
-
+- https://access.redhat.com/solutions/29617
+- https://www.if-not-true-then-false.com/2010/yum-downgrade-packages-on-fedora-centos-red-hat-rhel/
