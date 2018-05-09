@@ -1,0 +1,2417 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 6 0 R /F4 8 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:emiliano.lopez@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 228.2023 707.0236 347.8223 719.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:maximiliano@boscovich.com.ar)
+>> /Border [ 0 0 0 ] /Rect [ 260.9723 689.0236 401.7023 701.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Annots [ 4 0 R 5 0 R ] /Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Contents 39 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 40 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/Contents 41 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/solutions/9892)
+>> /Border [ 0 0 0 ] /Rect [ 337.2929 331.6236 518.4929 343.6236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.centos.org/docs/5/html/yum/sn-software-management-concepts.html)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 272.3736 443.5929 284.3736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/solutions/29617)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 236.3736 272.4529 248.3736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.if-not-true-then-false.com/2010/yum-downgrade-packages-on-fedora-centos-red-hat-rhel/)
+>> /Border [ 0 0 0 ] /Rect [ 84.8928 218.3736 533.3828 230.3736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/Annots [ 13 0 R 14 0 R 15 0 R 16 0 R ] /Contents 42 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+18 0 obj
+<<
+/Outlines 20 0 R /PageLabels 43 0 R /PageMode /UseNone /Pages 36 0 R /Type /Catalog
+>>
+endobj
+19 0 obj
+<<
+/Author () /CreationDate (D:20180509112211+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180509112211+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Actualizaci\363n de CentOS) /Trapped /False
+>>
+endobj
+20 0 obj
+<<
+/Count 17 /First 21 0 R /Last 35 0 R /Type /Outlines
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 617.0236 0 ] /Next 22 0 R /Parent 20 0 R /Title (Nombre de los paquetes)
+>>
+endobj
+22 0 obj
+<<
+/Count 1 /Dest [ 7 0 R /XYZ 62.69291 464.0236 0 ] /First 23 0 R /Last 23 0 R /Next 24 0 R /Parent 20 0 R 
+  /Prev 21 0 R /Title (Sobre los repositorios)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 675.0236 0 ] /Parent 22 0 R /Title (Repositorios externos)
+>>
+endobj
+24 0 obj
+<<
+/Count 7 /Dest [ 9 0 R /XYZ 62.69291 436.6236 0 ] /First 25 0 R /Last 31 0 R /Next 32 0 R /Parent 20 0 R 
+  /Prev 22 0 R /Title (Yellowdog Updater Modified \(yum\))
+>>
+endobj
+25 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 223.6236 0 ] /Next 26 0 R /Parent 24 0 R /Title (Instalaci\363n)
+>>
+endobj
+26 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 615.8236 0 ] /Next 27 0 R /Parent 24 0 R /Prev 25 0 R /Title (Eliminaci\363n)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 534.6236 0 ] /Next 28 0 R /Parent 24 0 R /Prev 26 0 R /Title (Actualizaci\363n)
+>>
+endobj
+28 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 693.0236 0 ] /Next 29 0 R /Parent 24 0 R /Prev 27 0 R /Title (B\372squeda)
+>>
+endobj
+29 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 424.6236 0 ] /Next 30 0 R /Parent 24 0 R /Prev 28 0 R /Title (Grupos de paquetes)
+>>
+endobj
+30 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 717.0236 0 ] /Next 31 0 R /Parent 24 0 R /Prev 29 0 R /Title (Repositorios disponibles)
+>>
+endobj
+31 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 591.8236 0 ] /Parent 24 0 R /Prev 30 0 R /Title (Listados)
+>>
+endobj
+32 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 253.0236 0 ] /Next 33 0 R /Parent 20 0 R /Prev 24 0 R /Title (Downgrade de paquetes)
+>>
+endobj
+33 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 148.0236 0 ] /Next 34 0 R /Parent 20 0 R /Prev 32 0 R /Title (RPM)
+>>
+endobj
+34 0 obj
+<<
+/Dest [ 17 0 R /XYZ 62.69291 753.0236 0 ] /Next 35 0 R /Parent 20 0 R /Prev 33 0 R /Title (Repositorio local)
+>>
+endobj
+35 0 obj
+<<
+/Dest [ 17 0 R /XYZ 62.69291 319.6236 0 ] /Parent 20 0 R /Prev 34 0 R /Title (Referencias)
+>>
+endobj
+36 0 obj
+<<
+/Count 6 /Kids [ 7 0 R 9 0 R 10 0 R 11 0 R 12 0 R 17 0 R ] /Type /Pages
+>>
+endobj
+37 0 obj
+<<
+/Length 8286
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 116.5849 0 Td (Actualizaci\363n de CentOS) Tj T* -116.5849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Autores:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Emiliano L\363pez \() Tj 0 0 .501961 rg (emiliano.lopez@gmail.com) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Maximiliano Boscovich \() Tj 0 0 .501961 rg (maximiliano@boscovich.com.ar) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 40.80937 0 Td (Fecha:) Tj T* -40.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (09/05/2018 11:22) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 629.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.081412 Tw (El software de CentOS y su documentaci\363n se proveen en archivos llamados paquetes RPM. Cada) Tj T* 0 Tw 1.594147 Tw (paquete es un archivo comprimido que contiene metadatos y varios archivos, \355conos, documentaci\363n,) Tj T* 0 Tw (scripts, etc. Estos paquetes adem\341s cuentan con una firma digital que comprueban su origen.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 596.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Nombre de los paquetes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 566.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.446412 Tw (Un paquete puede ser referenciado para instalar, actualizar, eliminar, listar, etc. con cualquiera de los) Tj T* 0 Tw (siguientes identificadores \(entre otros\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 560.0236 cm
+Q
+q
+1 0 0 1 62.69291 560.0236 cm
+Q
+q
+1 0 0 1 62.69291 548.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (nombre) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 542.0236 cm
+Q
+q
+1 0 0 1 62.69291 530.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (nombre.arquitectura) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 524.0236 cm
+Q
+q
+1 0 0 1 62.69291 512.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (nombre-version-release) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 506.0236 cm
+Q
+q
+1 0 0 1 62.69291 494.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (nombre-version-release.arch) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 494.0236 cm
+Q
+q
+1 0 0 1 62.69291 476.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Por ejemplo: ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (install) Tj ( ) Tj (kernel-2.4.1-10.i686) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 443.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Sobre los repositorios) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 389.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 3.201984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Un repositorio es un directorio o sitio web que contiene paquetes de software y archivos \355ndice.) Tj T* 0 Tw 1.389147 Tw (Aplicaciones de administraci\363n de paquetes como ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj /F1 10 Tf 0 0 0 rg ( automaticamente ubican y obtienen el paquete) Tj T* 0 Tw 2.090651 Tw (RPM desde estos repositorios. Este m\351todo libera al usuario de tener que buscar e instalar nuevas) Tj T* 0 Tw (aplicaciones o actualizarlas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 347.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 7.551797 Tw 12 TL /F1 10 Tf 0 0 0 rg (Los repositorios del sistema est\341n almacenados con extensi\363n ) Tj /F3 10 Tf 0 0 0 rg (.repo) Tj /F1 10 Tf 0 0 0 rg ( bajo el directorio) Tj T* 0 Tw .764597 Tw /F3 10 Tf 0 0 0 rg (/etc/yum.repos.d/) Tj /F1 10 Tf 0 0 0 rg (, cada uno tiene el formato de archivo de configuraci\363n, formado por secciones y) Tj T* 0 Tw (luego clave-valor, donde se indica su url, si est\341 habilitado \() Tj /F3 10 Tf 0 0 0 rg (enable=0) Tj /F1 10 Tf 0 0 0 rg (\), entre otros.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 329.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (CentOS viene preconfigurado para usar una red de servidores que proveen varios repositorios:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 323.0236 cm
+Q
+q
+1 0 0 1 62.69291 323.0236 cm
+Q
+q
+1 0 0 1 62.69291 311.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([base] Paquetes que forman CentOS tal como est\341n en los ISOs. Habilitado por default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 305.0236 cm
+Q
+q
+1 0 0 1 62.69291 281.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.33248 Tw ([updates] Paquetes actualizados para [base] lanzados luego del ISOs de CentOS. Ser\341n de) Tj T* 0 Tw (Seguridad, BugFix, o Mejoras del software de [base]. Habilitado por default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 275.0236 cm
+Q
+q
+1 0 0 1 62.69291 215.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .557126 Tw ([addons] - Contains packages required in order to build the main Distribution or packages produced) Tj T* 0 Tw 3.261984 Tw (by SRPMS built in the main Distribution, but not included in the main Redhat package tree) Tj T* 0 Tw 1.115814 Tw (\(mysql-server in CentOS-3.x falls into this category\). Packages contained in the addons repository) Tj T* 0 Tw 1.841235 Tw (should be considered essentially a part of the core distribution, but may not be in the upstream) Tj T* 0 Tw (Package tree. It is enabled by default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 209.0236 cm
+Q
+q
+1 0 0 1 62.69291 173.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.39061 Tw ([contrib] - Packages contributed by the CentOS Users, which do not overlap with any of the core) Tj T* 0 Tw .939982 Tw (Distribution packages. These packages have not been tested by the CentOS developers, and may) Tj T* 0 Tw (not track upstream version releases very closely. It is disabled by default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 167.0236 cm
+Q
+q
+1 0 0 1 62.69291 131.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.020814 Tw ([centosplus] - Packages contributed by CentOS Developers and the Users. These packages might) Tj T* 0 Tw 1.009213 Tw (replace rpm's included in the core Distribution. You should understand the implications of enabling) Tj T* 0 Tw (and using packages from this repository. It is diabled by default) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 125.0236 cm
+Q
+q
+1 0 0 1 62.69291 113.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ([csgfs] - Packages that make up the Cluster Suite and Global File System. It is disabled by default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 107.0236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (1 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+38 0 obj
+<<
+/Length 7089
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .295984 Tw ([extras] - Packages built and maintained by the CentOS developers that add functionality to the core) Tj T* 0 Tw 1.769979 Tw (distribution. These packages have undergone some basic testing, should track upstream release) Tj T* 0 Tw (versions fairly closely and will never replace any core distribution package. It is enabled by default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .55561 Tw ([testing] - Packages that are being tested proir to release, you should not use this repository except) Tj T* 0 Tw (for a specific reason. It is disabled by default.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Repositorios externos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .237318 Tw (En algunas ocasiones nos veremos en la necesidad de agregar repositorios de terceros para instalar una) Tj T* 0 Tw (versi\363n m\341s reciente de un programa que la disponible en los repositorios oficiales.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.523555 Tw 12 TL /F1 10 Tf 0 0 0 rg (La manera recomendada de agregar un repositorio es incluyendo un archivo de extensi\363n .repo, bajo) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (/etc/yum.repos.d/) Tj /F1 10 Tf 0 0 0 rg (. Adem\341s, CentOS provee la herramienta) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 563.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum-config-manager --add-repo REPO_URL) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 543.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (que autom\341ticamente crea el archivo necesario y luego resta habilitarlo haciendo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 510.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum-config-manager --enable REPO_ID) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 478.6236 cm
+q
+BT 1 0 0 1 0 14 Tm .928735 Tw 12 TL /F1 10 Tf 0 0 0 rg (donde ) Tj /F4 10 Tf (REPO_ID) Tj /F1 10 Tf ( es la identificaci\363n del repositorio \(use ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (repolist) Tj ( ) Tj (all) Tj /F1 10 Tf 0 0 0 rg ( para listar las IDs de los) Tj T* 0 Tw (repositorios disponibles\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 448.6236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.402485 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para mayor detalle sobre esto vea el cap\355tulo ) Tj /F4 10 Tf (8.5.5 \(p\341g. 90\). Adding, Enabling, and Disabling a Yum) Tj T* 0 Tw (Repository) Tj /F1 10 Tf ( de ) Tj /F4 10 Tf (Red Hat Enterprise Linux 7 System Administrator's Guide) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 415.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Yellowdog Updater Modified \(yum\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 337.6236 cm
+q
+BT 1 0 0 1 0 62 Tm .371318 Tw 12 TL /F3 10 Tf 0 0 0 rg (yum) Tj /F1 10 Tf 0 0 0 rg ( es un administrador de paquetes por l\355nea de comandos para distribuciones basadas en RPM como) Tj T* 0 Tw 2.041412 Tw (Red Hat, Centos y Fedora. Como la mayor\355a de administradores de paquetes cuenta con interfaces) Tj T* 0 Tw 1.41816 Tw (gr\341ficas como yumex \(yum Extender\) o PackageKit. ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj /F1 10 Tf 0 0 0 rg ( resuelve autom\341ticamente las dependencias,) Tj T* 0 Tw .058443 Tw (descargando los paquetes necesarios e instal\341ndolos en el orden correcto. Estos paquetes se almacenan) Tj T* 0 Tw 4.510751 Tw (bajo el directorio ) Tj /F3 10 Tf 0 0 0 rg (/var/cache/yum/) Tj /F1 10 Tf 0 0 0 rg ( y en caso que se requiera eliminarlos se debe ejecutar) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (clean) Tj ( ) Tj (all) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 307.6236 cm
+q
+BT 1 0 0 1 0 14 Tm -0.019426 Tw 12 TL /F1 10 Tf 0 0 0 rg (Veamos a continuaci\363n algunos de los comandos m\341s \372tiles. Para conocer el resto de las opciones vea el) Tj T* 0 Tw (manual ejecutando ) Tj /F3 10 Tf 0 0 0 rg (man) Tj ( ) Tj (yum) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 265.6236 cm
+q
+BT 1 0 0 1 0 26 Tm .504524 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 1.1:) Tj /F1 10 Tf ( Corrobore los repositorios del sistema en ) Tj /F3 10 Tf 0 0 0 rg (/etc/yum.repos.d/) Tj /F1 10 Tf 0 0 0 rg (. Observe el contenido) Tj T* 0 Tw 2.54229 Tw (del repositorio base y compare con el listado de servidores previamente mencionado. Corrobore la) Tj T* 0 Tw (configuraci\363n global de yum en ) Tj /F3 10 Tf 0 0 0 rg (yum.conf) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 235.6236 cm
+q
+BT 1 0 0 1 0 14 Tm .425868 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para m\341s informaci\363n puede referirse a la ayuda haciendo man ) Tj /F3 10 Tf 0 0 0 rg (yum.conf) Tj /F1 10 Tf 0 0 0 rg ( o en el cap\355tulo 8.5 \(p\341g. 82\)) Tj T* 0 Tw (del libro ) Tj /F4 10 Tf (Red Hat Enterprise Linux 7 System Administrator's Guide) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 205.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Instalaci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 187.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Se debe ingresar el nombre exacto del paquete, por ejemplo nmap y python34:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 154.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum install nmap python34) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 134.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Al instalar un paquete del modo previo nos solicitar\341 confirmaci\363n del siguiente modo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 116.4236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (Is) Tj ( ) Tj (this) Tj ( ) Tj (ok) Tj ( ) Tj ([y/d/N]:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 110.4236 cm
+Q
+q
+1 0 0 1 62.69291 110.4236 cm
+Q
+q
+1 0 0 1 62.69291 98.42362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (y) Tj /F1 10 Tf 0 0 0 rg (: confirmamos descarga e instalaci\363n) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 92.42362 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (2 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+39 0 obj
+<<
+/Length 6862
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (d) Tj /F1 10 Tf 0 0 0 rg (: solamente descarga, sin instalaci\363n) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (N) Tj /F1 10 Tf 0 0 0 rg (: abortamos acci\363n \(en may\372sculas al ser la opci\363n por defecto\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .534985 Tw (Con este comando tambi\351n es posible instalar un paquete manualmente, es decir, a partir de un archivo) Tj T* 0 Tw (.rpm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum install paquete.rpm) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 627.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.757126 Tw (Como toda distribuci\363n que provee un sistema de instalaci\363n a trav\351s de repositorios, siempre es) Tj T* 0 Tw (recomendable hacer toda instalaci\363n o actualizaci\363n a trav\351s del repositorio.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Eliminaci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Al igual que el anterior pero usando la palabra ) Tj /F3 10 Tf 0 0 0 rg (remove) Tj /F1 10 Tf 0 0 0 rg (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 546.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum remove nmap) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 516.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Actualizaci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 498.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para comprobar si existen actualizaciones disponibles de los paquetes instalados debemos hacer:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum check-update) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 433.4236 cm
+q
+BT 1 0 0 1 0 14 Tm .729982 Tw 12 TL /F1 10 Tf 0 0 0 rg (En versiones previas de CentOS hab\355a diferencia entre los comandos ) Tj /F3 10 Tf 0 0 0 rg (update) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (upgrade) Tj /F1 10 Tf 0 0 0 rg (, actualmente) Tj T* 0 Tw (ejecutan las mismas acciones.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 415.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Es posible actualizar un paquete espec\355fico o bien el sistema completo. Para el primer caso hacemos:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 382.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum update mysql) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 362.2236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Esto actualizar\341 el paquete ) Tj /F3 10 Tf 0 0 0 rg (mysql) Tj /F1 10 Tf 0 0 0 rg ( a la \372ltima versi\363n estable. Para actualizar el sistema hacemos:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 329.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum update) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 3.353314 Tw 12 TL /F1 10 Tf 0 0 0 rg (Si los paquetes cuentan con actualizaciones de seguridad, es posible ) Tj /F2 10 Tf (solamente) Tj /F1 10 Tf ( actualizar esos) Tj T* 0 Tw (paquetes a su \372ltima versi\363n:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 263.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum update --security) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 231.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.241647 Tw (Tambi\351n es posible actualizar paquetes solamente hasta la versi\363n que contiene actualizaciones de) Tj T* 0 Tw (seguridad:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 198.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum update-minimal --security) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 178.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Por ejemplo, asumamos que:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 172.6236 cm
+Q
+q
+1 0 0 1 62.69291 172.6236 cm
+Q
+q
+1 0 0 1 62.69291 160.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (el kernel-3.10.0-1 esta instalado en el sistema;) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 154.6236 cm
+Q
+q
+1 0 0 1 62.69291 142.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (el kernel-3.10.0-2 fue lanzado como una actualizaci\363n de ) Tj /F2 10 Tf (seguridad) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 136.6236 cm
+Q
+q
+1 0 0 1 62.69291 124.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (el kernel-3.10.0-3 fue lanzado como una actualizaci\363n de un ) Tj /F2 10 Tf (bug) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 124.6236 cm
+Q
+q
+1 0 0 1 62.69291 94.62362 cm
+q
+BT 1 0 0 1 0 14 Tm 6.56664 Tw 12 TL /F1 10 Tf 0 0 0 rg (Entonces, ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (update-minimal) Tj ( ) Tj (--security) Tj /F1 10 Tf 0 0 0 rg ( actualizar\341 el paquete a kernel-3.10.0-2, y) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (update) Tj ( ) Tj (--security) Tj /F1 10 Tf 0 0 0 rg ( lo har\341 a kernel-3.10.0-3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (3 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+40 0 obj
+<<
+/Length 7319
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 1.2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Corrobore si hay actualizaciones disponibles en su sistema y en caso afirmativo real\355cela.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Instale el paquete ) Tj /F3 10 Tf 0 0 0 rg (vim) Tj /F1 10 Tf 0 0 0 rg (, observe y explique las sugerencias que recibe del sistema) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (B\372squeda) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .024651 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para buscar un paquete se utiliza la opci\363n ) Tj /F3 10 Tf 0 0 0 rg (search) Tj /F1 10 Tf 0 0 0 rg (. El algoritmo busca coincidencias primeramente en el) Tj T* 0 Tw (nombre del paquete y resumen, si no hubo aciertos contin\372a la b\372squeda en la descripci\363n o en la URL.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum search KDE) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 579.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .319987 Tw (El resultado de este comando es un listado de los paquetes que coincidieron y su resumen. En caso que) Tj T* 0 Tw (se quiera acceder a la descripci\363n completa del paquete se utiliza la opci\363n info.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 546.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum info firefox) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 514.6236 cm
+q
+BT 1 0 0 1 0 14 Tm 2.339979 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 1.2:) Tj /F1 10 Tf ( Busque el paquete ) Tj /F3 10 Tf 0 0 0 rg (htop) Tj /F1 10 Tf 0 0 0 rg (. Corrobore la informaci\363n disponible \(versi\363n, repositorio,) Tj T* 0 Tw (descripci\363n, etc\) y luego realice la instalaci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 496.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 1.3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 490.6236 cm
+Q
+q
+1 0 0 1 62.69291 490.6236 cm
+Q
+q
+1 0 0 1 62.69291 454.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm -0.046445 Tw 12 TL /F1 10 Tf 0 0 0 rg (Investigue la opci\363n de b\372squeda ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (search) Tj ( ) Tj (all) Tj /F1 10 Tf 0 0 0 rg ( para encontrar un paquete en cuya descripci\363n) Tj T* 0 Tw 3.378314 Tw (contiene las palabras ) Tj /F4 10 Tf (Japanese enhancement screens) Tj /F1 10 Tf (. Instale aquel paquete que en el que) Tj T* 0 Tw (coinciden todas las palabras. \277Para qu\351 sirve, analice y aprenda su uso b\341sico?) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 448.6236 cm
+Q
+q
+1 0 0 1 62.69291 436.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Corrobore en qu\351 paquete se encuentra la herramienta ) Tj /F3 10 Tf 0 0 0 rg (ifconfig) Tj /F1 10 Tf 0 0 0 rg (. Instale dicho paquete.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 436.6236 cm
+Q
+q
+1 0 0 1 62.69291 406.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Grupos de paquetes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 376.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .153735 Tw (Ciertos paquetes individuales est\341n clasificados en grupos, por lo que es posible listar o instalar todos los) Tj T* 0 Tw (paquetes que pertenecen a un mismo grupo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 358.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para listar los grupos disponibles se utiliza el siguiente comando:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 325.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum grouplist) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 305.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para instalarlos, se utiliza el nombre del grupo entre comillas:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 272.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 102 0 90 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (yum groupinstall ) Tj .729412 .129412 .129412 rg ("GNOME Desktop") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 252.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para actualizar un grupo de paquetes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 96 0 90 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (yum groupupdate ) Tj .729412 .129412 .129412 rg ("GNOME Desktop") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 199.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para eliminar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 96 0 90 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (yum groupremove ) Tj .729412 .129412 .129412 rg ("GNOME Desktop") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 145.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 1.4:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 139.8236 cm
+Q
+q
+1 0 0 1 62.69291 139.8236 cm
+Q
+q
+1 0 0 1 62.69291 103.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 3.060814 Tw 12 TL /F1 10 Tf 0 0 0 rg (Instale el entorno de escritorio GNOME. Corrobore que inicie correctamente con el comando) Tj T* 0 Tw .566412 Tw /F3 10 Tf 0 0 0 rg (startx) Tj /F1 10 Tf 0 0 0 rg (. Investigue c\363mo cambiar la configuraci\363n de CentOS para que se inicie el entorno gr\341fico) Tj T* 0 Tw (por defecto \(vea ) Tj /F3 10 Tf 0 0 0 rg (systemctl) Tj ( ) Tj (set-default) Tj ( ) Tj (...) Tj /F1 10 Tf 0 0 0 rg ( en modos de inicio del apunte introductorio\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 97.82362 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (4 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+41 0 obj
+<<
+/Length 6601
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 37.61329 Tw 12 TL /F1 10 Tf 0 0 0 rg (Descargue e instale manualmente el paquete rpm) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (https://code.visualstudio.com/docs/?dv=linux64_rpm) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Repositorios disponibles) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para listar los repositorio yum habilitados:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 647.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum repolist) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 603.8236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.816651 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para listar tambi\351n los deshabilitados se agrega el par\341metro ) Tj /F3 10 Tf 0 0 0 rg (all) Tj /F1 10 Tf 0 0 0 rg (. En caso de pretender instalar un) Tj T* 0 Tw 1.530888 Tw (paquete de un repositorio espec\355fico se debe agregar el par\341metro ) Tj /F3 10 Tf 0 0 0 rg (--enablerepo=NOMBRE_REPO) Tj /F1 10 Tf 0 0 0 rg ( al) Tj T* 0 Tw (comando de instalaci\363n de paquetes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Listados) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .854147 Tw (Funcionalidad utilizada para listar informaci\363n sobre paquetes disponibles en los repositorios o aquellos) Tj T* 0 Tw (instalados en el sistema. A continuaci\363n veremos los m\341s utilizados.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Para listar tanto los paquetes ) Tj /F2 10 Tf (disponibles) Tj /F1 10 Tf ( como los ) Tj /F2 10 Tf (instalados) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 492.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum list all) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 472.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para listar solamente los paquetes disponibles en los repositorios:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 439.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum list available) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 419.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para listar todos los paquetes instalados en el sistema:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 386.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum list installed) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 366.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para listar los paquetes instalados en el sistema pero que no est\341n disponibles en ning\372n repositorio) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (yum list extras) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 313.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 1.5:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 307.0236 cm
+Q
+q
+1 0 0 1 62.69291 307.0236 cm
+Q
+q
+1 0 0 1 62.69291 283.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .19061 Tw 12 TL /F1 10 Tf 0 0 0 rg (Corrobore si se encuentra instalado el paquete ) Tj /F3 10 Tf 0 0 0 rg (wget) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (links) Tj /F1 10 Tf 0 0 0 rg ( mediante el uso de ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (list) Tj /F1 10 Tf 0 0 0 rg (. \277Qu\351) Tj T* 0 Tw (diferencias encuentra con ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (search) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (yum) Tj ( ) Tj (info) Tj /F1 10 Tf 0 0 0 rg (?) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 277.0236 cm
+Q
+q
+1 0 0 1 62.69291 265.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Corrobore los paquetes que fueron instalados por fuera de los respositorios) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 265.0236 cm
+Q
+q
+1 0 0 1 62.69291 232.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Downgrade de paquetes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 190.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.204269 Tw 12 TL /F1 10 Tf 0 0 0 rg (Ante una actualizaci\363n de paquetes es posible que no obtengamos el comportamiento deseado, y sea) Tj T* 0 Tw 2.059269 Tw (necesario volver a una versi\363n previa. Esto es posible salvo para paquetes cr\355ticos como ) Tj /F3 10 Tf 0 0 0 rg (selinux) Tj /F1 10 Tf 0 0 0 rg (,) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (selinux-policy-*) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F4 10 Tf 0 0 0 rg (kernel`) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (glibc) Tj /F1 10 Tf 0 0 0 rg ( que no est\341 soportado.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 160.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.054692 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 1.6:) Tj /F1 10 Tf ( busque en el manual de yum para qu\351 es la opci\363n ) Tj /F3 10 Tf 0 0 0 rg (downgrade) Tj /F1 10 Tf 0 0 0 rg ( y comente para qu\351) Tj T* 0 Tw (casos lo utilizar\355a.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 127.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (RPM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 97.02362 cm
+q
+BT 1 0 0 1 0 14 Tm 1.778651 Tw 12 TL /F1 10 Tf 0 0 0 rg (En el ap\351ndice A del manual oficial ) Tj /F4 10 Tf (Red Hat Enterprise Linux 7 System Administrator's Guide) Tj /F1 10 Tf ( puede) Tj T* 0 Tw (encontrar instrucciones detalladas sobre el uso del administrador de paquetes ) Tj /F3 10 Tf 0 0 0 rg (rpm) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (5 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+42 0 obj
+<<
+/Length 8040
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 732.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Repositorio local) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.309213 Tw (En una infraestrura de varios equipos una alternativa interesante para acelerar las descargas de) Tj T* 0 Tw .362485 Tw (paquetes es implementar un repositorio local. De este modo, los equipos descargaran por la red LAN los) Tj T* 0 Tw (paquetes para instalaciones economizando el uso del enlace a internet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 660.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .311984 Tw (Si bien no entraremos en detalle sobre el modo de implementarlo, veremos unas pautas generales sobre) Tj T* 0 Tw (la manera de llevarlo a cabo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+Q
+q
+1 0 0 1 62.69291 630.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .761235 Tw 12 TL /F1 10 Tf 0 0 0 rg (Copiar todos los paquetes ) Tj /F3 10 Tf 0 0 0 rg (.rpm) Tj /F1 10 Tf 0 0 0 rg ( \(desde un DVD o la web oficial\) a un directorio local \(DIRLOCAL\)) Tj T* 0 Tw (que a su vez debe ser servido mediante ftp o http.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 624.0236 cm
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Crear un archivo ) Tj /F3 10 Tf 0 0 0 rg (.repo) Tj /F1 10 Tf 0 0 0 rg ( bajo ) Tj /F3 10 Tf 0 0 0 rg (/etc/yum.repos.d/) Tj /F1 10 Tf 0 0 0 rg ( con el contenido) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+Q
+q
+1 0 0 1 62.69291 530.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 48 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 6 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (localrepo) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T* .098039 .090196 .486275 rg (name) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (Unixmen Repository) Tj T* .098039 .090196 .486275 rg (baseurl) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (file://DIRLOCAL) Tj T* .098039 .090196 .486275 rg (gpgcheck) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg  T* .098039 .090196 .486275 rg (enabled) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (1) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 516.8236 cm
+Q
+q
+1 0 0 1 62.69291 516.8236 cm
+Q
+q
+1 0 0 1 62.69291 504.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Crear el repositorio usando el comando ) Tj /F3 10 Tf 0 0 0 rg (createrepo) Tj ( ) Tj (-v) Tj ( ) Tj (DIRLOCAL) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 498.8236 cm
+Q
+q
+1 0 0 1 62.69291 486.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Deshabilitar el resto de los repositorios) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 480.8236 cm
+Q
+q
+1 0 0 1 62.69291 456.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 3.483307 Tw 12 TL /F1 10 Tf 0 0 0 rg (Configurar en los clientes creando el archivo ) Tj /F3 10 Tf 0 0 0 rg (/etc/yum.repos.d/localrepo.repo) Tj /F1 10 Tf 0 0 0 rg ( con el) Tj T* 0 Tw (siguiente contenido) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 456.8236 cm
+Q
+q
+1 0 0 1 62.69291 375.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 48 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 6 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (localrepo) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T* .098039 .090196 .486275 rg (name) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (Unixmen Repository) Tj T* .098039 .090196 .486275 rg (baseurl) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://IP/DIRLOCAL) Tj T* .098039 .090196 .486275 rg (gpgcheck) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg  T* .098039 .090196 .486275 rg (enabled) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (1) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 361.6236 cm
+Q
+q
+1 0 0 1 62.69291 361.6236 cm
+Q
+q
+1 0 0 1 62.69291 349.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Restar\341 desahilitar el resto de los repositorios) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 349.6236 cm
+Q
+q
+1 0 0 1 62.69291 331.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Una gu\355a detallada sobre este proceso puede encontrarse en ) Tj 0 0 .501961 rg (https://access.redhat.com/solutions/9892) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 298.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 286.6236 cm
+Q
+q
+1 0 0 1 62.69291 286.6236 cm
+Q
+q
+1 0 0 1 62.69291 274.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://www.centos.org/docs/5/html/yum/sn-software-management-concepts.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 268.6236 cm
+Q
+q
+1 0 0 1 62.69291 256.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Red Hat Enterprise Linux 7 System Administrator's Guide) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 250.6236 cm
+Q
+q
+1 0 0 1 62.69291 238.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://access.redhat.com/solutions/29617) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 232.6236 cm
+Q
+q
+1 0 0 1 61.8928 220.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://www.if-not-true-then-false.com/2010/yum-downgrade-packages-on-fedora-centos-red-hat-rhel/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 220.6236 cm
+Q
+q
+1 0 0 1 62.69291 220.6236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (6 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+43 0 obj
+<<
+/Nums [ 0 44 0 R 1 45 0 R 2 46 0 R 3 47 0 R 4 48 0 R 
+  5 49 0 R ]
+>>
+endobj
+44 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+45 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+46 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+47 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+48 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+49 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+xref
+0 50
+0000000000 65535 f 
+0000000073 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000353 00000 n 
+0000000536 00000 n 
+0000000723 00000 n 
+0000000828 00000 n 
+0000001057 00000 n 
+0000001172 00000 n 
+0000001377 00000 n 
+0000001583 00000 n 
+0000001789 00000 n 
+0000001995 00000 n 
+0000002188 00000 n 
+0000002416 00000 n 
+0000002610 00000 n 
+0000002859 00000 n 
+0000003105 00000 n 
+0000003211 00000 n 
+0000003495 00000 n 
+0000003570 00000 n 
+0000003693 00000 n 
+0000003868 00000 n 
+0000003977 00000 n 
+0000004164 00000 n 
+0000004279 00000 n 
+0000004408 00000 n 
+0000004539 00000 n 
+0000004665 00000 n 
+0000004798 00000 n 
+0000004937 00000 n 
+0000005047 00000 n 
+0000005183 00000 n 
+0000005301 00000 n 
+0000005433 00000 n 
+0000005546 00000 n 
+0000005640 00000 n 
+0000013978 00000 n 
+0000021119 00000 n 
+0000028033 00000 n 
+0000035404 00000 n 
+0000042057 00000 n 
+0000050149 00000 n 
+0000050238 00000 n 
+0000050272 00000 n 
+0000050306 00000 n 
+0000050340 00000 n 
+0000050374 00000 n 
+0000050408 00000 n 
+trailer
+<<
+/ID 
+[<9a0034972a80de89d3f1679b11e253a8><9a0034972a80de89d3f1679b11e253a8>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 19 0 R
+/Root 18 0 R
+/Size 50
+>>
+startxref
+50442
+%%EOF
