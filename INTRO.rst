@@ -313,9 +313,9 @@ En los labs de la UTN FRSF el proxy es ``frsf.utn.edu.ar`` y el puerto ``8080``.
 Acceso a los logs con journalctl
 --------------------------------
 
-Desde que se implementó systemd, el acceso a los logs a cambiado. Ahora cada proceso, servicio o 
+Desde que se implementó systemd, el acceso a los logs ha cambiado. Ahora cada proceso, servicio o 
 el mismo kernel, generan lo que se conocen como journals (diarios), y estos pueden ser accedidos 
-de manera centralizada por medio de la herramienta journalctl. 
+de manera centralizada por medio de la herramienta ``journalctl``.
 
 Veamos algunas opciones disponibles:
 
@@ -357,7 +357,7 @@ Veamos algunas opciones disponibles:
 
 .. code:: bash
 
-    [root@localhost ~]# journalctl -f
+    [root@localhost ~]# journalctl -k
     -- Logs begin at Sat 2018-03-24 09:12:29 -03, end at Tue 2018-05-08 23:05:10 -03. --
     may 08 22:02:41 tesla kernel: Linux version 4.15.0-20-generic (buildd@lgw01-amd64-039) (gcc version 7.3.0 (Ubunt
     may 08 22:02:41 tesla kernel: Command line: BOOT_IMAGE=/@/boot/vmlinuz-4.15.0-20-generic root=UUID=c12f0bf0-e28c
