@@ -11,7 +11,7 @@ Este suele ser muy útil para corroborar accesos a diversos protocolos desde el 
 **ACTIVIDAD 1.1**
 
 - Transfiera archivos entre diferentes máquinas usando el comando ``scp origen destino``.
-- Ejecute la aplicación remota ``firefox`` y ``nautilus`` haciendo uso de ``ssh -x PCRemota comando``.
+- Ejecute la aplicación remota ``firefox`` y ``nautilus`` haciendo uso de ``ssh -X PCRemota comando``.
 
 A continuación veremos el modo de configurar en servidor de escritorios remotos mediante el protocolo VNC.
 
