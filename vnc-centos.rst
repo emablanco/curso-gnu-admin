@@ -2,39 +2,44 @@
 VNC en Centos 7
 ===============
 
+Instalación
+-----------
 Para utilizar el escritorio remoto se debe contar con algún entorno de escritorio. En nuestro caso vamos a utilizar GNOME, cuya instalación se simplifica utilizando la opción ``groupinstall`` del siguiente modo:
 
 .. code-block:: bash
 
     # yum groupinstall "GNOME Desktop"
 
+Luego instalamos el servidor de display remoto:
 
 .. code-block:: bash
 
     # yum install tigervnc-server
 
-1. A configuration file named ``/etc/systemd/system/vncserver@.service`` is required. To create this file, copy the ``/usr/lib/systemd/system/vncserver@.service`` file as root:
+Configuración
+-------------
+Vamos a crear un servicio que levante el VNC. Para hacer esto en ``systemd`` debemos crear un archivo de configuración llamado ``/etc/systemd/system/vncserver@.service``. Para realizar esta tarea nos basamos en la plantilla por defecto, como root copiamos el archivo ``/usr/lib/systemd/system/vncserver@.service`` del siguiente modo:
 
 .. code-block:: bash
 
     # cp /usr/lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@.service
 
-There is no need to include the display number in the file name because systemd automatically creates the appropriately named instance in memory on demand, replacing '%i' in the service file by the display number. For a single user it is not necessary to rename the file. For multiple users, a uniquely named service file for each user is required, for example, by adding the user name to the file name in some way.
+No es necesario incluir el número de display en el nombre del archivo ya que systemd crea automáticamente el nombre de instancia apropiado bajo demanda en memoria, reemplazando el ``%i`` del archivo de servicio por el número de display. Para un único usario no es necesario renombrarlo, para múltiples usuarios se requiere un archivo único por cada usuario requerido (usualmente agregando el nombre de usuario al nombre del archivo). 
 
-2. Edit ``/etc/systemd/system/vncserver@.service``, replacing USER with the actual user name. Leave the remaining lines of the file unmodified. The -geometry argument specifies the size of the VNC desktop to be created; by default, it is set to 1024x768.
+Editar ``/etc/systemd/system/vncserver@.service``, reemplazando ``USER`` con el nombre de usuario actual y dejando el resto del archivo sin modificar. El argumento ``-geometry`` especifica el tamañp del escritorio VNC a ser creado, por defecto es 1024x768. Esto sería:
 
 .. code-block:: bash
 
-    ExecStart=/usr/sbin/runuser -l USER -c "/usr/bin/vncserver %i - geometry 1280x1024"
+    ExecStart=/usr/sbin/runuser -l USER -c "/usr/bin/vncserver %i -geometry 1280x1024"
     PIDFile=/home/USER/.vnc/%H%i.pid
 
-3. Save the changes. 4. To make the changes take effect immediately, issue the following command:
+ Luego, guarde los cambios y recargue el demonio ejecutando el siguiente comando:
 
 .. code-block:: bash
 
     # systemctl daemon-reload
 
-5. Set the password for the user or users defined in the configuration file. Note that you need to switch from root to USER first.
+Ahora se debe setear la contraseña del usuario para el VNC del siguiente modo:
 
 .. code-block:: bash
 
@@ -43,26 +48,27 @@ There is no need to include the display number in the file name because systemd 
     Password:
     Verify:
 
-IMPORTANT: The stored password is not encrypted; anyone who has access to the password file can find the plain-text password
+**IMPORTANTE:** La constraseña no se almacena cifrada, cualquiera con acceso al archivo podrá verla en texto plano.
 
-12.1.3. Starting VNC Server
+Iniciar el servidor VNC
+'''''''''''''''''''''''
 
-To start or enable the service, specify the display number directly in the command. The file configured above in Procedure 12.1, “Configuring a VNC Display for a Single User” works as a template, in which %i is substituted with the display number by systemd. With a valid display number, execute the following command:
+Para iniciar o habilitar el servicio se debe espeficar el número de display directamente en el comando. El archivo configurado previamente funcionará como una plantilla donde ``%i`` es sustituído con el número de display por systemd. Ejecute el siguiente comando con un número de display válido:
 
 .. code-block:: bash
 
     # systemctl start vncserver@:display_number.service
 
-You can also enable the service to start automatically at system start. Then, when you log in, vncserver is automatically started. As root, issue a command as follows:
+Se debe habilitar el servicio para que se inicie automáticamente:
 
 .. code-block:: bash
 
     ~]# systemctl enable vncserver@:display_number.service
 
-At this point, other users are able to use a VNC viewer program to connect to the VNC server using the display number and password defined. Provided a graphical desktop is installed, an instance of that desktop will be displayed. It will not be the same instance as that currently displayed on the target machine.
+A partir de esto, otros usuarios podrán conectarse usando un cliente de VNC usando el número de display y su contraseña. Esto proveerá un entorno gráfico diferente al que está corriendo. 
 
 Compartir sesión activa
-=======================
+-----------------------
 
 Por defecto un usuario logueado tiene un escritorio provisto por el servidor X en el display 0. Para compartir una sesión gráfica en ejecución el usuario debe ejecutar el programa ``x0vncserver`` del siguiente modo.
 
@@ -91,7 +97,8 @@ Para hacer lo mismo como una unidad usando systemd, nos quedaría:
     [Service]
     Type=forking
     User=foo
-    ExecStart=/usr/bin/sh -c '/usr/bin/x0vncserver -display :0 -rfbport 5900 -passwordfile /home/usuario/.vnc/passwd &'
+    ExecStart=/usr/bin/sh -c '/usr/bin/x0vncserver -display:0 
+        -rfbport 5900 -passwordfile /home/usuario/.vnc/passwd &'
 
     [Install]
     WantedBy=multi-user.target
@@ -121,16 +128,16 @@ Cuando cierre la sesión **VNC**, también se debe cerrar el **túnel** saliendo
 
 
 Bug de la versión 1.8.0-2
-=========================
+-------------------------
 
 No muestra el menú al iniciar un escritorio remoto.
 
 En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descripto en
-``https://bugzilla.redhat.com/show_bug.cgi?id=1506273 ``.
+``https://bugzilla.redhat.com/show_bug.cgi?id=1506273``.
 
 
 
 Bibliografía
-============
+------------
 
 Red Hat Enterprise Linux 7 System Administrator's Guide
