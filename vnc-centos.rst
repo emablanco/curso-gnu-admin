@@ -15,8 +15,6 @@ Este suele ser muy útil para corroborar accesos a diversos protocolos desde el 
 
 A continuación veremos el modo de configurar en servidor de escritorios remotos mediante el protocolo VNC.
 
-**Estaría bueno ver este otro: https://www.howtoforge.com/how-to-install-x2goserver-on-centos-7-as-an-alternative-for-vnc** pero parece que no funca con GNOME
-
 Instalación
 -----------
 Para utilizar el escritorio remoto se debe contar con algún entorno de escritorio. En nuestro caso vamos a utilizar GNOME, cuya instalación se simplifica utilizando la opción ``groupinstall`` del siguiente modo:
@@ -68,22 +66,83 @@ Ahora se debe setear la contraseña del usuario para el VNC del siguiente modo:
 Iniciar el servidor VNC
 '''''''''''''''''''''''
 
-Para iniciar o habilitar el servicio se debe espeficar el número de display directamente en el comando. El archivo configurado previamente funcionará como una plantilla donde ``%i`` es sustituído con el número de display por systemd. Ejecute el siguiente comando con un número de display válido:
+Para iniciar o habilitar el servicio se debe espeficar el número de display directamente en el comando. El archivo configurado previamente funcionará como una plantilla donde ``%i`` es sustituído con el número de display por systemd. Ejecute el siguiente comando con un número de display válido, por ejemplo 1:
 
 .. code-block:: bash
 
-    # systemctl start vncserver@:display_number.service
+    # systemctl start vncserver@:1.service
 
 Se debe habilitar el servicio para que se inicie automáticamente:
 
 .. code-block:: bash
 
-    ~]# systemctl enable vncserver@:display_number.service
+    ~]# systemctl enable vncserver@:1.service
 
 A partir de esto, otros usuarios podrán conectarse usando un cliente de VNC usando el número de display y su contraseña. Esto proveerá un entorno gráfico diferente al que está corriendo. 
 
 Compartir sesión activa
 -----------------------
+
+Existen varias implementaciones del servidor VNC. Tigervnc-server permite compoartir la sesión activa, aunque actualmente hay un bug conocido que no muestra correctamente el menú del escritorio.
+
+Una opción que simplifica y evita este error es el uso del servidor VNC ``x11vnc``, a continuación se describe la configuración con cada uno.
+
+x11vnc
+''''''
+Instalar el servidor:
+
+.. code-block:: bash
+
+    ~]# yum install x11vnc
+
+En el entorno de escritorio se encontrará la aplicación para configurarlo. También se puede ejecutar desde la consola haciendo:
+
+.. code-block:: bash
+
+    x11vnc -xkb -passwdfile passwd.txt -nossl -logfile ~/.x11vnc
+
+donde ``passwdfile`` es un archivo de texto plano con la contraseña.
+
+Para asistencia remota suele ser útil que el usuario sea quien habilite el acceso remoto con su permiso, para esto se puede generar un script que genere una contraseña aleatoria para ser brindada al administrador. A continuación un script que realiza esta tarea:
+
+.. code-block:: bash
+
+    #!/bin/bash
+    killall -9 x11vnc
+
+    mkdir -p ${HOME}/.vnc/
+
+    PWD=$(shuf -i 1-10000 -n 1)
+    echo $PWD > $HOME/.vnc/passwd
+
+    #x11vnc -display :7 -xkb -passwdfile /home/${USER}/.vnc/passwd -nossl -logfile ~/.x11vnc &
+    x11vnc -xkb -passwdfile /home/${USER}/.vnc/passwd -nossl -logfile ~/.x11vnc &
+    zenity --title="Asistencia remota" --info \
+    --text="<span font-family='Ubuntu' font='12'>La asistencia remota permite que el personal de soporte técnico se conecte a su equipo.
+
+    Datos de conexión:
+
+    <i>Equipo: <b>${HOSTNAME}</b>
+    Contraseña: <b>${PWD}</b></i>
+
+    Para finalizar la asistencia presione el boton \"Desconectar\".</span>" --ok-label="Desconectar" --no-wrap
+
+    killall -9 x11vnc
+
+    rm -f $HOME/.vnc/passwd
+    Datos de conexión:
+
+    <i>Equipo: <b>${HOSTNAME}</b>
+    Contraseña: <b>${PWD}</b></i>
+
+    Para finalizar la asistencia presione el boton \"Desconectar\".</span>" --ok-label="Desconectar" --no-wrap
+
+    killall -9 x11vnc
+
+    rm -f $HOME/.vnc/passwd
+
+tigervnc-server
+'''''''''''''''
 
 Por defecto un usuario logueado tiene un escritorio provisto por el servidor X en el display 0. Para compartir una sesión gráfica en ejecución el usuario debe ejecutar el programa ``x0vncserver`` del siguiente modo.
 
@@ -118,6 +177,13 @@ Para hacer lo mismo como una unidad usando systemd, nos quedaría:
     [Install]
     WantedBy=multi-user.target
 
+**Bug de la versión 1.8.0-2**
+
+No muestra el menú al iniciar un escritorio remoto.
+
+En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descripto en
+``https://bugzilla.redhat.com/show_bug.cgi?id=1506273``.
+
 VNC sobre SSH
 -------------
 
@@ -142,13 +208,7 @@ conectará el cliente **VNC** a la pantalla remota aún cuando indique el nombre
 Cuando cierre la sesión **VNC**, también se debe cerrar el **túnel** saliendo de la sesión **SSH** correspondiente.
 
 
-Bug de la versión 1.8.0-2
--------------------------
 
-No muestra el menú al iniciar un escritorio remoto.
-
-En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descripto en
-``https://bugzilla.redhat.com/show_bug.cgi?id=1506273``.
 
 
 
