@@ -15,6 +15,8 @@ Este suele ser muy útil para corroborar accesos a diversos protocolos desde el 
 
 A continuación veremos el modo de configurar en servidor de escritorios remotos mediante el protocolo VNC.
 
+**Estaría bueno ver este otro: https://www.howtoforge.com/how-to-install-x2goserver-on-centos-7-as-an-alternative-for-vnc** pero parece que no funca con GNOME
+
 Instalación
 -----------
 Para utilizar el escritorio remoto se debe contar con algún entorno de escritorio. En nuestro caso vamos a utilizar GNOME, cuya instalación se simplifica utilizando la opción ``groupinstall`` del siguiente modo:
