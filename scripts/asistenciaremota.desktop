@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[es]=
+Comment=
+Exec=/usr/local/bin/asistencia-remota.sh
+GenericName[es]=Solicitar asistencia remota
+GenericName=Solicitar asistencia remota
+Icon=meeting-participant-optional
+MimeType=
+Name[es]=Asistencia Remota
+Name=Asistencia Remota
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
