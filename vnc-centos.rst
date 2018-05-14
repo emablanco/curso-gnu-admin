@@ -25,6 +25,13 @@ Para utilizar el escritorio remoto se debe contar con algún entorno de escritor
 
     # yum groupinstall "GNOME Desktop"
 
+
+y habilitamos el target grafico para que el host por defecto levante el entorno gráfico por defecto
+
+.. code:: bash
+
+   ·# systemctl set-default graphical.target
+
 Luego instalamos el servidor de display remoto:
 
 .. code-block:: bash
