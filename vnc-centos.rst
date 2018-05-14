@@ -2,6 +2,19 @@
 VNC en Centos 7
 ===============
 
+Antes de comenzar con un servidor de escritorio remoto vamos a ejecutar aplicaciones gráficas a través de ``ssh``. 
+
+``sshd`` (OpenSSH Daemon) provee comunicación cifrada entre dos host sobre una red insegura. Su uso es principalmente para sesiones de terminales remotas, aunque no está limitado a ello. También permite la transferencia de archivos y la ejecución de aplicaciones gráficas remotas. 
+
+Este suele ser muy útil para corroborar accesos a diversos protocolos desde el sistema local, ejecutándo las aplicaciones en forma remota.
+
+**ACTIVIDAD 1.1**
+
+- Transfiera archivos entre diferentes máquinas usando el comando ``scp origen destino``.
+- Ejecute la aplicación remota ``firefox`` y ``nautilus`` haciendo uso de ``ssh -x PCRemota comando``.
+
+A continuación veremos el modo de configurar en servidor de escritorios remotos mediante el protocolo VNC.
+
 Instalación
 -----------
 Para utilizar el escritorio remoto se debe contar con algún entorno de escritorio. En nuestro caso vamos a utilizar GNOME, cuya instalación se simplifica utilizando la opción ``groupinstall`` del siguiente modo:
