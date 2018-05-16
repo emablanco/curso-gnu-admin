@@ -28,7 +28,7 @@ y habilitamos el target grafico para que el host por defecto levante el entorno 
 
 .. code:: bash
 
-   ·# systemctl set-default graphical.target
+    # systemctl set-default graphical.target
 
 Luego instalamos el servidor de display remoto:
 
