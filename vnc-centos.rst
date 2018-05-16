@@ -41,8 +41,9 @@ Configuración
 Vamos a crear un servicio que levante el VNC. Para hacer esto en ``systemd`` debemos crear un archivo de configuración llamado ``/etc/systemd/system/vncserver@.service``. Para realizar esta tarea nos basamos en la plantilla por defecto, como root copiamos el archivo ``/usr/lib/systemd/system/vncserver@.service`` del siguiente modo:
 
 .. code-block:: bash
-
-    # cp /usr/lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@.service
+    
+    # cd /etc/systemd/system/vncserver@.service
+    # cp /usr/lib/systemd/system/vncserver@.service .
 
 No es necesario incluir el número de display en el nombre del archivo ya que systemd crea automáticamente el nombre de instancia apropiado bajo demanda en memoria, reemplazando el ``%i`` del archivo de servicio por el número de display. Para un único usario no es necesario renombrarlo, para múltiples usuarios se requiere un archivo único por cada usuario requerido (usualmente agregando el nombre de usuario al nombre del archivo). 
 
@@ -50,10 +51,11 @@ Editar ``/etc/systemd/system/vncserver@.service``, reemplazando ``USER`` con el 
 
 .. code-block:: bash
 
-    ExecStart=/usr/sbin/runuser -l USER -c "/usr/bin/vncserver %i -geometry 1280x1024"
+    ExecStart=/usr/sbin/runuser -l USER -c "/usr/bin/vncserver %i 
+    -geometry 1280x1024"
     PIDFile=/home/USER/.vnc/%H%i.pid
 
- Luego, guarde los cambios y recargue el demonio ejecutando el siguiente comando:
+Luego, guarde los cambios y recargue el demonio ejecutando el siguiente comando:
 
 .. code-block:: bash
 
@@ -100,7 +102,7 @@ Instalar el servidor:
 
 .. code-block:: bash
 
-    ~]# yum install x11vnc
+    # yum install x11vnc
 
 En el entorno de escritorio se encontrará la aplicación para configurarlo. También se puede ejecutar desde la consola haciendo:
 
@@ -122,17 +124,20 @@ Para asistencia remota suele ser útil que el usuario sea quien habilite el acce
     PWD=$(shuf -i 1-10000 -n 1)
     echo $PWD > $HOME/.vnc/passwd
 
-    #x11vnc -display :7 -xkb -passwdfile /home/${USER}/.vnc/passwd -nossl -logfile ~/.x11vnc &
+    #x11vnc -display :7 -xkb -passwdfile /home/${USER}/.vnc/passwd 
+    # -nossl -logfile ~/.x11vnc &
     x11vnc -xkb -passwdfile /home/${USER}/.vnc/passwd -nossl -logfile ~/.x11vnc &
     zenity --title="Asistencia remota" --info \
-    --text="<span font-family='Ubuntu' font='12'>La asistencia remota permite que el personal de soporte técnico se conecte a su equipo.
+    --text="<span font-family='Ubuntu' font='12'>La asistencia remota
+    permite que el personal de soporte técnico se conecte a su equipo.
 
     Datos de conexión:
 
     <i>Equipo: <b>${HOSTNAME}</b>
     Contraseña: <b>${PWD}</b></i>
 
-    Para finalizar la asistencia presione el boton \"Desconectar\".</span>" --ok-label="Desconectar" --no-wrap
+    Para finalizar presione \"Desconectar\".</span>" \
+    --ok-label="Desconectar" --no-wrap
 
     killall -9 x11vnc
 
@@ -142,7 +147,8 @@ Para asistencia remota suele ser útil que el usuario sea quien habilite el acce
     <i>Equipo: <b>${HOSTNAME}</b>
     Contraseña: <b>${PWD}</b></i>
 
-    Para finalizar la asistencia presione el boton \"Desconectar\".</span>" --ok-label="Desconectar" --no-wrap
+    Para finalizar presione \"Desconectar\".</span>" \
+    --ok-label="Desconectar" --no-wrap
 
     killall -9 x11vnc
 
@@ -163,9 +169,7 @@ Al invocar el comando como se indica previamente, la resolución será la misma 
 
     x0vncserver -PasswordFile=.vnc/passwd -AlwaysShared=1 -Geometry=640x480+0+0
 
-Tenga en cuenta que debe estar permitido el puerto 5900. El puerto por defecto es el 5900, sin embargo, cada display asignado debe sumarse para conocer el puerto que se utilizará. Por ejemplo, si el display que se sirve es el segundo: 2 + 5900 = 5902.
-
-Para hacer lo mismo como una unidad usando systemd, nos quedaría:
+Tenga en cuenta que debe estar permitido el puerto 5900. El puerto por defecto es el 5900, sin embargo, cada display asignado debe sumarse para conocer el puerto que se utilizará. Por ejemplo, si el display que se sirve es el segundo: 2 + 5900 = 5902. Para hacer lo mismo como una unidad usando systemd, nos quedaría:
 
 ``$ cat /etc/systemd/system/x0vncserver.service``
 
@@ -186,37 +190,26 @@ Para hacer lo mismo como una unidad usando systemd, nos quedaría:
 
 **Bug de la versión 1.8.0-2**
 
-No muestra el menú al iniciar un escritorio remoto.
+No muestra el menú al iniciar un escritorio remoto. En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descrito aqui_. 
 
-En el repo oficial se encuentra la versión 1.8.0-2 que presenta un bug conocido descripto en
-``https://bugzilla.redhat.com/show_bug.cgi?id=1506273``.
+.. _aqui: https://bugzilla.redhat.com/show_bug.cgi?id=1506273
 
 VNC sobre SSH
 -------------
 
-Si se desea conectar con **VNC** y que no se envíen los datos en texto plano a través de la red, es posible encapsular los datos en un **túnel SSH**. Sólo hace falta saber que, de forma predeterminada, **VNC** utiliza el puerto *5900* para la primera pantalla (llamada "*localhost:0*"), *5901* para la segunda (llamada "*localhost:1*"), y así sucesivamente.
-
-La orden:
+Si se desea conectar con **VNC** y que no se envíen los datos en texto plano a través de la red, es posible encapsular los datos en un **túnel SSH**. Sólo hace falta saber que, de forma predeterminada, **VNC** utiliza el puerto *5900* para la primera pantalla (llamada "*localhost:0*"), *5901* para la segunda (llamada "*localhost:1*"), y así sucesivamente. La orden:
 
 .. code-block:: bash
 
 	ssh -L localhost:5901:localhost:5900 -N -T equipo
 
-crea un **túnel** entre el puerto *local 5901* en la interfaz de "*localhost*" y el puerto *5900* de *equipo* . La primera ocurrencia de "*localhost*" restringe a **SSH** para que sólo escuche en dicha interfaz en la máquina *local*. El segundo "*localhost*" indica que la interfaz en la máquina remota que recibirá el tráfico de red que ingrese en "*localhost:5901*".
-
-Por lo tanto:
+crea un **túnel** entre el puerto *local 5901* en la interfaz de "*localhost*" y el puerto *5900* de *equipo* . La primera ocurrencia de "*localhost*" restringe a **SSH** para que sólo escuche en dicha interfaz en la máquina *local*. El segundo "*localhost*" indica que la interfaz en la máquina remota que recibirá el tráfico de red que ingrese en "*localhost:5901*". Por lo tanto:
 
 .. code-block:: bash
 
 	vncviewer localhost:1
 
-conectará el cliente **VNC** a la pantalla remota aún cuando indique el nombre de la máquina local.
-
-Cuando cierre la sesión **VNC**, también se debe cerrar el **túnel** saliendo de la sesión **SSH** correspondiente.
-
-
-
-
+conectará el cliente **VNC** a la pantalla remota aún cuando indique el nombre de la máquina local. Cuando cierre la sesión **VNC**, también se debe cerrar el **túnel** saliendo de la sesión **SSH** correspondiente.
 
 
 Bibliografía
