@@ -89,7 +89,7 @@ endobj
 endobj
 14 0 obj
 <<
-/Author () /CreationDate (D:20180516124952+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180516124952+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180516132025+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180516132025+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (VNC en Centos 7) /Trapped /False
 >>
 endobj
@@ -147,7 +147,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 6051
+/Length 6033
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -359,7 +359,7 @@ n -6 -6 468.6898 48 re B*
 Q
 q
 .25098 .501961 .501961 rg
-BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (# cd /etc/systemd/system/vncserver@.service) Tj T* (# cp /usr/lib/systemd/system/vncserver@.service .) Tj T*  T* ET
+BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (# cd /etc/systemd/system/) Tj T* (# cp /usr/lib/systemd/system/vncserver@.service .) Tj T*  T* ET
 Q
 Q
 Q
@@ -1162,18 +1162,18 @@ xref
 0000003241 00000 n 
 0000003358 00000 n 
 0000003437 00000 n 
-0000009540 00000 n 
-0000015371 00000 n 
-0000024974 00000 n 
-0000032977 00000 n 
-0000033045 00000 n 
-0000033079 00000 n 
-0000033113 00000 n 
-0000033147 00000 n 
+0000009522 00000 n 
+0000015353 00000 n 
+0000024956 00000 n 
+0000032959 00000 n 
+0000033027 00000 n 
+0000033061 00000 n 
+0000033095 00000 n 
+0000033129 00000 n 
 trailer
 <<
 /ID 
-[<a0bfb25c616d5d051ad843427d168dca><a0bfb25c616d5d051ad843427d168dca>]
+[<c695304ed9dece5f4629f81168bb9eb8><c695304ed9dece5f4629f81168bb9eb8>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 14 0 R
@@ -1181,5 +1181,5 @@ trailer
 /Size 34
 >>
 startxref
-33181
+33163
 %%EOF
