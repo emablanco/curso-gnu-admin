@@ -42,7 +42,7 @@ Vamos a crear un servicio que levante el VNC. Para hacer esto en ``systemd`` deb
 
 .. code-block:: bash
     
-    # cd /etc/systemd/system/vncserver@.service
+    # cd /etc/systemd/system/
     # cp /usr/lib/systemd/system/vncserver@.service .
 
 No es necesario incluir el número de display en el nombre del archivo ya que systemd crea automáticamente el nombre de instancia apropiado bajo demanda en memoria, reemplazando el ``%i`` del archivo de servicio por el número de display. Para un único usario no es necesario renombrarlo, para múltiples usuarios se requiere un archivo único por cada usuario requerido (usualmente agregando el nombre de usuario al nombre del archivo). 
