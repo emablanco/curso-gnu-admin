@@ -85,7 +85,7 @@ Se debe habilitar el servicio para que se inicie automáticamente:
 
     ~]# systemctl enable vncserver@:1.service
 
-A partir de esto, otros usuarios podrán conectarse usando un cliente de VNC usando el número de display y su contraseña. Esto proveerá un entorno gráfico diferente al que está corriendo. 
+A partir de esto, otros usuarios podrán conectarse usando un cliente de VNC (por ejemplo ``vinagre``) usando el número de display y su contraseña. Esto proveerá un entorno gráfico diferente al que está corriendo. 
 
 Compartir sesión activa
 -----------------------
