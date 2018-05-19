@@ -1,17 +1,20 @@
 OpenVPN
 =======
 
-There are three major families of VPN implementations in wide usage today: SSL, IPSec, and PPTP. OpenVPN is an SSL VPN and as such is not compatible with IPSec, L2TP, or PPTP.
+Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSex y PPTP. OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.
 
 The IPSec protocol is designed to be implemented as a modification to the IP stack in kernel space, and therefore each operating system requires its own independent implementation of IPSec.
 
-By contrast, OpenVPN's user-space implementation allows portability across operating systems and processor architectures, firewall and NAT-friendly operation, dynamic address support, and multiple protocol support including protocol bridging.
+El protocolo IPSec está diseñado para ser implementado como una modificación del stack IP en el espacio del kernel y por esta razón, cada sistema operativo requiere su propia implementación de IPSec.
 
-There are advantages and disadvantages to both approaches. The principal advantages of OpenVPN's approach are portability, ease of configuration, and compatibility with NAT and dynamic addresses. The learning curve for installing and using OpenVPN is on par with that of other security-related daemon software such as ssh.
+Por contraste, la implementación del OpenVPN en el espacio de usuario permite portabilidad a través de los sistemas operativos, arquitecturas de procesadores, amigable para operaciones de firewalls, soporta direcciones dinámicas y múltiples protocolos.
 
-Historically, one of IPSec's advantages has been multi-vendor support, though that is beginning to change as OpenVPN support is beginning to appear on dedicated hardware devices.
+Existen ventajas y desventajas en ambos enfoques. La principal ventaja de OpenVPN es la portabilidad,  facilidad de configuración y compatibilidad con NAT y direcciones dinámicas. La curva de aprendizaje para instalarlo y usarlo está a la par de otro cualquier otro demonio relacionado a la seguridad como por ejemplo ssh.
 
-While the PPTP protocol has the advantage of a pre-installed client base on Windows platforms, analysis by cryptography experts has revealed ​security vulnerabilities. 
+Historicamente, un de las ventajas de IPSec es que ha contado con soporte para diferentes equipos de hardware, pero esto está comenzando a cambiar ya que OpenVPN también viene con soporte para dispositivos de hardware dedicados.
+
+Mientras que el protocolo PPTP tiene la ventaja de contar con el cliente pre-instalado en las plataformas Windows, análisis de expertos en criptografía han revelado vulnerabilidades de seguridad.
+
 
 Instalación
 -----------
@@ -55,9 +58,9 @@ Estructura de directorios del PKI
     - private/ - claves privadas generadas para el host
     - reqs/ - dir with locally generated certificate requests (for a CA imported requests are stored here)
 
-In a clean PKI no files will exist until, just the bare directories. Commands called later will create the necessary files depending on the operation.
+En una PKI limpia no existirá ningún archivo, solamente la estructura de directorios. Luego de llamar a los comandos se irán creando los archivos necesarios, dependiendo de la operación.
 
-When building a CA, a number of new files are created by a combination of Easy-RSA and (indirectly) openssl. The important CA files are:
+Cuando se cree una CA, una serie de archivos nuevos serán creados por una combinación de Easy-RSA e indirectamente openssl. Los **archivos importantes** del CA son:
 
     - ca.crt - This is the CA (Certificate Authority) certificate
     - index.txt - This is the "master database" of all issued certs
@@ -66,20 +69,20 @@ When building a CA, a number of new files are created by a combination of Easy-R
     - certs_by_serial/ - dir with all CA-signed certs by serial number
     - issued/ - dir with issued certs by commonName
 
-Once you have created a PKI, the next useful step will be to either create a CA, or generate keypairs for a system that needs them. Continue with the relevant section below.
+Una vez creado el PKI, el próximo paso será crear una CA.
 
 Creando la CA
 ''''''''''''''
 
-In order to sign requests to produce certificates, you need a CA. To create a new CA in a PKI you have created, run:
+Para firmar solicitudes y producir los certificados, se necesita una CA. Para crearla en el PKI que se ha creado anteriormente, ejecutar: 
 
 .. code-block:: bash
 
     ./easyrsa build-ca
 
-Be sure to use a strong passphrase to protect the CA private key. Note that you must supply this passphrase in the future when performing signing operations with your CA, so be sure to remember it.
+Asegúrese de usar una passphrase segura para proteger la clave privada del CA. Note que debe suministrar esta passphrase en el futuro cuando proceda a firmar certificados con su CA. 
 
-During the creation process, you will also select a name for the CA called the Common Name (CN.) This name is purely for display purposes and can be set as you like.
+Durante el proceso de creación, además deberá seleccionar el nombre del CA, denominado Common Name (CN). Este nombre es puramente para visualización. 
 
 Una vez creada la CA debemos generar el certificado del servidor y de los clientes para ser firmados con la CA. 
 
@@ -153,17 +156,17 @@ Para ver los protocolos de cifrado soportados podemos ejecutar ``openvpn --show-
 Configuración del cliente
 -------------------------
 
-Debemos tener instalado el paquete openvpn y para su configuración nos basamos en el archivo de configuración de ejemplo:
+Debemos tener instalado el paquete openvpn y para su configuración nos basamos en el archivo de configuración de ejemplo para clientes:
 
 .. code-block:: bash
     
     cp /usr/share/doc/openvpn-VERSION/sample/sample-config-files/client.conf /etc/openvpn/cliente1-openvpn-epe.conf
 
-Ahí configuramos la ip o nombre del servidor, los certificados, claves, etc. 
+Ahí configuramos la IP o nombre del servidor, los certificados, claves, etc. 
 
 Debemos transferir desde el servidor los 4 archivos necesarios: ca.crt y ta.key son los mismos del servidor, mientras que cliente1-openvpn-epe.crt y cliente1-openvpn-epe.key son exclusivos del cliente.
 
-Next we need to run and enable OpenVPN on startup.
+Ahora, es necesario arrancar y habilitar OpenVPN en el inicio.
 
 .. code-block:: bash
     
