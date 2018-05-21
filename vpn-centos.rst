@@ -160,6 +160,7 @@ Para ver los protocolos de cifrado soportados podemos ejecutar ``openvpn --show-
 Parámetros de configuración
 '''''''''''''''''''''''''''
 
+acá habría que agregar algunos parámetros usuales, como así también la configuración particular por cliente usando el ccd
 
 
 Configuración del cliente
