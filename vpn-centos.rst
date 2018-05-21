@@ -3,8 +3,6 @@ OpenVPN
 
 Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSex y PPTP. OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.
 
-The IPSec protocol is designed to be implemented as a modification to the IP stack in kernel space, and therefore each operating system requires its own independent implementation of IPSec.
-
 El protocolo IPSec está diseñado para ser implementado como una modificación del stack IP en el espacio del kernel y por esta razón, cada sistema operativo requiere su propia implementación de IPSec.
 
 Por contraste, la implementación del OpenVPN en el espacio de usuario permite portabilidad a través de los sistemas operativos, arquitecturas de procesadores, amigable para operaciones de firewalls, soporta direcciones dinámicas y múltiples protocolos.
@@ -15,6 +13,12 @@ Historicamente, un de las ventajas de IPSec es que ha contado con soporte para d
 
 Mientras que el protocolo PPTP tiene la ventaja de contar con el cliente pre-instalado en las plataformas Windows, análisis de expertos en criptografía han revelado vulnerabilidades de seguridad.
 
+A TUN device can be used like a virtual point-to-point interface, like a modem or DSL link. This
+is called routed mode, because routes are set up to the VPN partner.
+
+A TAP device, however, can be used like a virtual Ethernet adapter. This enables the daemon
+listening on the interface to capture Ethernet frames, which is not possible with TUN devices. This
+mode is called bridging mode because the networks are connected as if over a hardware bridge
 
 Instalación
 -----------
@@ -153,6 +157,11 @@ Copiamos el archivo de configuración de ejemplo:
 
 Para ver los protocolos de cifrado soportados podemos ejecutar ``openvpn --show-ciphers``.
 
+Parámetros de configuración
+'''''''''''''''''''''''''''
+
+
+
 Configuración del cliente
 -------------------------
 
@@ -188,4 +197,5 @@ Referencias
 * https://github.com/OpenVPN/easy-rsa
 * https://community.openvpn.net/openvpn/wiki/FAQ
 * https://www.redeszone.net/redes/openvpn/
-
+* Feilner, M. (2006). OpenVPN Building and Integrating Virtual Private Networks Learn.
+* Keijser, J. J. (2011). OpenVPN 2 Cookbook. Import-01.
