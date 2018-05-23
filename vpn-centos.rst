@@ -107,26 +107,34 @@ Una vez generado debemos firmarlo:
 
 Nos solicitará la passphrase para continuar con la firma y una serie de confirmaciones 
 y ya hemos creado el .crt que utilizaremos posteriormente en la configuración de OpenVPN.
-
-
-
-Certificados de clientes
-''''''''''''''''''''''''
-Genero y firmo:
-
-.. code-block:: bash
-
-    ./easyrsa gen-req cliente1-openvpn-epe nopass
-    ./easyrsa sign-req client cliente1-openvpn-epe
     
 Parámetros Diffie-Hellmann y la clave tls-auth
 ''''''''''''''''''''''''''''''''''''''''''''''
+
+Estos parámetros son utilizados para el intercambio de claves. 
+
 
 .. code-block:: bash
 
     ./easyrsa gen-dh
     openvpn --genkey --secret ta.key
     
+
+Certificados de clientes
+''''''''''''''''''''''''
+Generamos los certificados y luego los firmamos:
+
+.. code-block:: bash
+
+    ./easyrsa gen-req cliente1-epe nopass
+    ./easyrsa sign-req client cliente1-epe
+
+Esto nos almacenará los archivos en las siguientes rutas:
+
+.. code-block:: bash
+
+    /etc/openvpn/pki/issued/cliente1-epe.crt
+    /etc/openvpn/pki/private/cliente1-epe.key
 
 Organizar los .crt y .key del servidor y clientes
 '''''''''''''''''''''''''''''''''''''''''''''''''
@@ -137,16 +145,18 @@ Para el servidor:
 
 - ca.crt
 - dh.pem
-- servidor-openvpn-epe.crt
-- servidor-openvpn-epe.key
+- servidor-epe.crt
+- servidor-epe.key
 - ta.key
 
 Para el cliente1:
 
 - ca.crt
-- cliente1-openvpn-epe.crt
-- cliente1-openvpn-epe.key
+- cliente1-epe.crt
+- cliente1-epe.key
 - ta.key
+- cliente1-epe.conf
+
 
 Configuración del servidor
 --------------------------
@@ -155,7 +165,8 @@ Copiamos el archivo de configuración de ejemplo:
 
 .. code-block:: bash
     
-    cp /usr/share/doc/openvpn-VERSION/sample/sample-config-files/server.conf /etc/openvpn
+    cp /usr/share/doc/openvpn-VERSION/sample/sample-config-files/server.conf 
+    /etc/openvpn
 
 Para ver los protocolos de cifrado soportados podemos ejecutar ``openvpn --show-ciphers``.
 
@@ -166,18 +177,23 @@ Ver la explicación del archivo de configuración de ejemplo. A continuación ot
 
 .. code-block:: bash
 
+    # puerto, protocolo y tipo de interfaz
     port 1194
     proto udp
     dev tun
-    ca /etc/ssl/certs/ca.crt
-    cert /etc/ssl/certs/vpn.mambo-tango.org.ar.crt
-    key /etc/ssl/private/vpn.mambo-tango.org.ar.key
-    dh /etc/ssl/certs/dh2048.pem
+    # certificado del CA, del server y su clave privada
+    ca server/ca.crt
+    cert server/server-epe.crt
+    key server/server-epe.key 
+    # para intercambio de claves
+    dh server/dh.pem
+    # red de los clientes
     server 10.8.0.0 255.255.255.0
     ifconfig-pool-persist ipp.txt
-    push "route 192.168.10.0 255.255.255.0"
-    push "dhcp-option DNS 192.168.10.2"
-    push "dhcp-option DNS 192.168.10.3"
+    # rutas enviadas a clientes
+    ;push "route 192.168.10.0 255.255.255.0"
+    ;push "dhcp-option DNS 192.168.10.2"
+    ;push "dhcp-option DNS 192.168.10.3"
     keepalive 10 120
     comp-lzo
     persist-key
@@ -185,14 +201,6 @@ Ver la explicación del archivo de configuración de ejemplo. A continuación ot
     status openvpn-status.log
     verb 3
 
-Los primeros 3 parámetros sirven para especificar el puerto donde escuchará
-el servidor de VPNs, bajo que protocolo y el tipo de
-interfaz a utilizar.
-
-Los siguiente 4 definen todo lo relacionado con los certificados
-X509. En particular definimos cual es el certificado de la CA en la que vamos
-a confiar (en este caso, nuestra propia CA), cual es el certificado que
-identifica a nuestro servidor, y su clave privada.
 
 La opción server especifica la red a la que pertenecerán los clientes de VPN,
 es decir, a cada uno de los clientes que se conecten, se les dará una IP fija
@@ -214,7 +222,7 @@ irán comprimidos con el algoritmo lza y algunas opciones de log.
 Iniciar el servidor
 -------------------
 
-Deshabilitar firewalld y SELinux:
+**Deshabilitar firewalld y SELinux**:
 
 .. code-block:: bash
 
@@ -223,7 +231,21 @@ Deshabilitar firewalld y SELinux:
 
 Editar ``/etc/sysconfig/selinux`` y cambiar SELINUX a ``SELINUX=disabled`` y reinciar el **servidor**.
 
-Luego, ``systemctl start openvpn@server.service``
+Luego, ``systemctl start openvpn@server.service``, para hacer el servicio permanente después del booteo use ``enable`` en lugar de start.
+
+Si todo fue correctamente debería ver una nueva interfaz ``tun`` con la siguiente información:
+
+.. code-block:: bash
+
+    # ip a
+    6: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast
+     state UNKNOWN group default qlen 100
+        link/none 
+        inet 10.8.0.1/24 brd 10.8.0.255 scope global tun0
+        valid_lft forever preferred_lft forever
+        inet6 fe80::f19b:2f6c:3f33:c921/64 scope link flags 800 
+        valid_lft forever preferred_lft forever
+
 
 Configuración del cliente
 -------------------------
@@ -232,18 +254,33 @@ Debemos tener instalado el paquete openvpn y para su configuración nos basamos 
 
 .. code-block:: bash
     
-    cp /usr/share/doc/openvpn-VERSION/sample/sample-config-files/client.conf /etc/openvpn/cliente1-openvpn-epe.conf
+    cp /usr/share/doc/openvpn-VERSION/sample/sample-config-files/client.conf 
+    /etc/openvpn/cliente1-epe.conf
 
 Ahí configuramos la IP o nombre del servidor, los certificados, claves, etc. 
 
-Debemos transferir desde el servidor los 4 archivos necesarios: ca.crt y ta.key son los mismos del servidor, mientras que cliente1-openvpn-epe.crt y cliente1-openvpn-epe.key son exclusivos del cliente.
+Debemos transferir desde el servidor los 4 archivos necesarios: ``ca.crt`` y ``ta.key`` son los mismos del servidor, mientras que ``cliente1-epe.crt``, ``cliente1-epe.key`` y ``cliente1-epe.conf`` son exclusivos del cliente.
 
-Ahora, es necesario arrancar y habilitar OpenVPN en el inicio.
+Ahora, es necesario arrancar (y habilitar) OpenVPN en el inicio.
 
 .. code-block:: bash
-    
-    #systemctl start openvpn-client@cliente1-openvpn-epe
+
+    #systemctl start openvpn-client@cliente1-epe
     #systemctl -f enable openvpn@server.service
+
+Se debe tener en cuenta en el primer comando que luego de la ``@``, es decir, ``cliente1-epe``,  se corresponde con el nombre del archivo de configuración, es decir ``cliente1-epe.conf`` por lo que **deben coincidir**.
+
+Una vez levantado el servicio entonces deberia ver la interfaz tun creada con la ip correspondiente:
+
+.. code-block:: bash
+
+    5: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast 
+    state UNKNOWN group default qlen 100 link/none 
+        inet 10.8.0.2/24 brd 10.8.0.255 scope global tun0
+        valid_lft forever preferred_lft forever
+        inet6 fe80::f154:fca4:b33d:e8dc/64 scope link stable-privacy 
+        valid_lft forever preferred_lft forever
+
     
 Si sale el error debido a la imposibilidad de escribir en el openvpn-status.log se debe ejecutar:
 
@@ -255,7 +292,7 @@ Si sale el error debido a la imposibilidad de escribir en el openvpn-status.log 
 Revocar certificados
 --------------------
 
-googlear
+**ACTIVIDAD para aprobar:** investigar cómo se debe revocar el certificado de un determinado cliente
 
 Referencias
 -----------
