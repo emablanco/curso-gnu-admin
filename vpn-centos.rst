@@ -108,6 +108,8 @@ Una vez generado debemos firmarlo:
 Nos solicitará la passphrase para continuar con la firma y una serie de confirmaciones 
 y ya hemos creado el .crt que utilizaremos posteriormente en la configuración de OpenVPN.
 
+
+
 Certificados de clientes
 ''''''''''''''''''''''''
 Genero y firmo:
@@ -208,6 +210,20 @@ tal y como si estuvieran dentro de la propia red interna.
 Los restantes parámetros no son tan relevantes, simplemente diremos que definen
 el tiempo para determinar si un cliente perdió la conexión, definen que los paquetes
 irán comprimidos con el algoritmo lza y algunas opciones de log.
+
+Iniciar el servidor
+-------------------
+
+Deshabilitar firewalld y SELinux:
+
+.. code-block:: bash
+
+    systemctl stop firewalld
+    systemctl disable firewalld
+
+Editar ``/etc/sysconfig/selinux`` y cambiar SELINUX a ``SELINUX=disabled`` y reinciar el **servidor**.
+
+Luego, ``systemctl start openvpn@server.service``
 
 Configuración del cliente
 -------------------------
