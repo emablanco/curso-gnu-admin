@@ -16,7 +16,7 @@ OpenVPN
 .. footer::
     ###Page### / ###Total###
 
-Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSex y PPTP. OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.
+Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSec y PPTP. OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.
 
 El protocolo IPSec está diseñado para ser implementado como una modificación del stack IP en el espacio del kernel y por esta razón, cada sistema operativo requiere su propia implementación de IPSec.
 
