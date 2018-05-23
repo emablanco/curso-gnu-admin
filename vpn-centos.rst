@@ -160,8 +160,54 @@ Para ver los protocolos de cifrado soportados podemos ejecutar ``openvpn --show-
 Parámetros de configuración
 '''''''''''''''''''''''''''
 
-acá habría que agregar algunos parámetros usuales, como así también la configuración particular por cliente usando el ccd
+Ver la explicación del archivo de configuración de ejemplo. A continuación otro ejemplo:
 
+.. code-block:: bash
+
+    port 1194
+    proto udp
+    dev tun
+    ca /etc/ssl/certs/ca.crt
+    cert /etc/ssl/certs/vpn.mambo-tango.org.ar.crt
+    key /etc/ssl/private/vpn.mambo-tango.org.ar.key
+    dh /etc/ssl/certs/dh2048.pem
+    server 10.8.0.0 255.255.255.0
+    ifconfig-pool-persist ipp.txt
+    push "route 192.168.10.0 255.255.255.0"
+    push "dhcp-option DNS 192.168.10.2"
+    push "dhcp-option DNS 192.168.10.3"
+    keepalive 10 120
+    comp-lzo
+    persist-key
+    persist-tun
+    status openvpn-status.log
+    verb 3
+
+Los primeros 3 parámetros sirven para especificar el puerto donde escuchará
+el servidor de VPNs, bajo que protocolo y el tipo de
+interfaz a utilizar.
+
+Los siguiente 4 definen todo lo relacionado con los certificados
+X509. En particular definimos cual es el certificado de la CA en la que vamos
+a confiar (en este caso, nuestra propia CA), cual es el certificado que
+identifica a nuestro servidor, y su clave privada.
+
+La opción server especifica la red a la que pertenecerán los clientes de VPN,
+es decir, a cada uno de los clientes que se conecten, se les dará una IP fija
+en esta subred (10.8.0.0/24). La información respecto de que IP fue asignada a
+que cliente vpn, es logueada en en el archivo ipp.txt definido en la opción
+ifconfig-pool-persist.
+
+Los siguientes 3 parámetros son información que se envía a los clientes luego
+de establecer la conexión. En este caso se envía una ruta, para que los mismos
+puedan llegar a la subred interna (192.168.10.0/24 en este caso) utilizando como
+gateway al servidor de VPN (el que tendrá la ip 10.8.0.1). Además se envía información
+respecto de los servidores de DNS internos, para que estos puedan resolver los nombres
+tal y como si estuvieran dentro de la propia red interna.
+
+Los restantes parámetros no son tan relevantes, simplemente diremos que definen
+el tiempo para determinar si un cliente perdió la conexión, definen que los paquetes
+irán comprimidos con el algoritmo lza y algunas opciones de log.
 
 Configuración del cliente
 -------------------------
@@ -190,7 +236,10 @@ Si sale el error debido a la imposibilidad de escribir en el openvpn-status.log 
     ausearch -c 'openvpn' --raw | audit2allow -M my-openvpn
     semodule -i my-openvpn.pp
     
+Revocar certificados
+--------------------
 
+googlear
 
 Referencias
 -----------
