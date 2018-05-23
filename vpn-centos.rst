@@ -1,6 +1,21 @@
 OpenVPN
 =======
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSex y PPTP. OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.
 
 El protocolo IPSec está diseñado para ser implementado como una modificación del stack IP en el espacio del kernel y por esta razón, cada sistema operativo requiere su propia implementación de IPSec.
@@ -265,8 +280,8 @@ Ahora, es necesario arrancar (y habilitar) OpenVPN en el inicio.
 
 .. code-block:: bash
 
-    #systemctl start openvpn-client@cliente1-epe
-    #systemctl -f enable openvpn@server.service
+    systemctl start openvpn-client@cliente1-epe
+    systemctl -f enable openvpn@server.service
 
 Se debe tener en cuenta en el primer comando que luego de la ``@``, es decir, ``cliente1-epe``,  se corresponde con el nombre del archivo de configuración, es decir ``cliente1-epe.conf`` por lo que **deben coincidir**.
 
