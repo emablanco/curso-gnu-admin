@@ -100,21 +100,21 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/OpenVPN/easy-rsa)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 605.5736 253.5429 617.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 585.5736 253.5429 597.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 15 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://community.openvpn.net/openvpn/wiki/FAQ)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 587.5736 305.7929 599.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 567.5736 305.7929 579.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 16 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://www.redeszone.net/redes/openvpn/)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 569.5736 275.2329 581.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 549.5736 275.2329 561.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 17 0 obj
@@ -134,7 +134,7 @@ endobj
 endobj
 19 0 obj
 <<
-/Author () /CreationDate (D:20180523122140+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180523122140+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180524121639+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180524121639+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (OpenVPN) /Trapped /False
 >>
 endobj
@@ -156,17 +156,17 @@ endobj
 endobj
 23 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 591.8236 0 ] /Next 24 0 R /Parent 22 0 R /Title (Estructura de directorios del PKI)
+/Dest [ 9 0 R /XYZ 62.69291 579.8236 0 ] /Next 24 0 R /Parent 22 0 R /Title (Estructura de directorios del PKI)
 >>
 endobj
 24 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 309.8236 0 ] /Next 25 0 R /Parent 22 0 R /Prev 23 0 R /Title (Creando la CA)
+/Dest [ 9 0 R /XYZ 62.69291 297.8236 0 ] /Next 25 0 R /Parent 22 0 R /Prev 23 0 R /Title (Creando la CA)
 >>
 endobj
 25 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 124.6236 0 ] /Next 26 0 R /Parent 22 0 R /Prev 24 0 R /Title (Certificado del servidor)
+/Dest [ 9 0 R /XYZ 62.69291 112.6236 0 ] /Next 26 0 R /Parent 22 0 R /Prev 24 0 R /Title (Certificado del servidor)
 >>
 endobj
 26 0 obj
@@ -176,7 +176,7 @@ endobj
 endobj
 27 0 obj
 <<
-/Dest [ 10 0 R /XYZ 62.69291 517.4236 0 ] /Next 28 0 R /Parent 22 0 R /Prev 26 0 R /Title (Certificados de clientes)
+/Dest [ 10 0 R /XYZ 62.69291 517.4236 0 ] /Next 28 0 R /Parent 22 0 R /Prev 26 0 R /Title (Certificados para los clientes)
 >>
 endobj
 28 0 obj
@@ -186,33 +186,33 @@ endobj
 endobj
 29 0 obj
 <<
-/Count 1 /Dest [ 12 0 R /XYZ 62.69291 753.0236 0 ] /First 30 0 R /Last 30 0 R /Next 31 0 R /Parent 20 0 R 
-  /Prev 22 0 R /Title (Configuraci\363n del servidor)
+/Count 1 /Dest [ 12 0 R /XYZ 62.69291 717.0236 0 ] /First 30 0 R /Last 30 0 R /Next 31 0 R /Parent 20 0 R 
+  /Prev 22 0 R /Title (Archivo de configuraci\363n del servidor)
 >>
 endobj
 30 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 636.8236 0 ] /Parent 29 0 R /Title (Par\341metros de configuraci\363n)
+/Dest [ 12 0 R /XYZ 62.69291 600.8236 0 ] /Parent 29 0 R /Title (Par\341metros)
 >>
 endobj
 31 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 127.6236 0 ] /Next 32 0 R /Parent 20 0 R /Prev 29 0 R /Title (Iniciar el servidor)
+/Dest [ 13 0 R /XYZ 62.69291 753.0236 0 ] /Next 32 0 R /Parent 20 0 R /Prev 29 0 R /Title (Iniciar el servidor)
 >>
 endobj
 32 0 obj
 <<
-/Dest [ 13 0 R /XYZ 62.69291 498.6236 0 ] /Next 33 0 R /Parent 20 0 R /Prev 31 0 R /Title (Configuraci\363n del cliente)
+/Dest [ 13 0 R /XYZ 62.69291 471.6236 0 ] /Next 33 0 R /Parent 20 0 R /Prev 31 0 R /Title (Archivo de configuraci\363n del cliente)
 >>
 endobj
 33 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 703.8236 0 ] /Next 34 0 R /Parent 20 0 R /Prev 32 0 R /Title (Revocar certificados)
+/Dest [ 17 0 R /XYZ 62.69291 683.8236 0 ] /Next 34 0 R /Parent 20 0 R /Prev 32 0 R /Title (Revocar certificados)
 >>
 endobj
 34 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 652.8236 0 ] /Parent 20 0 R /Prev 33 0 R /Title (Referencias)
+/Dest [ 17 0 R /XYZ 62.69291 632.8236 0 ] /Parent 20 0 R /Prev 33 0 R /Title (Referencias)
 >>
 endobj
 35 0 obj
@@ -274,7 +274,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (23/05/2018 12:21) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (24/05/2018 12:16) Tj T* ET
 Q
 Q
 q
@@ -284,7 +284,7 @@ q
 1 0 0 1 62.69291 641.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.31284 Tw (Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSex y PPTP.) Tj T* 0 Tw (OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.31284 Tw (Existen tres grandes familias de implementaciones de VPN de amplio uso: SSL, IPSec y PPTP.) Tj T* 0 Tw (OpenVPN es una VPN SSL y como tal no es compatible con IPSec, L2TP o PPTP.) Tj T* ET
 Q
 Q
 q
@@ -435,7 +435,7 @@ endstream
 endobj
 37 0 obj
 <<
-/Length 7139
+/Length 7320
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -453,14 +453,13 @@ BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .470574 Tw (Una infraestructura de clave p\37
 Q
 Q
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para crear e inicializar una nueva PKI, usamos el comando:) Tj T* ET
+BT 1 0 0 1 0 14 Tm 2.307126 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para crear e inicializar una nueva PKI, ) Tj /F2 10 Tf (debemos) Tj /F1 10 Tf ( estar parados en el directorio ) Tj /F3 10 Tf 0 0 0 rg (/etc/openvpn/) Tj /F1 10 Tf 0 0 0 rg ( y) Tj T* 0 Tw (usamos el comando:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 635.8236 cm
+1 0 0 1 62.69291 623.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -474,30 +473,30 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easyrsa init-pki) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easy-rsa/easyrsa init-pki) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 603.8236 cm
+1 0 0 1 62.69291 591.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .666457 Tw (Se crear\341 una nueva estructura PKI en blanco lista para ser usada para crear una nueva CA \(Autoridad) Tj T* 0 Tw (de Certificaci\363n\) y generar claves.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 573.8236 cm
+1 0 0 1 62.69291 561.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Estructura de directorios del PKI) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 561.8236 cm
+1 0 0 1 62.69291 549.8236 cm
 Q
 q
-1 0 0 1 62.69291 513.8236 cm
+1 0 0 1 62.69291 501.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -559,26 +558,26 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 513.8236 cm
+1 0 0 1 62.69291 501.8236 cm
 Q
 q
-1 0 0 1 62.69291 483.8236 cm
+1 0 0 1 62.69291 471.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .047045 Tw (En una PKI limpia no existir\341 ning\372n archivo, solamente la estructura de directorios. Luego de llamar a los) Tj T* 0 Tw (comandos se ir\341n creando los archivos necesarios, dependiendo de la operaci\363n.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 453.8236 cm
+1 0 0 1 62.69291 441.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .18811 Tw 12 TL /F1 10 Tf 0 0 0 rg (Cuando se cree una CA, una serie de archivos nuevos ser\341n creados por una combinaci\363n de Easy-RSA) Tj T* 0 Tw (e indirectamente openssl. Los ) Tj /F2 10 Tf (archivos importantes) Tj /F1 10 Tf ( del CA son:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 447.8236 cm
+1 0 0 1 62.69291 435.8236 cm
 Q
 q
-1 0 0 1 62.69291 339.8236 cm
+1 0 0 1 62.69291 327.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -736,30 +735,30 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 339.8236 cm
+1 0 0 1 62.69291 327.8236 cm
 Q
 q
-1 0 0 1 62.69291 321.8236 cm
+1 0 0 1 62.69291 309.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Una vez creado el PKI, el pr\363ximo paso ser\341 crear una CA.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.8236 cm
+1 0 0 1 62.69291 279.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Creando la CA) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 261.8236 cm
+1 0 0 1 62.69291 249.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .724431 Tw (Para firmar solicitudes y producir los certificados, se necesita una CA. Para crearla en el PKI que se ha) Tj T* 0 Tw (creado anteriormente, ejecutar:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 228.6236 cm
+1 0 0 1 62.69291 216.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -773,35 +772,35 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easyrsa build-ca) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easy-rsa/easyrsa build-ca) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 196.6236 cm
+1 0 0 1 62.69291 184.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.644651 Tw (Aseg\372rese de usar una passphrase segura para proteger la clave privada del CA. Note que debe) Tj T* 0 Tw (suministrar esta passphrase en el futuro cuando proceda a firmar certificados con su CA.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 166.6236 cm
+1 0 0 1 62.69291 154.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.429982 Tw (Durante el proceso de creaci\363n, adem\341s deber\341 seleccionar el nombre del CA, denominado Common) Tj T* 0 Tw (Name \(CN\). Este nombre es puramente para visualizaci\363n.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 136.6236 cm
+1 0 0 1 62.69291 124.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .261654 Tw (Una vez creada la CA debemos generar el certificado del servidor y de los clientes para ser firmados con) Tj T* 0 Tw (la CA.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 106.6236 cm
+1 0 0 1 62.69291 94.62362 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Certificado del servidor) Tj T* ET
 Q
@@ -824,7 +823,7 @@ endstream
 endobj
 38 0 obj
 <<
-/Length 6644
+/Length 6487
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -850,7 +849,7 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easyrsa gen-req servidor-openvpn-epe nopass) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easy-rsa/easyrsa gen-req servidor-epe nopass) Tj T* ET
 Q
 Q
 Q
@@ -878,7 +877,7 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easyrsa sign-req server servidor-openvpn-epe) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (./easy-rsa/easyrsa sign-req server servidor-epe) Tj T* ET
 Q
 Q
 Q
@@ -919,7 +918,7 @@ n -6 -6 468.6898 36 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (./easyrsa gen-dh) Tj T* (openvpn --genkey --secret ta.key) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (./easy-rsa/easyrsa gen-dh) Tj T* (openvpn --genkey --secret ta.key) Tj T* ET
 Q
 Q
 Q
@@ -928,7 +927,7 @@ Q
 q
 1 0 0 1 62.69291 499.4236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Certificados de clientes) Tj T* ET
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Certificados para los clientes) Tj T* ET
 Q
 Q
 q
@@ -953,7 +952,7 @@ n -6 -6 468.6898 36 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (./easyrsa gen-req cliente1-epe nopass) Tj T* (./easyrsa sign-req client cliente1-epe) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (./easy-rsa/easyrsa gen-req cliente1-epe nopass) Tj T* (./easy-rsa/easyrsa sign-req client cliente1-epe) Tj T* ET
 Q
 Q
 Q
@@ -994,27 +993,26 @@ BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Organizar los .crt y .key del servid
 Q
 Q
 q
-1 0 0 1 62.69291 323.0236 cm
+1 0 0 1 62.69291 311.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Crear un directorio para los archivos del servidor y otro por cada cliente.) Tj T* ET
+BT 1 0 0 1 0 14 Tm .472927 Tw 12 TL /F1 10 Tf 0 0 0 rg (Crear un directorio para los archivos del servidor y otro por cada cliente. Es ) Tj /F2 10 Tf (MUY) Tj /F1 10 Tf ( importante que tengan) Tj T* 0 Tw (los siguientes archivos:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 305.0236 cm
+1 0 0 1 62.69291 293.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para el servidor:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 299.0236 cm
-Q
-q
-1 0 0 1 62.69291 299.0236 cm
+1 0 0 1 62.69291 287.0236 cm
 Q
 q
 1 0 0 1 62.69291 287.0236 cm
+Q
+q
+1 0 0 1 62.69291 275.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1035,10 +1033,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 281.0236 cm
+1 0 0 1 62.69291 269.0236 cm
 Q
 q
-1 0 0 1 62.69291 269.0236 cm
+1 0 0 1 62.69291 257.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1059,10 +1057,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 263.0236 cm
+1 0 0 1 62.69291 251.0236 cm
 Q
 q
-1 0 0 1 62.69291 251.0236 cm
+1 0 0 1 62.69291 239.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1083,10 +1081,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 245.0236 cm
+1 0 0 1 62.69291 233.0236 cm
 Q
 q
-1 0 0 1 62.69291 233.0236 cm
+1 0 0 1 62.69291 221.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1107,10 +1105,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 227.0236 cm
+1 0 0 1 62.69291 215.0236 cm
 Q
 q
-1 0 0 1 62.69291 215.0236 cm
+1 0 0 1 62.69291 203.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1131,23 +1129,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 215.0236 cm
+1 0 0 1 62.69291 203.0236 cm
 Q
 q
-1 0 0 1 62.69291 197.0236 cm
+1 0 0 1 62.69291 185.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para el cliente1:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para el cliente:) Tj T* ET
 Q
-Q
-q
-1 0 0 1 62.69291 191.0236 cm
-Q
-q
-1 0 0 1 62.69291 191.0236 cm
 Q
 q
 1 0 0 1 62.69291 179.0236 cm
+Q
+q
+1 0 0 1 62.69291 179.0236 cm
+Q
+q
+1 0 0 1 62.69291 167.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1168,10 +1166,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 173.0236 cm
+1 0 0 1 62.69291 161.0236 cm
 Q
 q
-1 0 0 1 62.69291 161.0236 cm
+1 0 0 1 62.69291 149.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1192,10 +1190,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 155.0236 cm
+1 0 0 1 62.69291 143.0236 cm
 Q
 q
-1 0 0 1 62.69291 143.0236 cm
+1 0 0 1 62.69291 131.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1216,10 +1214,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 137.0236 cm
+1 0 0 1 62.69291 125.0236 cm
 Q
 q
-1 0 0 1 62.69291 125.0236 cm
+1 0 0 1 62.69291 113.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1240,31 +1238,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 119.0236 cm
-Q
-q
-1 0 0 1 62.69291 107.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (cliente1-epe.conf) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 107.0236 cm
+1 0 0 1 62.69291 113.0236 cm
 Q
 q
 1 0 0 1 56.69291 773.1969 cm
@@ -1284,25 +1258,31 @@ endstream
 endobj
 39 0 obj
 <<
-/Length 5534
+/Length 5409
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 732.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Configuraci\363n del servidor) Tj T* ET
+BT 1 0 0 1 0 14 Tm 6.305814 Tw 12 TL /F1 10 Tf 0 0 0 rg (Restar\341 crear los archivos de configuraci\363n del servidor y del cliente \() Tj /F3 10 Tf 0 0 0 rg (servidor.conf) Tj /F1 10 Tf 0 0 0 rg ( y) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (cliente1-epe.conf) Tj /F1 10 Tf 0 0 0 rg (\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 714.0236 cm
+1 0 0 1 62.69291 696.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Archivo de configuraci\363n del servidor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Copiamos el archivo de configuraci\363n de ejemplo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 668.8236 cm
+1 0 0 1 62.69291 632.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1323,26 +1303,26 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 648.8236 cm
+1 0 0 1 62.69291 612.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Para ver los protocolos de cifrado soportados podemos ejecutar ) Tj /F3 10 Tf 0 0 0 rg (openvpn) Tj ( ) Tj (--show-ciphers) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 618.8236 cm
+1 0 0 1 62.69291 582.8236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Par\341metros de configuraci\363n) Tj T* ET
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Par\341metros) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 600.8236 cm
+1 0 0 1 62.69291 564.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ver la explicaci\363n del archivo de configuraci\363n de ejemplo. A continuaci\363n otro ejemplo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 303.6236 cm
+1 0 0 1 62.69291 267.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1372,54 +1352,42 @@ n 96 132 18 12 re f*
 .960784 .960784 .862745 rg
 n 0 108 162 12 re f*
 .960784 .960784 .862745 rg
-n 0 96 6 12 re f*
+n 0 96 246 12 re f*
 .960784 .960784 .862745 rg
-n 36 96 204 12 re f*
+n 0 84 222 12 re f*
 .960784 .960784 .862745 rg
-n 0 84 6 12 re f*
-.960784 .960784 .862745 rg
-n 36 84 180 12 re f*
-.960784 .960784 .862745 rg
-n 0 72 6 12 re f*
-.960784 .960784 .862745 rg
-n 36 72 180 12 re f*
+n 0 72 222 12 re f*
 .960784 .960784 .862745 rg
 n 60 60 12 12 re f*
 .960784 .960784 .862745 rg
 n 78 60 18 12 re f*
 .960784 .960784 .862745 rg
 n 30 0 6 12 re f*
-BT 1 0 0 1 0 266 Tm 12 TL /F4 10 Tf .25098 .501961 .501961 rg (# puerto, protocolo y tipo de interfaz) Tj T* /F3 10 Tf 0 0 0 rg (port ) Tj .4 .4 .4 rg (1194) Tj 0 0 0 rg  T* (proto udp) Tj T* (dev tun) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# certificado del CA, del server y su clave privada) Tj T* /F3 10 Tf 0 0 0 rg (ca server/ca.crt) Tj T* (cert server/server-epe.crt) Tj T* (key server/server-epe.key) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# para intercambio de claves) Tj T* /F3 10 Tf 0 0 0 rg (dh server/dh.pem) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# red de los clientes) Tj T* /F3 10 Tf 0 0 0 rg (server ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.8.0.0 ) Tj .4 .4 .4 rg (255) Tj 0 0 0 rg (.255.255.0) Tj T* (ifconfig-pool-persist ipp.txt) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# rutas enviadas a clientes) Tj T* /F3 10 Tf 0 0 0 rg (;) Tj 0 0 0 rg (push ) Tj .729412 .129412 .129412 rg ("route 192.168.10.0 255.255.255.0") Tj 0 0 0 rg  T* 0 0 0 rg (;) Tj 0 0 0 rg (push ) Tj .729412 .129412 .129412 rg ("dhcp-option DNS 192.168.10.2") Tj 0 0 0 rg  T* 0 0 0 rg (;) Tj 0 0 0 rg (push ) Tj .729412 .129412 .129412 rg ("dhcp-option DNS 192.168.10.3") Tj 0 0 0 rg  T* (keepalive ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (120) Tj 0 0 0 rg  T* (comp-lzo) Tj T* (persist-key) Tj T* (persist-tun) Tj T* (status openvpn-status.log) Tj T* (verb ) Tj .4 .4 .4 rg (3) Tj T* ET
+BT 1 0 0 1 0 266 Tm 12 TL /F4 10 Tf .25098 .501961 .501961 rg (# puerto, protocolo y tipo de interfaz) Tj T* /F3 10 Tf 0 0 0 rg (port ) Tj .4 .4 .4 rg (1194) Tj 0 0 0 rg  T* (proto udp) Tj T* (dev tun) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# certificado del CA, del server y su clave privada) Tj T* /F3 10 Tf 0 0 0 rg (ca server/ca.crt) Tj T* (cert server/server-epe.crt) Tj T* (key server/server-epe.key) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# para intercambio de claves) Tj T* /F3 10 Tf 0 0 0 rg (dh server/dh.pem) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# red de los clientes) Tj T* /F3 10 Tf 0 0 0 rg (server ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.8.0.0 ) Tj .4 .4 .4 rg (255) Tj 0 0 0 rg (.255.255.0) Tj T* (ifconfig-pool-persist ipp.txt) Tj T* /F4 10 Tf .25098 .501961 .501961 rg (# rutas enviadas a clientes) Tj T* (#;push "route 192.168.10.0 255.255.255.0") Tj T* (#;push "dhcp-option DNS 192.168.10.2") Tj T* (#;push "dhcp-option DNS 192.168.10.3") Tj T* /F3 10 Tf 0 0 0 rg (keepalive ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (120) Tj 0 0 0 rg  T* (comp-lzo) Tj T* (persist-key) Tj T* (persist-tun) Tj T* (status openvpn-status.log) Tj T* (verb ) Tj .4 .4 .4 rg (3) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 247.6236 cm
+1 0 0 1 62.69291 211.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .316488 Tw (La opci\363n server especifica la red a la que pertenecer\341n los clientes de VPN, es decir, a cada uno de los) Tj T* 0 Tw .207633 Tw (clientes que se conecten, se les dar\341 una IP fija en esta subred \(10.8.0.0/24\). La informaci\363n respecto de) Tj T* 0 Tw 2.510542 Tw (que IP fue asignada a que cliente vpn, es logueada en en el archivo ipp.txt definido en la opci\363n) Tj T* 0 Tw (ifconfig-pool-persist.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 181.6236 cm
+1 0 0 1 62.69291 145.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .25686 Tw (Los siguientes 3 par\341metros son informaci\363n que se env\355a a los clientes luego de establecer la conexi\363n.) Tj T* 0 Tw .403516 Tw (En este caso se env\355a una ruta, para que los mismos puedan llegar a la subred interna \(192.168.10.0/24) Tj T* 0 Tw .04332 Tw (en este caso\) utilizando como gateway al servidor de VPN \(el que tendr\341 la ip 10.8.0.1\). Adem\341s se env\355a) Tj T* 0 Tw .387318 Tw (informaci\363n respecto de los servidores de DNS internos, para que estos puedan resolver los nombres tal) Tj T* 0 Tw (y como si estuvieran dentro de la propia red interna.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 139.6236 cm
+1 0 0 1 62.69291 103.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.796905 Tw (Los restantes par\341metros no son tan relevantes, simplemente diremos que definen el tiempo para) Tj T* 0 Tw .868651 Tw (determinar si un cliente perdi\363 la conexi\363n, definen que los paquetes ir\341n comprimidos con el algoritmo) Tj T* 0 Tw (lza y algunas opciones de log.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 106.6236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Iniciar el servidor) Tj T* ET
 Q
 Q
 q
@@ -1440,18 +1408,24 @@ endstream
 endobj
 40 0 obj
 <<
-/Length 6821
+/Length 6758
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 741.0236 cm
+1 0 0 1 62.69291 732.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Iniciar el servidor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Deshabilitar firewalld y SELinux) Tj /F1 10 Tf (:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 695.8236 cm
+1 0 0 1 62.69291 668.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1472,25 +1446,25 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 675.8236 cm
+1 0 0 1 62.69291 648.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Editar ) Tj /F3 10 Tf 0 0 0 rg (/etc/sysconfig/selinux) Tj /F1 10 Tf 0 0 0 rg ( y cambiar SELINUX a ) Tj /F3 10 Tf 0 0 0 rg (SELINUX=disabled) Tj /F1 10 Tf 0 0 0 rg ( y reinciar el ) Tj /F2 10 Tf (servidor) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 645.8236 cm
+1 0 0 1 62.69291 618.8236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.24664 Tw 12 TL /F1 10 Tf 0 0 0 rg (Luego, ) Tj /F3 10 Tf 0 0 0 rg (systemctl) Tj ( ) Tj (start) Tj ( ) Tj (openvpn@server.service) Tj /F1 10 Tf 0 0 0 rg (, para hacer el servicio permanente despu\351s) Tj T* 0 Tw (del booteo use ) Tj /F3 10 Tf 0 0 0 rg (enable) Tj /F1 10 Tf 0 0 0 rg ( en lugar de start.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 627.8236 cm
+1 0 0 1 62.69291 600.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Si todo fue correctamente deber\355a ver una nueva interfaz ) Tj /F3 10 Tf 0 0 0 rg (tun) Tj /F1 10 Tf 0 0 0 rg ( con la siguiente informaci\363n:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 510.6236 cm
+1 0 0 1 62.69291 483.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1524,20 +1498,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 477.6236 cm
+1 0 0 1 62.69291 450.6236 cm
 q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Configuraci\363n del cliente) Tj T* ET
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Archivo de configuraci\363n del cliente) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 447.6236 cm
+1 0 0 1 62.69291 420.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.755318 Tw (Debemos tener instalado el paquete openvpn y para su configuraci\363n nos basamos en el archivo de) Tj T* 0 Tw (configuraci\363n de ejemplo para clientes:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 402.4236 cm
+1 0 0 1 62.69291 375.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1558,27 +1532,27 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 382.4236 cm
+1 0 0 1 62.69291 355.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ah\355 configuramos la IP o nombre del servidor, los certificados, claves, etc.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 340.4236 cm
+1 0 0 1 62.69291 313.4236 cm
 q
 BT 1 0 0 1 0 26 Tm .999318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Debemos transferir desde el servidor los 4 archivos necesarios: ) Tj /F3 10 Tf 0 0 0 rg (ca.crt) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (ta.key) Tj /F1 10 Tf 0 0 0 rg ( son los mismos del) Tj T* 0 Tw 5.595681 Tw (servidor, mientras que ) Tj /F3 10 Tf 0 0 0 rg (cliente1-epe.crt) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (cliente1-epe.key) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (cliente1-epe.conf) Tj /F1 10 Tf 0 0 0 rg ( son) Tj T* 0 Tw (exclusivos del cliente.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 322.4236 cm
+1 0 0 1 62.69291 295.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ahora, es necesario arrancar \(y habilitar\) OpenVPN en el inicio.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 277.2236 cm
+1 0 0 1 62.69291 250.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1600,20 +1574,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 233.2236 cm
+1 0 0 1 62.69291 206.2236 cm
 q
 BT 1 0 0 1 0 26 Tm 2.747045 Tw 12 TL /F1 10 Tf 0 0 0 rg (Se debe tener en cuenta en el primer comando que luego de la ) Tj /F3 10 Tf 0 0 0 rg (@) Tj /F1 10 Tf 0 0 0 rg (, es decir, ) Tj /F3 10 Tf 0 0 0 rg (cliente1-epe) Tj /F1 10 Tf 0 0 0 rg (, se) Tj T* 0 Tw 2.176136 Tw (corresponde con el nombre del archivo de configuraci\363n, es decir ) Tj /F3 10 Tf 0 0 0 rg (cliente1-epe.conf) Tj /F1 10 Tf 0 0 0 rg ( por lo que) Tj T* 0 Tw /F2 10 Tf (deben coincidir) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 215.2236 cm
+1 0 0 1 62.69291 188.2236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Una vez levantado el servicio entonces deberia ver la interfaz tun creada con la ip correspondiente:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 122.0236 cm
+1 0 0 1 62.69291 95.02362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1643,13 +1617,6 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 102.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Si sale el error debido a la imposibilidad de escribir en el openvpn-status.log se debe ejecutar:) Tj T* ET
-Q
-Q
-q
 1 0 0 1 56.69291 773.1969 cm
 q
 BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
@@ -1667,12 +1634,19 @@ endstream
 endobj
 41 0 obj
 <<
-/Length 3087
+/Length 3276
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 715.8236 cm
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Si sale el error debido a la imposibilidad de escribir en el openvpn-status.log se debe ejecutar:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 695.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1696,31 +1670,31 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 682.8236 cm
+1 0 0 1 62.69291 662.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Revocar certificados) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 664.8236 cm
+1 0 0 1 62.69291 644.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD para aprobar:) Tj /F1 10 Tf ( investigar c\363mo se debe revocar el certificado de un determinado cliente) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 631.8236 cm
+1 0 0 1 62.69291 611.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 619.8236 cm
+1 0 0 1 62.69291 599.8236 cm
 Q
 q
-1 0 0 1 62.69291 619.8236 cm
+1 0 0 1 62.69291 599.8236 cm
 Q
 q
-1 0 0 1 62.69291 607.8236 cm
+1 0 0 1 62.69291 587.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1742,10 +1716,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 601.8236 cm
+1 0 0 1 62.69291 581.8236 cm
 Q
 q
-1 0 0 1 62.69291 589.8236 cm
+1 0 0 1 62.69291 569.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1767,10 +1741,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 583.8236 cm
+1 0 0 1 62.69291 563.8236 cm
 Q
 q
-1 0 0 1 62.69291 571.8236 cm
+1 0 0 1 62.69291 551.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1792,10 +1766,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 565.8236 cm
+1 0 0 1 62.69291 545.8236 cm
 Q
 q
-1 0 0 1 62.69291 553.8236 cm
+1 0 0 1 62.69291 533.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1816,10 +1790,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 547.8236 cm
+1 0 0 1 62.69291 527.8236 cm
 Q
 q
-1 0 0 1 62.69291 535.8236 cm
+1 0 0 1 62.69291 515.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1840,10 +1814,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 535.8236 cm
+1 0 0 1 62.69291 515.8236 cm
 Q
 q
-1 0 0 1 62.69291 535.8236 cm
+1 0 0 1 62.69291 515.8236 cm
 Q
 q
 1 0 0 1 56.69291 773.1969 cm
@@ -1927,31 +1901,31 @@ xref
 0000004066 00000 n 
 0000004204 00000 n 
 0000004368 00000 n 
-0000004507 00000 n 
-0000004658 00000 n 
-0000004841 00000 n 
-0000004963 00000 n 
-0000005097 00000 n 
-0000005240 00000 n 
-0000005375 00000 n 
-0000005488 00000 n 
-0000005582 00000 n 
-0000011613 00000 n 
-0000018804 00000 n 
-0000025500 00000 n 
-0000031086 00000 n 
-0000037959 00000 n 
-0000041098 00000 n 
-0000041187 00000 n 
-0000041221 00000 n 
-0000041255 00000 n 
-0000041289 00000 n 
-0000041323 00000 n 
-0000041357 00000 n 
+0000004513 00000 n 
+0000004664 00000 n 
+0000004858 00000 n 
+0000004960 00000 n 
+0000005094 00000 n 
+0000005248 00000 n 
+0000005383 00000 n 
+0000005496 00000 n 
+0000005590 00000 n 
+0000011621 00000 n 
+0000018993 00000 n 
+0000025532 00000 n 
+0000030993 00000 n 
+0000037803 00000 n 
+0000041131 00000 n 
+0000041220 00000 n 
+0000041254 00000 n 
+0000041288 00000 n 
+0000041322 00000 n 
+0000041356 00000 n 
+0000041390 00000 n 
 trailer
 <<
 /ID 
-[<ee02c2fc08bbf1c7cde1a29c73fbe092><ee02c2fc08bbf1c7cde1a29c73fbe092>]
+[<45ef827eb67c864ee77cbf586965133b><45ef827eb67c864ee77cbf586965133b>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 19 0 R
@@ -1959,5 +1933,5 @@ trailer
 /Size 49
 >>
 startxref
-41391
+41424
 %%EOF

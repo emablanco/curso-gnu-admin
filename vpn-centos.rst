@@ -63,11 +63,11 @@ realizamos una copia denominada ``vars`` que vamos a modificar.
 
 Una infraestructura de clave pública (PKI) se basa en la noción de confiar en una autoridad particular en autenticar un par remoto. 
 
-Para crear e inicializar una nueva PKI, usamos el comando:
+Para crear e inicializar una nueva PKI, **debemos** estar parados en el directorio ``/etc/openvpn/`` y usamos el comando:
 
 .. code-block:: bash
 
-    ./easyrsa init-pki
+    ./easy-rsa/easyrsa init-pki
 
 Se creará una nueva estructura PKI en blanco lista para ser usada para crear una nueva CA (Autoridad de Certificación) y generar claves. 
 
@@ -97,7 +97,7 @@ Para firmar solicitudes y producir los certificados, se necesita una CA. Para cr
 
 .. code-block:: bash
 
-    ./easyrsa build-ca
+    ./easy-rsa/easyrsa build-ca
 
 Asegúrese de usar una passphrase segura para proteger la clave privada del CA. Note que debe suministrar esta passphrase en el futuro cuando proceda a firmar certificados con su CA. 
 
@@ -112,13 +112,13 @@ Creamos el certificado:
 
 .. code-block:: bash
 
-    ./easyrsa gen-req servidor-openvpn-epe nopass
+    ./easy-rsa/easyrsa gen-req servidor-epe nopass
 
 Una vez generado debemos firmarlo:
 
 .. code-block:: bash
     
-    ./easyrsa sign-req server servidor-openvpn-epe
+    ./easy-rsa/easyrsa sign-req server servidor-epe
 
 Nos solicitará la passphrase para continuar con la firma y una serie de confirmaciones 
 y ya hemos creado el .crt que utilizaremos posteriormente en la configuración de OpenVPN.
@@ -131,18 +131,18 @@ Estos parámetros son utilizados para el intercambio de claves.
 
 .. code-block:: bash
 
-    ./easyrsa gen-dh
+    ./easy-rsa/easyrsa gen-dh
     openvpn --genkey --secret ta.key
     
 
-Certificados de clientes
-''''''''''''''''''''''''
+Certificados para los clientes
+''''''''''''''''''''''''''''''
 Generamos los certificados y luego los firmamos:
 
 .. code-block:: bash
 
-    ./easyrsa gen-req cliente1-epe nopass
-    ./easyrsa sign-req client cliente1-epe
+    ./easy-rsa/easyrsa gen-req cliente1-epe nopass
+    ./easy-rsa/easyrsa sign-req client cliente1-epe
 
 Esto nos almacenará los archivos en las siguientes rutas:
 
@@ -154,7 +154,7 @@ Esto nos almacenará los archivos en las siguientes rutas:
 Organizar los .crt y .key del servidor y clientes
 '''''''''''''''''''''''''''''''''''''''''''''''''
 
-Crear un directorio para los archivos del servidor y otro por cada cliente.
+Crear un directorio para los archivos del servidor y otro por cada cliente. Es **MUY** importante que tengan los siguientes archivos:
 
 Para el servidor:
 
@@ -164,17 +164,18 @@ Para el servidor:
 - servidor-epe.key
 - ta.key
 
-Para el cliente1:
+Para el cliente:
 
 - ca.crt
 - cliente1-epe.crt
 - cliente1-epe.key
 - ta.key
-- cliente1-epe.conf
+
+Restará crear los archivos de configuración del servidor y del cliente (``servidor.conf`` y ``cliente1-epe.conf``)
 
 
-Configuración del servidor
---------------------------
+Archivo de configuración del servidor
+-------------------------------------
 
 Copiamos el archivo de configuración de ejemplo:
 
@@ -185,8 +186,8 @@ Copiamos el archivo de configuración de ejemplo:
 
 Para ver los protocolos de cifrado soportados podemos ejecutar ``openvpn --show-ciphers``.
 
-Parámetros de configuración
-'''''''''''''''''''''''''''
+Parámetros
+''''''''''
 
 Ver la explicación del archivo de configuración de ejemplo. A continuación otro ejemplo:
 
@@ -206,9 +207,9 @@ Ver la explicación del archivo de configuración de ejemplo. A continuación ot
     server 10.8.0.0 255.255.255.0
     ifconfig-pool-persist ipp.txt
     # rutas enviadas a clientes
-    ;push "route 192.168.10.0 255.255.255.0"
-    ;push "dhcp-option DNS 192.168.10.2"
-    ;push "dhcp-option DNS 192.168.10.3"
+    #;push "route 192.168.10.0 255.255.255.0"
+    #;push "dhcp-option DNS 192.168.10.2"
+    #;push "dhcp-option DNS 192.168.10.3"
     keepalive 10 120
     comp-lzo
     persist-key
@@ -262,8 +263,8 @@ Si todo fue correctamente debería ver una nueva interfaz ``tun`` con la siguien
         valid_lft forever preferred_lft forever
 
 
-Configuración del cliente
--------------------------
+Archivo de configuración del cliente
+------------------------------------
 
 Debemos tener instalado el paquete openvpn y para su configuración nos basamos en el archivo de configuración de ejemplo para clientes:
 

@@ -2,7 +2,7 @@
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 9 0 R
+/F1 2 0 R /F2 3 0 R /F3 6 0 R /F4 7 0 R /F5 11 0 R /F6 15 0 R
 >>
 endobj
 2 0 obj
@@ -17,34 +17,31 @@ endobj
 endobj
 4 0 obj
 <<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI /Type /Action /URI (mailto:emiliano.lopez@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 228.2023 707.0236 347.8223 719.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI /Type /Action /URI (mailto:maximiliano@boscovich.com.ar)
+>> /Border [ 0 0 0 ] /Rect [ 260.9723 689.0236 401.7023 701.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
 <<
-/Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
 >>
 endobj
 7 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://p5r.uk/blog/2010/ifconfig-ip-comparison.html)
->> /Border [ 0 0 0 ] /Rect [ 62.69291 431.8236 289.4529 443.8236 ] /Subtype /Link /Type /Annot
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Annots [ 7 0 R ] /Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Annots [ 4 0 R 5 0 R ] /Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
@@ -54,32 +51,29 @@ endobj
 endobj
 9 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI /Type /Action /URI (https://p5r.uk/blog/2010/ifconfig-ip-comparison.html)
+>> /Border [ 0 0 0 ] /Rect [ 62.69291 426.6236 289.4529 438.6236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 10 0 obj
 <<
-/Contents 39 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Annots [ 9 0 R ] /Contents 39 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
+>> /Rotate 0 
+  /Trans <<
 
->> 
-  /Type /Page
+>> /Type /Page
 >>
 endobj
 11 0 obj
 <<
-/Contents 40 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
 >>
 endobj
 12 0 obj
 <<
-/Contents 41 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 36 0 R /Resources <<
+/Contents 40 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -89,155 +83,231 @@ endobj
 endobj
 13 0 obj
 <<
-/Outlines 15 0 R /PageLabels 42 0 R /PageMode /UseNone /Pages 36 0 R /Type /Catalog
+/Contents 41 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 14 0 obj
 <<
-/Author () /CreationDate (D:20180425013656+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180425013656+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
-  /Subject (\(unspecified\)) /Title (Comandos \372tiles) /Trapped /False
+/Contents 42 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 15 0 obj
 <<
-/Count 22 /First 16 0 R /Last 35 0 R /Type /Outlines
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
 >>
 endobj
 16 0 obj
 <<
-/Count 1 /Dest [ 6 0 R /XYZ 62.69291 729.0236 0 ] /First 17 0 R /Last 17 0 R /Next 18 0 R /Parent 15 0 R 
-  /Title (Vagrant)
+/Contents 43 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 17 0 obj
 <<
-/Dest [ 6 0 R /XYZ 62.69291 552.8236 0 ] /Parent 16 0 R /Title (Ejercicio)
+/Contents 44 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 18 0 obj
 <<
-/Count 12 /Dest [ 6 0 R /XYZ 62.69291 492.8236 0 ] /First 19 0 R /Last 30 0 R /Next 31 0 R /Parent 15 0 R 
-  /Prev 16 0 R /Title (Redes)
+/Contents 45 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 19 0 obj
 <<
-/Dest [ 6 0 R /XYZ 62.69291 405.8236 0 ] /Next 20 0 R /Parent 18 0 R /Title (Nombres de las interfaces)
+/Outlines 21 0 R /PageLabels 46 0 R /PageMode /UseNone /Pages 37 0 R /Type /Catalog
 >>
 endobj
 20 0 obj
 <<
-/Dest [ 6 0 R /XYZ 62.69291 213.8236 0 ] /Next 21 0 R /Parent 18 0 R /Prev 19 0 R /Title (Ejercicio)
+/Author () /CreationDate (D:20180523170842+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180523170842+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Comandos \372tiles) /Trapped /False
 >>
 endobj
 21 0 obj
 <<
-/Dest [ 6 0 R /XYZ 62.69291 165.8236 0 ] /Next 22 0 R /Parent 18 0 R /Prev 20 0 R /Title (Servicio de red)
+/Count 16 /First 22 0 R /Last 36 0 R /Type /Outlines
 >>
 endobj
 22 0 obj
 <<
-/Dest [ 8 0 R /XYZ 62.69291 765.0236 0 ] /Next 23 0 R /Parent 18 0 R /Prev 21 0 R /Title (Ejercicio)
+/Dest [ 8 0 R /XYZ 62.69291 659.0236 0 ] /Next 23 0 R /Parent 21 0 R /Title (Vagrant)
 >>
 endobj
 23 0 obj
 <<
-/Dest [ 8 0 R /XYZ 62.69291 705.0236 0 ] /Next 24 0 R /Parent 18 0 R /Prev 22 0 R /Title (Direcciones est\341ticas)
+/Count 7 /Dest [ 8 0 R /XYZ 62.69291 452.8236 0 ] /First 24 0 R /Last 30 0 R /Next 31 0 R /Parent 21 0 R 
+  /Prev 22 0 R /Title (Redes)
 >>
 endobj
 24 0 obj
 <<
-/Dest [ 8 0 R /XYZ 62.69291 527.8236 0 ] /Next 25 0 R /Parent 18 0 R /Prev 23 0 R /Title (Ejercicio)
+/Dest [ 8 0 R /XYZ 62.69291 347.8236 0 ] /Next 25 0 R /Parent 23 0 R /Title (Nombres de las interfaces)
 >>
 endobj
 25 0 obj
 <<
-/Dest [ 8 0 R /XYZ 62.69291 479.8236 0 ] /Next 26 0 R /Parent 18 0 R /Prev 24 0 R /Title (ip)
+/Dest [ 8 0 R /XYZ 62.69291 137.8236 0 ] /Next 26 0 R /Parent 23 0 R /Prev 24 0 R /Title (Servicio de red)
 >>
 endobj
 26 0 obj
 <<
-/Dest [ 8 0 R /XYZ 62.69291 166.2236 0 ] /Next 27 0 R /Parent 18 0 R /Prev 25 0 R /Title (Ejercicio)
+/Dest [ 10 0 R /XYZ 62.69291 683.8236 0 ] /Next 27 0 R /Parent 23 0 R /Prev 25 0 R /Title (Direcciones est\341ticas)
 >>
 endobj
 27 0 obj
 <<
-/Dest [ 10 0 R /XYZ 62.69291 765.0236 0 ] /Next 28 0 R /Parent 18 0 R /Prev 26 0 R /Title (Interfaces virtuales)
+/Dest [ 10 0 R /XYZ 62.69291 474.6236 0 ] /Next 28 0 R /Parent 23 0 R /Prev 26 0 R /Title (ip)
 >>
 endobj
 28 0 obj
 <<
-/Dest [ 10 0 R /XYZ 62.69291 370.6236 0 ] /Next 29 0 R /Parent 18 0 R /Prev 27 0 R /Title (ss)
+/Dest [ 10 0 R /XYZ 62.69291 117.0236 0 ] /Next 29 0 R /Parent 23 0 R /Prev 27 0 R /Title (Interfaces virtuales)
 >>
 endobj
 29 0 obj
 <<
-/Dest [ 11 0 R /XYZ 62.69291 765.0236 0 ] /Next 30 0 R /Parent 18 0 R /Prev 28 0 R /Title (Ejercicio)
+/Dest [ 12 0 R /XYZ 62.69291 376.6236 0 ] /Next 30 0 R /Parent 23 0 R /Prev 28 0 R /Title (ss)
 >>
 endobj
 30 0 obj
 <<
-/Dest [ 11 0 R /XYZ 62.69291 705.0236 0 ] /Parent 18 0 R /Prev 29 0 R /Title (dhclient)
+/Dest [ 13 0 R /XYZ 62.69291 753.0236 0 ] /Parent 23 0 R /Prev 29 0 R /Title (dhclient)
 >>
 endobj
 31 0 obj
 <<
-/Dest [ 11 0 R /XYZ 62.69291 539.8236 0 ] /Next 32 0 R /Parent 15 0 R /Prev 18 0 R /Title (Firewalld)
+/Dest [ 13 0 R /XYZ 62.69291 587.8236 0 ] /Next 32 0 R /Parent 21 0 R /Prev 23 0 R /Title (Firewalld)
 >>
 endobj
 32 0 obj
 <<
-/Dest [ 11 0 R /XYZ 62.69291 443.6236 0 ] /Next 33 0 R /Parent 15 0 R /Prev 31 0 R /Title (Administrar servicios)
+/Dest [ 13 0 R /XYZ 62.69291 491.6236 0 ] /Next 33 0 R /Parent 21 0 R /Prev 31 0 R /Title (Administrar servicios)
 >>
 endobj
 33 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 683.8236 0 ] /Next 34 0 R /Parent 15 0 R /Prev 32 0 R /Title (Modos de inicio)
+/Dest [ 14 0 R /XYZ 62.69291 717.0236 0 ] /Next 34 0 R /Parent 21 0 R /Prev 32 0 R /Title (Modos de inicio)
 >>
 endobj
 34 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 459.6236 0 ] /Next 35 0 R /Parent 15 0 R /Prev 33 0 R /Title (Proxy)
+/Dest [ 14 0 R /XYZ 62.69291 492.8236 0 ] /Next 35 0 R /Parent 21 0 R /Prev 33 0 R /Title (Proxy)
 >>
 endobj
 35 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 234.6236 0 ] /Parent 15 0 R /Prev 34 0 R /Title (Referencias)
+/Dest [ 14 0 R /XYZ 62.69291 250.6236 0 ] /Next 36 0 R /Parent 21 0 R /Prev 34 0 R /Title (Acceso a los logs con journalctl)
 >>
 endobj
 36 0 obj
 <<
-/Count 5 /Kids [ 6 0 R 8 0 R 10 0 R 11 0 R 12 0 R ] /Type /Pages
+/Dest [ 18 0 R /XYZ 62.69291 296.6236 0 ] /Parent 21 0 R /Prev 35 0 R /Title (Referencias)
 >>
 endobj
 37 0 obj
 <<
-/Length 6685
+/Count 8 /Kids [ 8 0 R 10 0 R 12 0 R 13 0 R 14 0 R 16 0 R 17 0 R 18 0 R ] /Type /Pages
+>>
+endobj
+38 0 obj
+<<
+/Length 7327
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 741.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 154.3749 0 Td (Comandos \372tiles) Tj T* -154.3749 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 708.0236 cm
+1 0 0 1 62.69291 686.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Autores:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Emiliano L\363pez \() Tj 0 0 .501961 rg (emiliano.lopez@gmail.com) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Maximiliano Boscovich \() Tj 0 0 .501961 rg (maximiliano@boscovich.com.ar) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 40.80937 0 Td (Fecha:) Tj T* -40.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (23/05/2018 17:08) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 638.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Vagrant) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 678.0236 cm
+1 0 0 1 62.69291 608.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .809983 Tw (Vagrant nos permite gestionar m\341quinas virtuales de un modo muy c\363modo. A continuaci\363n algunos de) Tj T* 0 Tw (los comandos m\341s usados:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 596.8236 cm
+1 0 0 1 62.69291 526.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -267,68 +337,67 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 564.8236 cm
+1 0 0 1 62.69291 494.8236 cm
 q
 BT 1 0 0 1 0 14 Tm 2.584985 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para que inicie la m\341quina virtual en modo gr\341fico se debe especificar en el Vagrantfile la opci\363n) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (vb.gui) Tj ( ) Tj (=) Tj ( ) Tj (true) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 534.8236 cm
+1 0 0 1 62.69291 464.8236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ejercicio) Tj T* ET
+BT 1 0 0 1 0 14 Tm .69284 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 0.1:) Tj /F1 10 Tf ( Pruebe los comandos anteriores parado en el directorio donde se encuentra el archivo) Tj T* 0 Tw (Vagrantfile provisto.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 504.8236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.796136 Tw (Pruebe los comandos anteriores parado en el directorio donde se encuentra el archivo Vagrantfile) Tj T* 0 Tw (provisto.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 471.8236 cm
+1 0 0 1 62.69291 431.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Redes) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 453.8236 cm
+1 0 0 1 62.69291 413.8236 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (El amado ) Tj /F3 10 Tf 0 0 0 rg (ifconfig) Tj /F1 10 Tf 0 0 0 rg ( ha sido deprecado, ahora se utiliza el comando ) Tj /F3 10 Tf 0 0 0 rg (ip) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (El amado ) Tj /F3 10 Tf 0 0 0 rg (ifconfig) Tj /F1 10 Tf 0 0 0 rg ( y el entra\361able ) Tj /F3 10 Tf 0 0 0 rg (route) Tj /F1 10 Tf 0 0 0 rg ( han sido deprecados, ahora se utiliza el comando ) Tj /F3 10 Tf 0 0 0 rg (ip) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 435.8236 cm
+1 0 0 1 62.69291 395.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (El querido ) Tj /F3 10 Tf 0 0 0 rg (netstat) Tj /F1 10 Tf 0 0 0 rg ( tambi\351n se esfum\363 y ahora usamos ) Tj /F3 10 Tf 0 0 0 rg (ss) Tj /F1 10 Tf 0 0 0 rg ( \(socket statistics\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 417.8236 cm
+1 0 0 1 62.69291 377.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Los nombres ) Tj /F3 10 Tf 0 0 0 rg (ethX) Tj /F1 10 Tf 0 0 0 rg ( tambi\351n desaparecieron por los f\341cilmente memorizables ) Tj /F3 10 Tf 0 0 0 rg (esp02n0x) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 387.8236 cm
+1 0 0 1 62.69291 359.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Los nost\341lgicos aun pueden hacer uso de estas herramientas instalando el paquete ) Tj /F3 10 Tf 0 0 0 rg (net-tools) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 329.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Nombres de las interfaces) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 369.8236 cm
+1 0 0 1 62.69291 311.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (ls) Tj ( ) Tj (/sys/class/net) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 363.8236 cm
+1 0 0 1 62.69291 305.8236 cm
 Q
 q
-1 0 0 1 62.69291 363.8236 cm
+1 0 0 1 62.69291 305.8236 cm
 Q
 q
-1 0 0 1 62.69291 351.8236 cm
+1 0 0 1 62.69291 293.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -349,23 +418,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 351.8236 cm
+1 0 0 1 62.69291 293.8236 cm
 Q
 q
-1 0 0 1 62.69291 333.8236 cm
+1 0 0 1 62.69291 275.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Firmware-numbered interfaces embedded on the motherboard.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 327.8236 cm
+1 0 0 1 62.69291 269.8236 cm
 Q
 q
-1 0 0 1 62.69291 327.8236 cm
+1 0 0 1 62.69291 269.8236 cm
 Q
 q
-1 0 0 1 62.69291 315.8236 cm
+1 0 0 1 62.69291 257.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -386,23 +455,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 315.8236 cm
+1 0 0 1 62.69291 257.8236 cm
 Q
 q
-1 0 0 1 62.69291 297.8236 cm
+1 0 0 1 62.69291 239.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Firmware-numbered PCIe hotplug interfaces.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.8236 cm
+1 0 0 1 62.69291 233.8236 cm
 Q
 q
-1 0 0 1 62.69291 291.8236 cm
+1 0 0 1 62.69291 233.8236 cm
 Q
 q
-1 0 0 1 62.69291 279.8236 cm
+1 0 0 1 62.69291 221.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -423,23 +492,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 279.8236 cm
+1 0 0 1 62.69291 221.8236 cm
 Q
 q
-1 0 0 1 62.69291 261.8236 cm
+1 0 0 1 62.69291 203.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (At PCI bus address 02:00.0.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 255.8236 cm
+1 0 0 1 62.69291 197.8236 cm
 Q
 q
-1 0 0 1 62.69291 255.8236 cm
+1 0 0 1 62.69291 197.8236 cm
 Q
 q
-1 0 0 1 62.69291 243.8236 cm
+1 0 0 1 62.69291 185.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -460,42 +529,57 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 243.8236 cm
+1 0 0 1 62.69291 185.8236 cm
 Q
 q
-1 0 0 1 62.69291 225.8236 cm
+1 0 0 1 62.69291 167.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A card plugged into PCIe slot #7.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 195.8236 cm
+1 0 0 1 62.69291 149.8236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ejercicio) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 0.2:) Tj /F1 10 Tf ( Examine con el comando ) Tj /F3 10 Tf 0 0 0 rg (ls) Tj /F1 10 Tf 0 0 0 rg ( todas las interfaces de red disponibles.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 177.8236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Examine con el comando ls todas las interfaces de red disponibles.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 147.8236 cm
+1 0 0 1 62.69291 119.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Servicio de red) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 117.8236 cm
+1 0 0 1 62.69291 89.82362 cm
 q
 BT 1 0 0 1 0 14 Tm 1.875976 Tw 12 TL /F1 10 Tf 0 0 0 rg (Si bien sigue funcionando ) Tj /F3 10 Tf 0 0 0 rg (/etc/init.d/network) Tj ( ) Tj (restart) Tj /F1 10 Tf 0 0 0 rg ( es conveniente usar ) Tj /F3 10 Tf 0 0 0 rg (systemctl) Tj /F1 10 Tf 0 0 0 rg ( para) Tj T* 0 Tw (consultar su estado, iniciar, detener o reiniciar un servicio del siguiente modo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 84.62362 cm
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (1 / 8) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+39 0 obj
+<<
+/Length 8705
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 727.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -524,42 +608,26 @@ Q
 Q
 Q
 Q
- 
-endstream
-endobj
-38 0 obj
-<<
-/Length 7701
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 695.8236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ejercicio) Tj T* ET
+BT 1 0 0 1 0 14 Tm .790651 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 0.3:) Tj /F1 10 Tf ( Pruebe reiniciar la red, y luego verifique el estado de la misma utilizando ) Tj /F3 10 Tf 0 0 0 rg (systemctl) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* 0 Tw (\277Qu\351 informaci\363n del estado se muestra?.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 717.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .572485 Tw (Pruebe reiniciar la red, y luego verifique el estado de la misma utilizando systemctl. Que informaci\363n del) Tj T* 0 Tw (estado se muestra?.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 687.0236 cm
+1 0 0 1 62.69291 665.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Direcciones est\341ticas) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 635.8236 cm
 q
-BT 1 0 0 1 0 14 Tm 7.464597 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para una interfaz de red que se denomine ) Tj /F3 10 Tf 0 0 0 rg (enp0s3) Tj /F1 10 Tf 0 0 0 rg ( la configuraci\363n se encuentra en) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (#) Tj ( ) Tj (vim) Tj ( ) Tj (/etc/sysconfig/network-scripts/ifcfg-enp0s3) Tj /F1 10 Tf 0 0 0 rg (. Por ejemplo:) Tj T* ET
+BT 1 0 0 1 0 14 Tm 7.464597 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para una interfaz de red que se denomine ) Tj /F3 10 Tf 0 0 0 rg (enp0s3) Tj /F1 10 Tf 0 0 0 rg ( la configuraci\363n se encuentra en) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (#) Tj ( ) Tj (/etc/sysconfig/network-scripts/ifcfg-enp0s3) Tj /F1 10 Tf 0 0 0 rg (. Por ejemplo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 539.8236 cm
+1 0 0 1 62.69291 518.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -623,39 +691,32 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 509.8236 cm
+1 0 0 1 62.69291 486.6236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ejercicio) Tj T* ET
+BT 1 0 0 1 0 14 Tm 3.867752 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 0.4:) Tj /F1 10 Tf ( Examine el directorio ) Tj /F3 10 Tf 0 0 0 rg (/etc/sysconfig/network-scripts) Tj /F1 10 Tf 0 0 0 rg ( y comente que se) Tj T* 0 Tw (encuentra dentro del mismo.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 491.8236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Examine el directorio /etc/sysconfig/network-scripts y comente que se encuentra dentro del mismo.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 461.8236 cm
+1 0 0 1 62.69291 456.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (ip) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 431.8236 cm
+1 0 0 1 62.69291 426.6236 cm
 q
 BT 1 0 0 1 0 14 Tm 8.524597 Tw 12 TL /F1 10 Tf 0 0 0 rg (Se puede encontrar una comparaci\363n entre los comando \372tiles de ifconfig y ip en) Tj T* 0 Tw 0 0 .501961 rg (https://p5r.uk/blog/2010/ifconfig-ip-comparison.html) Tj 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 413.8236 cm
+1 0 0 1 62.69291 408.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Veamos los m\341s usuales:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 332.6236 cm
+1 0 0 1 62.69291 327.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -693,14 +754,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 312.6236 cm
+1 0 0 1 62.69291 307.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Algunos para rutas:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 243.4236 cm
+1 0 0 1 62.69291 238.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -736,13 +797,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 211.4236 cm
+1 0 0 1 62.69291 206.2236 cm
 q
 BT 1 0 0 1 0 14 Tm 15.47398 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para agregar una ruta est\341tica en forma permanente se debe modificar) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (/etc/sysconfig/network-scripts/route-eth0) Tj /F1 10 Tf 0 0 0 rg ( agreg\341ndola del siguiente modo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 178.2236 cm
+1 0 0 1 62.69291 173.0236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -766,47 +827,59 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 148.2236 cm
+1 0 0 1 62.69291 129.0236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ejercicio) Tj T* ET
+BT 1 0 0 1 0 26 Tm 2.644597 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 0.5:) Tj /F1 10 Tf ( Pruebe agregar una ruta est\341tica de manera temporal, utilizando el comando ) Tj /F3 10 Tf 0 0 0 rg (ip) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* 0 Tw .571984 Tw (Verifique su creaci\363n y luego elim\355nela. Ahora prueba agregar la misma ruta pero de forma permanente,) Tj T* 0 Tw (reinicie la m\341quina virtual y verifique que la misma se encuentre definida.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 106.2236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .460651 Tw (Pruebe agregar una ruta est\341tica de manera temporal, utilizando el comando \264ip\264, verifique su creaci\363n y) Tj T* 0 Tw 1.605697 Tw (luego elim\355nela. Ahora prueba agregar la misma ruta pero de forma permanente. Reinicie la m\341quina) Tj T* 0 Tw (virtual y verifique que la misma se encuentre seteada.) Tj T* ET
-Q
-Q
- 
-endstream
-endobj
-39 0 obj
-<<
-/Length 8144
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 99.02362 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Interfaces virtuales) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (2 / 8) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+40 0 obj
+<<
+/Length 8827
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
 q
 BT 1 0 0 1 0 26 Tm 1.113735 Tw 12 TL /F1 10 Tf 0 0 0 rg (Con el ya casi obsoleto comando ) Tj /F3 10 Tf 0 0 0 rg (ifconfig) Tj /F1 10 Tf 0 0 0 rg ( se creaba una interfaz virtual asociada a una real \(f\355sica\)) Tj T* 0 Tw .609069 Tw (haciendo ) Tj /F3 10 Tf 0 0 0 rg (ifconfig) Tj ( ) Tj (eth0:0) Tj ( ) Tj (192.168.1.2) Tj ( ) Tj (netmask) Tj ( ) Tj (255.255.255.0) Tj ( ) Tj (up) Tj /F1 10 Tf 0 0 0 rg (. El n\372mero luego de los) Tj T* 0 Tw (dos puntos la identificaba, y el nombre previo era la placa f\355sica a la que estaba asociada.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 639.0236 cm
+1 0 0 1 62.69291 699.0236 cm
 q
-BT 1 0 0 1 0 50 Tm .476654 Tw 12 TL /F2 10 Tf 0 0 0 rg (Con el comando ip) Tj /F1 10 Tf (, se asocia una nueva direcci\363n ip a un dispositivo de red haciendo ) Tj 1 0 0 rg (``) Tj 0 0 0 rg (ip address add) Tj T* 0 Tw .178221 Tw ([ip]/[mask] dev [nic] label [nic]:[name] ) Tj 1 0 0 rg (``) Tj 0 0 0 rg (, donde ) Tj /F5 10 Tf ([ip]/[mask]) Tj /F1 10 Tf ( hace referencia a la direcci\363n ip y a la m\341scara) Tj T* 0 Tw .07104 Tw (de red, ) Tj /F5 10 Tf (nic) Tj /F1 10 Tf ( al nombre del dispositivo f\355sico y ) Tj /F5 10 Tf ([name]) Tj /F1 10 Tf ( al nombre de interfaz virtual, que en general suele ser) Tj T* 0 Tw .045868 Tw (un n\372mero aunque no est\341 limitado a ello. En el siguiente ejemplo creamos una interfaz virtual asociada a) Tj T* 0 Tw (la placa inal\341mbrica wlp2s:) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Con el comando ip) Tj /F1 10 Tf (, se asocia una nueva direcci\363n ip a un dispositivo de red haciendo) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 605.8236 cm
+1 0 0 1 62.69291 645.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 3.371976 Tw 12 TL /F3 10 Tf 0 0 0 rg (ip) Tj ( ) Tj (address) Tj ( ) Tj (add) Tj ( ) Tj ([ip]/[mask]) Tj ( ) Tj (dev) Tj ( ) Tj ([nic]) Tj ( ) Tj (label) Tj ( ) Tj ([nic]:[name]) Tj /F1 10 Tf 0 0 0 rg (, donde ) Tj /F5 10 Tf ([ip]/[mask]) Tj /F1 10 Tf ( hace) Tj T* 0 Tw .429988 Tw (referencia a la direcci\363n ip y a la m\341scara de red, ) Tj /F5 10 Tf (nic) Tj /F1 10 Tf ( al nombre del dispositivo f\355sico y ) Tj /F5 10 Tf ([name]) Tj /F1 10 Tf ( al nombre) Tj T* 0 Tw 1.153876 Tw (de interfaz virtual, que en general suele ser un n\372mero aunque no est\341 limitado a ello. En el siguiente) Tj T* 0 Tw (ejemplo creamos una interfaz virtual asociada a la placa inal\341mbrica wlp2s:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -828,19 +901,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 549.8236 cm
+1 0 0 1 62.69291 555.8236 cm
 q
 BT 1 0 0 1 0 38 Tm 1.299985 Tw 12 TL /F1 10 Tf 0 0 0 rg (Con lo precedente se agregan ips en forma temporal, si es necesario hacer el cambio permanente se) Tj T* 0 Tw 17.87442 Tw (deben crear tantos archivos como interfaces virtuales se requieran en) Tj T* 0 Tw .652823 Tw /F3 10 Tf 0 0 0 rg (/etc/sysconfig/network-scripts) Tj /F1 10 Tf 0 0 0 rg (, usando la nomeclatura ) Tj /F3 10 Tf 0 0 0 rg (ifcfg-[nic]:[name]) Tj /F1 10 Tf 0 0 0 rg (, donde ) Tj /F5 10 Tf ([nic]) Tj /F1 10 Tf ( es) Tj T* 0 Tw (el nombre de la interfaz f\355sica y ) Tj /F5 10 Tf ([name]) Tj /F1 10 Tf ( el n\372mero de la interfaz alias.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.8236 cm
+1 0 0 1 62.69291 525.8236 cm
 q
 BT 1 0 0 1 0 14 Tm -0.02253 Tw 12 TL /F1 10 Tf 0 0 0 rg (Por ejemplo, el archivo ) Tj /F3 10 Tf 0 0 0 rg (/etc/sysconfig/network-scripts/ifcfg-enp0s3:1) Tj /F1 10 Tf 0 0 0 rg ( tendr\355a algo similar a) Tj T* 0 Tw (lo siguiente:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 402.6236 cm
+1 0 0 1 62.69291 408.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -904,19 +977,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 382.6236 cm
+1 0 0 1 62.69291 388.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Finalmente reiniciar el servicio de red: ) Tj /F3 10 Tf 0 0 0 rg (systemctl) Tj ( ) Tj (restart) Tj ( ) Tj (network) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 352.6236 cm
+1 0 0 1 62.69291 358.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (ss) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 259.4236 cm
+1 0 0 1 62.69291 265.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -952,106 +1025,112 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 227.4236 cm
+1 0 0 1 62.69291 233.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.535984 Tw (Es interesante utilizar el filtrado basado en direcciones y puertos. Por ejemplo para mostrar todas las) Tj T* 0 Tw (conexiones cuyo puerto de origen o destino sean ssh:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 209.4236 cm
+1 0 0 1 62.69291 215.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (ss) Tj ( ) Tj (-at) Tj ( ) Tj ('\() Tj ( ) Tj (dport) Tj ( ) Tj (=) Tj ( ) Tj (:ssh) Tj ( ) Tj (or) Tj ( ) Tj (sport) Tj ( ) Tj (=) Tj ( ) Tj (:ssh) Tj ( ) Tj (\)') Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 191.4236 cm
+1 0 0 1 62.69291 197.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (U otro ejemplo donde el n\372mero de puerto destino es el 80 o 443:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 173.4236 cm
+1 0 0 1 62.69291 179.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (ss) Tj ( ) Tj (-nt) Tj ( ) Tj ('\() Tj ( ) Tj (dst) Tj ( ) Tj (:443) Tj ( ) Tj (or) Tj ( ) Tj (dst) Tj ( ) Tj (:80) Tj ( ) Tj (\)') Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 143.4236 cm
+1 0 0 1 62.69291 149.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .045868 Tw (Combinado con el comando watch es posible ver en tiempo real las conexiones que se establecen bajo el) Tj T* 0 Tw (filtrado previo. Por ejemplo, para ver en tiempo real con un intervalo de 1 segundo el filtrado previo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 125.4236 cm
+1 0 0 1 62.69291 131.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (watch) Tj ( ) Tj (-n1) Tj ( ) Tj ("ss) Tj ( ) Tj (-nt) Tj ( ) Tj ('\() Tj ( ) Tj (dst) Tj ( ) Tj (:443) Tj ( ) Tj (or) Tj ( ) Tj (dst) Tj ( ) Tj (:80) Tj ( ) Tj (\)'") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 89.42362 cm
+q
+BT 1 0 0 1 0 26 Tm .746235 Tw 12 TL /F2 10 Tf 0 0 0 rg (ACTIVIDAD 0.6:) Tj /F1 10 Tf ( Deje corriendo el comando watch junto a ss, para que muestre las conexiones SSH, y) Tj T* 0 Tw .382765 Tw (p\355dale a su compa\361ero que desde su equipo se conecte v\355a ssh al suyo para verificar como se muestran) Tj T* 0 Tw (las conexiones \(estado, origen, etc\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (3 / 8) Tj T* -231.2149 0 Td ET
 Q
 Q
  
 endstream
 endobj
-40 0 obj
+41 0 obj
 <<
-/Length 7180
+/Length 7248
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
-q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ejercicio) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 717.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.123516 Tw (Deje corriendo el comando anterior en una consola, y p\355dale a su compa\361ero que desde su equipo se) Tj T* 0 Tw (conecte v\355a ssh al suyo para verificar como se muestran las conexiones \(estado, origen, etc\).) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 687.0236 cm
+1 0 0 1 62.69291 735.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (dhclient) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 717.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (La bandera ) Tj /F3 10 Tf 0 0 0 rg (-r) Tj /F1 10 Tf 0 0 0 rg ( explicitamente libera la asociaci\363n actual, por ejemplo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 699.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg ($) Tj ( ) Tj (sudo) Tj ( ) Tj (dhclient) Tj ( ) Tj (-r) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 681.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ahora obtenemos una nueva IP:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 615.0236 cm
+1 0 0 1 62.69291 663.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg ($) Tj ( ) Tj (sudo) Tj ( ) Tj (dhclient) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 597.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\277C\363mo lo renovamos para una interfaz espec\355fica, digamos, eth0?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 551.8236 cm
+1 0 0 1 62.69291 599.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1072,20 +1151,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 518.8236 cm
+1 0 0 1 62.69291 566.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Firewalld) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 500.8236 cm
+1 0 0 1 62.69291 548.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Firewalld es un frontend para iptables que viene por defecto a partir de CentOS 7.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 455.6236 cm
+1 0 0 1 62.69291 503.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1117,31 +1196,31 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 422.6236 cm
+1 0 0 1 62.69291 470.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Administrar servicios) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 392.6236 cm
+1 0 0 1 62.69291 440.6236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.051412 Tw 12 TL /F5 10 Tf 0 0 0 rg (Systemd) Tj /F1 10 Tf ( es un administrador de sistema y servicios para los sistemas operativos Linux. Est\341 dise\361ado) Tj T* 0 Tw (para mantener compatibilidad con los scripts init de SysV.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 362.6236 cm
+1 0 0 1 62.69291 410.6236 cm
 q
 BT 1 0 0 1 0 14 Tm 3.120814 Tw 12 TL /F5 10 Tf 0 0 0 rg (Systemd) Tj /F1 10 Tf ( introduce el concepto de ) Tj /F5 10 Tf (unidades) Tj /F1 10 Tf ( que son representadas por archivos de configuraci\363n) Tj T* 0 Tw (almacenados en) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 356.6236 cm
+1 0 0 1 62.69291 404.6236 cm
 Q
 q
-1 0 0 1 62.69291 356.6236 cm
+1 0 0 1 62.69291 404.6236 cm
 Q
 q
-1 0 0 1 62.69291 344.6236 cm
+1 0 0 1 62.69291 392.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1161,10 +1240,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 338.6236 cm
+1 0 0 1 62.69291 386.6236 cm
 Q
 q
-1 0 0 1 62.69291 326.6236 cm
+1 0 0 1 62.69291 374.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1184,10 +1263,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 320.6236 cm
+1 0 0 1 62.69291 368.6236 cm
 Q
 q
-1 0 0 1 62.69291 308.6236 cm
+1 0 0 1 62.69291 356.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1207,28 +1286,28 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 308.6236 cm
+1 0 0 1 62.69291 356.6236 cm
 Q
 q
-1 0 0 1 62.69291 266.6236 cm
+1 0 0 1 62.69291 314.6236 cm
 q
 BT 1 0 0 1 0 26 Tm .73284 Tw 12 TL /F1 10 Tf 0 0 0 rg (que encapsulan informaci\363n sobre los servicios del sistema, sockets, etc. Para una lista completa sobre) Tj T* 0 Tw 1.329398 Tw (los tipos de unidades de systemd vea la Tabla 9.1 "Available systemd Unit Types" \(p.99\) del ) Tj /F5 10 Tf (Red Hat) Tj T* 0 Tw (Enterprise Linux 7 System Administrator's Guide) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 224.6236 cm
+1 0 0 1 62.69291 272.6236 cm
 q
 BT 1 0 0 1 0 26 Tm 3.066136 Tw 12 TL /F1 10 Tf 0 0 0 rg (En versiones previas se utilizaban los scripts ) Tj /F5 10 Tf (init) Tj /F1 10 Tf ( que se almacenaban en ) Tj /F3 10 Tf 0 0 0 rg (/etc/rc.d/init.d) Tj /F1 10 Tf 0 0 0 rg ( y) Tj T* 0 Tw 1.314651 Tw (generalmente eran escritos en Bash y permitian al administrador controlar el estado de los servicios y) Tj T* 0 Tw (demonios en el sistema. Bien, ahora estos script han sido reemplazados con los ) Tj /F5 10 Tf (service units) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 194.6236 cm
+1 0 0 1 62.69291 242.6236 cm
 q
 BT 1 0 0 1 0 14 Tm 2.497318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Estos ) Tj /F5 10 Tf (service units) Tj /F1 10 Tf ( finalizan con la extensi\363n ) Tj /F2 10 Tf (.service) Tj /F1 10 Tf (. A continuaci\363n un resumen de su uso mas) Tj T* 0 Tw (frecuente:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 89.42362 cm
+1 0 0 1 62.69291 113.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1238,87 +1317,80 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 96 re B*
+n -6 -6 468.6898 120 re B*
 Q
 q
 .960784 .960784 .862745 rg
+n 60 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 96 6 12 re f*
+.960784 .960784 .862745 rg
 n 60 72 6 12 re f*
 .960784 .960784 .862745 rg
-n 96 72 6 12 re f*
+n 102 72 6 12 re f*
 .960784 .960784 .862745 rg
-n 126 72 6 12 re f*
-.960784 .960784 .862745 rg
-n 174 72 6 12 re f*
+n 150 72 6 12 re f*
 .960784 .960784 .862745 rg
 n 216 72 6 12 re f*
 .960784 .960784 .862745 rg
-n 60 48 6 12 re f*
+n 0 48 228 12 re f*
 .960784 .960784 .862745 rg
-n 102 48 6 12 re f*
-.960784 .960784 .862745 rg
-n 150 48 6 12 re f*
-.960784 .960784 .862745 rg
-n 216 48 6 12 re f*
-.960784 .960784 .862745 rg
-n 0 24 228 12 re f*
-BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (systemctl ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (start) Tj 0 0 0 rg (|) Tj 0 0 0 rg (stop) Tj 0 0 0 rg (|) Tj 0 0 0 rg (restart) Tj 0 0 0 rg (|) Tj 0 0 0 rg (status) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( name.service) Tj T* (systemctl reload name.service) Tj T* (systemctl ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (enable) Tj 0 0 0 rg (|) Tj 0 0 0 rg (disable) Tj 0 0 0 rg (|) Tj 0 0 0 rg (is-enabled) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( name.service) Tj T*  T* /F4 10 Tf .25098 .501961 .501961 rg (# Displays the status of all services.) Tj T* /F3 10 Tf 0 0 0 rg (systemctl list-units --type service --all) Tj T*  T* ET
+n 0 12 306 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F3 10 Tf 0 0 0 rg (systemctl ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (start) Tj 0 0 0 rg (|) Tj 0 0 0 rg (stop) Tj 0 0 0 rg (|) Tj 0 0 0 rg (restart) Tj 0 0 0 rg (|) Tj 0 0 0 rg (status) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( name.service) Tj T* (systemctl reload name.service) Tj T* (systemctl ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (enable) Tj 0 0 0 rg (|) Tj 0 0 0 rg (disable) Tj 0 0 0 rg (|) Tj 0 0 0 rg (is-enabled) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( name.service) Tj T*  T* /F4 10 Tf .25098 .501961 .501961 rg (# Displays the status of all services.) Tj T* /F3 10 Tf 0 0 0 rg (systemctl list-units --type service --all) Tj T*  T* /F4 10 Tf .25098 .501961 .501961 rg (# Lists all services and checks if they are enabled) Tj T* /F3 10 Tf 0 0 0 rg (systemctl list-unit-files --type service) Tj T* ET
 Q
 Q
 Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (4 / 8) Tj T* -231.2149 0 Td ET
 Q
 Q
  
 endstream
 endobj
-41 0 obj
+42 0 obj
 <<
-/Length 6187
+/Length 8663
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 727.8236 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
-Q
-q
-.960784 .960784 .862745 rg
-n 0 12 306 12 re f*
-BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf .25098 .501961 .501961 rg (# Lists all services and checks if they are enabled) Tj T* /F3 10 Tf 0 0 0 rg (systemctl list-unit-files --type service) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 62.69291 695.8236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 BT 1 0 0 1 0 14 Tm -0.09716 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para m\341s detalles se recomienda la lectura de ) Tj /F5 10 Tf (CHAPTER 9. MANAGING SERVICES WITH SYSTEMD) Tj /F1 10 Tf ( de) Tj T* 0 Tw /F5 10 Tf (Red Hat Enterprise Linux 7 System Administrator's Guide) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 662.8236 cm
+1 0 0 1 62.69291 696.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Modos de inicio) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 632.8236 cm
+1 0 0 1 62.69291 666.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .570574 Tw (Al instalar GNOME o KDE el nivel de ejecuci\363n por defecto sigue siendo el modo consola, para cambiar) Tj T* 0 Tw (este comportamiento y que autom\341ticamente ingrese al entorno gr\341fico es necesario hacer:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 599.6236 cm
+1 0 0 1 62.69291 632.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1339,19 +1411,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 567.6236 cm
+1 0 0 1 62.69291 600.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .209983 Tw 12 TL /F1 10 Tf 0 0 0 rg (Antes de systemd se modificaba en ) Tj /F3 10 Tf 0 0 0 rg (/etc/inittab) Tj /F1 10 Tf 0 0 0 rg ( el nivel de ejecuci\363n, ahora se denominan ) Tj /F3 10 Tf 0 0 0 rg (targets) Tj /F1 10 Tf 0 0 0 rg  T* 0 Tw (y se utiliza el comando previo con dos opciones:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 561.6236 cm
+1 0 0 1 62.69291 594.8236 cm
 Q
 q
-1 0 0 1 62.69291 561.6236 cm
+1 0 0 1 62.69291 594.8236 cm
 Q
 q
-1 0 0 1 62.69291 549.6236 cm
+1 0 0 1 62.69291 582.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1372,10 +1444,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 543.6236 cm
+1 0 0 1 62.69291 576.8236 cm
 Q
 q
-1 0 0 1 62.69291 531.6236 cm
+1 0 0 1 62.69291 564.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1396,76 +1468,1861 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 531.6236 cm
+1 0 0 1 62.69291 564.8236 cm
 Q
 q
-1 0 0 1 62.69291 513.6236 cm
+1 0 0 1 62.69291 546.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Para saber el target en el que se encuentra basta con ejecutar ) Tj /F3 10 Tf 0 0 0 rg (systemctl) Tj ( ) Tj (get-default) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 471.6236 cm
+1 0 0 1 62.69291 504.8236 cm
 q
 BT 1 0 0 1 0 26 Tm 8.277318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Al setear un target por defecto lo que se hace es crear un enlace simb\363lico en) Tj T* 0 Tw 25.09744 Tw /F3 10 Tf 0 0 0 rg (/etc/systemd/system/default.target) Tj /F1 10 Tf 0 0 0 rg ( apuntando a ) Tj /F3 10 Tf 0 0 0 rg (graphical.target) Tj /F1 10 Tf 0 0 0 rg ( o) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (multi-user.target) Tj /F1 10 Tf 0 0 0 rg ( en /usr/lib/systemd/system/) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 438.6236 cm
+1 0 0 1 62.69291 471.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Proxy) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 396.6236 cm
+1 0 0 1 62.69291 429.8236 cm
 q
 BT 1 0 0 1 0 26 Tm 1.713516 Tw 12 TL /F1 10 Tf 0 0 0 rg (Con el fin de economizar tr\341fico frecuentemente se accede a una red a trav\351s de un servidor proxy.) Tj T* 0 Tw .29311 Tw (Muchos de los comandos que realizamos en el sistema pueden ser redireccionados a trav\351s de un proxy) Tj T* 0 Tw (con solo configurar la variable de entorno ) Tj /F3 10 Tf 0 0 0 rg (http_proxy) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F3 10 Tf 0 0 0 rg (https_proxy) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 378.6236 cm
+1 0 0 1 62.69291 411.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Esto se realiza haciendo uso del comando ) Tj /F3 10 Tf 0 0 0 rg (export) Tj /F1 10 Tf 0 0 0 rg ( del siguiente modo:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 348.6236 cm
+1 0 0 1 62.69291 366.6236 cm
 q
-BT 1 0 0 1 0 14 Tm 111.0549 Tw 12 TL /F3 10 Tf 0 0 0 rg ($export) Tj ( ) Tj (http_proxy="http://PROXY:PUERTO") Tj /F1 10 Tf 0 0 0 rg ( y) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg ($export) Tj ( ) Tj (https_proxy="http://PROXY:PUERTO") Tj T* ET
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 60 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 12 126 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 66 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 126 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf .098039 .090196 .486275 rg ($export) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (http_proxy) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ("http://PROXY:PUERTO") Tj 0 0 0 rg  T* .098039 .090196 .486275 rg ($export) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (https_proxy) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ("http://PROXY:PUERTO") Tj T* ET
 Q
 Q
+Q
+Q
+Q
 q
-1 0 0 1 62.69291 306.6236 cm
+1 0 0 1 62.69291 322.6236 cm
 q
 BT 1 0 0 1 0 26 Tm -0.080013 Tw 12 TL /F1 10 Tf 0 0 0 rg (Se debe tener en cuenta que esto se mantiene siempre y cuando persista el usuario en la misma terminal.) Tj T* 0 Tw .861984 Tw (Si se desea realizar una acci\363n con permisos de ) Tj /F3 10 Tf 0 0 0 rg (sudo) Tj /F1 10 Tf 0 0 0 rg ( entonces primero debe pasarse a administrador) Tj T* 0 Tw (con ) Tj /F3 10 Tf 0 0 0 rg (sudo) Tj ( ) Tj (-s) Tj /F1 10 Tf 0 0 0 rg ( y finalmente realizar el ) Tj /F3 10 Tf 0 0 0 rg (export) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 264.6236 cm
+1 0 0 1 62.69291 280.6236 cm
 q
 BT 1 0 0 1 0 26 Tm 1.578735 Tw 12 TL /F1 10 Tf 0 0 0 rg (Si se desea habilitar el proxy para YUM en forma permanente entonces se debe modificar el archivo) Tj T* 0 Tw 2.09372 Tw /F3 10 Tf 0 0 0 rg (/etc/yum.conf) Tj /F1 10 Tf 0 0 0 rg ( agregando una linea que contenga ) Tj /F3 10 Tf 0 0 0 rg (proxy=http://PROXY:PUERTO) Tj /F1 10 Tf 0 0 0 rg (. Para conocer) Tj T* 0 Tw (todas las opciones de configuraci\363n ver ) Tj /F3 10 Tf 0 0 0 rg (man) Tj ( ) Tj (yum.conf) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 246.6236 cm
+1 0 0 1 62.69291 262.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (En los labs de la UTN FRSF el proxy es ) Tj /F3 10 Tf 0 0 0 rg (frsf.utn.edu.ar) Tj /F1 10 Tf 0 0 0 rg ( y el puerto ) Tj /F3 10 Tf 0 0 0 rg (8080) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 213.6236 cm
+1 0 0 1 62.69291 229.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Acceso a los logs con journalctl) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 187.6236 cm
+q
+BT 1 0 0 1 0 26 Tm .439398 Tw 12 TL /F1 10 Tf 0 0 0 rg (Desde que se implement\363 systemd, el acceso a los logs ha cambiado. Ahora cada proceso, servicio o el) Tj T* 0 Tw 1.905984 Tw (mismo kernel, generan lo que se conocen como journals \(diarios\), y estos pueden ser accedidos de) Tj T* 0 Tw (manera centralizada por medio de la herramienta ) Tj /F3 10 Tf 0 0 0 rg (journalctl) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 169.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Veamos algunas opciones disponibles:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 163.6236 cm
+Q
+q
+1 0 0 1 62.69291 163.6236 cm
+Q
+q
+1 0 0 1 62.69291 151.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ver todos los logs) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 151.6236 cm
+Q
+q
+1 0 0 1 62.69291 94.42362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 654 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 24 90 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 576 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 630 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 636 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (root@localhost ~) Tj .4 .4 .4 rg (]) Tj /F4 10 Tf .25098 .501961 .501961 rg (# journalctl -f) Tj T* /F3 10 Tf 0 0 0 rg (-- Logs begin at Sat ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-03-24 ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 -03, end at Tue ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:55:06 -03. --) Tj T* (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel: random: get_random_bytes called from start_kernel+0x42/0x4ef with ) Tj .098039 .090196 .486275 rg (crng_init) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (5 / 8) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+43 0 obj
+<<
+/Length 21423
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 631.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 684 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 510 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 522 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 600 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 636 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 126 84 480 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 72 60 12 re f*
+.960784 .960784 .862745 rg
+n 324 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 558 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 564 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 588 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 60 54 12 re f*
+.960784 .960784 .862745 rg
+n 216 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 258 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 414 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 420 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F3 10 Tf 0 0 0 rg (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel: Linux version ) Tj .4 .4 .4 rg (4) Tj 0 0 0 rg (.13.0-37-generic ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (buildd@lcy01-amd64-026) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (gcc version ) Tj .4 .4 .4 rg (7) Tj 0 0 0 rg (.2.0 ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (Ubunt) Tj T* (u ) Tj .4 .4 .4 rg (7) Tj 0 0 0 rg (.2.0-8ubuntu3.2) Tj .4 .4 .4 rg (\)\)) Tj 0 0 0 rg ( ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#42-Ubuntu SMP Wed Mar 7 14:13:23 UTC 2018 \(Ubuntu 4.13.0-37.42-generic 4.13.13\)) Tj T* /F3 10 Tf 0 0 0 rg (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel: Command line: ) Tj .098039 .090196 .486275 rg (BOOT_IMAGE) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/@/boot/vmlinuz-4.13.0-37-generic ) Tj .098039 .090196 .486275 rg (root) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg (UUID) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (c12f0bf0-e28c) Tj T* (-4cae-a48b-26bcbbb4f871 ro ) Tj .098039 .090196 .486275 rg (rootflags) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg (subvol) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (@ quiet splash vt.handoff) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (7) Tj 0 0 0 rg  T* (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel: KERNEL supported cpus:) Tj T* (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel:   Intel GenuineIntel) Tj T* (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel:   AMD AuthenticAMD) Tj T* (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel:   Centaur CentaurHauls) Tj T* (mar ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 tesla kernel: x86/fpu: Supporting XSAVE) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 617.8236 cm
+Q
+q
+1 0 0 1 62.69291 617.8236 cm
+Q
+q
+1 0 0 1 62.69291 605.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ver logs en vivo \(similar a tail -f \)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 605.8236 cm
+Q
+q
+1 0 0 1 62.69291 440.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 744 156 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 132 90 12 re f*
+.960784 .960784 .862745 rg
+n 126 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 396 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 312 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 336 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 426 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 282 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 426 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 654 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 660 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 678 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 684 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 690 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 282 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 384 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 426 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 438 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 456 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 546 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 558 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 582 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 618 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 630 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 672 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 240 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 270 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 336 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 240 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 336 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 414 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 522 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 666 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 672 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 690 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 696 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 702 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 294 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 408 0 18 12 re f*
+BT 1 0 0 1 0 134 Tm 12 TL /F3 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (root@localhost ~) Tj .4 .4 .4 rg (]) Tj /F4 10 Tf .25098 .501961 .501961 rg (# journalctl -f) Tj T* /F3 10 Tf 0 0 0 rg (-- Logs begin at mar ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 -03. --) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:42 localhost.localdomain systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Created slice User Slice of vagrant.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:42 localhost.localdomain systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Starting User Slice of vagrant.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:42 localhost.localdomain systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Started Session ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( of user vagrant.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:42 localhost.localdomain systemd-logind) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (632) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: New session ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( of user vagrant.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:42 localhost.localdomain systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Starting Session ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( of user vagrant.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:42 localhost.localdomain sshd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (3116) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: pam_unix) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (sshd:session) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (: session opened ) Tj /F6 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( user vagrant by ) Tj .4 .4 .4 rg (\() Tj .098039 .090196 .486275 rg (uid) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (0) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:52 localhost.localdomain sudo) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (3139) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (:  vagrant : ) Tj .098039 .090196 .486275 rg (TTY) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (pts/0 ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (PWD) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/home/vagrant ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (USER) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (root ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (COMMAND) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/bin/su -) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:52 localhost.localdomain su) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (3140) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (to root) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( vagrant on pts/0) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:53:52 localhost.localdomain su) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (3140) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: pam_unix) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (su-l:session) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (: session opened ) Tj /F6 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( user root by vagrant) Tj .4 .4 .4 rg (\() Tj .098039 .090196 .486275 rg (uid) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (0) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:54:02 localhost.localdomain chronyd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (641) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Selected ) Tj 0 .501961 0 rg (source) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (190) Tj 0 0 0 rg (.228.30.178) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 426.6236 cm
+Q
+q
+1 0 0 1 62.69291 426.6236 cm
+Q
+q
+1 0 0 1 62.69291 414.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ver solo los logs del kernel) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 414.6236 cm
+Q
+q
+1 0 0 1 62.69291 237.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 684 168 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 144 90 12 re f*
+.960784 .960784 .862745 rg
+n 126 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 510 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 522 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 600 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 636 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 108 60 12 re f*
+.960784 .960784 .862745 rg
+n 324 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 558 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 564 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 588 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 48 180 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 36 90 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 24 90 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 12 132 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 0 54 12 re f*
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (root@localhost ~) Tj .4 .4 .4 rg (]) Tj /F4 10 Tf .25098 .501961 .501961 rg (# journalctl -k) Tj T* /F3 10 Tf 0 0 0 rg (-- Logs begin at Sat ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-03-24 ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 -03, end at Tue ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:05:10 -03. --) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: Linux version ) Tj .4 .4 .4 rg (4) Tj 0 0 0 rg (.15.0-20-generic ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (buildd@lgw01-amd64-039) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (gcc version ) Tj .4 .4 .4 rg (7) Tj 0 0 0 rg (.3.0 ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (Ubunt) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: Command line: ) Tj .098039 .090196 .486275 rg (BOOT_IMAGE) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/@/boot/vmlinuz-4.15.0-20-generic ) Tj .098039 .090196 .486275 rg (root) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg (UUID) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (c12f0bf0-e28c) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: KERNEL supported cpus:) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel:   Intel GenuineIntel) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel:   AMD AuthenticAMD) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel:   Centaur CentaurHauls) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: x86/fpu: Supporting XSAVE feature 0x001: ) Tj .729412 .129412 .129412 rg ('x87 floating point registers') Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: x86/fpu: Supporting XSAVE feature 0x002: ) Tj .729412 .129412 .129412 rg ('SSE registers') Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: x86/fpu: Supporting XSAVE feature 0x004: ) Tj .729412 .129412 .129412 rg ('AVX registers') Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: x86/fpu: Supporting XSAVE feature 0x008: ) Tj .729412 .129412 .129412 rg ('MPX bounds registers') Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:02:41 tesla kernel: x86/fpu: Supporting XSAVE feature 0x010: ) Tj .729412 .129412 .129412 rg ('MPX CSR') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 223.4236 cm
+Q
+q
+1 0 0 1 62.69291 223.4236 cm
+Q
+q
+1 0 0 1 62.69291 211.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para ver los logs desde el \372ltimo booteo) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 211.4236 cm
+Q
+q
+1 0 0 1 62.69291 106.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 762 96 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 72 90 12 re f*
+.960784 .960784 .862745 rg
+n 126 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 336 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 504 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 612 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 360 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 522 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 714 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 726 0 6 12 re f*
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (root@localhost ~) Tj .4 .4 .4 rg (]) Tj /F4 10 Tf .25098 .501961 .501961 rg (# journalctl -b) Tj T* /F3 10 Tf 0 0 0 rg (-- Logs begin at mar ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 -03, end at mar ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:06:06 -03. --) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain systemd-journal) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (86) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Runtime journal is using ) Tj .4 .4 .4 rg (6) Tj 0 0 0 rg (.2M ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (max allowed ) Tj .4 .4 .4 rg (49) Tj 0 0 0 rg (.6M, trying to leave) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain kernel: Initializing cgroup subsys cpuset) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain kernel: Initializing cgroup subsys cpu) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain kernel: Initializing cgroup subsys cpuacct) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain kernel: Linux version ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.10.0-693.21.1.el7.x86_64 ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (builder@kbuilder.dev.centos.org) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (gcc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (6 / 8) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+44 0 obj
+<<
+/Length 20622
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 715.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 762 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 360 12 60 12 re f*
+.960784 .960784 .862745 rg
+n 420 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 642 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 666 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain kernel: Command line: ) Tj .098039 .090196 .486275 rg (BOOT_IMAGE) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/vmlinuz-3.10.0-693.21.1.el7.x86_64 ) Tj .098039 .090196 .486275 rg (root) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/dev/mapper/c) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg (:50:21 localhost.localdomain kernel: e820: BIOS-provided physical RAM map:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 514.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 492 192 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 126 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 132 60 12 re f*
+.960784 .960784 .862745 rg
+n 324 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 72 54 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 432 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 48 54 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 432 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 312 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 450 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 456 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 462 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+BT 1 0 0 1 0 170 Tm 12 TL /F3 10 Tf 0 0 0 rg (root@tesla:~# journalctl -b -3) Tj T* (-- Logs begin at Sat ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-03-24 ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 -03, end at Tue ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 -03) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: Linux version ) Tj .4 .4 .4 rg (4) Tj 0 0 0 rg (.15.0-20-generic ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (buildd@lgw01-amd6) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: Command line: ) Tj .098039 .090196 .486275 rg (BOOT_IMAGE) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/@/boot/vmlinuz-4.15.0-20) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: KERNEL supported cpus:) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel:   Intel GenuineIntel) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel:   AMD AuthenticAMD) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel:   Centaur CentaurHauls) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: x86/fpu: Supporting XSAVE feature 0x001: ) Tj .729412 .129412 .129412 rg ('x87 floa) Tj T* (may 06 07:36:12 tesla kernel: x86/fpu: Supporting XSAVE feature 0x002: ') Tj 0 0 0 rg (SSE regi) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: x86/fpu: Supporting XSAVE feature 0x004: ) Tj .729412 .129412 .129412 rg ('AVX regi) Tj T* (may 06 07:36:12 tesla kernel: x86/fpu: Supporting XSAVE feature 0x008: ') Tj 0 0 0 rg (MPX boun) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: x86/fpu: Supporting XSAVE feature 0x010: ) Tj .729412 .129412 .129412 rg ('MPX CSR') Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: x86/fpu: xstate_offset) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (:  ) Tj .4 .4 .4 rg (576) Tj 0 0 0 rg (, xstate_sizes) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (:) Tj T* (may ) Tj .4 .4 .4 rg (06) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (07) Tj 0 0 0 rg (:36:12 tesla kernel: x86/fpu: xstate_offset) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 500.6236 cm
+Q
+q
+1 0 0 1 62.69291 500.6236 cm
+Q
+q
+1 0 0 1 62.69291 488.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Si queremos ver los \372ltimos 15 mensajes) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 488.6236 cm
+Q
+q
+1 0 0 1 62.69291 275.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 492 204 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 168 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 126 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 456 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 330 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 378 0 6 12 re f*
+BT 1 0 0 1 0 182 Tm 12 TL /F3 10 Tf 0 0 0 rg (root@tesla:~# journalctl -n ) Tj .4 .4 .4 rg (15) Tj 0 0 0 rg  T* (-- Logs begin at Sat ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-03-24 ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 -03, end at Tue ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:25 -03) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Starting D-Bus User Message Bus Socket.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Listening on GnuPG cryptographic agent ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (ssh) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Listening on GnuPG network certificate mana) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Reached target Timers.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Listening on GnuPG cryptographic agent and) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Reached target Paths.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Listening on GnuPG cryptographic agent and) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Listening on GnuPG cryptographic agent and) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Listening on D-Bus User Message Bus Socket.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Reached target Sockets.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Reached target Basic System.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Reached target Default.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7707) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Startup finished in 167ms.) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:39:17 tesla systemd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Started User Manager ) Tj /F6 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( UID ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 261.4236 cm
+Q
+q
+1 0 0 1 62.69291 261.4236 cm
+Q
+q
+1 0 0 1 62.69291 249.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ver los logs de los \372ltimos 10 minutos) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 249.4236 cm
+Q
+q
+1 0 0 1 62.69291 96.22362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 492 144 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 126 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 396 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 426 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 456 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 228 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 474 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 408 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 0 162 12 re f*
+BT 1 0 0 1 0 122 Tm 12 TL /F3 10 Tf 0 0 0 rg (root@tesla:~# journalctl --since -15m) Tj T* (-- Logs begin at Sat ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-03-24 ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 -03, end at Tue ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:40:33 -03) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:16 tesla pkexec) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7507) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: pam_unix) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (polkit-1:session) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (: session opened f) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:16 tesla pkexec) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7507) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: mboscovich: Executing ) Tj 0 .501961 0 rg (command) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj .098039 .090196 .486275 rg (USER) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (root) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (T) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:44 tesla smartd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1046) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Device: /dev/sda ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (SAT) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (, SMART Usage Attribut) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:44 tesla smartd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1046) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Device: /dev/sda ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (SAT) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (, SMART Usage Attribut) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:44 tesla smartd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1046) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Device: /dev/sdb ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (SAT) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (, SMART Usage Attribut) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla gnome-shell) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Object .Gjs_AppIndicatorIconActor__1 ) Tj .4 .4 .4 rg (\() Tj .4 .4 .4 rg (0) Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( Stack trace ) Tj /F6 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( context) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#0 0x7ffe62973740 I   resou) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#1 0x56139ea7c220 i   /usr/) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (7 / 8) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+45 0 obj
+<<
+/Length 22080
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 595.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 492 156 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 24 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 132 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 120 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 108 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 84 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 72 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 60 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 36 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 24 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 162 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 0 162 12 re f*
+BT 1 0 0 1 0 134 Tm 12 TL /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#2 0x7ffe62974340 I   resou) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#3 0x7ffe62974400 b   self-) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#4 0x7ffe629744f0 b   resou) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#5 0x56139ea7c198 i   /usr/) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#6 0x7ffe62975160 I   resou) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#7 0x56139ea7c0f0 i   /usr/) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#8 0x7ffe62975d60 I   resou) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#9 0x56139ea7c078 i   /usr/) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#10 0x56139ea7bfb8 i   reso) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#11 0x56139ea7bf38 i   reso) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#12 0x7ffe62976a80 b   self) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#13 0x56139ea7beb8 i   reso) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 581.8236 cm
+Q
+q
+1 0 0 1 62.69291 581.8236 cm
+Q
+q
+1 0 0 1 62.69291 569.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ver los logs desde una fecha particular) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 569.8236 cm
+Q
+q
+1 0 0 1 62.69291 308.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 684 252 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 192 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 228 108 12 re f*
+.960784 .960784 .862745 rg
+n 126 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 342 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 474 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 576 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 582 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 600 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 606 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 630 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 396 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 426 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 456 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 474 192 18 12 re f*
+.960784 .960784 .862745 rg
+n 492 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 540 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 552 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 558 192 18 12 re f*
+.960784 .960784 .862745 rg
+n 576 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 180 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 498 180 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 498 168 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 498 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 228 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 558 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 408 132 18 12 re f*
+.960784 .960784 .862745 rg
+n 480 132 84 12 re f*
+.960784 .960784 .862745 rg
+n 570 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 120 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 108 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 84 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 72 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 60 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 36 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 24 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 354 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 0 354 12 re f*
+BT 1 0 0 1 0 230 Tm 12 TL /F3 10 Tf 0 0 0 rg (root@tesla:~# journalctl --since) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('2018-05-08 23:30') Tj 0 0 0 rg  T* (-- Logs begin at Sat ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-03-24 ) Tj .4 .4 .4 rg (09) Tj 0 0 0 rg (:12:29 -03, end at Tue ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08 ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:41:35 -03. --) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:16 tesla pkexec) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7507) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: pam_unix) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (polkit-1:session) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (: session opened ) Tj /F6 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( user root by ) Tj .4 .4 .4 rg (\() Tj .098039 .090196 .486275 rg (uid) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (1000) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:16 tesla pkexec) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (7507) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: mboscovich: Executing ) Tj 0 .501961 0 rg (command) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj .098039 .090196 .486275 rg (USER) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (root) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj .098039 .090196 .486275 rg (TTY) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (unknown) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj .098039 .090196 .486275 rg (CWD) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/home/mboscovic) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:44 tesla smartd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1046) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Device: /dev/sda ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (SAT) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (, SMART Usage Attribute: ) Tj .4 .4 .4 rg (190) Tj 0 0 0 rg ( Airflow_Temperature_Cel c) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:44 tesla smartd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1046) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Device: /dev/sda ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (SAT) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (, SMART Usage Attribute: ) Tj .4 .4 .4 rg (194) Tj 0 0 0 rg ( Temperature_Celsius chang) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:32:44 tesla smartd) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (1046) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Device: /dev/sdb ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (SAT) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (, SMART Usage Attribute: ) Tj .4 .4 .4 rg (194) Tj 0 0 0 rg ( Temperature_Celsius chang) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla gnome-shell) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: Object .Gjs_AppIndicatorIconActor__1 ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (0x5613a0f51040) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (, has been already) Tj T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( Stack trace ) Tj /F6 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( context ) Tj .098039 .090196 .486275 rg (0x56139e5d5340) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg  T* (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#0 0x7ffe62973740 I   resource:///org/gnome/gjs/modules/_le) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#1 0x56139ea7c220 i   /usr/share/gnome-shell/extensions/ubu) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#2 0x7ffe62974340 I   resource:///org/gnome/gjs/modules/_le) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#3 0x7ffe62974400 b   self-hosted:915 \(0x7f4b541f12b8 @ 367) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#4 0x7ffe629744f0 b   resource:///org/gnome/gjs/modules/sig) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#5 0x56139ea7c198 i   /usr/share/gnome-shell/extensions/ubu) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#6 0x7ffe62975160 I   resource:///org/gnome/gjs/modules/_le) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#7 0x56139ea7c0f0 i   /usr/share/gnome-shell/extensions/ubu) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#8 0x7ffe62975d60 I   resource:///org/gnome/gjs/modules/_le) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#9 0x56139ea7c078 i   /usr/share/gnome-shell/extensions/ubu) Tj T* /F3 10 Tf 0 0 0 rg (may ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (23) Tj 0 0 0 rg (:33:02 tesla org.gnome.Shell.desktop) Tj .4 .4 .4 rg ([) Tj .4 .4 .4 rg (2233) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg (: ) Tj /F4 10 Tf .25098 .501961 .501961 rg (#10 0x56139ea7bfb8 i   resource:///org/gnome/shell/ui/exten) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 275.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 201.6236 cm
+1 0 0 1 62.69291 263.6236 cm
 Q
 q
-1 0 0 1 62.69291 201.6236 cm
+1 0 0 1 62.69291 263.6236 cm
 Q
 q
-1 0 0 1 62.69291 189.6236 cm
+1 0 0 1 62.69291 251.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1485,101 +3342,140 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 189.6236 cm
+1 0 0 1 62.69291 251.6236 cm
+Q
+q
+1 0 0 1 62.69291 251.6236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (8 / 8) Tj T* -231.2149 0 Td ET
+Q
 Q
  
 endstream
 endobj
-42 0 obj
-<<
-/Nums [ 0 43 0 R 1 44 0 R 2 45 0 R 3 46 0 R 4 47 0 R ]
->>
-endobj
-43 0 obj
-<<
-/S /D /St 1
->>
-endobj
-44 0 obj
-<<
-/S /D /St 2
->>
-endobj
-45 0 obj
-<<
-/S /D /St 3
->>
-endobj
 46 0 obj
 <<
-/S /D /St 4
+/Nums [ 0 47 0 R 1 48 0 R 2 49 0 R 3 50 0 R 4 51 0 R 
+  5 52 0 R 6 53 0 R 7 54 0 R ]
 >>
 endobj
 47 0 obj
 <<
+/S /D /St 1
+>>
+endobj
+48 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+49 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+50 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+51 0 obj
+<<
 /S /D /St 5
 >>
 endobj
+52 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+53 0 obj
+<<
+/S /D /St 7
+>>
+endobj
+54 0 obj
+<<
+/S /D /St 8
+>>
+endobj
 xref
-0 48
+0 55
 0000000000 65535 f 
 0000000073 00000 n 
-0000000144 00000 n 
-0000000251 00000 n 
-0000000363 00000 n 
-0000000468 00000 n 
-0000000581 00000 n 
-0000000786 00000 n 
-0000000990 00000 n 
-0000001213 00000 n 
-0000001328 00000 n 
-0000001534 00000 n 
-0000001740 00000 n 
-0000001946 00000 n 
-0000002052 00000 n 
-0000002328 00000 n 
-0000002403 00000 n 
-0000002550 00000 n 
-0000002647 00000 n 
-0000002806 00000 n 
-0000002932 00000 n 
-0000003055 00000 n 
-0000003184 00000 n 
-0000003307 00000 n 
-0000003445 00000 n 
-0000003568 00000 n 
-0000003684 00000 n 
-0000003807 00000 n 
-0000003942 00000 n 
-0000004059 00000 n 
-0000004183 00000 n 
-0000004293 00000 n 
-0000004417 00000 n 
-0000004553 00000 n 
-0000004683 00000 n 
+0000000156 00000 n 
+0000000263 00000 n 
+0000000375 00000 n 
+0000000558 00000 n 
+0000000745 00000 n 
+0000000850 00000 n 
+0000000963 00000 n 
+0000001192 00000 n 
+0000001396 00000 n 
+0000001620 00000 n 
+0000001736 00000 n 
+0000001942 00000 n 
+0000002148 00000 n 
+0000002354 00000 n 
+0000002465 00000 n 
+0000002671 00000 n 
+0000002877 00000 n 
+0000003083 00000 n 
+0000003189 00000 n 
+0000003465 00000 n 
+0000003540 00000 n 
+0000003648 00000 n 
+0000003806 00000 n 
+0000003932 00000 n 
+0000004061 00000 n 
+0000004200 00000 n 
+0000004317 00000 n 
+0000004452 00000 n 
+0000004569 00000 n 
+0000004679 00000 n 
 0000004803 00000 n 
-0000004916 00000 n 
-0000005003 00000 n 
-0000011740 00000 n 
-0000019493 00000 n 
-0000027689 00000 n 
-0000034921 00000 n 
-0000041160 00000 n 
-0000041237 00000 n 
-0000041271 00000 n 
-0000041305 00000 n 
-0000041339 00000 n 
-0000041373 00000 n 
+0000004939 00000 n 
+0000005069 00000 n 
+0000005189 00000 n 
+0000005336 00000 n 
+0000005449 00000 n 
+0000005558 00000 n 
+0000012937 00000 n 
+0000021694 00000 n 
+0000030573 00000 n 
+0000037873 00000 n 
+0000046588 00000 n 
+0000068064 00000 n 
+0000088739 00000 n 
+0000110872 00000 n 
+0000110979 00000 n 
+0000111013 00000 n 
+0000111047 00000 n 
+0000111081 00000 n 
+0000111115 00000 n 
+0000111149 00000 n 
+0000111183 00000 n 
+0000111217 00000 n 
 trailer
 <<
 /ID 
-[<bcc7910100b7f1a30199e7800e5559df><bcc7910100b7f1a30199e7800e5559df>]
+[<c916e68e257fb46666ff41c70f34c2ae><c916e68e257fb46666ff41c70f34c2ae>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
-/Info 14 0 R
-/Root 13 0 R
-/Size 48
+/Info 20 0 R
+/Root 19 0 R
+/Size 55
 >>
 startxref
-41407
+111251
 %%EOF
