@@ -2,6 +2,21 @@
 NFS
 ===
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 NFS (Network File System) es un protocolo que permite a clientes acceder a recursos compartidos por un servidor como si fuesen locales. Fue desarrollado por Sun Microsystem en 1984.
 
 Todas las versiones de NFS dependen de RPC (Remote Procedure Calls) entre clientes y servidor. RPC en Red Hat LE 7 son controlados por el servicio *rpcbind*.
