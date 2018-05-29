@@ -29,6 +29,8 @@ En los sistemas GNU/Linux el protocolo NTP es implementado por un servicio que c
 
 La documentación de Red Hat *recomienda utilizar chrony* en todos los sistemas, salvo en aquellos que por alguna cuestión de compatibilidad sea necesario usar *ntpd*. Ahí se puede encontrar una lista detallada de las diferencias entre uno y otro.
 
+El tráfico NTP se realiza usando paquetes **UDP sobre el puerto 123**.
+
 chrony
 ======
 
@@ -106,3 +108,52 @@ Es posible consultar o cambiar los parámetros de configuración ejecutando algu
 
 NTPd
 ====
+
+In order to use ntpd the default user space daemon, chronyd, must be stopped and disabled. Issue the following command as root:
+
+.. code-block:: bash
+
+    ~]# systemctl stop chronyd
+
+To prevent it restarting at system start, issue the following command as root: ~]# systemctl disable chronyd
+To check the status of chronyd, issue the following command: 
+
+.. code-block:: bash
+
+    ~]$ systemctl status chronyd
+
+Instalación
+-----------
+
+.. code-block:: bash
+
+    yum install ntp
+
+NTP instala el demonio o servicio ntpd, que está contenido en el paquete ``ntp``. Para habilitarlo al incio del sistema:
+
+.. code-block:: bash
+
+    ~]# systemctl enable ntpd
+
+Para comprobar su estado:
+
+.. code-block:: bash
+
+    ~]$ systemctl status ntpd 
+
+Para obtener un breve reporte de estado de ntpd:
+
+.. code-block:: bash
+
+    ~]$ ntpstat 
+    unsynchronised 
+    time server re-starting 
+    polling server every 64 s
+
+El demonio, ntpd, lee el archivo de configuración al inicio del sistema o cuando es reiniciado. La ubicación por defecto es /etc/ntp.conf, observe el contenido del mismo haciendo:
+
+.. code-block:: bash
+    
+    less /etc/ntp.conf
+
+
