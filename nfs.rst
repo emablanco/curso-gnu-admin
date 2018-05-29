@@ -51,6 +51,11 @@ Aquí, ``yo.ejemplo.com``, puede montar el directorio ``/directorio/exportado`` 
 
 Luego basta con hacer ``#systemctl start nfs`` que inicia NFS y los procesos RPC apropiados.
 
+**ACTIVIDAD 1**
+
+- Cree un directorio dentro de ``/home/vagrant`` con su nombre y algunos archivos dentro
+- Edite el archivo ``/etc/exports`` de manera de compartir ese directorio con una única PC de su compañero
+
 Opciones por defecto
 --------------------
 
@@ -102,7 +107,7 @@ Si falla el inicio de NFS, se debe observar los logs en ``/var/log/messages``. C
 
 .. code-block:: bash
 
-    # systemctl restart nfs-config
+    systemctl restart nfs-config
 
 Configuración del Cliente
 =========================
@@ -112,7 +117,17 @@ Una vez instalado ``nfs-utils`` se debe montar localmente el directorio remoto. 
 
 .. code-block:: bash
 
-        #mount -t nfs 10.10.10.13:/home/usuario/compartido traidoxnfs
+        mount -t nfs 10.10.10.13:/home/usuario/compartido traidoxnfs
+
+**ACTIVIDAD 2**
+
+- Arme una tabla con las direcciones IP y directorios compartidos 
+- Cree un directorio ``/home/vagrant/recursos``
+- Monte en el directorio previo el recurso servido por la PC de su compañero
+- Intente escribir datos en el directorio y en caso de no ser posible solicite a su compañero que cambie los parámetros del recurso compartido para tener permisos de escritura.
+- Desmonte el recurso remoto y cree bajo ``/home/vagrant/recursos/`` un directorio por cada recurso compartido en la red.
+- Permita que toda la red pueda montar el recurso compartido
+- Monte cada uno de los recursos compartidos en el directorio destinado para tal fin
 
 El comando previo monta el directorio remoto mientras el sistema no se reinicie, para hacerlo permanente se debe utilizar el montado automático agregándo la línea correspondiente en el archivo ``/etc/fstab``:
 
