@@ -16,7 +16,7 @@ Instalación
 Configuración del servidor
 ==========================
 
-Hay tres archivos principales para la configuración: ``/etc/exports``, ``/etc/hosts.allow``, y ``/etc/hosts.deny``, aunque con basta con modificar ``/etc/exports`` para tener el servicio funcionando.
+Hay tres archivos principales para la configuración: ``/etc/exports``, ``/etc/hosts.allow``, y ``/etc/hosts.deny``, aunque basta con modificar ``/etc/exports`` para tener el servicio funcionando.
 
 El formato de ``/etc/exports`` consiste en líneas que contengan:
 
@@ -68,9 +68,10 @@ Por ejemplo, las siguientes dos líneas no significan lo mismo:
 .. code-block:: bash
 
     /home bob.example.com(rw)
-    /home bob.example.com (rw)
+    /home dylan.example.com(ro)
+    /publico *(ro)
 
-La primer línea permite únicamente usuarios del equipo bob.example.com con acceso de lectura/escritura al directorio /home. En cambio, la segunda línea permite a los usuarios de bob.example.com montarlo al directorio solo para lectura, mientras que el resto del mundo puede montarlo para lectura-escritura.
+La primer línea permite únicamente usuarios del equipo bob.example.com con acceso de lectura/escritura al directorio /home. En cambio, la segunda línea permite a los usuarios de bob.example.com montarlo al directorio solo para lectura, mientras que el resto del mundo puede montar el recurso /publico como solo lectura.
 
 Puertos
 -------
