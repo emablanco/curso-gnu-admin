@@ -2,9 +2,24 @@
 NTP
 ===
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 El Network Time Protocol (NTP) permite la difusión precisa de la fecha y hora para mantener los relojes de una red de computadoras sincronizados con una referencia común sobre una lan o internet.
 
-Los servidores NTP están clasificados de acuerdo a la distancia a un reloj atómico. Los servidores son pensados como un arreglo en capas o estratos, desde el 1 en la cima, bajando hasta el 15. De aquí que en la jerga suele denominarse con la palabra *stratum* cuando se refiere a una capa específica. Los relojes atómicos son referidos como Stratum 0, sin embargo estos paquetes no se envían a través de la red. La totalidad de los relojes Stratum 0 están incorporados -o conectados- a servidores referidos como Stratum 1. Un servidor que es sincronizado por paquetes marcados como *Stratum N*, pertenece a la categoría siguiente inferior, esto es *Stratum n+1*.
+Los servidores NTP están clasificados de acuerdo a la distancia a un reloj atómico. Los servidores son pensados como un arreglo en capas o estratos, desde el 1 en la cima, bajando hasta el 15. De aquí que en la jerga suele denominarse con la palabra *stratum* cuando se refiere a una capa específica. Los relojes atómicos son referidos como Stratum 0, sin embargo estos paquetes no se envían a través de la red. La totalidad de los relojes Stratum 0 están incorporados -o conectados- a servidores referidos como Stratum 1. Un servidor que es sincronizado por paquetes marcados como *Stratum N*, pertenece a la categoría siguiente, esto es *Stratum n+1*.
 
 Antes de configurar un cliente/servidor de NTP es necesario tener configurado correctamente la zona horaria, en CentOS se utiliza el comando ``timedatectl``.
 
@@ -12,7 +27,12 @@ Para conocer la zona horaria basta ejecutar ``timedatectl``, mientras que para c
 
 En los sistemas GNU/Linux el protocolo NTP es implementado por un servicio que corre en el espacio de usuario. Este servicio actualiza el reloj del sistema ejecutándose en el kernel. Existen dos alternativas que brindan este servicio *chronyd* y *ntpd*, ambos disponibles desde los repositorios en los paquetes chrony y ntp.
 
-La documentación de Red Hat recomienda utilizar *chrony* en todos los sistemas, salvo en aquellos que por alguna cuestión de compatibilidad sea necesario usar *ntpd*. Ahí se puede encontrar una lista detallada de las diferencias entre uno y otro.
+La documentación de Red Hat *recomienda utilizar chrony* en todos los sistemas, salvo en aquellos que por alguna cuestión de compatibilidad sea necesario usar *ntpd*. Ahí se puede encontrar una lista detallada de las diferencias entre uno y otro.
+
+El tráfico NTP se realiza usando paquetes **UDP sobre el puerto 123**.
+
+chrony
+======
 
 Antes de instalar ``chrony`` debe **asegurarse de tener desinstalado** ``ntp`` y ``ntpdate`` ya que puede causar algunos problemas. Para eliminarlos ejecute:
 
@@ -26,12 +46,52 @@ Luego, se instala *Chrony* haciendo:
 
     yum install chrony
 
+To check the status of chronyd, issue the following command:
+
+.. code-block:: bash
+
+    ~]$ systemctl status chronyd
+
+To start chronyd, issue the following command as root:
+
+.. code-block:: bash
+
+    ~]# systemctl start chronyd
+
+To ensure chronyd starts automatically at system start, issue the following command as root: 
+
+.. code-block:: bash
+
+    ~]# systemctl enable chronyd
+
 El demonio *chronyd* puede ser monitoreado y controlado por la línea de comandos con la utilidad *chronyc*.
+To check if chrony is synchronized, make use of the **tracking**, **sources**, and **sourcestats** commands.
+
+Checking chrony Tracking To check chrony tracking, issue the following command:
+
+.. code-block:: bash
+
+    ~]$ chronyc tracking
+
+Checking chrony Sources
+The sources command displays information about the current time sources that chronyd is accessing. The optional argument -v can be specified, meaning verbose. In this case, extra caption lines are shown as a reminder of the meanings of the columns.
+
+.. code-block:: bash
+    
+    ~]$ chronyc sources
+
+Checking chrony Source Statistics
+
+The sourcestats command displays information about the drift rate and offset estimation process for each of the sources currently being examined by chronyd. The optional argument -v can be specified, meaning verbose. In this case, extra caption lines are shown as a reminder of the meanings of the columns.
+
+.. code-block:: bash
+    
+    ~]$ chronyc sourcestats
 
 Para verificar que el servicio se está ejecutando correctamente se ejecuta: ``chronyc tracking``.
 
 Configuración
-=============
+-------------
 
 El archivo de configuración por defecto es ``/etc/chrony.conf``. Para una lista completa de las directivas que pueden ser utilizadas vea ``https://chrony.tuxfamily.org/manual.html#Configuration-file``.
 
@@ -45,5 +105,55 @@ chronyc
 -------
 
 Es posible consultar o cambiar los parámetros de configuración ejecutando algunas de las siguientes opciones una vez dentro del *chronyc*.
+
+NTPd
+====
+
+In order to use ntpd the default user space daemon, chronyd, must be stopped and disabled. Issue the following command as root:
+
+.. code-block:: bash
+
+    ~]# systemctl stop chronyd
+
+To prevent it restarting at system start, issue the following command as root: ~]# systemctl disable chronyd
+To check the status of chronyd, issue the following command: 
+
+.. code-block:: bash
+
+    ~]$ systemctl status chronyd
+
+Instalación
+-----------
+
+.. code-block:: bash
+
+    yum install ntp
+
+NTP instala el demonio o servicio ntpd, que está contenido en el paquete ``ntp``. Para habilitarlo al incio del sistema:
+
+.. code-block:: bash
+
+    ~]# systemctl enable ntpd
+
+Para comprobar su estado:
+
+.. code-block:: bash
+
+    ~]$ systemctl status ntpd 
+
+Para obtener un breve reporte de estado de ntpd:
+
+.. code-block:: bash
+
+    ~]$ ntpstat 
+    unsynchronised 
+    time server re-starting 
+    polling server every 64 s
+
+El demonio, ntpd, lee el archivo de configuración al inicio del sistema o cuando es reiniciado. La ubicación por defecto es /etc/ntp.conf, observe el contenido del mismo haciendo:
+
+.. code-block:: bash
+    
+    less /etc/ntp.conf
 
 

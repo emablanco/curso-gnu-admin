@@ -2,6 +2,21 @@
 NFS
 ===
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 NFS (Network File System) es un protocolo que permite a clientes acceder a recursos compartidos por un servidor como si fuesen locales. Fue desarrollado por Sun Microsystem en 1984.
 
 Todas las versiones de NFS dependen de RPC (Remote Procedure Calls) entre clientes y servidor. RPC en Red Hat LE 7 son controlados por el servicio *rpcbind*.
@@ -36,6 +51,11 @@ Aquí, ``yo.ejemplo.com``, puede montar el directorio ``/directorio/exportado`` 
 
 Luego basta con hacer ``#systemctl start nfs`` que inicia NFS y los procesos RPC apropiados.
 
+**ACTIVIDAD 1**
+
+- Cree un directorio dentro de ``/home/vagrant`` con su nombre y algunos archivos dentro
+- Edite el archivo ``/etc/exports`` de manera de compartir ese directorio con una única PC de su compañero
+
 Opciones por defecto
 --------------------
 
@@ -56,11 +76,11 @@ Reglas de sintaxis
 
 El archivo ``/etc/exports`` controla los directorios que son exportados hacia equipos remotos y especifica opciones. Tiene las siguientes **reglas de sintaxis**:
 
-- Líneas en blanco son ingnoradas .
+- Líneas en blanco son ignoradas .
 - Para agregar un comentario, comience la línea con el caracter numeral (#).
 - Cada directorio exportado debe tener su propia línea individual.
 - Cualquier lista de equipos autorizados ubicados después de un directorio exportado debe ser separada por un espacio.
-- Las opciones para cada equipo deben ir entre paréntesis. El parétesis de apertura debe ser ubicado exactamente después del nombre del equipo o dirección IP, sin ningún espacio entre medio.
+- Las opciones para cada equipo deben ir entre paréntesis. El paréntesis de apertura debe ser ubicado exactamente después del nombre del equipo o dirección IP, sin ningún espacio entre medio.
 
 Por ejemplo, las siguientes dos líneas no significan lo mismo:
 
@@ -88,7 +108,7 @@ Si falla el inicio de NFS, se debe observar los logs en ``/var/log/messages``. C
 
 .. code-block:: bash
 
-    # systemctl restart nfs-config
+    systemctl restart nfs-config
 
 Configuración del Cliente
 =========================
@@ -98,15 +118,29 @@ Una vez instalado ``nfs-utils`` se debe montar localmente el directorio remoto. 
 
 .. code-block:: bash
 
-        #mount -t nfs 10.10.10.13:/home/usuario/compartido traidoxnfs
+        mount -t nfs 10.10.10.13:/home/vagrant/juan /home/vagrant/recursos
 
-El comando previo monta el directorio remoto mientras el sistema no se reinicie, para hacerlo permanente se debe utilizar el montado automático agregándo la línea correspondiente en el archivo ``/etc/fstab``:
+**ACTIVIDAD 2**
+
+- Arme una tabla con las direcciones IP y directorios compartidos 
+- Cree un directorio ``/home/vagrant/recursos``
+- Monte en el directorio previo el recurso servido por la PC de su compañero
+- Intente escribir datos en el directorio y en caso de no ser posible solicite a su compañero que cambie los parámetros del recurso compartido para tener permisos de escritura.
+- Desmonte el recurso remoto y cree bajo ``/home/vagrant/recursos/`` un directorio por cada recurso compartido en la red.
+- Permita que toda la red pueda montar el recurso compartido
+- Monte cada uno de los recursos compartidos en el directorio destinado para tal fin
+
+El comando previo monta el directorio remoto mientras el sistema no se reinicie, para hacerlo permanente se debe utilizar el montado automático agregando la línea correspondiente en el archivo ``/etc/fstab``:
 
 .. code-block:: bash
 
-    10.10.10.13/home/usuario/compartido /home/usuario/traidoxnfs nfs defaults 0 0
+    10.10.10.13:/home/vagrant/juan /home/vagrant/recursos/juan nfs defaults 0 0
 
 Para saber más sobre las opciones de montado vea ``man fstab``.
+
+**ACTIVIDAD 3**
+
+- Configure el archivo /etc/fstab para montar automáticamente alguno de los recursos.
 
 automount
 ---------
@@ -120,28 +154,52 @@ Una alternativa a ``/etc/fstab`` es la herramienta basada en el kernel *automoun
 - un módulo del kernel que implementa el sistema de archivos, y
 - un demonio en el espacio de usuario que realiza todas las otras funciones
 
-La utilidad **automount**  puede montar y desmontar el sistema de archivos NFS automáticamente (bajo demanda), por lo que ahorra recursos de sistema. Se encuentra en el paquete **autofs**: ``yum install autofs``.
+La utilidad **automount**  puede montar y desmontar el sistema de archivos NFS automáticamente (bajo demanda), por lo que ahorra recursos de sistema. Se encuentra en el paquete **autofs**, para instalarlo:
 
-Primeramente se debe configurar el archivo ``/etc/auto.master``. El formato consiste en un punto de montaje, un mapa y opciones.
+.. code-block:: bash
 
-- El *punto de montaje* es el directorio local padre donde se montarán los recursos remotos, por ejemplo ``/mnt``.
+    yum install autofs
+
+Primeramente se debe configurar el archivo ``/etc/auto.master``. El formato consiste en un punto de montaje, un mapa y opciones, es decir, el directorio local, el archivo de configuración que indicará el recurso externo y opciones generales de autofs.
+
+- El *punto de montaje* es el directorio local **padre** donde se montarán los recursos remotos, por ejemplo ``/home/vagrant/recursos``.
 
 - El *mapa* la ruta a otro archivo de configuración donde se especificarán las entradas de cada uno de los recursos remotos, por ejemplo ``/etc/auto.misnfs``.
 
 - Las *opciones* -en caso de existir- serán aplicadas a todos los montajes explicitados en el mapa previo.
 
-Luego se debe configurar el archivo que realiza el mapeo, aquí se ingresa información similar a la que previamente hemos suministrado a ``fstab``. Usando el nombre de archivo mencionado en el item previo, creamos ``/etc/auto.misnfs`` y cargamos una entrada por cada recurso:
+.. code-block:: bash
+
+    /home/vagrant/recursos   /etc/auto.misnfs --timeout=60
+
+Luego se debe configurar el archivo que realiza el mapeo, con información similar a la que previamente hemos suministrado a ``fstab``. Usando el nombre de archivo mencionado en el item previo, creamos ``/etc/auto.misnfs`` y cargamos una entrada por cada recurso:
 
 .. code-block:: bash
 
-    nfslocaldir -fstype=nfs  10.10.10.13:/home/usuario/compartido
+    juan -fstype=nfs  10.10.10.13:/home/vagrant/juan
 
-La primer columna en el archivo de mapeo indica el directorio punto de montaje (nfslocaldir debe existir). La segunda columna indica las opciones de montado para autofs, mientras que la tercera incica la fuente de montado. Siguiendo la configuración realizada, el punto de montaje será /home/nfslocaldir.
+La primer columna en el archivo de mapeo indica el directorio punto de montaje (nfslocaldir debe existir). La segunda columna indica las opciones de montado para autofs, mientras que la tercera indica la fuente de montado. Siguiendo la configuración realizada, el punto de montaje será /home/nfslocaldir.
+
+Por último, reiniciar el servicio autofs.
+
+.. code-block:: bash
+
+    # systemctl restart autofs
+
+**ACTIVIDAD 4**
+
+- Desde el rol de cliente desmonte los recursos, esto es, comente el contenido del ``fstab``.
+- Monte los recursos externos usando automount para cada uno de los recursos de las PCs del laboratorio 
 
 Referencias
 ===========
 
-- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/nfs-serverconfig
-- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/storage_administration_guide/Red_Hat_Enterprise_Linux-7-Storage_Administration_Guide-en-US.pdf
-- http://nfs.sourceforge.net/
-- https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-and-configure-autofs-on-centos-7-fedora-22-ubuntu-14-04.html
+- NFS_ Server Config Storage Administration Guide Red Hat
+- Enterprise_ Linux-7-Storage_Administration_Guide
+- NFSProject_
+- AutoFS_
+
+.. _NFS: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/nfs-serverconfig
+.. _Enterprise: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/storage_administration_guide/Red_Hat_Enterprise_Linux-7-Storage_Administration_Guide-en-US.pdf
+.. _NFSProject: http://nfs.sourceforge.net/
+.. _AutoFS: https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-and-configure-autofs-on-centos-7-fedora-22-ubuntu-14-04.html
