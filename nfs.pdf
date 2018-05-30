@@ -1,0 +1,1683 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 6 0 R /F4 7 0 R /F5 11 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:emiliano.lopez@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 228.2023 707.0236 347.8223 719.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:maximiliano@boscovich.com.ar)
+>> /Border [ 0 0 0 ] /Rect [ 260.9723 689.0236 401.7023 701.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Annots [ 4 0 R 5 0 R ] /Contents 29 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 30 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Contents 31 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/nfs-serverconfig)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 180.2236 105.6929 192.2236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/storage_administration_guide/Red_Hat_Enterprise_Linux-7-Storage_Administration_Guide-en-US.pdf)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 162.2236 131.2629 174.2236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (http://nfs.sourceforge.net/)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 144.9736 136.8129 156.9736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-and-configure-autofs-on-centos-7-fedora-22-ubuntu-14-04.html)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 126.9736 119.0429 138.9736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/Annots [ 12 0 R 13 0 R 14 0 R 15 0 R ] /Contents 32 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+17 0 obj
+<<
+/Outlines 19 0 R /PageLabels 33 0 R /PageMode /UseNone /Pages 28 0 R /Type /Catalog
+>>
+endobj
+18 0 obj
+<<
+/Author () /CreationDate (D:20180530020357+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180530020357+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (NFS) /Trapped /False
+>>
+endobj
+19 0 obj
+<<
+/Count 10 /First 20 0 R /Last 27 0 R /Type /Outlines
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 599.0236 0 ] /Next 21 0 R /Parent 19 0 R /Title (Instalaci\363n)
+>>
+endobj
+21 0 obj
+<<
+/Count 3 /Dest [ 8 0 R /XYZ 62.69291 532.8236 0 ] /First 22 0 R /Last 24 0 R /Next 25 0 R /Parent 19 0 R 
+  /Prev 20 0 R /Title (Configuraci\363n del servidor)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 195.4236 0 ] /Next 23 0 R /Parent 21 0 R /Title (Opciones por defecto)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 531.0236 0 ] /Next 24 0 R /Parent 21 0 R /Prev 22 0 R /Title (Reglas de sintaxis)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 237.8236 0 ] /Parent 21 0 R /Prev 23 0 R /Title (Puertos)
+>>
+endobj
+25 0 obj
+<<
+/Count 1 /Dest [ 10 0 R /XYZ 62.69291 629.8236 0 ] /First 26 0 R /Last 26 0 R /Next 27 0 R /Parent 19 0 R 
+  /Prev 21 0 R /Title (Configuraci\363n del Cliente)
+>>
+endobj
+26 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 208.4236 0 ] /Parent 25 0 R /Title (automount)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 16 0 R /XYZ 62.69291 228.2236 0 ] /Parent 19 0 R /Prev 25 0 R /Title (Referencias)
+>>
+endobj
+28 0 obj
+<<
+/Count 4 /Kids [ 8 0 R 9 0 R 10 0 R 16 0 R ] /Type /Pages
+>>
+endobj
+29 0 obj
+<<
+/Length 7346
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+BT 1 0 0 1 0 4 Tm 214.9449 0 Td 24 TL /F2 20 Tf 0 0 0 rg (NFS) Tj T* -214.9449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Autores:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Emiliano L\363pez \() Tj 0 0 .501961 rg (emiliano.lopez@gmail.com) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Maximiliano Boscovich \() Tj 0 0 .501961 rg (maximiliano@boscovich.com.ar) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 40.80937 0 Td (Fecha:) Tj T* -40.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (30/05/2018 02:03) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .052485 Tw (NFS \(Network File System\) es un protocolo que permite a clientes acceder a recursos compartidos por un) Tj T* 0 Tw (servidor como si fuesen locales. Fue desarrollado por Sun Microsystem en 1984.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .389318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Todas las versiones de NFS dependen de RPC \(Remote Procedure Calls\) entre clientes y servidor. RPC) Tj T* 0 Tw (en Red Hat LE 7 son controlados por el servicio ) Tj /F3 10 Tf (rpcbind) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 578.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Instalaci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 544.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (yum install nfs-utils) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 511.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Configuraci\363n del servidor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 481.8236 cm
+q
+BT 1 0 0 1 0 14 Tm 6.311085 Tw 12 TL /F1 10 Tf 0 0 0 rg (Hay tres archivos principales para la configuraci\363n: ) Tj /F4 10 Tf 0 0 0 rg (/etc/exports) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F4 10 Tf 0 0 0 rg (/etc/hosts.allow) Tj /F1 10 Tf 0 0 0 rg (, y) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (/etc/hosts.deny) Tj /F1 10 Tf 0 0 0 rg (, aunque con basta con modificar ) Tj /F4 10 Tf 0 0 0 rg (/etc/exports) Tj /F1 10 Tf 0 0 0 rg ( para tener el servicio funcionando.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 463.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (El formato de ) Tj /F4 10 Tf 0 0 0 rg (/etc/exports) Tj /F1 10 Tf 0 0 0 rg ( consiste en l\355neas que contengan:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 430.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 54 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (dir host1) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (opciones1) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( host2) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (opciones2) Tj .4 .4 .4 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 398.6236 cm
+q
+BT 1 0 0 1 0 14 Tm .626303 Tw 12 TL /F1 10 Tf 0 0 0 rg (Donde ) Tj /F3 10 Tf (dir) Tj /F1 10 Tf ( es el directorio que se desea compartir, ) Tj /F3 10 Tf (host1) Tj /F1 10 Tf ( y ) Tj /F3 10 Tf (host2) Tj /F1 10 Tf ( son las direcciones IPs o de red desde) Tj T* 0 Tw (donde se permite el acceso con diferentes opciones.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 368.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .53561 Tw (La forma m\341s f\341cil de configuraci\363n \372nicamente indica el directorio exportado y el host que tiene acceso) Tj T* 0 Tw (al recurso. Esto ser\355a:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 335.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (/directorio/exportado yo.ejemplo.com) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 291.4236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.311976 Tw 12 TL /F1 10 Tf 0 0 0 rg (Aqu\355, ) Tj /F4 10 Tf 0 0 0 rg (yo.ejemplo.com) Tj /F1 10 Tf 0 0 0 rg (, puede montar el directorio ) Tj /F4 10 Tf 0 0 0 rg (/directorio/exportado) Tj /F1 10 Tf 0 0 0 rg ( del servidor NFS con) Tj T* 0 Tw 1.061984 Tw (sus opciones por defecto. Una vez modificado el archivo exports se debe ejecutar ) Tj /F4 10 Tf 0 0 0 rg (exportfs) Tj ( ) Tj (-a) Tj /F1 10 Tf 0 0 0 rg ( para) Tj T* 0 Tw (que los cambios surtan efecto.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.4236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Luego basta con hacer ) Tj /F4 10 Tf 0 0 0 rg (#systemctl) Tj ( ) Tj (start) Tj ( ) Tj (nfs) Tj /F1 10 Tf 0 0 0 rg ( que inicia NFS y los procesos RPC apropiados.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.4236 cm
+Q
+q
+1 0 0 1 62.69291 249.4236 cm
+Q
+q
+1 0 0 1 62.69291 237.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Cree un directorio dentro de ) Tj /F4 10 Tf 0 0 0 rg (/home/vagrant) Tj /F1 10 Tf 0 0 0 rg ( con su nombre y algunos archivos dentro) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 231.4236 cm
+Q
+q
+1 0 0 1 62.69291 207.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.537984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Edite el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/exports) Tj /F1 10 Tf 0 0 0 rg ( de manera de compartir ese directorio con una \372nica PC de su) Tj T* 0 Tw (compa\361ero) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 207.4236 cm
+Q
+q
+1 0 0 1 62.69291 177.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Opciones por defecto) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (En caso que no se especifiquen opciones de configuraci\363n, se tomar\341n por defecto las siguientes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.4236 cm
+Q
+q
+1 0 0 1 62.69291 153.4236 cm
+Q
+q
+1 0 0 1 62.69291 117.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 2.189318 Tw 12 TL /F3 10 Tf 0 0 0 rg (ro) Tj /F1 10 Tf ( Se montan los sistemas de archivos como de s\363lo lectura \(read-only\). Los host remotos no) Tj T* 0 Tw 1.595984 Tw (pueden hacer cambios a los datos compartidos en el sistema de archivos. Para permitir que los) Tj T* 0 Tw (hosts puedan hacer cambios, debe especificar la opci\363n rw \(lectura-escritura, read-write\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 111.4236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (1 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+30 0 obj
+<<
+/Length 8444
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .033516 Tw 12 TL /F3 10 Tf 0 0 0 rg (sync) Tj /F1 10 Tf ( El servidor NFS no responder\341 los nuevos pedidos hasta tanto no se hayan escrito en disco los) Tj T* 0 Tw (pedidos previos. Para habilitar escritura as\355ncrona, especif\355que la opci\363n ) Tj /F3 10 Tf (async) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm 1.566235 Tw 12 TL /F3 10 Tf 0 0 0 rg (wdelay) Tj /F1 10 Tf ( Provoca que el servidor NFS retrase el escribir a disco si sospecha que otra petici\363n de) Tj T* 0 Tw 2.780751 Tw (escritura es inminente. Esto puede mejorar el rendimiento reduciendo las veces que se debe) Tj T* 0 Tw .173059 Tw (acceder al disco por comandos de escritura separados. Use ) Tj /F3 10 Tf (no_wdelay) Tj /F1 10 Tf ( para desactivar esta opci\363n,) Tj T* 0 Tw (la cual solo funciona si est\341 usando la opci\363n por defecto ) Tj /F3 10 Tf (sync) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 98 Tm 1.299147 Tw 12 TL /F3 10 Tf 0 0 0 rg (root_squash) Tj /F1 10 Tf ( Previene a los usuarios root conectados remotamente de tener privilegios como root) Tj T* 0 Tw 1.039984 Tw (asign\341ndoles el id del usuario de ) Tj /F2 10 Tf (nfsnobody) Tj /F1 10 Tf (. Esto reconvierte el nivel de acceso del usuario root) Tj T* 0 Tw 2.224983 Tw (remoto al de usuario local m\341s bajo, previniendo la alteraci\363n desautorizada de archivos en el) Tj T* 0 Tw .810888 Tw (servidor remoto. Alternativamente, la opci\363n ) Tj /F3 10 Tf (no_root_squash) Tj /F1 10 Tf ( lo desactiva. Para reconvertir a todos) Tj T* 0 Tw .348735 Tw (los usuarios, incluyendo a root, use la opci\363n ) Tj /F3 10 Tf (all_squash) Tj /F1 10 Tf (. Para especificar los ID de usuario y grupo) Tj T* 0 Tw 1.429983 Tw (para usar con usuarios remotos desde un host particular, utilice las opciones anonuid y anongid,) Tj T* 0 Tw -0.118588 Tw (respectivamente. De esta manera, puede crear una cuenta de usuario especial para que los usuarios) Tj T* 0 Tw 7.783294 Tw (NFS remotos compartan y especificar \(anonuid=) Tj (<) Tj (uid-value) Tj (>) Tj (,anongid=) Tj (<) Tj (gid-value) Tj (>) Tj (\), donde) Tj T* 0 Tw (<) Tj (uid-value) Tj (> es el n\372mero de ID del usuario y <) Tj (gid-value) Tj (> es el n\372mero de ID del grupo.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Para conocer todas las opciones soportadas vea el manual haciendo ) Tj /F4 10 Tf 0 0 0 rg (man) Tj ( ) Tj (exports) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Reglas de sintaxis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+BT 1 0 0 1 0 14 Tm -0.046941 Tw 12 TL /F1 10 Tf 0 0 0 rg (El archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/exports) Tj /F1 10 Tf 0 0 0 rg ( controla los directorios que son exportados hacia equipos remotos y especifica) Tj T* 0 Tw (opciones. Tiene las siguientes ) Tj /F2 10 Tf (reglas de sintaxis) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (L\355neas en blanco son ignoradas .) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para agregar un comentario, comience la l\355nea con el caracter numeral \(#\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Cada directorio exportado debe tener su propia l\355nea individual.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 423.0236 cm
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.779147 Tw (Cualquier lista de equipos autorizados ubicados despu\351s de un directorio exportado debe ser) Tj T* 0 Tw (separada por un espacio.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.539983 Tw (Las opciones para cada equipo deben ir entre par\351ntesis. El par\351ntesis de apertura debe ser) Tj T* 0 Tw 2.479213 Tw (ubicado exactamente despu\351s del nombre del equipo o direcci\363n IP, sin ning\372n espacio entre) Tj T* 0 Tw (medio.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Por ejemplo, las siguientes dos l\355neas no significan lo mismo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 293.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 126 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 0 0 rg (/home bob.example.com) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (rw) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (/home bob.example.com ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (rw) Tj .4 .4 .4 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 249.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .020814 Tw (La primer l\355nea permite \372nicamente usuarios del equipo bob.example.com con acceso de lectura/escritura) Tj T* 0 Tw .497984 Tw (al directorio /home. En cambio, la segunda l\355nea permite a los usuarios de bob.example.com montarlo al) Tj T* 0 Tw (directorio solo para lectura, mientras que el resto del mundo puede montarlo para lectura-escritura.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Puertos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.8236 cm
+q
+BT 1 0 0 1 0 50 Tm 1.090751 Tw 12 TL /F1 10 Tf 0 0 0 rg (NFS requiere ) Tj /F3 10 Tf (rpcbind) Tj /F1 10 Tf (, que asigna din\341micamente los puertos para los servicios RPC \(Remote Process) Tj T* 0 Tw .29561 Tw (Call\) y puede causar problemas para configurar reglas del firewall. Para permitir el acceso de los clientes) Tj T* 0 Tw 2.091647 Tw (a los recursos compartidos del servidor, edite el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/sysconfig/nfs) Tj /F1 10 Tf 0 0 0 rg ( para especificar en) Tj T* 0 Tw 1.804987 Tw (cuales puertos deben correr los servicios RPC. En caso que el archivo no exista se lo debe crear y) Tj T* 0 Tw (especificar lo siguiente:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 120.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 78 12 re f*
+.960784 .960784 .862745 rg
+n 78 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 0 54 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (RPCMOUNTDOPTS) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ("-p port") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (2 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+31 0 obj
+<<
+/Length 8691
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 2.019318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Esto agrega "-p port" al comando ) Tj /F4 10 Tf 0 0 0 rg (rpc.mount) Tj /F1 10 Tf 0 0 0 rg (: rpc.mount -p port. Para especificar los puertos a ser) Tj T* 0 Tw 2.806412 Tw (usados por el servicio ) Tj /F3 10 Tf (nlockmgr) Tj /F1 10 Tf (, especifique el n\372mero de puerto para la opci\363n ) Tj /F4 10 Tf 0 0 0 rg (nlm_tcpport) Tj /F1 10 Tf 0 0 0 rg ( y) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (nlm_udpport) Tj /F1 10 Tf 0 0 0 rg ( en el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/modprobe.d/lockd.conf) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .553735 Tw 12 TL /F1 10 Tf 0 0 0 rg (Si falla el inicio de NFS, se debe observar los logs en ) Tj /F4 10 Tf 0 0 0 rg (/var/log/messages) Tj /F1 10 Tf 0 0 0 rg (. Comunmente NFS falla el) Tj T* 0 Tw 1.356235 Tw (inicio si se indica un puerto que ya se encuentra en uso. Luego de editar ) Tj /F4 10 Tf 0 0 0 rg (/etc/sysconfig/nfs) Tj /F1 10 Tf 0 0 0 rg (, se) Tj T* 0 Tw (debe reiniciar el servicio ) Tj /F3 10 Tf (nfs-config) Tj /F1 10 Tf ( para que los nuevos valores tengan efecto, haciendo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 641.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (systemctl restart nfs-config) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 608.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Configuraci\363n del Cliente) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 542.8236 cm
+q
+BT 1 0 0 1 0 50 Tm 1.757126 Tw 12 TL /F1 10 Tf 0 0 0 rg (Una vez instalado ) Tj /F4 10 Tf 0 0 0 rg (nfs-utils) Tj /F1 10 Tf 0 0 0 rg ( se debe montar localmente el directorio remoto. Esto se puede hacer) Tj T* 0 Tw .165984 Tw (mediante el comando o utilizando el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/fstab) Tj /F1 10 Tf 0 0 0 rg (. Para el siguiente ejemplo, el servidor posee la) Tj T* 0 Tw .776342 Tw (direcci\363n ip 10.10.10.13, el directorio compartido es ) Tj /F4 10 Tf 0 0 0 rg (/home/usuario/compartido) Tj /F1 10 Tf 0 0 0 rg ( y el directorio local) Tj T* 0 Tw 19.14398 Tw (donde se lo monta es ) Tj /F4 10 Tf 0 0 0 rg (traidoxnfs) Tj /F1 10 Tf 0 0 0 rg (. De modo que el comando) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (#mount) Tj ( ) Tj (-t) Tj ( ) Tj (nfs) Tj ( ) Tj (IP_SERVER:DIR_REMOTO) Tj ( ) Tj (DIR_LOCAL) Tj /F1 10 Tf 0 0 0 rg ( quedar\355a:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 509.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 78 0 12 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (mount -t nfs ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.10.10.13:/home/vagrant/juan /home/vagrant/recursos) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 489.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.6236 cm
+Q
+q
+1 0 0 1 62.69291 483.6236 cm
+Q
+q
+1 0 0 1 62.69291 471.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Arme una tabla con las direcciones IP y directorios compartidos) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 465.6236 cm
+Q
+q
+1 0 0 1 62.69291 453.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Cree un directorio ) Tj /F4 10 Tf 0 0 0 rg (/home/vagrant/recursos) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 447.6236 cm
+Q
+q
+1 0 0 1 62.69291 435.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Monte en el directorio previo el recurso servido por la PC de su compa\361ero) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 429.6236 cm
+Q
+q
+1 0 0 1 62.69291 405.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.99528 Tw (Intente escribir datos en el directorio y en caso de no ser posible solicite a su compa\361ero que) Tj T* 0 Tw (cambie los par\341metros del recurso compartido para tener permisos de escritura.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 399.6236 cm
+Q
+q
+1 0 0 1 62.69291 375.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.616342 Tw 12 TL /F1 10 Tf 0 0 0 rg (Desmonte el recurso remoto y cree bajo ) Tj /F4 10 Tf 0 0 0 rg (/home/vagrant/recursos/) Tj /F1 10 Tf 0 0 0 rg ( un directorio por cada) Tj T* 0 Tw (recurso compartido en la red.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 369.6236 cm
+Q
+q
+1 0 0 1 62.69291 357.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Permita que toda la red pueda montar el recurso compartido) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 351.6236 cm
+Q
+q
+1 0 0 1 62.69291 339.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Monte cada uno de los recursos compartidos en el directorio destinado para tal fin) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 339.6236 cm
+Q
+q
+1 0 0 1 62.69291 309.6236 cm
+q
+BT 1 0 0 1 0 14 Tm .017984 Tw 12 TL /F1 10 Tf 0 0 0 rg (El comando previo monta el directorio remoto mientras el sistema no se reinicie, para hacerlo permanente) Tj T* 0 Tw (se debe utilizar el montado autom\341tico agregando la l\355nea correspondiente en el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/fstab) Tj /F1 10 Tf 0 0 0 rg (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 276.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 432 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 444 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf .4 .4 .4 rg (10) Tj 0 0 0 rg (.10.10.13:/home/vagrant/juan /home/vagrant/recursos/juan nfs defaults ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 256.4236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Para saber m\341s sobre las opciones de montado vea ) Tj /F4 10 Tf 0 0 0 rg (man) Tj ( ) Tj (fstab) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 238.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 232.4236 cm
+Q
+q
+1 0 0 1 62.69291 232.4236 cm
+Q
+q
+1 0 0 1 62.69291 220.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configure el archivo /etc/fstab para montar autom\341ticamente alguno de los recursos.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 220.4236 cm
+Q
+q
+1 0 0 1 62.69291 190.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (automount) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 136.4236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.645318 Tw 12 TL /F1 10 Tf 0 0 0 rg (El problema de usar ) Tj /F4 10 Tf 0 0 0 rg (fstab) Tj /F1 10 Tf 0 0 0 rg ( es que, independientemente de la frecuencia del uso, el sistema destina) Tj T* 0 Tw 1.84284 Tw (recursos para mantenerlo montado. Esto no suele ser un problema para algunos pocos directorios o) Tj T* 0 Tw .39686 Tw (equipos, pero si se deben mantener montados muchos sistemas remotos a la vez el desempe\361o se ver\341) Tj T* 0 Tw (afectado.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 106.4236 cm
+q
+BT 1 0 0 1 0 14 Tm 2.439269 Tw 12 TL /F1 10 Tf 0 0 0 rg (Una alternativa a ) Tj /F4 10 Tf 0 0 0 rg (/etc/fstab) Tj /F1 10 Tf 0 0 0 rg ( es la herramienta basada en el kernel ) Tj /F3 10 Tf (automount) Tj /F1 10 Tf (. Consiste en dos) Tj T* 0 Tw (componentes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 100.4236 cm
+Q
+q
+1 0 0 1 62.69291 100.4236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (3 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+32 0 obj
+<<
+/Length 8457
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (un m\363dulo del kernel que implementa el sistema de archivos, y) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (un demonio en el espacio de usuario que realiza todas las otras funciones) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.43229 Tw 12 TL /F1 10 Tf 0 0 0 rg (La utilidad ) Tj /F2 10 Tf (automount) Tj /F1 10 Tf ( puede montar y desmontar el sistema de archivos NFS autom\341ticamente \(bajo) Tj T* 0 Tw (demanda\), por lo que ahorra recursos de sistema. Se encuentra en el paquete ) Tj /F2 10 Tf (autofs) Tj /F1 10 Tf (, para instalarlo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (yum install autofs) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 615.8236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.31229 Tw 12 TL /F1 10 Tf 0 0 0 rg (Primeramente se debe configurar el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/auto.master) Tj /F1 10 Tf 0 0 0 rg (. El formato consiste en un punto de) Tj T* 0 Tw 1.61311 Tw (montaje, un mapa y opciones, es decir, el directorio local, el archivo de configuraci\363n que indicar\341 el) Tj T* 0 Tw (recurso externo y opciones generales de autofs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.8236 cm
+Q
+q
+1 0 0 1 62.69291 609.8236 cm
+Q
+q
+1 0 0 1 62.69291 585.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.151318 Tw 12 TL /F1 10 Tf 0 0 0 rg (El ) Tj /F3 10 Tf (punto de montaje) Tj /F1 10 Tf ( es el directorio local ) Tj /F2 10 Tf (padre) Tj /F1 10 Tf ( donde se montar\341n los recursos remotos, por) Tj T* 0 Tw (ejemplo ) Tj /F4 10 Tf 0 0 0 rg (/home/vagrant/recursos) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 579.8236 cm
+Q
+q
+1 0 0 1 62.69291 555.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .326457 Tw 12 TL /F1 10 Tf 0 0 0 rg (El ) Tj /F3 10 Tf (mapa) Tj /F1 10 Tf ( la ruta a otro archivo de configuraci\363n donde se especificar\341n las entradas de cada uno de) Tj T* 0 Tw (los recursos remotos, por ejemplo ) Tj /F4 10 Tf 0 0 0 rg (/etc/auto.misnfs) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 549.8236 cm
+Q
+q
+1 0 0 1 62.69291 525.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.743318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Las ) Tj /F3 10 Tf (opciones) Tj /F1 10 Tf ( -en caso de existir- ser\341n aplicadas a todos los montajes explicitados en el mapa) Tj T* 0 Tw (previo.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 525.8236 cm
+Q
+q
+1 0 0 1 62.69291 492.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 306 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 12 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (/home/vagrant/recursos   /etc/auto.misnfs --timeout) Tj .4 .4 .4 rg (=) Tj .4 .4 .4 rg (60) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 448.6236 cm
+q
+BT 1 0 0 1 0 26 Tm .709985 Tw 12 TL /F1 10 Tf 0 0 0 rg (Luego se debe configurar el archivo que realiza el mapeo, con informaci\363n similar a la que previamente) Tj T* 0 Tw 1.845697 Tw (hemos suministrado a ) Tj /F4 10 Tf 0 0 0 rg (fstab) Tj /F1 10 Tf 0 0 0 rg (. Usando el nombre de archivo mencionado en el item previo, creamos) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (/etc/auto.misnfs) Tj /F1 10 Tf 0 0 0 rg ( y cargamos una entrada por cada recurso:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 415.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 72 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 12 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (juan -fstype) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nfs  ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.10.10.13:/home/vagrant/juan) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 371.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .363735 Tw (La primer columna en el archivo de mapeo indica el directorio punto de montaje \(nfslocaldir debe existir\).) Tj T* 0 Tw .221235 Tw (La segunda columna indica las opciones de montado para autofs, mientras que la tercera indica la fuente) Tj T* 0 Tw (de montado. Siguiendo la configuraci\363n realizada, el punto de montaje ser\341 /home/nfslocaldir.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 353.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Por \372ltimo, reiniciar el servicio autofs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 308.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.25098 .501961 .501961 rg
+BT 1 0 0 1 0 14 Tm /F5 10 Tf 12 TL (# systemctl restart autofs) Tj T*  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 288.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 282.2236 cm
+Q
+q
+1 0 0 1 62.69291 282.2236 cm
+Q
+q
+1 0 0 1 62.69291 270.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Desde el rol de cliente desmonte los recursos, esto es, comente el contenido del ) Tj /F4 10 Tf 0 0 0 rg (fstab) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 264.2236 cm
+Q
+q
+1 0 0 1 62.69291 240.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.075984 Tw (Monte los recursos externos usando automount para cada uno de los recursos de las PCs del) Tj T* 0 Tw (laboratorio) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 240.2236 cm
+Q
+q
+1 0 0 1 62.69291 207.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.2236 cm
+Q
+q
+1 0 0 1 62.69291 195.2236 cm
+Q
+q
+1 0 0 1 62.69291 183.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (NFS) Tj 0 0 0 rg ( Server Config Storage Administration Guide Red Hat) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 177.2236 cm
+Q
+q
+1 0 0 1 62.69291 165.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Enterprise) Tj 0 0 0 rg ( Linux-7-Storage_Administration_Guide) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 159.2236 cm
+Q
+q
+1 0 0 1 62.69291 147.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (NFSProject) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 141.2236 cm
+Q
+q
+1 0 0 1 62.69291 129.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (AutoFS) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 129.2236 cm
+Q
+q
+1 0 0 1 62.69291 129.2236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (4 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+33 0 obj
+<<
+/Nums [ 0 34 0 R 1 35 0 R 2 36 0 R 3 37 0 R ]
+>>
+endobj
+34 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+35 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+36 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+37 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+xref
+0 38
+0000000000 65535 f 
+0000000073 00000 n 
+0000000145 00000 n 
+0000000252 00000 n 
+0000000364 00000 n 
+0000000547 00000 n 
+0000000734 00000 n 
+0000000849 00000 n 
+0000000954 00000 n 
+0000001183 00000 n 
+0000001388 00000 n 
+0000001594 00000 n 
+0000001708 00000 n 
+0000001984 00000 n 
+0000002308 00000 n 
+0000002488 00000 n 
+0000002769 00000 n 
+0000003015 00000 n 
+0000003121 00000 n 
+0000003382 00000 n 
+0000003457 00000 n 
+0000003572 00000 n 
+0000003754 00000 n 
+0000003875 00000 n 
+0000004007 00000 n 
+0000004115 00000 n 
+0000004297 00000 n 
+0000004395 00000 n 
+0000004508 00000 n 
+0000004588 00000 n 
+0000011986 00000 n 
+0000020482 00000 n 
+0000029225 00000 n 
+0000037734 00000 n 
+0000037802 00000 n 
+0000037836 00000 n 
+0000037870 00000 n 
+0000037904 00000 n 
+trailer
+<<
+/ID 
+[<5b95ac16454b2b542350228a4e8da89a><5b95ac16454b2b542350228a4e8da89a>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 18 0 R
+/Root 17 0 R
+/Size 38
+>>
+startxref
+37938
+%%EOF

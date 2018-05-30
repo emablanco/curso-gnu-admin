@@ -193,7 +193,12 @@ Por último, reiniciar el servicio autofs.
 Referencias
 ===========
 
-- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/nfs-serverconfig
-- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/storage_administration_guide/Red_Hat_Enterprise_Linux-7-Storage_Administration_Guide-en-US.pdf
-- http://nfs.sourceforge.net/
-- https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-and-configure-autofs-on-centos-7-fedora-22-ubuntu-14-04.html
+- NFS_ Server Config Storage Administration Guide Red Hat
+- Enterprise_ Linux-7-Storage_Administration_Guide
+- NFSProject_
+- AutoFS_
+
+.. _NFS: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/nfs-serverconfig
+.. _Enterprise: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/storage_administration_guide/Red_Hat_Enterprise_Linux-7-Storage_Administration_Guide-en-US.pdf
+.. _NFSProject: http://nfs.sourceforge.net/
+.. _AutoFS: https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-and-configure-autofs-on-centos-7-fedora-22-ubuntu-14-04.html
