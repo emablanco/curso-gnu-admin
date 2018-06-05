@@ -91,7 +91,7 @@ Por ejemplo, las siguientes dos líneas no significan lo mismo:
     /home dylan.example.com(ro)
     /publico *(ro)
 
-La primer línea permite únicamente usuarios del equipo bob.example.com con acceso de lectura/escritura al directorio /home. En cambio, la segunda línea permite a los usuarios de bob.example.com montarlo al directorio solo para lectura, mientras que el resto del mundo puede montar el recurso /publico como solo lectura.
+La primer línea permite únicamente usuarios del equipo bob.example.com con acceso de lectura/escritura al directorio /home. En cambio, la segunda línea permite a los usuarios de dylan.example.com montarlo al directorio solo para lectura, mientras que el resto del mundo puede montar el recurso /publico como solo lectura.
 
 Puertos
 -------
@@ -109,6 +109,9 @@ Si falla el inicio de NFS, se debe observar los logs en ``/var/log/messages``. C
 .. code-block:: bash
 
     systemctl restart nfs-config
+    systemctl restart nfs
+
+Sin reiniciar el servicio es posible recargar la configuración haciendo: ``exportfs -ra``
 
 Configuración del Cliente
 =========================
@@ -137,6 +140,8 @@ El comando previo monta el directorio remoto mientras el sistema no se reinicie,
     10.10.10.13:/home/vagrant/juan /home/vagrant/recursos/juan nfs defaults 0 0
 
 Para saber más sobre las opciones de montado vea ``man fstab``.
+
+Para ver los recursos compartidos por un servidor NFS se puede ejecutar: ``showmount -e myserver`` 
 
 **ACTIVIDAD 3**
 
@@ -178,7 +183,7 @@ Luego se debe configurar el archivo que realiza el mapeo, con información simil
 
     juan -fstype=nfs  10.10.10.13:/home/vagrant/juan
 
-La primer columna en el archivo de mapeo indica el directorio punto de montaje (nfslocaldir debe existir). La segunda columna indica las opciones de montado para autofs, mientras que la tercera indica la fuente de montado. Siguiendo la configuración realizada, el punto de montaje será /home/nfslocaldir.
+La primer columna en el archivo de mapeo indica el directorio punto de montaje (``juan`` debe existir). La segunda columna indica las opciones de montado para autofs, mientras que la tercera indica la fuente de montado. Siguiendo la configuración realizada, el punto de montaje será /home/vagrant/recursos/juan.
 
 Por último, reiniciar el servicio autofs.
 
