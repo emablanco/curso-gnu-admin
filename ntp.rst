@@ -25,6 +25,8 @@ Antes de configurar un cliente/servidor de NTP es necesario tener configurado co
 
 Para conocer la zona horaria basta ejecutar ``timedatectl``, mientras que para configurarlo se debe ejecutar ``timedatectl set-timezone ZH`` donde ZH es la zona horaria elegida. Para listar las zonas horarias disponibles se debe ejecutar ``timedatectl list-timezone``. Para más información vea el manual: ``man timedatectl``.
 
+En caso de que se encuentre habilitada la sincronización automática via ntp, y deseamos configurar manualmente la hora, debemos previamente deshabilitar la sincronización automática por medio de ``timedatectl set-ntp false``
+
 En los sistemas GNU/Linux el protocolo NTP es implementado por un servicio que corre en el espacio de usuario. Este servicio actualiza el reloj del sistema ejecutándose en el kernel. Existen dos alternativas que brindan este servicio *chronyd* y *ntpd*, ambos disponibles desde los repositorios en los paquetes chrony y ntp.
 
 La documentación de Red Hat *recomienda utilizar chrony* en todos los sistemas, salvo en aquellos que por alguna cuestión de compatibilidad sea necesario usar *ntpd*. Ahí se puede encontrar una lista detallada de las diferencias entre uno y otro.
