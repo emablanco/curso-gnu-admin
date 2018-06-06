@@ -1,0 +1,1383 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 6 0 R /F4 7 0 R /F5 9 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:emiliano.lopez@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 228.2023 707.0236 347.8223 719.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:maximiliano@boscovich.com.ar)
+>> /Border [ 0 0 0 ] /Rect [ 260.9723 689.0236 401.7023 701.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Annots [ 4 0 R 5 0 R ] /Contents 23 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 22 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 24 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 22 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 25 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 22 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://chrony.tuxfamily.org/faq.html)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 567.3736 243.5329 579.3736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/Annots [ 12 0 R ] /Contents 26 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 22 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Outlines 16 0 R /PageLabels 27 0 R /PageMode /UseNone /Pages 22 0 R /Type /Catalog
+>>
+endobj
+15 0 obj
+<<
+/Author () /CreationDate (D:20180606121857+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180606121857+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (NTP) /Trapped /False
+>>
+endobj
+16 0 obj
+<<
+/Count 7 /First 17 0 R /Last 21 0 R /Type /Outlines
+>>
+endobj
+17 0 obj
+<<
+/Count 1 /Dest [ 8 0 R /XYZ 62.69291 245.0236 0 ] /First 18 0 R /Last 18 0 R /Next 19 0 R /Parent 16 0 R 
+  /Title (chrony)
+>>
+endobj
+18 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 305.8236 0 ] /Parent 17 0 R /Title (Configuraci\363n)
+>>
+endobj
+19 0 obj
+<<
+/Count 1 /Dest [ 11 0 R /XYZ 62.69291 442.6236 0 ] /First 20 0 R /Last 20 0 R /Next 21 0 R /Parent 16 0 R 
+  /Prev 17 0 R /Title (NTPd)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 281.2236 0 ] /Parent 19 0 R /Title (Instalaci\363n)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 614.6236 0 ] /Parent 16 0 R /Prev 19 0 R /Title (Referencias)
+>>
+endobj
+22 0 obj
+<<
+/Count 4 /Kids [ 8 0 R 10 0 R 11 0 R 13 0 R ] /Type /Pages
+>>
+endobj
+23 0 obj
+<<
+/Length 7314
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 214.9449 0 Td (NTP) Tj T* -214.9449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Autores:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Emiliano L\363pez \() Tj 0 0 .501961 rg (emiliano.lopez@gmail.com) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Maximiliano Boscovich \() Tj 0 0 .501961 rg (maximiliano@boscovich.com.ar) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 40.80937 0 Td (Fecha:) Tj T* -40.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (06/06/2018 12:18) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .638221 Tw (El Network Time Protocol \(NTP\) permite la difusi\363n precisa de la fecha y hora para mantener los relojes) Tj T* 0 Tw (de una red de computadoras sincronizados con una referencia com\372n sobre una lan o internet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 551.0236 cm
+q
+BT 1 0 0 1 0 74 Tm .953735 Tw 12 TL /F1 10 Tf 0 0 0 rg (Los servidores NTP est\341n clasificados de acuerdo a la distancia a un reloj at\363mico. Los servidores son) Tj T* 0 Tw .425988 Tw (pensados como un arreglo en capas o estratos, desde el 1 en la cima, bajando hasta el 15. De aqu\355 que) Tj T* 0 Tw .012927 Tw (en la jerga suele denominarse con la palabra ) Tj /F3 10 Tf (stratum) Tj /F1 10 Tf ( cuando se refiere a una capa espec\355fica. Los relojes) Tj T* 0 Tw .444431 Tw (at\363micos son referidos como Stratum 0, sin embargo estos paquetes no se env\355an a trav\351s de la red. La) Tj T* 0 Tw .256412 Tw (totalidad de los relojes Stratum 0 est\341n incorporados -o conectados- a servidores referidos como Stratum) Tj T* 0 Tw 1.312651 Tw (1. Un servidor que es sincronizado por paquetes marcados como ) Tj /F3 10 Tf (Stratum N) Tj /F1 10 Tf (, pertenece a la categor\355a) Tj T* 0 Tw (siguiente, esto es ) Tj /F3 10 Tf (Stratum n+1) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 521.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.599982 Tw 12 TL /F1 10 Tf 0 0 0 rg (Antes de configurar un cliente/servidor de NTP es necesario tener configurado correctamente la zona) Tj T* 0 Tw (horaria, en CentOS se utiliza el comando ) Tj /F4 10 Tf 0 0 0 rg (timedatectl) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 467.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 2.123059 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para conocer la zona horaria basta ejecutar ) Tj /F4 10 Tf 0 0 0 rg (timedatectl) Tj /F1 10 Tf 0 0 0 rg (, mientras que para configurarlo se debe) Tj T* 0 Tw .71284 Tw (ejecutar ) Tj /F4 10 Tf 0 0 0 rg (timedatectl) Tj ( ) Tj (set-timezone) Tj ( ) Tj (ZH) Tj /F1 10 Tf 0 0 0 rg ( donde ZH es la zona horaria elegida. Para listar las zonas) Tj T* 0 Tw 1.746342 Tw (horarias disponibles se debe ejecutar ) Tj /F4 10 Tf 0 0 0 rg (timedatectl) Tj ( ) Tj (list-timezone) Tj /F1 10 Tf 0 0 0 rg (. Para m\341s informaci\363n vea el) Tj T* 0 Tw (manual: ) Tj /F4 10 Tf 0 0 0 rg (man) Tj ( ) Tj (timedatectl) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 425.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.921412 Tw 12 TL /F1 10 Tf 0 0 0 rg (En caso de que se encuentre habilitada la sincronizaci\363n autom\341tica via ntp, y deseamos configurar) Tj T* 0 Tw 2.549069 Tw (manualmente la hora, debemos previamente deshabilitar la sincronizaci\363n autom\341tica por medio de) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (timedatectl) Tj ( ) Tj (set-ntp) Tj ( ) Tj (false) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 407.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 401.0236 cm
+Q
+q
+1 0 0 1 62.69291 401.0236 cm
+Q
+q
+1 0 0 1 62.69291 389.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Corrobore la zona horaria de su sistema y observe el listado de zonas horarias disponibles) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 383.0236 cm
+Q
+q
+1 0 0 1 62.69291 371.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Modifique manualmente la fecha y hora.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 371.0236 cm
+Q
+q
+1 0 0 1 62.69291 317.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .211751 Tw 12 TL /F1 10 Tf 0 0 0 rg (En los sistemas GNU/Linux el protocolo NTP es implementado por un servicio que corre en el espacio de) Tj T* 0 Tw -0.020682 Tw (usuario. Este servicio actualiza el reloj del sistema ejecut\341ndose en el kernel. Existen dos alternativas que) Tj T* 0 Tw .497318 Tw (brindan este servicio ) Tj /F3 10 Tf (chronyd) Tj /F1 10 Tf ( y ) Tj /F3 10 Tf (ntpd) Tj /F1 10 Tf (, ambos disponibles desde los repositorios en los paquetes chrony y) Tj T* 0 Tw (ntp.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 275.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .941984 Tw 12 TL /F1 10 Tf 0 0 0 rg (La documentaci\363n de Red Hat ) Tj /F3 10 Tf (recomienda utilizar chrony) Tj /F1 10 Tf ( en todos los sistemas, salvo en aquellos que) Tj T* 0 Tw -0.024016 Tw (por alguna cuesti\363n de compatibilidad sea necesario usar ) Tj /F3 10 Tf (ntpd) Tj /F1 10 Tf (. Ah\355 se puede encontrar una lista detallada) Tj T* 0 Tw (de las diferencias entre uno y otro.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 257.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (El tr\341fico NTP se realiza usando paquetes ) Tj /F2 10 Tf (UDP sobre el puerto 123) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 224.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (chrony) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 194.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .024651 Tw 12 TL /F1 10 Tf 0 0 0 rg (Antes de instalar ) Tj /F4 10 Tf 0 0 0 rg (chrony) Tj /F1 10 Tf 0 0 0 rg ( debe ) Tj /F2 10 Tf (asegurarse de tener desinstalado) Tj /F1 10 Tf ( ) Tj /F4 10 Tf 0 0 0 rg (ntp) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F4 10 Tf 0 0 0 rg (ntpdate) Tj /F1 10 Tf 0 0 0 rg ( ya que puede causar) Tj T* 0 Tw (algunos problemas. Para eliminarlos ejecute:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 160.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (yum remove ntp ntpdate) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 140.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Luego, se instala ) Tj /F3 10 Tf (Chrony) Tj /F1 10 Tf ( haciendo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 107.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (yum install chrony) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (1 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+24 0 obj
+<<
+/Length 7754
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To check the status of chronyd, issue the following command:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 707.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ systemctl status chronyd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 687.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To start chronyd, issue the following command as root:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 654.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 0 150 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj /F5 10 Tf .25098 .501961 .501961 rg (# systemctl start chronyd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 634.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To ensure chronyd starts automatically at system start, issue the following command as root:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 601.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 0 156 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj /F5 10 Tf .25098 .501961 .501961 rg (# systemctl enable chronyd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 581.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 575.4236 cm
+Q
+q
+1 0 0 1 62.69291 575.4236 cm
+Q
+q
+1 0 0 1 62.69291 563.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Instale e inicie chrony) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 557.4236 cm
+Q
+q
+1 0 0 1 62.69291 545.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Corrobore la hora del sistema) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 539.4236 cm
+Q
+q
+1 0 0 1 62.69291 527.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Corrobore que el puerto correspondiente se encuentra abierto) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 527.4236 cm
+Q
+q
+1 0 0 1 62.69291 473.4236 cm
+q
+BT 1 0 0 1 0 38 Tm -0.05564 Tw 12 TL /F1 10 Tf 0 0 0 rg (El demonio ) Tj /F3 10 Tf (chronyd) Tj /F1 10 Tf ( puede ser monitoreado y controlado por la l\355nea de comandos con la utilidad ) Tj /F3 10 Tf (chronyc) Tj /F1 10 Tf (.) Tj T* 0 Tw 3.737674 Tw (Para corroborar que chrony esta sincronizado haga uso de los comandos ) Tj /F2 10 Tf (tracking) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (sources) Tj /F1 10 Tf (, y) Tj T* 0 Tw 7.096342 Tw /F2 10 Tf (sourcestats) Tj /F1 10 Tf (. Para verificar que el servicio se est\341 ejecutando correctamente se ejecuta:) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (chronyc) Tj ( ) Tj (tracking) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 440.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ chronyc tracking) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 407.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ chronyc sources) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 373.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ chronyc sourcestats) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 353.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 347.8236 cm
+Q
+q
+1 0 0 1 62.69291 347.8236 cm
+Q
+q
+1 0 0 1 62.69291 335.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Haga uso de los comandos tracking, sources y sourcestats y analice su resultado) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 329.8236 cm
+Q
+q
+1 0 0 1 62.69291 317.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Verifique el stratum de su servidor y de aquellos a los que se conecta) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 317.8236 cm
+Q
+q
+1 0 0 1 62.69291 287.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Configuraci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 245.8236 cm
+q
+BT 1 0 0 1 0 26 Tm .02784 Tw 12 TL /F1 10 Tf 0 0 0 rg (El archivo de configuraci\363n por defecto es ) Tj /F4 10 Tf 0 0 0 rg (/etc/chrony.conf) Tj /F1 10 Tf 0 0 0 rg (. Para una lista completa de las directivas) Tj T* 0 Tw 84.25994 Tw (que pueden ser utilizadas vea) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (https://chrony.tuxfamily.org/manual.html#Configuration-file) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 227.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (La configuraci\363n m\355nima para un ) Tj /F2 10 Tf (cliente) Tj /F1 10 Tf ( es:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 158.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 54 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 0 0 rg (pool pool.ntp.org iburst) Tj T* (driftfile /var/lib/chrony/drift) Tj T* (makestep ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg  T* (rtcsync) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 90.62362 cm
+q
+BT 1 0 0 1 0 50 Tm .051235 Tw 12 TL /F1 10 Tf 0 0 0 rg (La opci\363n ) Tj /F4 10 Tf 0 0 0 rg (pool) Tj /F1 10 Tf 0 0 0 rg ( indica d\363nde consultar\341 la lista de servidores cercanos. El par\341metro ) Tj /F4 10 Tf 0 0 0 rg (iburst) Tj /F1 10 Tf 0 0 0 rg ( es \372til para) Tj T* 0 Tw .773059 Tw (acelerar la sincronizaci\363n inicial, estos resultados se almacenar\341n en el ) Tj /F4 10 Tf 0 0 0 rg (diftfile) Tj /F1 10 Tf 0 0 0 rg (. La siguiente opci\363n) Tj T* 0 Tw 1.217765 Tw (acomodar\341 el reloj si la diferencia de ajuste es mayor a 1 segundo, pero solamente en las primeras 3) Tj T* 0 Tw 1.960751 Tw (actualizaciones. La directiva ) Tj /F4 10 Tf 0 0 0 rg (rtcsync) Tj /F1 10 Tf 0 0 0 rg ( habilita el modo donde la hora del sistema es peri\363dicamente) Tj T* 0 Tw (copiada al RTC \(real time clock\). En GNU/Linux esta copia es realizada por el kernel cada 11 minutos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (2 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+25 0 obj
+<<
+/Length 7261
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .603516 Tw 12 TL /F1 10 Tf 0 0 0 rg (La diferencia entre un cliente y un ) Tj /F2 10 Tf (servidor) Tj /F1 10 Tf ( es simplemente habilitar la directiva ) Tj /F4 10 Tf 0 0 0 rg (allow) Tj /F1 10 Tf 0 0 0 rg ( en el archivo de) Tj T* 0 Tw .374104 Tw (configuraci\363n para abrir el puerto \(por defecto UDP 123\) y permitir a ) Tj /F3 10 Tf (chronyd) Tj /F1 10 Tf ( responder a los pedidos de) Tj T* 0 Tw (los clientes. ) Tj /F4 10 Tf 0 0 0 rg (allow) Tj /F1 10 Tf 0 0 0 rg ( sin especificar una red permite el acceso desde cualquier direcci\363n IP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Agregando) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 665.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 36 0 18 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (allow ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.0.2.0/24) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 645.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (chronyd ser\341 un servidor que aceptar\341 pedidos de la subred ) Tj /F4 10 Tf 0 0 0 rg (192.0.2.0/24) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.089984 Tw (El archivo de configuraci\363n es autoexplicativo sobre cada par\341metro, una vez permitida la red se debe) Tj T* 0 Tw (reiniciar el servicio:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 582.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (systemctl restart chronyd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 562.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACTIVIDAD 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 556.6236 cm
+Q
+q
+1 0 0 1 62.69291 556.6236 cm
+Q
+q
+1 0 0 1 62.69291 544.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Configure ) Tj /F2 10 Tf (UN \332NICO) Tj /F1 10 Tf ( servidor en la LAN) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 538.6236 cm
+Q
+q
+1 0 0 1 62.69291 526.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configure su pc contra el servidor NTP de la LAN) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 520.6236 cm
+Q
+q
+1 0 0 1 62.69291 508.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Consulte el stratum) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 502.6236 cm
+Q
+q
+1 0 0 1 62.69291 490.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Levante ) Tj /F2 10 Tf (UN SEGUNDO) Tj /F1 10 Tf ( servidor que est\351 sincronizado con el primero) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 484.6236 cm
+Q
+q
+1 0 0 1 62.69291 472.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configure los restantes clientes con el segundo servidor) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 466.6236 cm
+Q
+q
+1 0 0 1 62.69291 454.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Consulte el stratum) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 454.6236 cm
+Q
+q
+1 0 0 1 62.69291 421.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (NTPd) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 391.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .991163 Tw (In order to use ntpd the default user space daemon, chronyd, must be stopped and disabled. Issue the) Tj T* 0 Tw (following command as root:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 358.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 0 144 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj /F5 10 Tf .25098 .501961 .501961 rg (# systemctl stop chronyd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 326.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.407318 Tw (To prevent it restarting at system start, issue the following command as root: ~]# systemctl disable) Tj T* 0 Tw (chronyd To check the status of chronyd, issue the following command:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 293.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ systemctl status chronyd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 263.2236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Instalaci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 230.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (yum install ntp) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 198.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .154431 Tw 12 TL /F1 10 Tf 0 0 0 rg (NTP instala el demonio o servicio ntpd, que est\341 contenido en el paquete ) Tj /F4 10 Tf 0 0 0 rg (ntp) Tj /F1 10 Tf 0 0 0 rg (. Para habilitarlo al incio del) Tj T* 0 Tw (sistema:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 164.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 0 138 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj /F5 10 Tf .25098 .501961 .501961 rg (# systemctl enable ntpd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 144.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para comprobar su estado:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 111.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ systemctl status ntpd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 91.62362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para obtener un breve reporte de estado de ntpd:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (3 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+26 0 obj
+<<
+/Length 2317
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 6 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 0 12 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 0 0 rg (~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ ntpstat) Tj T* (unsynchronised) Tj T* 0 .501961 0 rg (time) Tj 0 0 0 rg ( server re-starting) Tj T* (polling server every ) Tj .4 .4 .4 rg (64) Tj 0 0 0 rg ( s) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 659.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .013516 Tw (El demonio, ntpd, lee el archivo de configuraci\363n al inicio del sistema o cuando es reiniciado. La ubicaci\363n) Tj T* 0 Tw (por defecto es /etc/ntp.conf, observe el contenido del mismo haciendo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (less /etc/ntp.conf) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 593.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 581.6236 cm
+Q
+q
+1 0 0 1 62.69291 581.6236 cm
+Q
+q
+1 0 0 1 62.69291 569.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://chrony.tuxfamily.org/faq.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 563.6236 cm
+Q
+q
+1 0 0 1 62.69291 551.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Red Hat Enterprise Linux 7 System Administrator's Guide) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 551.6236 cm
+Q
+q
+1 0 0 1 62.69291 551.6236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (4 / 4) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+27 0 obj
+<<
+/Nums [ 0 28 0 R 1 29 0 R 2 30 0 R 3 31 0 R ]
+>>
+endobj
+28 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+29 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+30 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+31 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000000073 00000 n 
+0000000144 00000 n 
+0000000251 00000 n 
+0000000363 00000 n 
+0000000546 00000 n 
+0000000733 00000 n 
+0000000848 00000 n 
+0000000953 00000 n 
+0000001182 00000 n 
+0000001295 00000 n 
+0000001501 00000 n 
+0000001707 00000 n 
+0000001897 00000 n 
+0000002122 00000 n 
+0000002228 00000 n 
+0000002489 00000 n 
+0000002563 00000 n 
+0000002709 00000 n 
+0000002814 00000 n 
+0000002972 00000 n 
+0000003075 00000 n 
+0000003188 00000 n 
+0000003269 00000 n 
+0000010635 00000 n 
+0000018441 00000 n 
+0000025754 00000 n 
+0000028123 00000 n 
+0000028191 00000 n 
+0000028225 00000 n 
+0000028259 00000 n 
+0000028293 00000 n 
+trailer
+<<
+/ID 
+[<d2f30539d00c222aa34d645bd68c2c46><d2f30539d00c222aa34d645bd68c2c46>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 15 0 R
+/Root 14 0 R
+/Size 32
+>>
+startxref
+28327
+%%EOF
