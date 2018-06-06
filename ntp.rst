@@ -27,6 +27,11 @@ Para conocer la zona horaria basta ejecutar ``timedatectl``, mientras que para c
 
 En caso de que se encuentre habilitada la sincronización automática via ntp, y deseamos configurar manualmente la hora, debemos previamente deshabilitar la sincronización automática por medio de ``timedatectl set-ntp false``
 
+**ACTIVIDAD 1**
+
+- Corrobore la zona horaria de su sistema y observe el listado de zonas horarias disponibles
+- Modifique manualmente la fecha y hora.
+
 En los sistemas GNU/Linux el protocolo NTP es implementado por un servicio que corre en el espacio de usuario. Este servicio actualiza el reloj del sistema ejecutándose en el kernel. Existen dos alternativas que brindan este servicio *chronyd* y *ntpd*, ambos disponibles desde los repositorios en los paquetes chrony y ntp.
 
 La documentación de Red Hat *recomienda utilizar chrony* en todos los sistemas, salvo en aquellos que por alguna cuestión de compatibilidad sea necesario usar *ntpd*. Ahí se puede encontrar una lista detallada de las diferencias entre uno y otro.
@@ -66,47 +71,78 @@ To ensure chronyd starts automatically at system start, issue the following comm
 
     ~]# systemctl enable chronyd
 
-El demonio *chronyd* puede ser monitoreado y controlado por la línea de comandos con la utilidad *chronyc*.
-To check if chrony is synchronized, make use of the **tracking**, **sources**, and **sourcestats** commands.
+**ACTIVIDAD 2**
 
-Checking chrony Tracking To check chrony tracking, issue the following command:
+- Instale e inicie chrony
+- Corrobore la hora del sistema
+- Corrobore que el puerto correspondiente se encuentra abierto
+
+El demonio *chronyd* puede ser monitoreado y controlado por la línea de comandos con la utilidad *chronyc*.
+Para corroborar que chrony esta sincronizado haga uso de los comandos **tracking**, **sources**, y **sourcestats**.
+Para verificar que el servicio se está ejecutando correctamente se ejecuta: ``chronyc tracking``.
 
 .. code-block:: bash
 
     ~]$ chronyc tracking
 
-Checking chrony Sources
-The sources command displays information about the current time sources that chronyd is accessing. The optional argument -v can be specified, meaning verbose. In this case, extra caption lines are shown as a reminder of the meanings of the columns.
-
 .. code-block:: bash
     
     ~]$ chronyc sources
-
-Checking chrony Source Statistics
-
-The sourcestats command displays information about the drift rate and offset estimation process for each of the sources currently being examined by chronyd. The optional argument -v can be specified, meaning verbose. In this case, extra caption lines are shown as a reminder of the meanings of the columns.
 
 .. code-block:: bash
     
     ~]$ chronyc sourcestats
 
-Para verificar que el servicio se está ejecutando correctamente se ejecuta: ``chronyc tracking``.
+**ACTIVIDAD 3**
+
+- Haga uso de los comandos tracking, sources y sourcestats y analice su resultado
+- Verifique el stratum de su servidor y de aquellos a los que se conecta
 
 Configuración
 -------------
 
 El archivo de configuración por defecto es ``/etc/chrony.conf``. Para una lista completa de las directivas que pueden ser utilizadas vea ``https://chrony.tuxfamily.org/manual.html#Configuration-file``.
 
-La diferencia entre un cliente y un servidor es simplemente habilitar la directiva ``allow`` en el archivo de configuración para abrir el puerto (por defecto UDP 123) y permitir a *chronyd* responder a los pedidos de los clientes. ``allow`` sin especificar una red permite el acceso desde cualquier dirección IP. El archivo de configuración es autoexplicativo sobre cada parámetro, una vez permitida la red se debe reiniciar el servicio:
+La configuración mínima para un **cliente** es:
+
+.. code-block:: bash
+
+    pool pool.ntp.org iburst
+    driftfile /var/lib/chrony/drift
+    makestep 1 3
+    rtcsync
+
+La opción ``pool`` indica dónde consultará la lista de servidores cercanos.
+El parámetro ``iburst`` es útil para acelerar la sincronización inicial, estos resultados se almacenarán en el ``diftfile``.
+La siguiente opción acomodará el reloj si la diferencia de ajuste es mayor a 1 segundo, pero solamente en las primeras 3 actualizaciones. 
+La directiva ``rtcsync`` habilita el modo donde la hora del sistema es periódicamente copiada al RTC (real time clock). En GNU/Linux esta copia es realizada por el kernel cada 11 minutos.
+
+La diferencia entre un cliente y un **servidor** es simplemente habilitar la directiva ``allow`` en el archivo de configuración para abrir el puerto (por defecto UDP 123) y permitir a *chronyd* responder a los pedidos de los clientes. ``allow`` sin especificar una red permite el acceso desde cualquier dirección IP. 
+
+Agregando 
+
+.. code-block:: bash
+    
+    allow 192.0.2.0/24
+
+chronyd será un servidor que aceptará pedidos de la subred ``192.0.2.0/24``.
+
+
+El archivo de configuración es autoexplicativo sobre cada parámetro, una vez permitida la red se debe reiniciar el servicio:
 
 .. code-block:: bash
 
     systemctl restart chronyd
 
-chronyc
--------
+**ACTIVIDAD 4**
 
-Es posible consultar o cambiar los parámetros de configuración ejecutando algunas de las siguientes opciones una vez dentro del *chronyc*.
+- Configure **UN ÚNICO** servidor en la LAN
+- Configure su pc contra el servidor NTP de la LAN
+- Consulte el stratum
+- Levante **UN SEGUNDO** servidor que esté sincronizado con el primero
+- Configure los restantes clientes con el segundo servidor
+- Consulte el stratum
+
 
 NTPd
 ====
@@ -159,3 +195,8 @@ El demonio, ntpd, lee el archivo de configuración al inicio del sistema o cuand
     less /etc/ntp.conf
 
 
+Referencias
+===========
+
+* https://chrony.tuxfamily.org/faq.html
+* Red Hat Enterprise Linux 7 System Administrator's Guide
