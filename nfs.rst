@@ -201,8 +201,8 @@ Evaluación práctica
 
 - Comparta dos recursos de su PC mediante NFS: APELLIDOr1 y APELLIDOr2 
 - El recurso r1 debe ser de lectura/escritura mientras que el r2 de lectura.
-- El recurso r1 debe permitir a la IP 192.168.10.100
-- El recurso r2 debe permitir a la IP 192.168.10.200
+- El recurso r1 debe permitir a la IP 192.168.10.100 (emi)
+- El recurso r2 debe permitir a la IP 192.168.10.200 (maxi)
 
 Referencias
 ===========
