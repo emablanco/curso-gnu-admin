@@ -51,9 +51,9 @@ Miercoles de 15 a 18hs.
 - Clase 07 (13/06): Gestores de Arranque. Grub
 - **20/06 FERIADO**
 - Clase 08 (27/06): Backup 
+- Clase 09 (04/07): IPTables
 - **11/07 RECESO UNIVERSITARIO**
 - **18/07 RECESO UNIVERSITARIO**
-- Clase 09 (04/07): IPTables
 - Clase 10 (25/07): IPTables
 - Clase 11 (01/08): DNS    
 - Clase 12 (08/08): DNS    
