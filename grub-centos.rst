@@ -51,7 +51,10 @@ Ejemplo de una entrada de grub2
 
 .. code:: bash
 
-  menuentry 'CentOS Linux (3.10.0-693.el7.x86_64) 7 (Core)' --class centos --class gnu-linux --class gnu --class os --unrestricted $menuentry_id_option 'gnulinux-3.10.0-693.el7.x86_64-advanced-a0de2b66-ac69-452d-a560-f8649349f3ed' {
+  menuentry 'CentOS Linux (3.10.0-693.el7.x86_64) 7 (Core)' 
+    --class centos --class gnu-linux --class gnu 
+    --class os --unrestricted $menuentry_id_option 
+    'gnulinux-3.10.0-693.el7.x86_64-advanced-a0de2b66-ac69-452d-a560-f8649349f3ed' {
   	load_video
   	set gfxpayload=keep
   	insmod gzio
@@ -59,11 +62,17 @@ Ejemplo de una entrada de grub2
   	insmod xfs
   	set root='hd0,msdos1'
   	if [ x$feature_platform_search_hint = xy ]; then
-  	  search --no-floppy --fs-uuid --set=root --hint-bios=hd0,msdos1 --hint-efi=hd0,msdos1 --hint-baremetal=ahci0,msdos1 --hint='hd0,msdos1'  13ae7bb0-94fa-4731-be30-6554bffca839
+  	  search --no-floppy --fs-uuid --set=root --hint-bios=hd0,msdos1 
+      --hint-efi=hd0,msdos1 
+      --hint-baremetal=ahci0,msdos1 --hint='hd0,msdos1'  
+      13ae7bb0-94fa-4731-be30-6554bffca839
   	else
-  	  search --no-floppy --fs-uuid --set=root 13ae7bb0-94fa-4731-be30-6554bffca839
+  	  search --no-floppy --fs-uuid --set=root 
+      13ae7bb0-94fa-4731-be30-6554bffca839
   	fi
-  	linux16 /vmlinuz-3.10.0-693.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet
+  	linux16 /vmlinuz-3.10.0-693.el7.x86_64 root=/dev/mapper/centos-root 
+    ro crashkernel=auto 
+    rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet
   	initrd16 /initramfs-3.10.0-693.el7.x86_64.img
   }
 
@@ -97,13 +106,15 @@ persistente los mismos.
   [root@localhost ~]# grubby --info=ALL
   index=0
   kernel=/boot/vmlinuz-3.10.0-693.21.1.el7.x86_64
-  args="ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=es_AR.UTF-8"
+  args="ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb 
+  quiet LANG=es_AR.UTF-8"
   root=/dev/mapper/centos-root
   initrd=/boot/initramfs-3.10.0-693.21.1.el7.x86_64.img
   title=CentOS Linux (3.10.0-693.21.1.el7.x86_64) 7 (Core)
   index=1
   kernel=/boot/vmlinuz-3.10.0-693.el7.x86_64
-  args="ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb LANG=es_AR.UTF-8 quiet"
+  args="ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb 
+  LANG=es_AR.UTF-8 quiet"
   root=/dev/mapper/centos-root
   initrd=/boot/initramfs-3.10.0-693.el7.x86_64.img
   title=CentOS Linux (3.10.0-693.el7.x86_64) 7 (Core)
@@ -124,7 +135,8 @@ en cuestión
   [root@localhost ~]# grubby --info=/boot/vmlinuz-3.10.0-693.21.1.el7.x86_64
   index=0
   kernel=/boot/vmlinuz-3.10.0-693.21.1.el7.x86_64
-  args="ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=es_AR.UTF-8"
+  args="ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet 
+  LANG=es_AR.UTF-8"
   root=/dev/mapper/centos-root
   initrd=/boot/initramfs-3.10.0-693.21.1.el7.x86_64.img
   title=CentOS Linux (3.10.0-693.21.1.el7.x86_64) 7 (Core)
@@ -140,32 +152,32 @@ Si queremos ver que kernel es
 
 .. code:: bash
 
-  [root@localhost ~]# grubby --default-kernel
+  # grubby --default-kernel
   /boot/vmlinuz-3.10.0-693.21.1.el7.x86_64
 
 Si queremos cambiar los argumentos de booteo
 
 .. code:: bash
 
-  [root@localhost ~]# grubby --remove-args "quiet" --update-kernel /boot/vmlinuz-3.10.0-693.el7.x86_64
+  # grubby --remove-args "quiet" --update-kernel /boot/vmlinuz-3.10.0-693.el7.x86_64
 
 Si queremos agregar un argumento de booteo
 
 .. code:: bash
 
-  [root@localhost ~]# grubby --args "quiet" --update-kernel /boot/vmlinuz-3.10.0-693.el7.x86_64
+  # grubby --args "quiet" --update-kernel /boot/vmlinuz-3.10.0-693.el7.x86_64
 
 Si queremos actualizar todos los kernels, agregando o sacando argumentos
 
 .. code:: bash
 
-  [root@localhost ~]# grubby --update-kernel=ALL --args=console=ttyS0,115200 --remove-args="quiet"
+  # grubby --update-kernel=ALL --args=console=ttyS0,115200 --remove-args="quiet"
 
 si queremos cambiar la entrada de booteo por defecto
 
 .. code:: bash
 
-  [root@localhost ~]# grubby --set-default-index=0
+  # grubby --set-default-index=0
 
 
 Como bootear el sistema si el archivo grub.cfg no existe
