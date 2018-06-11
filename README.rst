@@ -49,11 +49,14 @@ Miercoles de 15 a 18hs.
 - Clase 05 (30/05): NFS
 - Clase 06 (06/06): NTP
 - Clase 07 (13/06): Gestores de Arranque. Grub
-- Clase 08 (20/06): Backup
-- Clase 09 (27/06): IPTables
-- Clase 10 (04/07): IPTables
-- Clase 11 (11/07): DNS    (Receso UTN)
-- Clase 12 (18/07): DNS    (Receso UTN)
+- **20/06 FERIADO**
+- Clase 08 (27/06): Backup 
+- **11/07 RECESO UNIVERSITARIO**
+- **18/07 RECESO UNIVERSITARIO**
+- Clase 09 (04/07): IPTables
+- Clase 10 (25/07): IPTables
+- Clase 11 (01/08): DNS    
+- Clase 12 (08/08): DNS    
 
 - SELinux
 - Hardening
