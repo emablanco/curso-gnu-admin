@@ -284,6 +284,8 @@ Ahora, es necesario arrancar (y habilitar) OpenVPN en el inicio.
     systemctl start openvpn-client@cliente1-epe
     systemctl -f enable openvpn@server.service
 
+En debian (tal vez en centos también) se habilita haciendo ``systemctl enable openvpn-client@cliente1-epe``
+
 Se debe tener en cuenta en el primer comando que luego de la ``@``, es decir, ``cliente1-epe``,  se corresponde con el nombre del archivo de configuración, es decir ``cliente1-epe.conf`` por lo que **deben coincidir**.
 
 Una vez levantado el servicio entonces deberia ver la interfaz tun creada con la ip correspondiente:
