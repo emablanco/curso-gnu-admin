@@ -220,6 +220,30 @@ ejecutar grub2-mkconfig para que se vuelva generar dicho archivo
 
   grub2-mkconfig -o /boot/grub2/grub.cfg
 
+Recuperar el grub si se ha borrado el registro del MBR
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+En caso de que se haya borrado el registro MBR, el grub no podra si quiera arrancar
+y no contaremos con la consola anterior. En estos casos debemos inicar el sistema 
+con un CD de rescate, como lo es el mismo cd de instalación de Centos, y seleccionar 
+la opción de rescate.
+
+Para volver a tener la opción de bootear windows, debemos agregar la siguiente líneas
+en el archivo /etc/grub.d/40_custom
+
+..code::bash
+
+ menuentry "Windows 7" {
+         set root=(hd0,3)
+         chainloader +1
+  }
+
+Luego ejecutamos
+
+..code::bash
+
+  grub2-mkconfig --output=/boot/grub2/grub.cfg
+
 
 Referencias
 -----------
