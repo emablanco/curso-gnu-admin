@@ -1,6 +1,21 @@
 GRUB
 ====
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
 Como es el proceso de arranque
 ------------------------------
 
