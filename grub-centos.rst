@@ -278,7 +278,7 @@ Recuperar el grub si se ha borrado el registro del MBR
 En caso de que se haya borrado el registro MBR, el grub no podra arrancar
 y no contaremos con la consola anterior. En estos casos debemos inicar el sistema 
 con un CD de rescate, como el de instalación de Centos, y seleccionar 
-la opción de rescate.
+la opción de rescate, luego en el menú subsiguiente se debe elegir la opción 1 (continue).
 
 Para volver a tener la opción de bootear windows, debemos agregar la siguiente líneas
 en el archivo /etc/grub.d/40_custom
@@ -286,7 +286,7 @@ en el archivo /etc/grub.d/40_custom
 .. code:: bash
 
  menuentry "Windows 7" {
-         set root=(hd0,3)
+         set root=(hd0,4)
          chainloader +1
   }
 
