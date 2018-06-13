@@ -48,17 +48,7 @@ ReaR se configura en el archivo ``/etc/rear/local.conf`` donde se especifica el 
 
 Donde formato puede ser, por ejemlo, ``ISO`` o ``USB``.
 
-Independientemente de la ubicación de destino, se hace una copia en ``/var/lib/rear/output/``, para evitar este duplicado se deben agregar estas líneas al archivo de configuración:
-
-.. code:: bash
-
-    OUTPUT = ISO
-    BACKUP = NETFS
-    OUTPUT_URL = NULL
-    BACKUP_URL = "iso:///backup"
-    ISO_DIR = "ubicacion"
-
-**Notar** que al hacer el backup localmente, se usa 3 barras luego de ``iso:``.
+En el caso previo rear hará un backup del sistema sin datos del usuario. 
 
 Backup por NFS
 --------------
