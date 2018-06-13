@@ -231,7 +231,7 @@ la opción de rescate.
 Para volver a tener la opción de bootear windows, debemos agregar la siguiente líneas
 en el archivo /etc/grub.d/40_custom
 
-..code::bash
+.. code:: bash
 
  menuentry "Windows 7" {
          set root=(hd0,3)
@@ -240,7 +240,7 @@ en el archivo /etc/grub.d/40_custom
 
 Luego ejecutamos
 
-..code::bash
+.. code:: bash
 
   grub2-mkconfig --output=/boot/grub2/grub.cfg
 
