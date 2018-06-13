@@ -71,8 +71,28 @@ Creando sistema de rescate
 
     rear -v mkrescue
 
+Si se utilizó la opción ``BACKUP=NETFS`` ReaR puede crear un sistema de rescate un backup de archivos o ambos.
+
+- Para crear solamente un sistema de rescate: 
+
+.. code:: bash
+    
+    rear mkrescue
+
+- Para crear solamente un backup de datos: 
+
+.. code:: bash 
+    
+    rear mkbackuponly
+
+- Para crear ambos: 
+
+.. code:: bash
+
+    rear mkbackup
+
 Automatizar con crontab
-'''''''''''''''''''''''
+=======================
 
 Especificando en ``/etc/crontab`` se puede programar la generación del sistema de rescate en forma automática. Por ejemplo para que se ejecute a las 22 cada día de semana:
 
