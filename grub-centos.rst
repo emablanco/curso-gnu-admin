@@ -4,26 +4,20 @@ GRUB
 Como es el proceso de arranque
 ------------------------------
 
-1. El sistema carga y ejecuta el gestor de arranque. Las especificaciones de este
+1- El sistema carga y ejecuta el gestor de arranque. Las especificaciones de este
 proceso dependen de la arquitectura del sistema. Por ejemplo:
 
-* BIOS:
-  en sistemas basados en x86 ejecutan una primera etapa del gestor de arranque
-  desde el MBR del disco duro primario, el cual, a su vez, carga un gestor de
-  arranque adicional, GRUB.
-* UEFI en sistemas basados en x86 montan una partición de sistema EFI que
-  contiene una versión del gestor de arranque de GRUB. El gestor de arranque EFI
-  carga y ejecuta GRUB como una aplicación de EFI.
+  - BIOS en sistemas basados en x86 ejecutan una primera etapa del gestor de arranque desde el MBR del disco duro primario, el cual, a su vez, carga un gestor de arranque adicional, GRUB.
+  - UEFI en sistemas basados en x86 montan una partición de sistema EFI que contiene una versión del gestor de arranque de GRUB. El gestor de arranque EFI carga y ejecuta GRUB como una aplicación de EFI.
 
-2. El gestor de arranque carga el kernel en memoria, la cual a su vez carga los
-módulos necesarios y monta la partición root para sólo-lectura.
+2- El gestor de arranque carga el kernel en memoria, la cual a su vez carga los módulos necesarios y monta la partición root para sólo-lectura.
 
-3. El kernel transfiere el control del proceso de arranque al programa /sbin/init.
+3- El kernel transfiere el control del proceso de arranque al programa /sbin/init.
 
-4. El programa /sbin/init carga todos los servicios y herramientas de espacio del
+4- El programa /sbin/init carga todos los servicios y herramientas de espacio del
 usuario y monta todas las particiones listadas en /etc/fstab.
 
-5. Se le presenta al usuario una pantalla de inicio de conexión para el sistema
+5- Se le presenta al usuario una pantalla de inicio de conexión para el sistema
 Linux recién iniciado.
 
 GRUB 2
@@ -45,6 +39,23 @@ se perderán cada vez que se ejecute ``grub2-mkconfig``.
 
 Las operaciones sobre ``grub.cfg`` que normalemente se realizan ante la
 eliminación o instalación de un nuevo kernel se deben hacer mediante ``grubby``.
+
+Nombres de dispositivos en GRUB 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cuando se refiera a un dispositivo específico con GRUB, hágalo mediante el formato siguiente (observe que los paréntesis y las comas son muy importantes en la sintaxis):
+
+.. code:: bash
+
+  (<tipo-de-dispositivo><número-de-dispositivo-bios>,<número-de-partición>)
+
+El ``<tipo-de-dispositivo>`` especifica el tipo de dispositivo desde el cual GRUB arranca. Las opciones más comunes son ``hd`` para un disco.
+
+El ``<número de dispositivo bios>`` es el número del dispositivo de BIOS. El disco duro IDE primario es 0 y un disco duro IDE secundario es 1. Esta sintaxis es casi equivalente a la que utiliza el kernel por dispositivos. Por ejemplo, la a en hda para el kernel es análoga al 0 en hd0 para GRUB, la b en hdb es análoga al 1 en hd1, y así sucesivamente. 
+
+``<partition-number>`` Especifica el número de la partición en un dispositivo. Al igual que <bios-device-number>, la mayoría de los tipos de particiones se enumeran a partir de 0. Sin embargo, las particiones BSD se especifican mediante letras, con a correspondiente a 0, b correspondiente a 1, y así sucesivamente. 
+
+Por ejemplo, si un sistema tiene más de un disco duro, GRUB se refiere al primer disco duro como ``(hd0)`` y al segundo como ``(hd1)``. De la misma manera, GRUB se refiere a la primera partición en el primer disco como ``(hd0,0)`` y se refiere a la tercera partición en el segundo disco duro como ``(hd1,2)``.
+
 
 Ejemplo de una entrada de grub2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -195,6 +206,7 @@ si queremos cambiar la entrada de booteo por defecto
 
 - Pruebe el efecto que tiene quitar el argumento ``quiet`` y ``rhgb`` (reinicie el sistema en cada cambio)
 - Modifique el kernel que se inicia por defecto por alguno de los disponibles
+- Modifique los argumentos del kernel en forma temporal, desde los comandos durante el booteo
 - Algunos parámetros globales de grub2 se modifican en el archivo ``/etc/default/grub``. Cambie el valor del ``GRUB_TIMEOUT`` y luego ejecute 
 
 .. code:: bash
