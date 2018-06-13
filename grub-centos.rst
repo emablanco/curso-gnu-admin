@@ -84,6 +84,12 @@ De lo anterior podemos destacar:
 * Kernel a cargar
 * Initramfs
 
+**ACTIVIDAD 1**
+
+- Compruebe la versión del kernel que se está ejecutando usando el comando ``uname -a``
+- Identifique en la salida previa, la arquitectura
+- Analice otros parámetros viendo ``man uname``
+
 
 Cambios temporales
 ~~~~~~~~~~~~~~~~~~
@@ -95,9 +101,7 @@ cambios que relalicemos durarán hasta que reiniciemos el equipo.
 Cambios permanentes con grubby
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La herramienta grubby puede utilizar para leer la información de grub2, y
-generar el nuevo archivo /boot/grub2/grub.cfg, quedando de este modo de manera
-persistente los mismos.
+La herramienta grubby puede utilizar para leer la información de grub2, y generar el nuevo archivo ``/boot/grub2/grub.cfg``, quedando de este modo de manera persistente los mismos.
 
 * Para visualizar todos los kernels disponibles, ejecutamos
 
@@ -155,11 +159,19 @@ Si queremos ver que kernel es
   # grubby --default-kernel
   /boot/vmlinuz-3.10.0-693.21.1.el7.x86_64
 
+**ACTIVIDAD 2**
+
+- Liste los kernels instalados en su sistema usando grubby
+- Corrobore cual es el kernel que inicia por defecto y su índice
+- Liste los archivos que se encuentran en ``/boot`` para corroborar los kernels disponibles
+
 Si queremos cambiar los argumentos de booteo
 
 .. code:: bash
 
   # grubby --remove-args "quiet" --update-kernel /boot/vmlinuz-3.10.0-693.el7.x86_64
+
+Para ver un detalle completo de los mensajes de booteo elimine ``rhgb quiet``, para ver los mensajes estándar de booteo deje solamente ``quiet``.
 
 Si queremos agregar un argumento de booteo
 
@@ -179,6 +191,15 @@ si queremos cambiar la entrada de booteo por defecto
 
   # grubby --set-default-index=0
 
+**ACTIVIDAD 3**
+
+- Pruebe el efecto que tiene quitar el argumento ``quiet`` y ``rhgb`` (reinicie el sistema en cada cambio)
+- Modifique el kernel que se inicia por defecto por alguno de los disponibles
+- Algunos parámetros globales de grub2 se modifican en el archivo ``/etc/default/grub``. Cambie el valor del ``GRUB_TIMEOUT`` y luego ejecute 
+
+.. code:: bash
+  
+  grub2-mkconfig -o /boot/grub2/grub.cfg
 
 Como bootear el sistema si el archivo grub.cfg no existe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -194,16 +215,20 @@ Desde esta consola debemos consignarle los siguientes parámetros:
 Comandos útiles en la consola
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* ls nos muestra los dispositivos que encontró y sus particiones
-* linux16 nos permite especificar el kernel a utilizar (recordemos que al kernel
+En el menú de grub al inicio es posible ingresar comandos presionando la tecla ``c``.`
+
+* ``ls`` nos muestra los dispositivos que encontró y sus particiones
+* ``linux16`` nos permite especificar el kernel a utilizar (recordemos que al kernel
   se le debe pasar como parametro cual es el rootfs, que en el caso de Centos
-  es por defecto /dev/mapper/centos-root)
-* initrd16 nos permite cargar el archivo initramfs a utilizar.
+  es por defecto ``/dev/mapper/centos-root``)
+* ``initrd16`` nos permite cargar el archivo initramfs a utilizar.
 
 Ejemplo paso a paso de recuperación:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Borre el archivo /boot/grub2/grub.cfg
+**ACTIVIDAD 4**
+
+* Borre el archivo ``/boot/grub2/grub.cfg``
 * Reinicie y en la consola de grub escriba
 
 .. code:: bash
@@ -214,7 +239,7 @@ Ejemplo paso a paso de recuperación:
   boot
 
 Con eso conseguira bootear nuevamente el sistema, por lo que solo restará luego
-ejecutar grub2-mkconfig para que se vuelva generar dicho archivo
+ejecutar ``grub2-mkconfig`` para que se vuelva generar dicho archivo
 
 .. code:: bash
 
@@ -223,9 +248,9 @@ ejecutar grub2-mkconfig para que se vuelva generar dicho archivo
 Recuperar el grub si se ha borrado el registro del MBR
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-En caso de que se haya borrado el registro MBR, el grub no podra si quiera arrancar
+En caso de que se haya borrado el registro MBR, el grub no podra arrancar
 y no contaremos con la consola anterior. En estos casos debemos inicar el sistema 
-con un CD de rescate, como lo es el mismo cd de instalación de Centos, y seleccionar 
+con un CD de rescate, como el de instalación de Centos, y seleccionar 
 la opción de rescate.
 
 Para volver a tener la opción de bootear windows, debemos agregar la siguiente líneas
@@ -249,3 +274,8 @@ Referencias
 -----------
 - Red Hat Enterprise Linux 7 System Administrator's Guide, cap. 25 (pág. 539).
 - Red Hat Enterprise Linux 6 Guía de instalación, Apéndice F.
+- WikiCentos_ 
+- DocsFedora_ 
+
+.. _WikiCentos: https://wiki.centos.org/HowTos/Grub2
+.. _DocsFedora: https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Customizing_the_GRUB_2_Configuration_File.html
