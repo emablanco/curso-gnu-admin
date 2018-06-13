@@ -36,7 +36,7 @@ endobj
 endobj
 7 0 obj
 <<
-/Annots [ 4 0 R 5 0 R ] /Contents 33 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 32 0 R /Resources <<
+/Annots [ 4 0 R 5 0 R ] /Contents 34 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 33 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
@@ -51,7 +51,7 @@ endobj
 endobj
 9 0 obj
 <<
-/Contents 34 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 32 0 R /Resources <<
+/Contents 35 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 33 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -66,7 +66,7 @@ endobj
 endobj
 11 0 obj
 <<
-/Contents 35 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 32 0 R /Resources <<
+/Contents 36 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 33 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -76,7 +76,7 @@ endobj
 endobj
 12 0 obj
 <<
-/Contents 36 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 32 0 R /Resources <<
+/Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 33 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -91,7 +91,7 @@ endobj
 endobj
 14 0 obj
 <<
-/Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 32 0 R /Resources <<
+/Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 33 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -103,19 +103,19 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://wiki.centos.org/HowTos/Grub2)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 669.7736 136.2529 681.7736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 492.3736 136.2529 504.3736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 16 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Customizing_the_GRUB_2_Configuration_File.html)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 651.7736 140.1529 663.7736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 474.3736 140.1529 486.3736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 17 0 obj
 <<
-/Annots [ 15 0 R 16 0 R ] /Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 32 0 R /Resources <<
+/Annots [ 15 0 R 16 0 R ] /Contents 39 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 33 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
@@ -125,18 +125,18 @@ endobj
 endobj
 18 0 obj
 <<
-/Outlines 20 0 R /PageLabels 39 0 R /PageMode /UseNone /Pages 32 0 R /Type /Catalog
+/Outlines 20 0 R /PageLabels 40 0 R /PageMode /UseNone /Pages 33 0 R /Type /Catalog
 >>
 endobj
 19 0 obj
 <<
-/Author () /CreationDate (D:20180613132737+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180613132737+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180613175837+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180613175837+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (GRUB) /Trapped /False
 >>
 endobj
 20 0 obj
 <<
-/Count 13 /First 21 0 R /Last 31 0 R /Type /Outlines
+/Count 14 /First 21 0 R /Last 32 0 R /Type /Outlines
 >>
 endobj
 21 0 obj
@@ -193,15 +193,20 @@ endobj
 endobj
 31 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 753.0236 0 ] /Parent 20 0 R /Prev 22 0 R /Title (Referencias)
+/Dest [ 17 0 R /XYZ 62.69291 683.8236 0 ] /Next 32 0 R /Parent 20 0 R /Prev 22 0 R /Title (Extra: memtest)
 >>
 endobj
 32 0 obj
 <<
-/Count 6 /Kids [ 7 0 R 9 0 R 11 0 R 12 0 R 14 0 R 17 0 R ] /Type /Pages
+/Dest [ 17 0 R /XYZ 62.69291 575.6236 0 ] /Parent 20 0 R /Prev 31 0 R /Title (Referencias)
 >>
 endobj
 33 0 obj
+<<
+/Count 6 /Kids [ 7 0 R 9 0 R 11 0 R 12 0 R 14 0 R 17 0 R ] /Type /Pages
+>>
+endobj
+34 0 obj
 <<
 /Length 7468
 >>
@@ -254,7 +259,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13/06/2018 13:27) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13/06/2018 17:58) Tj T* ET
 Q
 Q
 q
@@ -535,7 +540,7 @@ Q
  
 endstream
 endobj
-34 0 obj
+35 0 obj
 <<
 /Length 9074
 >>
@@ -844,7 +849,7 @@ Q
  
 endstream
 endobj
-35 0 obj
+36 0 obj
 <<
 /Length 11579
 >>
@@ -1206,7 +1211,7 @@ Q
  
 endstream
 endobj
-36 0 obj
+37 0 obj
 <<
 /Length 7212
 >>
@@ -1621,7 +1626,7 @@ Q
  
 endstream
 endobj
-37 0 obj
+38 0 obj
 <<
 /Length 7931
 >>
@@ -2023,26 +2028,87 @@ Q
  
 endstream
 endobj
-38 0 obj
+39 0 obj
 <<
-/Length 1876
+/Length 2960
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 732.0236 cm
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ahora resta instalar el grub en el MBR del disco, esto es:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 695.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.25098 .501961 .501961 rg
+BT 1 0 0 1 0 14 Tm /F5 10 Tf 12 TL (#grub2 install /dev/sda) Tj T*  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 662.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Extra: memtest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 644.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Instalar memtest86+, ejecutar ) Tj /F3 10 Tf 0 0 0 rg (memtest-setup) Tj /F1 10 Tf 0 0 0 rg ( y luego ) Tj /F3 10 Tf 0 0 0 rg (grub2-mkconfig) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 587.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (yum install memtest86+) Tj T* (memtest-setup) Tj T* (grub2-mkconfig -o /boot/grub2/grub.cfg) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 554.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 720.0236 cm
+1 0 0 1 62.69291 542.6236 cm
 Q
 q
-1 0 0 1 62.69291 720.0236 cm
+1 0 0 1 62.69291 542.6236 cm
 Q
 q
-1 0 0 1 62.69291 708.0236 cm
+1 0 0 1 62.69291 530.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2063,10 +2129,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 702.0236 cm
+1 0 0 1 62.69291 524.6236 cm
 Q
 q
-1 0 0 1 62.69291 690.0236 cm
+1 0 0 1 62.69291 512.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2087,10 +2153,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 684.0236 cm
+1 0 0 1 62.69291 506.6236 cm
 Q
 q
-1 0 0 1 62.69291 672.0236 cm
+1 0 0 1 62.69291 494.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2112,10 +2178,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 666.0236 cm
+1 0 0 1 62.69291 488.6236 cm
 Q
 q
-1 0 0 1 62.69291 654.0236 cm
+1 0 0 1 62.69291 476.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2137,10 +2203,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 654.0236 cm
+1 0 0 1 62.69291 476.6236 cm
 Q
 q
-1 0 0 1 62.69291 654.0236 cm
+1 0 0 1 62.69291 476.6236 cm
 Q
 q
 1 0 0 1 56.69291 773.1969 cm
@@ -2158,44 +2224,44 @@ Q
  
 endstream
 endobj
-39 0 obj
-<<
-/Nums [ 0 40 0 R 1 41 0 R 2 42 0 R 3 43 0 R 4 44 0 R 
-  5 45 0 R ]
->>
-endobj
 40 0 obj
 <<
-/S /D /St 1
+/Nums [ 0 41 0 R 1 42 0 R 2 43 0 R 3 44 0 R 4 45 0 R 
+  5 46 0 R ]
 >>
 endobj
 41 0 obj
 <<
-/S /D /St 2
+/S /D /St 1
 >>
 endobj
 42 0 obj
 <<
-/S /D /St 3
+/S /D /St 2
 >>
 endobj
 43 0 obj
 <<
-/S /D /St 4
+/S /D /St 3
 >>
 endobj
 44 0 obj
 <<
-/S /D /St 5
+/S /D /St 4
 >>
 endobj
 45 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+46 0 obj
 <<
 /S /D /St 6
 >>
 endobj
 xref
-0 46
+0 47
 0000000000 65535 f 
 0000000073 00000 n 
 0000000156 00000 n 
@@ -2228,30 +2294,31 @@ xref
 0000004575 00000 n 
 0000004729 00000 n 
 0000004885 00000 n 
-0000004998 00000 n 
-0000005092 00000 n 
-0000012612 00000 n 
-0000021738 00000 n 
-0000033370 00000 n 
-0000040634 00000 n 
-0000048617 00000 n 
-0000050545 00000 n 
-0000050634 00000 n 
-0000050668 00000 n 
-0000050702 00000 n 
-0000050736 00000 n 
-0000050770 00000 n 
-0000050804 00000 n 
+0000005014 00000 n 
+0000005127 00000 n 
+0000005221 00000 n 
+0000012741 00000 n 
+0000021867 00000 n 
+0000033499 00000 n 
+0000040763 00000 n 
+0000048746 00000 n 
+0000051758 00000 n 
+0000051847 00000 n 
+0000051881 00000 n 
+0000051915 00000 n 
+0000051949 00000 n 
+0000051983 00000 n 
+0000052017 00000 n 
 trailer
 <<
 /ID 
-[<c9eea662fb11fe71ff9291e7c372efe6><c9eea662fb11fe71ff9291e7c372efe6>]
+[<6fb46e6f1df21317f3b17532be9557bd><6fb46e6f1df21317f3b17532be9557bd>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 19 0 R
 /Root 18 0 R
-/Size 46
+/Size 47
 >>
 startxref
-50838
+52051
 %%EOF

@@ -296,6 +296,23 @@ Luego ejecutamos
 
   grub2-mkconfig --output=/boot/grub2/grub.cfg
 
+Ahora resta instalar el grub en el MBR del disco, esto es:
+
+.. code:: bash
+
+  #grub2 install /dev/sda
+
+
+Extra: memtest
+--------------
+
+Instalar memtest86+, ejecutar ``memtest-setup`` y luego ``grub2-mkconfig``
+
+.. code:: bash
+
+  yum install memtest86+
+  memtest-setup
+  grub2-mkconfig -o /boot/grub2/grub.cfg
 
 Referencias
 -----------
