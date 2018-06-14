@@ -278,7 +278,18 @@ Recuperar el grub si se ha borrado el registro del MBR
 En caso de que se haya borrado el registro MBR, el grub no podra arrancar
 y no contaremos con la consola anterior. En estos casos debemos inicar el sistema 
 con un CD de rescate, como el de instalación de Centos, y seleccionar 
-la opción de rescate, luego en el menú subsiguiente se debe elegir la opción 1 (continue).
+la opción "Troubleshooting", en el menu siguiente seleccionamos "Rescue a Centos
+System", y luego en el menú subsiguiente se debe elegir la opción 1 (continue). 
+Esta opción montará la partición de Centos dentro de /mnt/sysimage. Una vez que esto ya 
+se realizo, debemos hacer un chroot a dicho directorio, y luego regenerar la 
+config de grub e instalar el grub en el registro MBR del disco rigido. Es decir:
+
+.. code:: bash
+
+  chroot /mnt/sysimage
+  grub2-mkconfig -o /boot/grub2/grub.cfg
+  grub2-install /dev/sda
+
 
 Para volver a tener la opción de bootear windows, debemos agregar la siguiente líneas
 en el archivo /etc/grub.d/40_custom
@@ -295,12 +306,6 @@ Luego ejecutamos
 .. code:: bash
 
   grub2-mkconfig --output=/boot/grub2/grub.cfg
-
-Ahora resta instalar el grub en el MBR del disco, esto es:
-
-.. code:: bash
-
-  #grub2 install /dev/sda
 
 
 Extra: memtest

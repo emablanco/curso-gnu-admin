@@ -103,14 +103,14 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://wiki.centos.org/HowTos/Grub2)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 492.3736 136.2529 504.3736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 435.1736 136.2529 447.1736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 16 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://docs-old.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Customizing_the_GRUB_2_Configuration_File.html)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 474.3736 140.1529 486.3736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 417.1736 140.1529 429.1736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 17 0 obj
@@ -130,7 +130,7 @@ endobj
 endobj
 19 0 obj
 <<
-/Author () /CreationDate (D:20180613175837+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180613175837+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180614001322+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180614001322+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (GRUB) /Trapped /False
 >>
 endobj
@@ -193,12 +193,12 @@ endobj
 endobj
 31 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 683.8236 0 ] /Next 32 0 R /Parent 20 0 R /Prev 22 0 R /Title (Extra: memtest)
+/Dest [ 17 0 R /XYZ 62.69291 626.6236 0 ] /Next 32 0 R /Parent 20 0 R /Prev 22 0 R /Title (Extra: memtest)
 >>
 endobj
 32 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 575.6236 0 ] /Parent 20 0 R /Prev 31 0 R /Title (Referencias)
+/Dest [ 17 0 R /XYZ 62.69291 518.4236 0 ] /Parent 20 0 R /Prev 31 0 R /Title (Referencias)
 >>
 endobj
 33 0 obj
@@ -259,7 +259,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13/06/2018 17:58) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13/06/2018 21:13) Tj T* ET
 Q
 Q
 q
@@ -1628,7 +1628,7 @@ endstream
 endobj
 38 0 obj
 <<
-/Length 7931
+/Length 7420
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -1936,21 +1936,64 @@ BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (Recuperar el grub si se ha borra
 Q
 Q
 q
-1 0 0 1 62.69291 255.6236 cm
+1 0 0 1 62.69291 207.6236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.533145 Tw (En caso de que se haya borrado el registro MBR, el grub no podra arrancar y no contaremos con la) Tj T* 0 Tw .178221 Tw (consola anterior. En estos casos debemos inicar el sistema con un CD de rescate, como el de instalaci\363n) Tj T* 0 Tw (de Centos, y seleccionar la opci\363n de rescate.) Tj T* ET
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.533145 Tw (En caso de que se haya borrado el registro MBR, el grub no podra arrancar y no contaremos con la) Tj T* 0 Tw .178221 Tw (consola anterior. En estos casos debemos inicar el sistema con un CD de rescate, como el de instalaci\363n) Tj T* 0 Tw 1.593059 Tw (de Centos, y seleccionar la opci\363n "Troubleshooting", en el menu siguiente seleccionamos "Rescue a) Tj T* 0 Tw 1.73686 Tw (Centos System", y luego en el men\372 subsiguiente se debe elegir la opci\363n 1 \(continue\). Esta opci\363n) Tj T* 0 Tw .292485 Tw (montar\341 la partici\363n de Centos dentro de /mnt/sysimage. Una vez que esto ya se realizo, debemos hacer) Tj T* 0 Tw .511988 Tw (un chroot a dicho directorio, y luego regenerar la config de grub e instalar el grub en el registro MBR del) Tj T* 0 Tw (disco rigido. Es decir:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 225.6236 cm
+1 0 0 1 62.69291 150.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (chroot /mnt/sysimage) Tj T* (grub2-mkconfig -o /boot/grub2/grub.cfg) Tj T* (grub2-install /dev/sda) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 118.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.542485 Tw (Para volver a tener la opci\363n de bootear windows, debemos agregar la siguiente l\355neas en el archivo) Tj T* 0 Tw (/etc/grub.d/40_custom) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 156.4236 cm
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (5 / 6) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+39 0 obj
+<<
+/Length 3874
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1977,21 +2020,21 @@ n 96 24 12 12 re f*
 n 138 24 6 12 re f*
 .960784 .960784 .862745 rg
 n 6 0 6 12 re f*
-BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg (menuentry ) Tj .729412 .129412 .129412 rg ("Windows 7") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (root) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg (hd0,3) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (        chainloader +1) Tj T* ( ) Tj .4 .4 .4 rg (}) Tj T* ET
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg (menuentry ) Tj .729412 .129412 .129412 rg ("Windows 7") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (root) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg (hd0,4) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (        chainloader +1) Tj T* ( ) Tj .4 .4 .4 rg (}) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 136.4236 cm
+1 0 0 1 62.69291 671.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Luego ejecutamos) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 103.2236 cm
+1 0 0 1 62.69291 638.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2013,69 +2056,19 @@ Q
 Q
 Q
 q
-1 0 0 1 56.69291 773.1969 cm
-q
-BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
-Q
-Q
-q
-1 0 0 1 56.69291 56.69291 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (5 / 6) Tj T* -231.2149 0 Td ET
-Q
-Q
- 
-endstream
-endobj
-39 0 obj
-<<
-/Length 2960
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 741.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ahora resta instalar el grub en el MBR del disco, esto es:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 695.8236 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
-Q
-q
-.25098 .501961 .501961 rg
-BT 1 0 0 1 0 14 Tm /F5 10 Tf 12 TL (#grub2 install /dev/sda) Tj T*  T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 62.69291 662.8236 cm
+1 0 0 1 62.69291 605.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Extra: memtest) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 644.8236 cm
+1 0 0 1 62.69291 587.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Instalar memtest86+, ejecutar ) Tj /F3 10 Tf 0 0 0 rg (memtest-setup) Tj /F1 10 Tf 0 0 0 rg ( y luego ) Tj /F3 10 Tf 0 0 0 rg (grub2-mkconfig) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 587.6236 cm
+1 0 0 1 62.69291 530.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2096,19 +2089,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 554.6236 cm
+1 0 0 1 62.69291 497.4236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 542.6236 cm
+1 0 0 1 62.69291 485.4236 cm
 Q
 q
-1 0 0 1 62.69291 542.6236 cm
+1 0 0 1 62.69291 485.4236 cm
 Q
 q
-1 0 0 1 62.69291 530.6236 cm
+1 0 0 1 62.69291 473.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2129,10 +2122,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 524.6236 cm
+1 0 0 1 62.69291 467.4236 cm
 Q
 q
-1 0 0 1 62.69291 512.6236 cm
+1 0 0 1 62.69291 455.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2153,10 +2146,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 506.6236 cm
+1 0 0 1 62.69291 449.4236 cm
 Q
 q
-1 0 0 1 62.69291 494.6236 cm
+1 0 0 1 62.69291 437.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2178,10 +2171,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 488.6236 cm
+1 0 0 1 62.69291 431.4236 cm
 Q
 q
-1 0 0 1 62.69291 476.6236 cm
+1 0 0 1 62.69291 419.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2203,10 +2196,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 476.6236 cm
+1 0 0 1 62.69291 419.4236 cm
 Q
 q
-1 0 0 1 62.69291 476.6236 cm
+1 0 0 1 62.69291 419.4236 cm
 Q
 q
 1 0 0 1 56.69291 773.1969 cm
@@ -2301,18 +2294,18 @@ xref
 0000021867 00000 n 
 0000033499 00000 n 
 0000040763 00000 n 
-0000048746 00000 n 
-0000051758 00000 n 
-0000051847 00000 n 
-0000051881 00000 n 
-0000051915 00000 n 
-0000051949 00000 n 
-0000051983 00000 n 
-0000052017 00000 n 
+0000048235 00000 n 
+0000052161 00000 n 
+0000052250 00000 n 
+0000052284 00000 n 
+0000052318 00000 n 
+0000052352 00000 n 
+0000052386 00000 n 
+0000052420 00000 n 
 trailer
 <<
 /ID 
-[<6fb46e6f1df21317f3b17532be9557bd><6fb46e6f1df21317f3b17532be9557bd>]
+[<de604203a4d99e5fbb0b143ba7e97f69><de604203a4d99e5fbb0b143ba7e97f69>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 19 0 R
@@ -2320,5 +2313,5 @@ trailer
 /Size 47
 >>
 startxref
-52051
+52454
 %%EOF
