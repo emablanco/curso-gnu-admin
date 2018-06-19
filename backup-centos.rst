@@ -39,21 +39,45 @@ Instalación
 Configuración
 =============
 
-ReaR se configura en el archivo ``/etc/rear/local.conf`` donde se especifica el formato de la salida y la ubicación.
+La configuración de ReaR se realiza en el archivo ``/etc/rear/local.conf`` donde se especifica el formato de la salida y la ubicación. 
 
-.. code:: bash
+Existen dos variables importantes que influyen ReaR: ``OUTPUT`` para definir el método de booteo y ``BACKUP`` para la estrategia de backup.
 
-    OUTPUT=formato
-    OUTPUT_URL=ubicacion
+Sistema
+-------
 
-Donde formato puede ser, por ejemlo, ``ISO`` o ``USB``.
+Cuando se usa ``OUTPUT=ISO`` se debe proveer la ubicación del destino en la variable ``OUTPUT_URL``, por ejemplo:
 
-En el caso previo rear hará un backup del sistema sin datos del usuario. 
+- ``OUTPUT_URL=file://``
+    Escribe la imagen ISO en disco, el default es en ``/var/lib/rear/output/``.
 
-Backup por NFS
---------------
+- ``OUTPUT_URL=nfs://``
+    Escribe la imagen USO usando el protocolo NFS
 
-Es posible configurar Rear para que almacene las imágenes ISO de los backups creados en un servidor NFS remoto.
+
+Datos
+-----
+
+Con ``BACKUP`` se define la estrategia de backup y restauración. La más utilizada es ``NETFS``.
+
+``BACKUP=NETFS``
+
+Usa el como método de backup tar o rsync. Cuando usa ``BACKUP=NETFS`` y ``BACKUP_PROG=tar`` existe una opción para seleccionar el tipo de backup, esto es diferencial o incremental, esto se selecciona haciendo ``BACKUP_TYPE=incremental`` o ``BACKUP_TYPE=differential``.
+
+Cuando se usa ``BACKUP=NETFS`` se debe proveer la ubicación del destino en la variable ``BACKUP_URL``, por ejemplo:
+
+- ``BACKUP_URL=file://``
+    Hace el backup en disco local, por ej:  ``BACKUP_URL=file:///directory/path/``
+
+- ``BACKUP_URL=nfs://``
+
+    Hace el backup en un recurso compartido por NFS, por ej, ``BACKUP_URL=nfs://nfs-server-name/share/path``
+
+
+Sistema y datos en una única ISO por NFS
+----------------------------------------
+
+Es posible configurar ``ReaR`` para que almacene las imágenes ISO de los backups creados en un servidor NFS remoto.
 Para esto se deben configurar al menos los siguientes parámetros:
 
 .. code:: bash
@@ -113,3 +137,4 @@ Referencias
 ===========
 
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/ch-relax-and-recover_rear
+https://github.com/rear/rear
