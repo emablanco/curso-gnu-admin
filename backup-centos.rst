@@ -73,9 +73,19 @@ Cuando se usa ``BACKUP=NETFS`` se debe proveer la ubicación del destino en la v
 
     Hace el backup en un recurso compartido por NFS, por ej, ``BACKUP_URL=nfs://nfs-server-name/share/path``
 
+Escenarios
+==========
 
-Sistema y datos en una única ISO por NFS
-----------------------------------------
+ISO Bootable
+------------
+
+.. code:: bash
+
+    OUTPUT=ISO
+    OUTPUT_URL=http://server/path-to-push/
+
+ISO Bootable y datos por NFS
+----------------------------
 
 Es posible configurar ``ReaR`` para que almacene las imágenes ISO de los backups creados en un servidor NFS remoto.
 Para esto se deben configurar al menos los siguientes parámetros:
@@ -87,6 +97,20 @@ Para esto se deben configurar al menos los siguientes parámetros:
     BACKUP_URL = nfs://IP/RECURSO
 
 Donde ``IP`` es la dirección IP del servidor y ``RECURSO`` el directorio exportado mediante NFS.
+
+
+USB bootable con datos
+----------------------
+
+Para tener un USB booteable con los datos y un shell de recuperación:
+
+.. code:: bash
+
+    BACKUP=NETFS
+    OUTPUT=USB
+    USB_DEVICE=/dev/disk/by-label/REAR-000
+
+
 
 Creando sistema de rescate
 ==========================
