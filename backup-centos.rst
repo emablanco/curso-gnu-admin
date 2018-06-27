@@ -121,19 +121,19 @@ Creando sistema de rescate
 
 Si se utilizó la opción ``BACKUP=NETFS`` ReaR puede crear un sistema de rescate, un backup de archivos, o ambos.
 
-- Para crear solamente un sistema de rescate: 
+- Para crear **solamente un sistema de rescate**: 
 
 .. code:: bash
     
     rear mkrescue
 
-- Para crear solamente un backup de datos: 
+- Para crear **solamente un backup de datos**: 
 
 .. code:: bash 
     
     rear mkbackuponly
 
-- Para crear ambos: 
+- Para crear **ambos**: 
 
 .. code:: bash
 
