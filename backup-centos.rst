@@ -27,7 +27,7 @@ Mientras que la mayoría de los sistemas de backups resuelven el tercer item, pa
 
 *ReaR* crea un sistema de rescate booteable que permite recuperar el sistema mediante el comando ``rear recover``. Durante este proceso, ReaR replica la estructura de particiones y del sistema de archivos, restaura archivos de sistema y de usuarios (generados por otro sistema de backup) y finalmente instala el cargador de arranque. En su ocpión por defecto, ReaR solo recupera la estructura de particiones y bootloader.
 
-Per además, *ReaR* permite cubir los primeros dos items, con un método ya integrado o bien utilizando algún software de backup externo.
+Pero además, *ReaR* permite cubrir los primeros dos items, con un método ya integrado o bien utilizando algún software de backup externo.
 
 Instalación
 ===========
@@ -52,7 +52,7 @@ Cuando se usa ``OUTPUT=ISO`` se debe proveer la ubicación del destino en la var
     Escribe la imagen ISO en disco, el default es en ``/var/lib/rear/output/``.
 
 - ``OUTPUT_URL=nfs://``
-    Escribe la imagen USO usando el protocolo NFS
+    Escribe la imagen ISO usando el protocolo NFS
 
 
 Datos
@@ -119,7 +119,7 @@ Creando sistema de rescate
 
     rear -v mkrescue
 
-Si se utilizó la opción ``BACKUP=NETFS`` ReaR puede crear un sistema de rescate un backup de archivos o ambos.
+Si se utilizó la opción ``BACKUP=NETFS`` ReaR puede crear un sistema de rescate, un backup de archivos, o ambos.
 
 - Para crear solamente un sistema de rescate: 
 
@@ -149,7 +149,7 @@ Especificando en ``/etc/crontab`` se puede programar la generación del sistema 
     0 22 * * 1-5 root /usr/sbin/rear mkrescue
 
 Restaurando el sistema
-''''''''''''''''''''''
+----------------------
 
 - Grabar la imagen generado a un CD/DVD o USB
 - Bootear el CD/DVD o USB, loguearse como **root** sin contraseña

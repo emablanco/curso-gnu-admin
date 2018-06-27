@@ -1,0 +1,1209 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 6 0 R /F4 7 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:emiliano.lopez@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 228.2023 707.0236 347.8223 719.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:maximiliano@boscovich.com.ar)
+>> /Border [ 0 0 0 ] /Rect [ 260.9723 689.0236 401.7023 701.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Annots [ 4 0 R 5 0 R ] /Contents 30 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 29 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 31 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 29 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/ch-relax-and-recover_rear)
+>> /Border [ 0 0 0 ] /Rect [ 62.69291 393.4236 527.9029 405.4236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/ch-relax-and-recover_rear)
+>> /Border [ 0 0 0 ] /Rect [ 62.69291 381.4236 153.2729 393.4236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/rear/rear)
+>> /Border [ 0 0 0 ] /Rect [ 156.0529 381.4236 276.1029 393.4236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/Annots [ 10 0 R 11 0 R 12 0 R ] /Contents 32 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 29 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Outlines 16 0 R /PageLabels 33 0 R /PageMode /UseNone /Pages 29 0 R /Type /Catalog
+>>
+endobj
+15 0 obj
+<<
+/Author () /CreationDate (D:20180627013202+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180627013202+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Back-up) /Trapped /False
+>>
+endobj
+16 0 obj
+<<
+/Count 15 /First 17 0 R /Last 28 0 R /Type /Outlines
+>>
+endobj
+17 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 437.0236 0 ] /Next 18 0 R /Parent 16 0 R /Title (Instalaci\363n)
+>>
+endobj
+18 0 obj
+<<
+/Count 2 /Dest [ 8 0 R /XYZ 62.69291 370.8236 0 ] /First 19 0 R /Last 20 0 R /Next 21 0 R /Parent 16 0 R 
+  /Prev 17 0 R /Title (Configuraci\363n)
+>>
+endobj
+19 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 277.8236 0 ] /Next 20 0 R /Parent 18 0 R /Title (Sistema)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 151.8236 0 ] /Parent 18 0 R /Prev 19 0 R /Title (Datos)
+>>
+endobj
+21 0 obj
+<<
+/Count 3 /Dest [ 9 0 R /XYZ 62.69291 594.0236 0 ] /First 22 0 R /Last 24 0 R /Next 25 0 R /Parent 16 0 R 
+  /Prev 18 0 R /Title (Escenarios)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 561.0236 0 ] /Next 23 0 R /Parent 21 0 R /Title (ISO Bootable)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 485.8236 0 ] /Next 24 0 R /Parent 21 0 R /Prev 22 0 R /Title (ISO Bootable y datos por NFS)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 348.6236 0 ] /Parent 21 0 R /Prev 23 0 R /Title (USB bootable con datos)
+>>
+endobj
+25 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 243.4236 0 ] /Next 26 0 R /Parent 16 0 R /Prev 21 0 R /Title (Creando sistema de rescate)
+>>
+endobj
+26 0 obj
+<<
+/Count 1 /Dest [ 13 0 R /XYZ 62.69291 636.6236 0 ] /First 27 0 R /Last 27 0 R /Next 28 0 R /Parent 16 0 R 
+  /Prev 25 0 R /Title (Automatizar con crontab)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 540.4236 0 ] /Parent 26 0 R /Title (Restaurando el sistema)
+>>
+endobj
+28 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 432.4236 0 ] /Parent 16 0 R /Prev 26 0 R /Title (Referencias)
+>>
+endobj
+29 0 obj
+<<
+/Count 3 /Kids [ 8 0 R 9 0 R 13 0 R ] /Type /Pages
+>>
+endobj
+30 0 obj
+<<
+/Length 7160
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 195.4949 0 Td (Back-up) Tj T* -195.4949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Autores:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Emiliano L\363pez \() Tj 0 0 .501961 rg (emiliano.lopez@gmail.com) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Maximiliano Boscovich \() Tj 0 0 .501961 rg (maximiliano@boscovich.com.ar) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 40.80937 0 Td (Fecha:) Tj T* -40.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (26/06/2018 22:32) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.597126 Tw (En general, un administrador de sistemas se enfrenta a tres tareas para restaurar la funcionalidad) Tj T* 0 Tw (completa de un sistema en otro equipo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bootear un sistema de rescate en otro hardware) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 617.0236 cm
+Q
+q
+1 0 0 1 62.69291 605.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (replicar la estructura del sistema original) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 599.0236 cm
+Q
+q
+1 0 0 1 62.69291 587.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (restaurar archivos del sistema y de usuarios) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 587.0236 cm
+Q
+q
+1 0 0 1 62.69291 545.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .670574 Tw 12 TL /F1 10 Tf 0 0 0 rg (Mientras que la mayor\355a de los sistemas de backups resuelven el tercer item, para resolver la primera y) Tj T* 0 Tw .318443 Tw (segunda opci\363n se recomienda el uso de Relax-and-Recover \() Tj /F3 10 Tf (ReaR) Tj /F1 10 Tf (\), utilidad destinada para recuperar y) Tj T* 0 Tw (migrar sistemas \(bare metal\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 479.0236 cm
+q
+BT 1 0 0 1 0 50 Tm 1.96284 Tw 12 TL /F3 10 Tf 0 0 0 rg (ReaR) Tj /F1 10 Tf ( crea un sistema de rescate booteable que permite recuperar el sistema mediante el comando) Tj T* 0 Tw 2.537126 Tw /F4 10 Tf 0 0 0 rg (rear) Tj ( ) Tj (recover) Tj /F1 10 Tf 0 0 0 rg (. Durante este proceso, ReaR replica la estructura de particiones y del sistema de) Tj T* 0 Tw .017318 Tw (archivos, restaura archivos de sistema y de usuarios \(generados por otro sistema de backup\) y finalmente) Tj T* 0 Tw -0.125015 Tw (instala el cargador de arranque. En su ocpi\363n por defecto, ReaR solo recupera la estructura de particiones) Tj T* 0 Tw (y bootloader.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.05811 Tw 12 TL /F1 10 Tf 0 0 0 rg (Per adem\341s, ) Tj /F3 10 Tf (ReaR) Tj /F1 10 Tf ( permite cubir los primeros dos items, con un m\351todo ya integrado o bien utilizando) Tj T* 0 Tw (alg\372n software de backup externo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 416.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Instalaci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 382.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (yum install rear genisoimage syslinux) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 349.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Configuraci\363n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 319.8236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.903059 Tw 12 TL /F1 10 Tf 0 0 0 rg (La configuraci\363n de ReaR se realiza en el archivo ) Tj /F4 10 Tf 0 0 0 rg (/etc/rear/local.conf) Tj /F1 10 Tf 0 0 0 rg ( donde se especifica el) Tj T* 0 Tw (formato de la salida y la ubicaci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 289.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .031984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Existen dos variables importantes que influyen ReaR: ) Tj /F4 10 Tf 0 0 0 rg (OUTPUT) Tj /F1 10 Tf 0 0 0 rg ( para definir el m\351todo de booteo y ) Tj /F4 10 Tf 0 0 0 rg (BACKUP) Tj /F1 10 Tf 0 0 0 rg  T* 0 Tw (para la estrategia de backup.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 259.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Sistema) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 229.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .869984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Cuando se usa ) Tj /F4 10 Tf 0 0 0 rg (OUTPUT=ISO) Tj /F1 10 Tf 0 0 0 rg ( se debe proveer la ubicaci\363n del destino en la variable ) Tj /F4 10 Tf 0 0 0 rg (OUTPUT_URL) Tj /F1 10 Tf 0 0 0 rg (, por) Tj T* 0 Tw (ejemplo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 223.8236 cm
+Q
+q
+1 0 0 1 62.69291 223.8236 cm
+Q
+q
+1 0 0 1 62.69291 196.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (OUTPUT_URL=file://) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Escribe la imagen ISO en disco, el default es en ) Tj /F4 10 Tf 0 0 0 rg (/var/lib/rear/output/) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 190.8236 cm
+Q
+q
+1 0 0 1 62.69291 163.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (OUTPUT_URL=nfs://) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Escribe la imagen USO usando el protocolo NFS) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 163.8236 cm
+Q
+q
+1 0 0 1 62.69291 133.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Datos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 115.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Con ) Tj /F4 10 Tf 0 0 0 rg (BACKUP) Tj /F1 10 Tf 0 0 0 rg ( se define la estrategia de backup y restauraci\363n. La m\341s utilizada es ) Tj /F4 10 Tf 0 0 0 rg (NETFS) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 97.82362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (BACKUP=NETFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (1 / 3) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+31 0 obj
+<<
+/Length 7227
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.149269 Tw 12 TL /F1 10 Tf 0 0 0 rg (Usa el como m\351todo de backup tar o rsync. Cuando usa ) Tj /F4 10 Tf 0 0 0 rg (BACKUP=NETFS) Tj /F1 10 Tf 0 0 0 rg ( y ) Tj /F4 10 Tf 0 0 0 rg (BACKUP_PROG=tar) Tj /F1 10 Tf 0 0 0 rg ( existe) Tj T* 0 Tw 1.978651 Tw (una opci\363n para seleccionar el tipo de backup, esto es diferencial o incremental, esto se selecciona) Tj T* 0 Tw (haciendo ) Tj /F4 10 Tf 0 0 0 rg (BACKUP_TYPE=incremental) Tj /F1 10 Tf 0 0 0 rg ( o ) Tj /F4 10 Tf 0 0 0 rg (BACKUP_TYPE=differential) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .069984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Cuando se usa ) Tj /F4 10 Tf 0 0 0 rg (BACKUP=NETFS) Tj /F1 10 Tf 0 0 0 rg ( se debe proveer la ubicaci\363n del destino en la variable ) Tj /F4 10 Tf 0 0 0 rg (BACKUP_URL) Tj /F1 10 Tf 0 0 0 rg (, por) Tj T* 0 Tw (ejemplo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (BACKUP_URL=file://) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Hace el backup en disco local, por ej: ) Tj /F4 10 Tf 0 0 0 rg (BACKUP_URL=file:///directory/path/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (BACKUP_URL=nfs://) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 14 Tm 16.84498 Tw 12 TL /F1 10 Tf 0 0 0 rg (Hace el backup en un recurso compartido por NFS, por ej,) Tj T* 0 Tw /F4 10 Tf 0 0 0 rg (BACKUP_URL=nfs://nfs-server-name/share/path) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Escenarios) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (ISO Bootable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 497.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (OUTPUT) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (ISO) Tj T* .098039 .090196 .486275 rg (OUTPUT_URL) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://server/path-to-push/) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 467.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (ISO Bootable y datos por NFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 437.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .35561 Tw 12 TL /F1 10 Tf 0 0 0 rg (Es posible configurar ) Tj /F4 10 Tf 0 0 0 rg (ReaR) Tj /F1 10 Tf 0 0 0 rg ( para que almacene las im\341genes ISO de los backups creados en un servidor) Tj T* 0 Tw (NFS remoto. Para esto se deben configurar al menos los siguientes par\341metros:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 380.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (OUTPUT) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ISO) Tj T* .098039 .090196 .486275 rg (BACKUP) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( NETFS) Tj T* .098039 .090196 .486275 rg (BACKUP_URL) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( nfs://IP/RECURSO) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 360.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Donde ) Tj /F4 10 Tf 0 0 0 rg (IP) Tj /F1 10 Tf 0 0 0 rg ( es la direcci\363n IP del servidor y ) Tj /F4 10 Tf 0 0 0 rg (RECURSO) Tj /F1 10 Tf 0 0 0 rg ( el directorio exportado mediante NFS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 330.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (USB bootable con datos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 312.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para tener un USB booteable con los datos y un shell de recuperaci\363n:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (BACKUP) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (NETFS) Tj T* .098039 .090196 .486275 rg (OUTPUT) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (USB) Tj T* .098039 .090196 .486275 rg (USB_DEVICE) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (/dev/disk/by-label/REAR-000) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 222.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Creando sistema de rescate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (rear -v mkrescue) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 157.2236 cm
+q
+BT 1 0 0 1 0 14 Tm .322927 Tw 12 TL /F1 10 Tf 0 0 0 rg (Si se utiliz\363 la opci\363n ) Tj /F4 10 Tf 0 0 0 rg (BACKUP=NETFS) Tj /F1 10 Tf 0 0 0 rg ( ReaR puede crear un sistema de rescate un backup de archivos o) Tj T* 0 Tw (ambos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 151.2236 cm
+Q
+q
+1 0 0 1 62.69291 151.2236 cm
+Q
+q
+1 0 0 1 62.69291 139.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para crear solamente un sistema de rescate:) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 139.2236 cm
+Q
+q
+1 0 0 1 62.69291 106.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (rear mkrescue) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 92.02362 cm
+Q
+q
+1 0 0 1 62.69291 92.02362 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (2 / 3) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+32 0 obj
+<<
+/Length 4478
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para crear solamente un backup de datos:) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+Q
+q
+1 0 0 1 62.69291 707.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (rear mkbackuponly) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 693.8236 cm
+Q
+q
+1 0 0 1 62.69291 693.8236 cm
+Q
+q
+1 0 0 1 62.69291 681.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para crear ambos:) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 681.8236 cm
+Q
+q
+1 0 0 1 62.69291 648.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (rear mkbackup) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 615.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Automatizar con crontab) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.6236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.405366 Tw 12 TL /F1 10 Tf 0 0 0 rg (Especificando en ) Tj /F4 10 Tf 0 0 0 rg (/etc/crontab) Tj /F1 10 Tf 0 0 0 rg ( se puede programar la generaci\363n del sistema de rescate en forma) Tj T* 0 Tw (autom\341tica. Por ejemplo para que se ejecute a las 22 cada d\355a de semana:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 552.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 54 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf .4 .4 .4 rg (0) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg ( * * ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (-5 root /usr/sbin/rear mkrescue) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 522.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Restaurando el sistema) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 510.4236 cm
+Q
+q
+1 0 0 1 62.69291 510.4236 cm
+Q
+q
+1 0 0 1 62.69291 498.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Grabar la imagen generado a un CD/DVD o USB) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 492.4236 cm
+Q
+q
+1 0 0 1 62.69291 480.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Bootear el CD/DVD o USB, loguearse como ) Tj /F2 10 Tf (root) Tj /F1 10 Tf ( sin contrase\361a) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 474.4236 cm
+Q
+q
+1 0 0 1 62.69291 462.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Elegir la opci\363n ) Tj /F4 10 Tf 0 0 0 rg (Recover) Tj ( ) Tj (HOSTNAME) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 456.4236 cm
+Q
+q
+1 0 0 1 62.69291 444.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Ejecutar el comando ) Tj /F4 10 Tf 0 0 0 rg (rear) Tj ( ) Tj (recover) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 444.4236 cm
+Q
+q
+1 0 0 1 62.69291 411.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Referencias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.4236 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/ch-rel) Tj T* (ax-and-recover_rear) Tj 0 0 0 rg ( ) Tj 0 0 .501961 rg (https://github.com/rear/rear) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.4236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 167.5949 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 231.2149 0 Td (3 / 3) Tj T* -231.2149 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+33 0 obj
+<<
+/Nums [ 0 34 0 R 1 35 0 R 2 36 0 R ]
+>>
+endobj
+34 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+35 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+36 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+xref
+0 37
+0000000000 65535 f 
+0000000073 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000353 00000 n 
+0000000536 00000 n 
+0000000723 00000 n 
+0000000838 00000 n 
+0000000943 00000 n 
+0000001172 00000 n 
+0000001377 00000 n 
+0000001650 00000 n 
+0000001923 00000 n 
+0000002104 00000 n 
+0000002343 00000 n 
+0000002449 00000 n 
+0000002714 00000 n 
+0000002789 00000 n 
+0000002904 00000 n 
+0000003073 00000 n 
+0000003181 00000 n 
+0000003287 00000 n 
+0000003450 00000 n 
+0000003563 00000 n 
+0000003705 00000 n 
+0000003828 00000 n 
+0000003968 00000 n 
+0000004145 00000 n 
+0000004256 00000 n 
+0000004369 00000 n 
+0000004442 00000 n 
+0000011654 00000 n 
+0000018933 00000 n 
+0000023463 00000 n 
+0000023522 00000 n 
+0000023556 00000 n 
+0000023590 00000 n 
+trailer
+<<
+/ID 
+[<72a5d0f808a2af4620c89450e92f1311><72a5d0f808a2af4620c89450e92f1311>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 15 0 R
+/Root 14 0 R
+/Size 37
+>>
+startxref
+23624
+%%EOF
