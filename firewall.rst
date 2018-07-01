@@ -19,84 +19,39 @@ Unidad 2: Configuración y políticas de Firewall
 Protocolo TCP/IP
 ----------------
 
-Encapsulamiento
+La forma que adopta una sección de datos en cualquier capa se denomina Unidad de datos del protocolo (PDU). Durante el **encapsulamiento**, cada capa encapsula las PDU que recibe de la capa superior de acuerdo con el protocolo que se utiliza. Aunque no existe una convención universal de nombres, suelen denominarse:
+
+- Segmento: PDU de la capa de transporte.
+- Paquete: PDU de la capa de Internetwork.
+- Trama: PDU de la capa de acceso a la red.
 
 .. figure:: imagenes/tcp-ipModel.png
    :align: center
-   :scale: 120 %
+   :scale: 110 %
 
+   Fig. 1 - Proceso de encapsulamiento
 
-Cabecera TCP
+La cabecera TCP agrega la siguiente información:
 
 .. figure:: imagenes/tcp-header.png
    :align: center
    :scale: 30 %
 
 
-Cabecera IP
+   Fig. 2 - Cabecera TCP
+
+
+La cabecera IP agrega la siguiente información
 
 .. figure:: imagenes/ip-header.png
    :align: center
    :scale: 50 %
 
 
-Políticas de seguridad
-----------------------
+   Fig. 3 - Cabecera IP
 
-La palabra seguridad es una palabra muy amplia que involucra conceptos,
-herramientas y procedimientos. Al precipitarse a implementar un conjunto
-arbitrario de herramientas se corre el riesgo de enfocarse en los
-aspectos de seguridad equivocados. Es fundamental antes de tomar
-cualquier disposición, definir correctamente la "Política de seguridad"
-que utilizaremos, y que guiará estas medidas. Para definir nuestra
-política de seguridad, podemos empezar por responder unas pocas
-preguntas:
-
--  ¿Qué estamos tratando de proteger?: La política de seguridad será
-   diferente dependiendo de lo que deseamos proteger.
-
--  ¿Contra qué estamos tratando de protegernos? ¿Fuga de datos
-   confidenciales? ¿Pérdida accidental de datos? ¿Pérdida de ingresos
-   por interrupción del servicio?
-
--  ¿Contra quién estamos tratando de protegernos?: Las medidas de
-   seguridad serán diferentes para protegerse contra el error de un
-   usuario regular del sistema de lo que serían contra un grupo de
-   atacantes determinado.
-
-Habitualmente, se utiliza el término **riesgo** para referirse al conjunto de
-estos tres factores: **qué proteger, qué necesitamos prevenir antes que suceda
-y quién intentará hacer que suceda**. Modelar el riesgo requiere respuestas a
-estas tres preguntas. A partir de este modelo de riesgo, podemos construir la
-política de seguridad e implementarla con acciones concretas.
-
-Vale la pena tomar en cuenta restricciones adicionales, dado que pueden
-limitar el alcance de las políticas disponibles. ¿Hasta dónde estamos dispuestos
-a llegar para asegurar un sistema?. Esta pregunta tiene un gran impacto en la
-política a implementar. La respuesta es a menudo definida en términos de costos
-monetarios, pero deben considerar otros elementos, tal como la cantidad
-de inconvenientes impuestos a los usuarios del sistema o una degradación
-en el rendimiento. Un buen principio a tener en cuenta es que un
-perímetro corto y bien definido es más fácil de defender que una
-frontera larga y sinuosa. Otro principio fundamental es que nunca
-podremos eliminar un riesgo, simplemente podemos llevarlo a niveles de
-ocurrencia o impacto aceptables. También es importante entender que una
-medida para un riesgo determinado tiene fecha de vencimiento, es decir,
-periódicamente debemos asegurarnos de que la misma siga cumpliendo con
-su fin. Se debe diseñar en consecuencia también la organización de la
-red: se deben concentrar los servicios sensibles en un pequeño número de
-máquinas y estas máquinas sólo deben ser accesibles a través de un
-número mínimo de puntos de control, asegurar estos puntos de control
-será más fácil que asegurar todas la máquinas sensibles contra la
-totalidad del mundo exterior. Es en este punto que se hace evidente la
-utilidad del filtrado de red (incluyendo los firewalls). Puede
-implementar este filtrado con hardware dedicado, pero posiblemente una
-solución más simple y flexible sea utilizar un software de firewall como
-el que se integra en el núcleo (kernel) de Linux. En esta unidad abordaremos
-este firewall y veremos algunos ejemplos de uso.
-
-Cortafuegos (Firewalls)
------------------------
+Firewalls
+---------
 
 Un firewall es una pieza de equipo de cómputo con hardware y/o software
 que ordena los paquetes entrantes o salientes de la red (que vienen
@@ -112,7 +67,7 @@ puerta de enlace predefinida (Default Gateway) de la red.
    :scale: 50 %
 
 
-   Fig. 1 - El firewall como Gateway
+   Fig. 4 - El firewall como Gateway
 
 Netfilter: el firewall de GNU/Linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -121,8 +76,8 @@ El núcleo Linux incorpora el firewall netfilter. Este se administra y
 controla por medio de los programas iptables e ip6tables, según el tipo
 de tráfico que deseemos filtrar (IPv4 o IPv6).
 
-Empecemos desde el principio: Cuando un paquete entra en el cortafuegos
-(firewall), alcanza el hardware y es procesado en el núcleo por su
+Empecemos desde el principio: Cuando un paquete llega al firewall, 
+alcanza el hardware y es procesado en el núcleo por su
 driver correspondiente. Después el paquete empieza a recorrer una serie
 de etapas en el núcleo antes de ser enviado a la aplicación adecuada
 (localmente), reenviado hacia otro host, o cualquier otra operación.
@@ -135,7 +90,7 @@ netfilter.
    :align: center
 
 
-   Fig. 2 - NetFilter
+   Fig. 5 - NetFilter
 
 Entender NetFilter es entender como se relacionan 4 conceptos
 fundamentales:
@@ -148,12 +103,11 @@ fundamentales:
 
 -  Acciones
 
-Las cadenas son conjuntos de reglas con un orden determinado, que se
+Las **cadenas** son conjuntos de reglas con un orden determinado, que se
 verifican una después de la otra siempre y cuando ninguna se cumpla, es
 decir, si una regla se cumple, las siguientes no se evalúan.
 
-Las tablas
-son un conjunto de cadenas que se aplican para tomar una decisión, o
+Las **tablas** son un conjunto de cadenas que se aplican para tomar una decisión, o
 realizar una modificación del flujo de datos en la red, por ejemplo,
 filtrar las conexiones entrantes o salientes, aplicar una redirección de
 puertos, o marcar paquetes para la priorización de tráfico. Como regla
@@ -164,7 +118,7 @@ hacer con el tráfico que atraviesa o llega al firewall.
 Tablas
 ^^^^^^
 
-iptables cuenta con cuatro tablas, que son zonas en las que una cadena
+*iptables* cuenta con cuatro tablas, que son zonas en las que una cadena
 de reglas se puede aplicar:
 
 -  **Filter**: es la tabla por defecto y se refiere a las reglas de
@@ -188,29 +142,17 @@ manejar paquetes en función de circunstancias predefinidas. Las mismas
 se encuentran asociadas a una tabla particular, siendo las más utilizadas
 y las que veremos en este capítulo, la tabla Filter y la tabla NAT:
 
--  **Tabla Filter**
-		Contiene 3 cadenas predefinidas, y dependiendo del origen y destino del
-		paquete, el mismo será procesado por alguna de las siguientes:
+**Tabla Filter:** contiene 3 cadenas predefinidas, y dependiendo del origen y destino del paquete, el mismo será procesado por alguna de las siguientes:
 
-   -  Cadena INPUT: procesará los paquetes cuyo destino es el propio firewall.
+-  Cadena INPUT: procesará los paquetes cuyo destino es el propio firewall.
+-  Cadena OUTPUT: procesará los los paquetes que se generan en el firewall.
+-  Cadena FORWARD: procesará los los paquetes que transitan a través del firewall (que no es ni su origen ni su destino).
 
-   -  Cadena OUTPUT: procesará los los paquetes que se generan en el firewall.
+**Tabla Nat:** contiene 3 cadenas predefinidas, y se utilizan para modificar los paquetes:
 
-   -  Cadena FORWARD: procesará los los paquetes que transitan a través del
-      firewall (que no es ni su origen ni su destino).
-
--  **Tabla Nat**
-		También contiene 3 cadenas predefinidas, y se utilizan para modificar los
-		paquetes:
-
-   -  Cadena PREROUTING: para modificar los paquetes tan pronto como llegan.
-
-   -  Cadena POSTROUTING: para modificar los paquetes cuando están listos para
-      seguir su camino.
-
-   -  Cadena OUTPUT: para modificar los paquetes generados por el propio
-      firewall.
-
+-  Cadena PREROUTING: para modificar los paquetes tan pronto como llegan.
+-  Cadena POSTROUTING: para modificar los paquetes cuando están listos para seguir su camino.
+-  Cadena OUTPUT: para modificar los paquetes generados por el propio firewall.
 
 No abordaremos las tablas mangle y raw ya que su uso excede el contenido
 de esta materia, de cualquier modo, los invitamos a seguir investigando
@@ -307,7 +249,7 @@ conexión, es decir, desde donde proviene la conexión, y hacia dónde va:
    :scale: 75 %
    :align: center
 
-   Fig. 3 - Orden de evaluación de las cadenas
+   Fig. 6 - Orden de evaluación de las cadenas
 
 Por esta razón, si queremos filtrar las conexiones entrantes o salientes
 a nuestra red, el firewall debe estar necesariamente en medio como
@@ -378,7 +320,7 @@ topología
    :scale: 75 %
    :align: center
 
-   Fig. 4 - Ejemplo de red con firewall como gateway
+   Fig. 7 - Ejemplo de red con firewall como gateway
 
 En este caso nos conviene utilizar como política por defecto a
 "Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
@@ -510,7 +452,8 @@ el default gateway. El conjunto de reglas sería el siguiente:
     iptables -P OUTPUT DROP
     iptables -P FORWARD DROP
 
-    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP) y TCP 465 (SMTPs)
+    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP) 
+    # y TCP 465 (SMTPs)
 
     iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
     iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 465 -j ACCEPT
@@ -531,7 +474,8 @@ el default gateway. El conjunto de reglas sería el siguiente:
 
     iptables -t filter -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
 
-    # A su vez necesitamos que desde el firewall también se acceda a los servidores DNS
+    # A su vez necesitamos que desde el firewall también se acceda a 
+    # los servidores DNS
 
     iptables -t filter -A OUTPUT -s 10.0.0.1 -p tcp --dport 53 -j ACCEPT
     iptables -t filter -A OUTPUT -s 10.0.0.1 -p udp --dport 53 -j ACCEPT
@@ -621,7 +565,7 @@ acción, configurarla y listo.
    :scale: 98 %
    :align: center
 
-   Fig. 5 - Generación de reglas con FWBuilder
+   Fig. 8 - Generación de reglas con FWBuilder
 
 Luego fwbuilder puede generar un script de configuración del firewall
 según las reglas que definió. Su arquitectura
