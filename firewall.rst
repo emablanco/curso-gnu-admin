@@ -1,6 +1,45 @@
 Unidad 2: Configuración y políticas de Firewall
 ===============================================
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
+Protocolo TCP/IP
+----------------
+
+Encapsulamiento
+
+.. figure:: imagenes/tcp-ipModel.png
+   :align: center
+   :scale: 120 %
+
+
+Cabecera TCP
+
+.. figure:: imagenes/tcp-header.png
+   :align: center
+   :scale: 30 %
+
+
+Cabecera IP
+
+.. figure:: imagenes/ip-header.png
+   :align: center
+   :scale: 50 %
+
+
 Políticas de seguridad
 ----------------------
 
@@ -67,7 +106,7 @@ objetivo, es necesario que el flujo de información entre las redes pase
 a través de este, por lo que es muy común encontrarlos delante o como la
 puerta de enlace predefinida (Default Gateway) de la red.
 
-.. figure:: ../imagenes/unidad02/image_0.png
+.. figure:: imagenes/unidad02/image_0.png
    :alt: El firewall como Gateway
    :align: center
    :scale: 50 %
@@ -90,7 +129,7 @@ de etapas en el núcleo antes de ser enviado a la aplicación adecuada
 Este conjunto de etapas por las que atraviesa un paquete determinado es
 netfilter.
 
-.. figure:: ../imagenes/unidad02/image_1.png
+.. figure:: imagenes/unidad02/image_1.png
    :alt: NetFilter
    :scale: 65 %
    :align: center
@@ -263,7 +302,7 @@ conexión, es decir, desde donde proviene la conexión, y hacia dónde va:
 -  Si la conexión se originó en el firewall, las cadenas que se evalúan
    son **output** y luego **postrouting**.
 
-.. figure:: ../imagenes/unidad02/image_2.png
+.. figure:: imagenes/unidad02/image_2.png
    :alt: Orden de evaluación de las cadenas
    :scale: 75 %
    :align: center
@@ -334,7 +373,7 @@ nuestra red (red 10.0.0.0/24), para todos los usuarios excepto para el
 servidor de correos cuya IP es 10.0.0.4. A continuación presentamos la
 topología
 
-.. figure:: ../imagenes/unidad02/image_3.png
+.. figure:: imagenes/unidad02/image_3.png
    :alt: Ejemplo de red con firewall como gateway
    :scale: 75 %
    :align: center
@@ -577,7 +616,7 @@ en los objetos. Unos cuantos menús contextuales pueden cambiar la
 condición (negarla, por ejemplo). A continuación, deberá elegir la
 acción, configurarla y listo.
 
-.. figure:: ../imagenes/unidad02/image_4.png
+.. figure:: imagenes/unidad02/image_4.png
    :alt: FWBuilder
    :scale: 98 %
    :align: center
