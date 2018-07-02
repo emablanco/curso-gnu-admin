@@ -64,7 +64,7 @@ puerta de enlace predefinida (Default Gateway) de la red.
 .. figure:: imagenes/unidad02/image_0.png
    :alt: El firewall como Gateway
    :align: center
-   :scale: 50 %
+   :scale: 40 %
 
 
    Fig. 4 - El firewall como Gateway
@@ -157,7 +157,14 @@ y las que veremos en este capítulo, la tabla Filter y la tabla NAT:
 No abordaremos las tablas mangle y raw ya que su uso excede el contenido
 de esta materia, de cualquier modo, los invitamos a seguir investigando
 sobre las mismas en la abundante documentación que se encuentra en
-internet.
+internet. A contiuación podemos ver las cadenas pertenecientes a cada tabla y su
+orden de evaluación
+
+.. figure:: imagenes/iptables-flowchart.jpg
+   :scale: 55 %
+   :align: center
+
+   Fig. 6 - Cadenas y tablas
 
 Reglas
 ^^^^^^
@@ -249,7 +256,7 @@ conexión, es decir, desde donde proviene la conexión, y hacia dónde va:
    :scale: 75 %
    :align: center
 
-   Fig. 6 - Orden de evaluación de las cadenas
+   Fig. 7 - Orden de evaluación de las cadenas
 
 Por esta razón, si queremos filtrar las conexiones entrantes o salientes
 a nuestra red, el firewall debe estar necesariamente en medio como
@@ -320,7 +327,7 @@ topología
    :scale: 75 %
    :align: center
 
-   Fig. 7 - Ejemplo de red con firewall como gateway
+   Fig. 8 - Ejemplo de red con firewall como gateway
 
 En este caso nos conviene utilizar como política por defecto a
 "Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
@@ -565,7 +572,7 @@ acción, configurarla y listo.
    :scale: 98 %
    :align: center
 
-   Fig. 8 - Generación de reglas con FWBuilder
+   Fig. 9 - Generación de reglas con FWBuilder
 
 Luego fwbuilder puede generar un script de configuración del firewall
 según las reglas que definió. Su arquitectura
