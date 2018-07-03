@@ -16,8 +16,12 @@ Unidad 2: Configuración y políticas de Firewall
 .. footer::
     ###Page### / ###Total###
 
-Protocolo TCP/IP
-----------------
+.. contents:: Tabla de contenidos
+
+.. sectnum::
+
+Encapsulamiento TCP/IP
+----------------------
 
 La forma que adopta una sección de datos en cualquier capa se denomina Unidad de datos del protocolo (PDU). Durante el **encapsulamiento**, cada capa encapsula las PDU que recibe de la capa superior de acuerdo con el protocolo que se utiliza. Aunque no existe una convención universal de nombres, suelen denominarse:
 
@@ -70,7 +74,7 @@ puerta de enlace predefinida (Default Gateway) de la red.
    Fig. 4 - El firewall como Gateway
 
 Netfilter: el firewall de GNU/Linux
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 El núcleo Linux incorpora el firewall netfilter. Este se administra y
 controla por medio de los programas iptables e ip6tables, según el tipo
@@ -116,7 +120,7 @@ las cadenas por reglas, siendo las reglas las que determinar qué se debe
 hacer con el tráfico que atraviesa o llega al firewall.
 
 Tablas
-^^^^^^
+~~~~~~
 
 *iptables* cuenta con cuatro tablas, que son zonas en las que una cadena
 de reglas se puede aplicar:
@@ -134,7 +138,7 @@ de reglas se puede aplicar:
    de que lleguen al sistema de seguimiento de conexiones.
 
 Cadenas
-^^^^^^^
+~~~~~~~
 
 Como mencionamos anteriormente, las cadenas son agrupaciones de reglas
 con un orden predefinido. El firewall utiliza cadenas estándares para
@@ -142,17 +146,17 @@ manejar paquetes en función de circunstancias predefinidas. Las mismas
 se encuentran asociadas a una tabla particular, siendo las más utilizadas
 y las que veremos en este capítulo, la tabla Filter y la tabla NAT:
 
-**Tabla Filter:** contiene 3 cadenas predefinidas, y dependiendo del origen y destino del paquete, el mismo será procesado por alguna de las siguientes:
+**Tabla Filter:** contiene 3 cadenas predefinidas, y dependiendo del origen y destino del paquete, el mismo será procesado por alguna de las siguientes cadenas:
 
--  Cadena INPUT: procesará los paquetes cuyo destino es el propio firewall.
--  Cadena OUTPUT: procesará los los paquetes que se generan en el firewall.
--  Cadena FORWARD: procesará los los paquetes que transitan a través del firewall (que no es ni su origen ni su destino).
+-  INPUT: procesará los paquetes cuyo destino es el propio firewall.
+-  OUTPUT: procesará los los paquetes que se generan en el firewall.
+-  FORWARD: procesará los los paquetes que transitan a través del firewall (que no es ni su origen ni su destino).
 
 **Tabla Nat:** contiene 3 cadenas predefinidas, y se utilizan para modificar los paquetes:
 
--  Cadena PREROUTING: para modificar los paquetes tan pronto como llegan.
--  Cadena POSTROUTING: para modificar los paquetes cuando están listos para seguir su camino.
--  Cadena OUTPUT: para modificar los paquetes generados por el propio firewall.
+-  PREROUTING: para modificar los paquetes tan pronto como llegan.
+-  POSTROUTING: para modificar los paquetes cuando están listos para seguir su camino.
+-  OUTPUT: para modificar los paquetes generados por el propio firewall.
 
 No abordaremos las tablas mangle y raw ya que su uso excede el contenido
 de esta materia, de cualquier modo, los invitamos a seguir investigando
@@ -167,7 +171,7 @@ orden de evaluación
    Fig. 6 - Cadenas y tablas
 
 Reglas
-^^^^^^
+~~~~~~
 
 Las reglas son conjuntos de condiciones y una acción determinada que se
 ejecutará cuando se cumplan dichas condiciones. Cuando se procesa un
@@ -176,7 +180,7 @@ cuando se cumplen las condiciones de una, se aplica la acción
 especificada para continuar el procesamiento.
 
 Acciones
-^^^^^^^^
+~~~~~~~~
 
 Al cumplirse el conjunto de condiciones de una regla, se debe aplicar la
 acción asociada a la misma, las que pueden ser:
@@ -202,11 +206,11 @@ acción asociada a la misma, las que pueden ser:
 -  ULOG: similar a log, pero el registro es a través de ulogd.
 
 -  NOMBRE_DE_LA_CADENA: saltar a la cadena dada y evalúa sus reglas. Esta
-	 acción se utiliza para clasificar el trafico y agrupar paquetes especificos
-	 para realizar acciones sobre los mismos de una forma mas ordenada, por ejemplo,
-	 agrupar en una cadena todo el tráfico proviniente del exterior con destino
-	 a un servidor especifico, o agrupar todo el trafico proviniente de un conjunto
-	 de sub redes como pueden ser las redes wifi e intranet.
+   acción se utiliza para clasificar el trafico y agrupar paquetes especificos
+   para realizar acciones sobre los mismos de una forma mas ordenada, por ejemplo,
+   agrupar en una cadena todo el tráfico proviniente del exterior con destino
+   a un servidor especifico, o agrupar todo el trafico proviniente de un conjunto
+   de sub redes como pueden ser las redes wifi e intranet.
 
 -  RETURN: interrumpir el procesamiento de la cadena actual y regresar a
    la cadena que la llamó; en el caso de que la cadena actual sea una
@@ -215,7 +219,7 @@ acción asociada a la misma, las que pueden ser:
    iptables).
 
 Exclusivas de la tabla NAT
-''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  SNAT: aplicar NAT de origen. Básicamente se puede cambiar el ip de
    origen, o el puerto de origen.
@@ -232,7 +236,7 @@ Exclusivas de la tabla NAT
    transparente.
 
 Orden de evaluación de las cadenas
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Una vez que una conexión llega al firewall, la misma sigue un camino
 predeterminado para recorrer las tablas y cadenas necesarias para su
@@ -263,13 +267,13 @@ a nuestra red, el firewall debe estar necesariamente en medio como
 mencionamos previamente.
 
 Sintaxis de iptables
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Los programas iptables e ip6tables permiten manipular las tablas,
 cadenas y reglas. Sus parámetros más utilizados son:
 
-Parámetros:
-^^^^^^^^^^^
+Parámetros
+~~~~~~~~~~
 
 -  La opción **-t tabla** : indica en qué tabla operar (la tabla filter
    de forma predeterminada).
@@ -365,7 +369,7 @@ como veremos más adelante.
 Analicemos un poco más en detalle las reglas.
 
 Reglas
-^^^^^^
+~~~~~~
 
 Cada regla es expresada como **condiciones -j acción opciones_acción**.
 Si describe varias condiciones en la misma regla, entonces el criterio es
@@ -427,7 +431,7 @@ dirección IP y/o puerto de origen. La acción REDIRECT ofrece la opción
 que debe redirigir los paquetes.
 
 Ejemplo práctico
-~~~~~~~~~~~~~~~~
+----------------
 
 Siguiendo con el ejemplo de la red anterior. Supongamos ahora que la
 política de seguridad establece que se debe bloquear todo el tráfico
@@ -542,7 +546,7 @@ De este modo si cambiamos las reglas modificando el script, simplemente bajando
 y volviendo a subir la interfaz, estaríamos aplicando dicha regla.
 
 Simplificando la creación de reglas con FWBuilder
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------
 
 Si bien es importante tener claros los conceptos y entender como
 funciona iptables con todas sus opciones, a la hora de trabajar a diario
