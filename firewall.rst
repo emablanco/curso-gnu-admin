@@ -445,7 +445,7 @@ Visualizar y eliminar reglas
 Políticas por defecto
 ---------------------
 
-Es importante establecer las políticas por defecto de aceptar
+Es importante establecer las políticas por defecto de aceptar antes de limpiar las tablas ya que sino existe el riesgo de dejar inaccesible el servidor.
 
 Actividades
 -----------
