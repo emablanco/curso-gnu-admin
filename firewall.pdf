@@ -360,7 +360,7 @@ endobj
 <<
 /Contents 103 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 98 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.d3c02f5441aad64d2949c66fc09dcb55 59 0 R
+/FormXob.131e865fd3287f65e508e464b72fd2df 59 0 R
 >>
 >> /Rotate 0 /Trans <<
 
@@ -498,7 +498,7 @@ endobj
 endobj
 76 0 obj
 <<
-/Author () /CreationDate (D:20180703173053+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180703173053+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180703210300+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180703210300+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Unidad 2: Configuraci\363n y pol\355ticas de Firewall) /Trapped /False
 >>
 endobj
@@ -671,7 +671,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (03/07/2018 17:30) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (03/07/2018 18:03) Tj T* ET
 Q
 Q
 q
@@ -1770,7 +1770,7 @@ q
 1 0 0 1 29.51988 21 cm
 q
 410.85 0 0 203.3625 0 0 cm
-/FormXob.d3c02f5441aad64d2949c66fc09dcb55 Do
+/FormXob.131e865fd3287f65e508e464b72fd2df Do
 Q
 Q
 q
@@ -2578,7 +2578,7 @@ endstream
 endobj
 106 0 obj
 <<
-/Length 8192
+/Length 8189
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -2773,7 +2773,7 @@ Q
 q
 1 0 0 1 62.69291 97.62362 cm
 q
-BT 1 0 0 1 0 26 Tm .380651 Tw 12 TL /F1 10 Tf 0 0 0 rg (CentOS usa por defecto ) Tj /F5 10 Tf 0 0 0 rg (firewalld) Tj /F1 10 Tf 0 0 0 rg ( que para casos sencillos simplifica las tareas de gesti\363n del tr\341fico,) Tj T* 0 Tw .09332 Tw (sin embargo, no es m\341s que un servicio que por ejecuta por debajo ) Tj /F5 10 Tf 0 0 0 rg (iptables) Tj /F1 10 Tf 0 0 0 rg (, por lo que haremos todas) Tj T* 0 Tw (la gesti\363n del firewall directamente desde ) Tj /F5 10 Tf 0 0 0 rg (iptables) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+BT 1 0 0 1 0 26 Tm .380651 Tw 12 TL /F1 10 Tf 0 0 0 rg (CentOS usa por defecto ) Tj /F5 10 Tf 0 0 0 rg (firewalld) Tj /F1 10 Tf 0 0 0 rg ( que para casos sencillos simplifica las tareas de gesti\363n del tr\341fico,) Tj T* 0 Tw .463876 Tw (sin embargo, no es m\341s que un servicio que ejecuta por debajo ) Tj /F5 10 Tf 0 0 0 rg (iptables) Tj /F1 10 Tf 0 0 0 rg (, por lo que haremos todas la) Tj T* 0 Tw (gesti\363n del firewall directamente desde ) Tj /F5 10 Tf 0 0 0 rg (iptables) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
@@ -2797,7 +2797,7 @@ endstream
 endobj
 107 0 obj
 <<
-/Length 4635
+/Length 4633
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -2883,7 +2883,7 @@ Q
 q
 1 0 0 1 62.69291 382.6236 cm
 q
-BT 1 0 0 1 0 26 Tm .50061 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para guardar las reglas aplicadas y que hacerlas persistentes ante un reinicio se deben almacenar en el) Tj T* 0 Tw 2.45664 Tw (archivo ) Tj /F5 10 Tf 0 0 0 rg (/etc/sysconfig/iptables) Tj /F1 10 Tf 0 0 0 rg ( usando la salida del comando ) Tj /F5 10 Tf 0 0 0 rg (iptables-save) Tj /F1 10 Tf 0 0 0 rg ( del siguiente) Tj T* 0 Tw (modo:) Tj T* ET
+BT 1 0 0 1 0 26 Tm 1.831318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Para guardar las reglas aplicadas y hacerlas persistentes ante un reinicio se deben almacenar en el) Tj T* 0 Tw 2.45664 Tw (archivo ) Tj /F5 10 Tf 0 0 0 rg (/etc/sysconfig/iptables) Tj /F1 10 Tf 0 0 0 rg ( usando la salida del comando ) Tj /F5 10 Tf 0 0 0 rg (iptables-save) Tj /F1 10 Tf 0 0 0 rg ( del siguiente) Tj T* 0 Tw (modo:) Tj T* ET
 Q
 Q
 q
@@ -3947,27 +3947,27 @@ xref
 0001502262 00000 n 
 0001511241 00000 n 
 0001518465 00000 n 
-0001526710 00000 n 
-0001531398 00000 n 
-0001538714 00000 n 
-0001545721 00000 n 
-0001550595 00000 n 
-0001550756 00000 n 
-0001550791 00000 n 
-0001550826 00000 n 
-0001550861 00000 n 
-0001550896 00000 n 
-0001550931 00000 n 
-0001550966 00000 n 
-0001551001 00000 n 
-0001551036 00000 n 
-0001551071 00000 n 
-0001551107 00000 n 
-0001551143 00000 n 
+0001526707 00000 n 
+0001531393 00000 n 
+0001538709 00000 n 
+0001545716 00000 n 
+0001550590 00000 n 
+0001550751 00000 n 
+0001550786 00000 n 
+0001550821 00000 n 
+0001550856 00000 n 
+0001550891 00000 n 
+0001550926 00000 n 
+0001550961 00000 n 
+0001550996 00000 n 
+0001551031 00000 n 
+0001551066 00000 n 
+0001551102 00000 n 
+0001551138 00000 n 
 trailer
 <<
 /ID 
-[<e3a55ce7fafb6173bec45edb7177ed57><e3a55ce7fafb6173bec45edb7177ed57>]
+[<42ca7e963429238da111ed652a89a519><42ca7e963429238da111ed652a89a519>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 76 0 R
@@ -3975,5 +3975,5 @@ trailer
 /Size 124
 >>
 startxref
-1551179
+1551174
 %%EOF

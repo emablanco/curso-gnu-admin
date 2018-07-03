@@ -390,7 +390,7 @@ Particularidades en CentOS
 --------------------------
 
 CentOS usa por defecto ``firewalld`` que para casos sencillos simplifica las tareas de gestión del tráfico, 
-sin embargo, no es más que un servicio que por ejecuta por debajo ``iptables``, por lo que haremos todas la
+sin embargo, no es más que un servicio que ejecuta por debajo ``iptables``, por lo que haremos todas la
 gestión del firewall directamente desde ``iptables``.
 
 .. figure:: imagenes/centos-iptables.png
@@ -414,7 +414,7 @@ Luego, instalar el paquete ``iptables-services`` (contiene ``iptables`` e ``ip6t
     systemctl start iptables
     systemctl enable iptables
 
-Para guardar las reglas aplicadas y que hacerlas persistentes ante un reinicio se deben almacenar 
+Para guardar las reglas aplicadas y hacerlas persistentes ante un reinicio se deben almacenar 
 en el archivo ``/etc/sysconfig/iptables`` usando la salida del comando ``iptables-save`` del siguiente modo:
 
 .. code:: bash
