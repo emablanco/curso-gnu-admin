@@ -464,16 +464,17 @@ Realice las actividades siguiendo el órden
 Actividad 2
 ~~~~~~~~~~~
 
-Escriba y aplique las reglas para su maquina según lo siguiente:
+Utilice un archivo llamado ``misreglas.sh`` donde escriba y aplique las reglas para su maquina según lo siguiente:
 
 1. Política por defecto de aceptar
 2. Acepte todos los pedidos que provengan de la interfaz localhost (lo)
 3. Acepte todo lo de su propia IP
 4. Instale apache (``yum install httpd``) y corrobore que se encuentre corriendo en el puerto 80. Para esto debe modificar el archivo ``/etc/httpd/conf/httpd.conf`` y modificar en la opción ``Listen 80`` por ``Listen 0.0.0.0:80``. Reinicie el servicio ``httpd``.
 5. El puerto 80 debe estar abierto para todos, es un servidor web. Corrobore que todos pueden acceder.
-6. Permita a la IP de una PC del lab que acceda al puerto 22
+6. Permita a la IP de una PC del lab que acceda al puerto 22. Pruebe bloqueando esa misma IP con DROP y REJECT y observe las diferencias de comportamiento desde el cliente.
 7. Cierre el rango de puertos udsp y tcp privilegiados [1:1024] 
-8. Si el funcionamiento es el esperado, haga persistentes las reglas y corrobore reiniciando el sistema.
+8. Bloquee la salida al sitio web ``www.microsoft.com``
+9. Si el funcionamiento es el esperado, haga persistentes las reglas y corrobore reiniciando el sistema.
 
 Actividad 3
 ~~~~~~~~~~~
@@ -582,3 +583,47 @@ el default gateway. El conjunto de reglas sería el siguiente:
 Como vemos, una política de seguridad muy simple se convierte en varias
 reglas de iptables, las que como mencionamos previamente, deben ser almacenadas para que 
 se ejecuten al inicio y se las aplique, porque sino al reiniciar el sistema se perderán. 
+
+Soluciones
+----------
+
+Actividad 2
+~~~~~~~~~~~
+
+En archivo ``misreglas.sh``
+
+.. code:: bash
+
+    #!/bin/bash
+
+    # FLUSH de reglas
+    iptables -F
+    iptables -X
+    iptables -Z
+    iptables -t nat -F
+
+    # Politicas por defecto
+    iptables -P INPUT ACCEPT
+    iptables -P OUTPUT ACCEPT
+    iptables -P FORWARD ACCEPT
+
+    # El localhost se deja (xej conexiones locales)
+    iptables -A INPUT -i lo -j ACCEPT
+
+    # A nuestra ip le dejamos todo
+    iptables -A INPUT -s 192.168.20.111 -j ACCEPT
+
+    # Puerto 80 abierto para todos
+    iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+    # Permito ssh a la IP 192.168.20.10
+    iptables -A INPUT -s 192.168.20.10 -p tcp --dport 22 -j ACCEPT
+    #iptables -A INPUT -s 192.168.20.10 -p tcp --dport 22 -j DROP
+    #iptables -A INPUT -s 192.168.20.10 -p tcp --dport 22 -j REJECT
+
+    # Ahora bloqueo todos
+    iptables -A INPUT -p tcp --dport 1:1024 -j DROP
+    iptables -A INPUT -p udp --dport 1:1024 -j DROP
+
+    # bloqueo salida a microsoft
+    iptables -A OUTPUT -p tcp -d www.microsoft.com -j DROP
