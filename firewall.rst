@@ -426,24 +426,43 @@ Visualizar y eliminar reglas
 
 .. code:: bash
 
+    iptables -nvL               # reglas y politicas x defecto
     iptables -S                 # visualiza todas las reglas
     iptables -L                 # idem, en forma de tabla
     iptables -L --line-numbers  # visualiza enumerando las reglas
     iptables -D INPUT 3         # eliminar la regla 3 de la cadena INPUT
     iptables -F INPUT           # elimina las reglas de la cadena INPUT
-    iptables -F                 # elimina las reglas de todas las cadenas
+    # Politicas x defecto, antes de borrar reglas
+    iptables -P INPUT ACCEPT
+    iptables -P FORWARD ACCEPT
+    iptables -P OUTPUT ACCEPT
+    # Eliminar todas las reglas:
+    iptables -t nat -F
+    iptables -t mangle -F
+    iptables -F
+    iptables -X
 
 Políticas por defecto
 ---------------------
 
-.. code:: bash
+Es importante establecer las políticas por defecto de aceptar
 
-    iptables -P INPUT ACCEPT
-    iptables -P FORWARD ACCEPT
-    iptables -P OUTPUT ACCEPT
+Actividades
+-----------
 
-Ejemplo práctico 1
-------------------
+Actividad 1
+~~~~~~~~~~~
+
+- Detenga y deshabilite ``firewalld``
+- Instale e inicie ``iptables``
+- Corrobore si existen reglas aplicadas y analicelas 
+- Aplique políticas por defecto de aceptar y luego limpie todas las reglas
+- Guarde las reglas de manera persistente, reinice el sistema y corrobore que persisten
+
+
+
+Actividad 6
+~~~~~~~~~~~
 
 Supongamos que nuestra política de seguridad establece que solamente se debe bloquear el tráfico smtp saliente de
 nuestra red (red 10.0.0.0/24), para todos los usuarios excepto para el servidor de correos cuya IP es 10.0.0.4. A continuación presentamos la topología
@@ -484,8 +503,8 @@ y luego si denegamos el resto de la red. Otro detalle importante es que
 este conjunto de reglas se aplica y permanece en memoria, por lo que si
 el servidor se reinicia las mismas se pierden.
 
-Ejemplo práctico 2
-------------------
+Actividad 7
+~~~~~~~~~~~
 
 Siguiendo con el ejemplo de la red anterior. Supongamos ahora que la
 política de seguridad establece que se debe bloquear todo el tráfico
