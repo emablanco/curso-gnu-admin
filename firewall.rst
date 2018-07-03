@@ -430,10 +430,30 @@ dirección IP y/o puerto de origen. La acción REDIRECT ofrece la opción
 **--to-ports puerto(s)** para indicar el puerto o rango de puertos al
 que debe redirigir los paquetes.
 
-Persistencia de iptables en CentOS
-----------------------------------
+Particularidades en CentOS
+--------------------------
 
-Para guardar las reglas aplicadas y que sean persistentes ante un reinicio se deben guardar utilizando
+Primeramente se debe detener y deshabilitar el servicio ``firewalld``. 
+
+.. code:: bash
+
+    systemctl stop firewalld
+    systemctl disable firewalld
+
+Luego, instalar el paquete ``iptables-services`` (contiene ``iptables`` e ``ip6tables``) para luego iniciarlo y habilitarlo
+
+.. code:: bash
+
+    yum install iptables-services
+    systemctl start iptables
+    systemctl enable iptables
+
+Para guardar las reglas aplicadas y que hacerlas persistentes ante un reinicio se deben almacenar 
+en el archivo ``/etc/sysconfig/iptables`` usando la salida del comando ``iptables-save`` del siguiente modo:
+
+.. code:: bash
+
+    iptables-save > /etc/sysconfig/iptables
 
 
 
@@ -505,91 +525,5 @@ el default gateway. El conjunto de reglas sería el siguiente:
 
 
 Como vemos, una política de seguridad muy simple se convierte en varias
-reglas de iptables, las que como mencionamos previamente, deben estar en
-un script de bash que se ejecute al inicio y las aplique, porque sino al
-reiniciar el sistema se perderán. Hay varias estrategias para conseguir
-esto, pero una de las más utilizadas es ejecutar este script de bash al
-levantar la interfaz interna, por ejemplo. Para esto debemos guardar el
-script con todas las reglas de iptables en
-/usr/local/etc/mi_firewall.fw, y por medio del parámetro "up" en el
-archivo /etc/network/interfaces invocarlo
-
-.. code:: bash
-
-    auto eth0
-
-    iface eth0 inet static
-        address 10.0.0.1
-        network 10.0.0.0
-        netmask 255.255.255.0
-        broadcast 10.0.0.255
-        up /usr/local/etc/mi_firewall.fw
-        down /usr/local/etc/mi_firewall-clean.fw
-
-Del mismo modo que existe parámetro "up", existe el parámetro "down" que
-sirve para invocar un script cada vez que se baja una interfaz. Es
-interesante para poder limpiar todas las reglas antes de aplicarlas
-nuevamente (supongamos que cambiamos el script y queremos aplicar
-nuevamente las reglas) . Un ejemplo del script "mi_firewall-clean.fw"
-es el siguiente
-
-.. code:: bash
-
-    #! /usr/bin/env bash
-
-    cat /proc/net/ip_tables_names | while read table; do
-      iptables -t $table -L -n | while read c chain rest; do
-          if test "X$c" = "XChain" ; then
-            iptables -t $table -F $chain
-          fi
-      done
-      iptables -t $table -X
-    done
-
-Básicamente lo que hace este script es obtener todas las tablas
-definidas (que contengan reglas) y limpiarlas por medio del parámetro
--F.
-De este modo si cambiamos las reglas modificando el script, simplemente bajando
-y volviendo a subir la interfaz, estaríamos aplicando dicha regla.
-
-Simplificando la creación de reglas con FWBuilder
--------------------------------------------------
-
-Si bien es importante tener claros los conceptos y entender como
-funciona iptables con todas sus opciones, a la hora de trabajar a diario
-e implementar una política de seguridad extensa, con muchas reglas,
-varias subredes, equipos, etc; escribir a mano estas órdenes se vuelve
-algo tedioso. Lo recomendable es utilizar una herramienta de alto nivel
-como fwbuilder. El principio que persigue esta herramienta es simple. En
-el primer paso es necesario describir todos los elementos que
-intervendrán en las reglas:
-
--  el propio firewall, con sus interfaces de red;
-
--  las redes, con sus rangos de direcciones IP correspondientes;
-
--  los servidores;
-
--  los puertos pertenecientes a los servicios alojados en los
-   servidores.
-
-Luego puede crear las reglas simplemente arrastrando y soltando acciones
-en los objetos. Unos cuantos menús contextuales pueden cambiar la
-condición (negarla, por ejemplo). A continuación, deberá elegir la
-acción, configurarla y listo.
-
-.. figure:: imagenes/unidad02/image_4.png
-   :alt: FWBuilder
-   :scale: 98 %
-   :align: center
-
-   Fig. 9 - Generación de reglas con FWBuilder
-
-Luego fwbuilder puede generar un script de configuración del firewall
-según las reglas que definió. Su arquitectura
-modular le da la capacidad para generar scripts dirigidos a diferentes
-sistemas (iptables para Linux, ipf para FreeBSD y pf para OpenBSD).
-
-En la imagen anterior se ve el ejemplo del firewall que configuramos
-anteriormente.
-
+reglas de iptables, las que como mencionamos previamente, deben ser almacenadas para que 
+se ejecuten al inicio y se las aplique, porque sino al reiniciar el sistema se perderán. 
