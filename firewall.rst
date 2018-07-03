@@ -340,17 +340,14 @@ establecido. Para este caso, el conjunto de reglas sería el siguiente:
 .. code:: bash
 
     # Definimos la política por defecto en Aceptar
-
     iptables -P INPUT ACCEPT
     iptables -P OUTPUT ACCEPT
     iptables -P FORWARD ACCEPT
 
     # El servidor de correos interno puede salir al puerto TCP 25 (SMTP)
-
     iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
 
     # El resto de la red no puede salir al puerto TCP 25
-
     iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 25 -j REJECT
 
 Es importante resaltar que las reglas fueron anexadas a la tabla *forward*
@@ -433,7 +430,17 @@ que debe redirigir los paquetes.
 Particularidades en CentOS
 --------------------------
 
-Primeramente se debe detener y deshabilitar el servicio ``firewalld``. 
+CentOS usa por defecto ``firewalld`` que para casos sencillos simplifica las tareas de gestión del tráfico, 
+sin embargo, no es más que un servicio que por ejecuta por debajo ``iptables``, por lo que haremos todas la
+gestión del firewall directamente desde ``iptables``.
+
+.. figure:: imagenes/centos-iptables.png
+   :scale: 50 %
+   :align: center
+
+   Fig. 9 - Firewalld e iptables
+
+Primeramente se debe **detener y deshabilitar** el servicio ``firewalld``. 
 
 .. code:: bash
 
