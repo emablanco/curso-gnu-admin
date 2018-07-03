@@ -475,7 +475,7 @@ Escriba y aplique las reglas para su maquina según lo siguiente:
 7. Cierre el rango de puertos udsp y tcp privilegiados [1:1024] 
 8. Si el funcionamiento es el esperado, haga persistentes las reglas y corrobore reiniciando el sistema.
 
-Actividad 6
+Actividad 3
 ~~~~~~~~~~~
 
 Supongamos que nuestra política de seguridad establece que solamente se debe bloquear el tráfico smtp saliente de
@@ -517,7 +517,7 @@ y luego si denegamos el resto de la red. Otro detalle importante es que
 este conjunto de reglas se aplica y permanece en memoria, por lo que si
 el servidor se reinicia las mismas se pierden.
 
-Actividad 7
+Actividad 4
 ~~~~~~~~~~~
 
 Siguiendo con el ejemplo de la red anterior. Supongamos ahora que la
