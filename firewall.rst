@@ -627,3 +627,15 @@ En archivo ``misreglas.sh``
 
     # bloqueo salida a microsoft
     iptables -A OUTPUT -p tcp -d www.microsoft.com -j DROP
+
+Referencias
+-----------
+
+El documento fue creado fundamentalmente a partir de: 
+
+- Administración de GNU/Linux II - Tecnicatura Universitaria en Software Libre - UNL Virtual, Maximiliano Boscovich
+
+Además se usaron como referencias:
+
+- Red Hat Enterprise Linux 7 Security Guide
+- Designing and Implementing Linux Firewalls and QoS using netfilter, iproute and L7-Filter. Lucian Gheorghe
