@@ -453,13 +453,27 @@ Actividades
 Actividad 1
 ~~~~~~~~~~~
 
-- Detenga y deshabilite ``firewalld``
-- Instale e inicie ``iptables``
-- Corrobore si existen reglas aplicadas y analicelas 
-- Aplique políticas por defecto de aceptar y luego limpie todas las reglas
-- Guarde las reglas de manera persistente, reinice el sistema y corrobore que persisten
+Realice las actividades siguiendo el órden
 
+1. Detenga y deshabilite ``firewalld``
+2. Instale e inicie ``iptables``
+3. Corrobore si existen reglas aplicadas y analicelas 
+4. Aplique políticas por defecto de aceptar y luego limpie todas las reglas
+5. Guarde las reglas de manera persistente, reinice el sistema y corrobore que persisten
 
+Actividad 2
+~~~~~~~~~~~
+
+Escriba y aplique las reglas para su maquina según lo siguiente:
+
+1. Política por defecto de aceptar
+2. Acepte todos los pedidos que provengan de la interfaz localhost (lo)
+3. Acepte todo lo de su propia IP
+4. Instale apache (``yum install httpd``) y corrobore que se encuentre corriendo en el puerto 80. Para esto debe modificar el archivo ``/etc/httpd/conf/httpd.conf`` y modificar en la opción ``Listen 80`` por ``Listen 0.0.0.0:80``. Reinicie el servicio ``httpd``.
+5. El puerto 80 debe estar abierto para todos, es un servidor web. Corrobore que todos pueden acceder.
+6. Permita a la IP de una PC del lab que acceda al puerto 22
+7. Cierre el rango de puertos udsp y tcp privilegiados [1:1024] 
+8. Si el funcionamiento es el esperado, haga persistentes las reglas y corrobore reiniciando el sistema.
 
 Actividad 6
 ~~~~~~~~~~~
