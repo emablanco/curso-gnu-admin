@@ -20,6 +20,10 @@ Unidad 2: Configuración y políticas de Firewall
 
 .. sectnum::
 
+.. raw:: pdf
+
+   PageBreak oneColumn
+
 Encapsulamiento TCP/IP
 ----------------------
 
@@ -245,15 +249,15 @@ conexión, es decir, desde donde proviene la conexión, y hacia dónde va:
 
 -  Si la conexión se originó en un equipo externo, y su destino es otro
    equipo distinto del firewall: la primer cadena que se evalúa es
-   **prerouting**, luego **forward** y por último **postrouting**.
+   **PREROUTING**, luego **FORWARD** y por último **POSTROUTING**.
 
 -  Si la conexión se originó en un equipo externo, y su destino es el
    firewall (por ejemplo si desde un equipo nos queremos conectar al
-   firewall vía ssh): la primer cadena que se evalúa es **prerouting**
-   y luego **input**.
+   firewall vía ssh): la primer cadena que se evalúa es **PREROUTING**
+   y luego **INPUT**.
 
 -  Si la conexión se originó en el firewall, las cadenas que se evalúan
-   son **output** y luego **postrouting**.
+   son **output** y luego **POSTROUTING**.
 
 .. figure:: imagenes/unidad02/image_2.png
    :alt: Orden de evaluación de las cadenas
@@ -319,51 +323,6 @@ uno los diferentes tipos de tráfico que deseamos permitir, y esto
 incluye conocer con detenimiento el uso que se hace de nuestra red, para
 evitar que la misma quede sin servicio (por ejemplo debemos permitir el
 acceso al servicio de DNS, navegación, uso de ftp, ssh, ntp, etc.).
-
-Veamos un ejemplo sencillo: supongamos que nuestra política de seguridad
-establece que solamente se debe bloquear el tráfico smtp saliente de
-nuestra red (red 10.0.0.0/24), para todos los usuarios excepto para el
-servidor de correos cuya IP es 10.0.0.4. A continuación presentamos la
-topología
-
-.. figure:: imagenes/unidad02/image_3.png
-   :alt: Ejemplo de red con firewall como gateway
-   :scale: 75 %
-   :align: center
-
-   Fig. 8 - Ejemplo de red con firewall como gateway
-
-En este caso nos conviene utilizar como política por defecto a
-"Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
-establecido. Para este caso, el conjunto de reglas sería el siguiente:
-
-.. code:: bash
-
-    # Definimos la política por defecto en Aceptar
-    iptables -P INPUT ACCEPT
-    iptables -P OUTPUT ACCEPT
-    iptables -P FORWARD ACCEPT
-
-    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP)
-    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
-
-    # El resto de la red no puede salir al puerto TCP 25
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 25 -j REJECT
-
-Es importante resaltar que las reglas fueron anexadas a la tabla *forward*
-debido a que el origen y el destino son distintos del
-firewall (origen: equipos de la red interna, destino: equipos de otras
-redes). A su vez, el orden en el que se evalúan las reglas es secuencial
-(recuerden que la opción -A agrega las reglas al final de la cadena)
-motivo por el cual primero permitimos la salida del servidor de correos
-y luego si denegamos el resto de la red. Otro detalle importante es que
-este conjunto de reglas se aplica y permanece en memoria, por lo que si
-el servidor se reinicia las mismas se pierden. Lo recomendable es
-guardarlas dentro de un script de bash, y ejecutar el mismo
-automáticamente al inicio, o luego de levantar las interfaces de red,
-como veremos más adelante.
-
-Analicemos un poco más en detalle las reglas.
 
 Reglas
 ~~~~~~
@@ -462,24 +421,80 @@ en el archivo ``/etc/sysconfig/iptables`` usando la salida del comando ``iptable
 
     iptables-save > /etc/sysconfig/iptables
 
+Visualizar y eliminar reglas
+----------------------------
 
+.. code:: bash
 
-Ejemplo práctico
-----------------
+    iptables -S                 # visualiza todas las reglas
+    iptables -L                 # idem, en forma de tabla
+    iptables -L --line-numbers  # visualiza enumerando las reglas
+    iptables -D INPUT 3         # eliminar la regla 3 de la cadena INPUT
+    iptables -F INPUT           # elimina las reglas de la cadena INPUT
+    iptables -F                 # elimina las reglas de todas las cadenas
+
+Políticas por defecto
+---------------------
+
+.. code:: bash
+
+    iptables -P INPUT ACCEPT
+    iptables -P FORWARD ACCEPT
+    iptables -P OUTPUT ACCEPT
+
+Ejemplo práctico 1
+------------------
+
+Supongamos que nuestra política de seguridad establece que solamente se debe bloquear el tráfico smtp saliente de
+nuestra red (red 10.0.0.0/24), para todos los usuarios excepto para el servidor de correos cuya IP es 10.0.0.4. A continuación presentamos la topología
+
+.. figure:: imagenes/unidad02/image_3.png
+   :alt: Ejemplo de red con firewall como gateway
+   :scale: 75 %
+   :align: center
+
+   Fig. 8 - Ejemplo de red con firewall como gateway
+
+En este caso nos conviene utilizar como política por defecto a
+"Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
+establecido. Para este caso, el conjunto de reglas sería el siguiente:
+
+.. code:: bash
+
+    # Definimos la política por defecto en Aceptar
+    iptables -P INPUT ACCEPT
+    iptables -P OUTPUT ACCEPT
+    iptables -P FORWARD ACCEPT
+
+    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP)
+    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
+
+    # El resto de la red no puede salir al puerto TCP 25
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 25 -j REJECT
+
+Es importante resaltar que las reglas fueron anexadas a la cadena *FORWARD*
+debido a que el origen y el destino son distintos del
+firewall (origen: equipos de la red interna, destino: equipos de otras
+redes). 
+
+A su vez, el orden en el que se evalúan las reglas es secuencial
+(recuerden que la opción -A agrega las reglas al final de la cadena)
+motivo por el cual primero permitimos la salida del servidor de correos
+y luego si denegamos el resto de la red. Otro detalle importante es que
+este conjunto de reglas se aplica y permanece en memoria, por lo que si
+el servidor se reinicia las mismas se pierden.
+
+Ejemplo práctico 2
+------------------
 
 Siguiendo con el ejemplo de la red anterior. Supongamos ahora que la
 política de seguridad establece que se debe bloquear todo el tráfico
 saliente, ha excepción de los siguientes servicios:
 
 -  Web
-
 -  IMAP y IMAPs
-
--  DNS (se usarán los servidores DNS provistos por el proveedor de
-   internet)
-
+-  DNS (se usarán los servidores DNS provistos por el proveedor de internet)
 -  SSH (solo al firewall desde la red interna)
-
 -  SMTP (solo el servidor de correos)
 
 Dado que los equipos en la red interna tienen direccionamiento IP
