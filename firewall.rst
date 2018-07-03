@@ -430,6 +430,13 @@ dirección IP y/o puerto de origen. La acción REDIRECT ofrece la opción
 **--to-ports puerto(s)** para indicar el puerto o rango de puertos al
 que debe redirigir los paquetes.
 
+Persistencia de iptables en CentOS
+----------------------------------
+
+Para guardar las reglas aplicadas y que sean persistentes ante un reinicio se deben guardar utilizando
+
+
+
 Ejemplo práctico
 ----------------
 
