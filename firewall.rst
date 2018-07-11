@@ -470,13 +470,48 @@ Utilice un archivo llamado ``misreglas.sh`` donde escriba y aplique las reglas p
 2. Acepte todos los pedidos que provengan de la interfaz localhost (lo)
 3. Acepte todo lo de su propia IP
 4. Instale apache (``yum install httpd``) y corrobore que se encuentre corriendo en el puerto 80. Para esto debe modificar el archivo ``/etc/httpd/conf/httpd.conf`` y modificar en la opción ``Listen 80`` por ``Listen 0.0.0.0:80``. Reinicie el servicio ``httpd``.
-5. El puerto 80 debe estar abierto para todos, es un servidor web. Corrobore que todos pueden acceder.
+5. El puerto 80 debe estar explicitamente abierto para todos, es un servidor web. Corrobore que todos pueden acceder.
 6. Permita a la IP de una PC del lab que acceda al puerto 22. Pruebe bloqueando esa misma IP con DROP y REJECT y observe las diferencias de comportamiento desde el cliente.
-7. Cierre el rango de puertos udsp y tcp privilegiados [1:1024] 
+7. Cierre el rango de puertos udp y tcp privilegiados [1:1024] 
 8. Bloquee la salida al sitio web ``www.microsoft.com``
 9. Si el funcionamiento es el esperado, haga persistentes las reglas y corrobore reiniciando el sistema.
 
 Actividad 3
+~~~~~~~~~~~
+
+1. Limpie todas las reglas previas e implemente una política por defecto de DROP en las cadenas INPUT, OUTPUT Y FORWARD
+
+
+.. note::
+
+    Un punto a destacar son las conexiones de dos vías, como sucede en el protocolo ssh. En este caso, no solo se debe permitir el las conexiones entrantes (cadena ``INPUT``) sino que también se deben permitir explícitamente las respuestas del servidor a las **conexiones ya establecidas** (``ESTABLISHED``). Por ejemplo: 
+
+    ``iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT``
+
+
+2. Permita acceder al puerto ssh (puerto tcp 22) solamente desde una determinada IP
+3. Permita el ping (protocolo icmp) desde el resto del mundo
+
+Actividad 4
+~~~~~~~~~~~
+
+1. Limpie todas las reglas previas y establezca política por defecto ``ACCEPT`` en todas las cadenas de la tabla filter.
+2. Levante el servicio apache y modifique el puerto de escucha al 8080
+
+.. note::
+
+    Al modificar los paquetes para cambiar el ruteo de los mismos es necesario que el sistema operativo actúe como router, esto significa que debe habilitarse el port forwarding ejecutando ``sysctl -w net.ipv4.ip_forward=1``. Para corroborar que el valor fue establecido correctamente ejecute ``cat /proc/sys/net/ipv4/ip_forward``
+
+3. Modifique los pedidos tcp que lleguen a su IP al puerto 80, y redirijalos a su misma IP pero al puerto 8080. Corrobore desde las otras PCs del lab que esto funciona.
+
+Actividad 5
+~~~~~~~~~~~
+
+1. Limpie todas las reglas previas y establezca política por defecto ``ACCEPT`` en todas las cadenas de la tabla filter.
+2. Redirija los pedidos que le llegan al puerto 80 hacia otra PC del lab para que los atienda otro servidor web apache.
+
+
+Actividad 6
 ~~~~~~~~~~~
 
 Supongamos que nuestra política de seguridad establece que solamente se debe bloquear el tráfico smtp saliente de
@@ -627,6 +662,51 @@ En archivo ``misreglas.sh``
 
     # bloqueo salida a microsoft
     iptables -A OUTPUT -p tcp -d www.microsoft.com -j DROP
+
+Actividad 3
+~~~~~~~~~~~
+
+.. code:: bash
+
+    #FLUSH de reglas
+
+    iptables -F 
+    iptables -X
+    iptables -Z
+    iptables -t nat -F
+
+    # Politicas por defecto
+    iptables -P INPUT DROP
+    iptables -P OUTPUT DROP
+    iptables -P FORWARD DROP
+
+    iptables -A INPUT -s 192.168.10.72 -p tcp --dport 22 -j ACCEPT
+    iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
+
+    # otra forma podria ser en vez de la anterior esta otra ->
+    #iptables -A OUTPUT -p tcp --sport 22 -d 192.168.10.1 -j ACCEPT
+
+    # permitimos ping para todo el mundo
+    iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
+    iptables -A OUTPUT -p icmp --icmp-type echo-reply -j ACCEPT
+
+Actividad 4
+~~~~~~~~~~~
+
+Limpiar reglas y aplicar política por defecto de ``ACCEPT`` y luego agregar:
+
+.. code:: bash
+    
+    iptables -t nat -A PREROUTING -d 192.168.10.100 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.100:8080
+
+
+Actividad 5
+~~~~~~~~~~~
+
+.. code:: bash
+
+    iptables -t nat -A PREROUTING -d 192.168.10.100 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.1:80
+    iptables -t nat -A POSTROUTING -d 192.168.10.1 -o enp0s8 -j MASQUERADE
 
 Referencias
 -----------
