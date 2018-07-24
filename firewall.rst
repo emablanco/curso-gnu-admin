@@ -507,11 +507,24 @@ Actividad 4
 Actividad 5
 ~~~~~~~~~~~
 
-1. Limpie todas las reglas previas y establezca política por defecto ``ACCEPT`` en todas las cadenas de la tabla filter.
-2. Redirija los pedidos que le llegan al puerto 80 hacia otra PC del lab para que los atienda otro servidor web apache.
-
+0. Vuelva a configurar apache para que escuche en el puerto 80.
+1. Edite el archivo de apache (``/usr/share/httpd/noindex/index.html``) de modo que el mensaje de bienvenida contenta su nombre.
+2. **Deshabilite** el proxy del navegador web.
+3. Limpie todas las reglas previas y establezca política por defecto ``ACCEPT`` en todas las cadenas de la tabla filter.
+4. Redirija los pedidos que le llegan al puerto 80 hacia otra PC del lab para que los atienda otro servidor web apache.
 
 Actividad 6
+~~~~~~~~~~~
+
+0. Utilice el sistema operativo host (ubuntu) de su PC (no el virtual).
+1. Modifique la IP de su PC a una de la red 10.0.0.0/24
+2. Elija **UNA PC** del laboratorio para que haga de gateway de la red y agregue en ella una interfaz virtual con IP 10.0.0.1. Esta PC tendrá ambas IP, la otorgada por DHCP y la virtual.
+3. Corrobore que todas se vean mediante ``ping``.
+4. Habilite al sistema operativo ubuntu para hacer ruteo (``sysctl -w net.ipv4.ip_forward=1``).
+5. Únicamente en la PC que actúa como gateway establezca una regla de enmascaramiento para lograr la salida a internet del resto de las PCs y haga pruebas de ping a algun servidor público (``ping google.com``).
+6. Una vez corroborado el funcionamiento bloquée a una de las PCs su salida a Internet.
+
+Actividad 7
 ~~~~~~~~~~~
 
 Supongamos que nuestra política de seguridad establece que solamente se debe bloquear el tráfico smtp saliente de
@@ -524,8 +537,7 @@ nuestra red (red 10.0.0.0/24), para todos los usuarios excepto para el servidor 
 
    Fig. 8 - Ejemplo de red con firewall como gateway
 
-En este caso nos conviene utilizar como política por defecto a
-"Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
+En este caso nos conviene utilizar como política por defecto a "Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
 establecido. Para este caso, el conjunto de reglas sería el siguiente:
 
 .. code:: bash
@@ -541,24 +553,17 @@ establecido. Para este caso, el conjunto de reglas sería el siguiente:
     # El resto de la red no puede salir al puerto TCP 25
     iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 25 -j REJECT
 
-Es importante resaltar que las reglas fueron anexadas a la cadena *FORWARD*
-debido a que el origen y el destino son distintos del
-firewall (origen: equipos de la red interna, destino: equipos de otras
-redes). 
+Es importante resaltar que las reglas fueron anexadas a la cadena *FORWARD* debido a que el origen y el destino son distintos del
+firewall (origen: equipos de la red interna, destino: equipos de otras redes). 
 
-A su vez, el orden en el que se evalúan las reglas es secuencial
-(recuerden que la opción -A agrega las reglas al final de la cadena)
-motivo por el cual primero permitimos la salida del servidor de correos
-y luego si denegamos el resto de la red. Otro detalle importante es que
-este conjunto de reglas se aplica y permanece en memoria, por lo que si
-el servidor se reinicia las mismas se pierden.
+A su vez, el orden en el que se evalúan las reglas es secuencial (recuerden que la opción -A agrega las reglas al final de la cadena)
+motivo por el cual primero permitimos la salida del servidor de correos y luego si denegamos el resto de la red. Otro detalle importante es que este conjunto de reglas se aplica y permanece en memoria, por lo que si el servidor se reinicia las mismas se pierden.
 
-Actividad 4
+Actividad 8
 ~~~~~~~~~~~
 
-Siguiendo con el ejemplo de la red anterior. Supongamos ahora que la
-política de seguridad establece que se debe bloquear todo el tráfico
-saliente, ha excepción de los siguientes servicios:
+Siguiendo con el ejemplo de la red anterior. Supongamos ahora que la política de seguridad establece que se debe bloquear todo el tráfico
+saliente, a excepción de los siguientes servicios:
 
 -  Web
 -  IMAP y IMAPs
@@ -566,10 +571,8 @@ saliente, ha excepción de los siguientes servicios:
 -  SSH (solo al firewall desde la red interna)
 -  SMTP (solo el servidor de correos)
 
-Dado que los equipos en la red interna tienen direccionamiento IP
-privado, necesariamente tienen que ser enmascarados (NAT) para poder
-salir a internet con la dirección IP del firewall, que en este caso es
-el default gateway. El conjunto de reglas sería el siguiente:
+Dado que los equipos en la red interna tienen direccionamiento IP privado, necesariamente tienen que ser enmascarados (NAT) para poder
+salir a internet con la dirección IP del firewall, que en este caso es el default gateway. El conjunto de reglas sería el siguiente:
 
 .. code:: bash
 
@@ -600,12 +603,13 @@ el default gateway. El conjunto de reglas sería el siguiente:
     iptables -t filter -A FORWARD -s 10.0.0.0/24 -p udp --dport 53 -j ACCEPT
 
     # Acceso SSH al firewall
-
     iptables -t filter -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
+    iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
+    iptables -A FORWARD -p tcp -m state --state ESTABLISHED -j ACCEPT
+
 
     # A su vez necesitamos que desde el firewall también se acceda a 
     # los servidores DNS
-
     iptables -t filter -A OUTPUT -s 10.0.0.1 -p tcp --dport 53 -j ACCEPT
     iptables -t filter -A OUTPUT -s 10.0.0.1 -p udp --dport 53 -j ACCEPT
 
