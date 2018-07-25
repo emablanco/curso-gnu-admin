@@ -257,7 +257,7 @@ conexión, es decir, desde donde proviene la conexión, y hacia dónde va:
    y luego **INPUT**.
 
 -  Si la conexión se originó en el firewall, las cadenas que se evalúan
-   son **output** y luego **POSTROUTING**.
+   son **OUTPUT** y luego **POSTROUTING**.
 
 .. figure:: imagenes/unidad02/image_2.png
    :alt: Orden de evaluación de las cadenas
@@ -273,7 +273,7 @@ mencionamos previamente.
 Sintaxis de iptables
 --------------------
 
-Los programas iptables e ip6tables permiten manipular las tablas,
+Los programas ``iptables`` e ``ip6tables`` permiten manipular las tablas,
 cadenas y reglas. Sus parámetros más utilizados son:
 
 Parámetros
@@ -315,8 +315,9 @@ El tipo de política cambia completamente el comportamiento de nuestro
 firewall, dado que por ejemplo si deseamos solamente bloquear un
 conjunto de puertos determinados, lo recomendable es utilizar como
 política por defecto "Aceptar", de modo que solo tengamos que agregar
-las reglas específicas para bloquear el tráfico no deseado. Por el
-contrario, la política de “Rechazar por defecto” es la más segura, pero
+las reglas específicas para bloquear el tráfico no deseado. 
+
+Por el contrario, la política de “Rechazar por defecto” es la más segura, pero
 exige que tengamos un entendimiento mayor de nuestra red y su uso,
 principalmente porque al negar todo por defecto, debemos habilitar uno a
 uno los diferentes tipos de tráfico que deseamos permitir, y esto
@@ -378,8 +379,9 @@ syslog; **--log-prefix** permite especificar un prefijo de texto para
 diferenciar los mensajes registrados; **--log-tcp-sequence**,
 **--log-tcp-options** y **--log-ip-options** indican datos
 adicionales que se integrarán en el mensaje: el número de secuencia TCP,
-opciones TCP y las opciones IP, respectivamente. La acción DNAT ofrece
-la opción **--to-destination dirección:puerto** para indicar la
+opciones TCP y las opciones IP, respectivamente. 
+
+La acción DNAT ofrece la opción **--to-destination dirección:puerto** para indicar la
 nueva dirección IP y/o puerto de destino. De manera similar, SNAT
 proporciona **--to-source dirección:puerto** para indicar la nueva
 dirección IP y/o puerto de origen. La acción REDIRECT ofrece la opción
@@ -447,6 +449,17 @@ Políticas por defecto
 
 Es importante establecer las políticas por defecto de aceptar antes de limpiar las tablas ya que sino existe el riesgo de dejar inaccesible el servidor.
 
+.. code:: bash
+
+    # Politicas por defecto tabla filter
+    iptables -P INPUT ACCEPT
+    iptables -P OUTPUT ACCEPT
+    iptables -P FORWARD ACCEPT
+    
+    # si vamos a hacer nat/ruteo 
+    iptables -t nat -P PREROUTING ACCEPT
+    iptables -t nat -P POSTROUTING ACCEPT
+
 Actividades
 -----------
 
@@ -476,8 +489,8 @@ Utilice un archivo llamado ``misreglas.sh`` donde escriba y aplique las reglas p
 8. Bloquee la salida al sitio web ``www.microsoft.com``
 9. Si el funcionamiento es el esperado, haga persistentes las reglas y corrobore reiniciando el sistema.
 
-Actividad 3
-~~~~~~~~~~~
+Actividad 3: established
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Limpie todas las reglas previas e implemente una política por defecto de DROP en las cadenas INPUT, OUTPUT Y FORWARD
 
@@ -488,15 +501,29 @@ Actividad 3
 
     ``iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT``
 
+    La opción ``-m state`` se encarga de cargar el módulo necesario para ver el estado de los paquetes
+
 
 2. Permita acceder al puerto ssh (puerto tcp 22) solamente desde una determinada IP
 3. Permita el ping (protocolo icmp) desde el resto del mundo
 
-Actividad 4
-~~~~~~~~~~~
+Actividad 4: Port forwarding
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Limpie todas las reglas previas y establezca política por defecto ``ACCEPT`` en todas las cadenas de la tabla filter.
-2. Levante el servicio apache y modifique el puerto de escucha al 8080
+DNAT es usado cuando se tienen servidores detras del firewall que se deben exponer al púbico, por lo tanto la misma dirección IP
+es usada para mapear diferentes direcciones IPs privadas dependiendo de los puertos o los protocolos. 
+Este proceso también es llamado ``port forwarding``.
+
+Analicemos el mecanismo de funcionamiento del reenvío de puertos (DNAT).
+
+.. figure:: imagenes/dnat.png
+   :scale: 55 %
+   :align: center
+
+   Funcionamiento de DNAT o port forwarding
+
+1. Limpie las reglas previas y establezca la política por defecto en ``ACCEPT`` para todas las cadenas.
+2. Levante el servicio apache y modifique el puerto de escucha al 8080.
 
 .. note::
 
@@ -504,20 +531,29 @@ Actividad 4
 
 3. Modifique los pedidos tcp que lleguen a su IP al puerto 80, y redirijalos a su misma IP pero al puerto 8080. Corrobore desde las otras PCs del lab que esto funciona.
 
-Actividad 5
-~~~~~~~~~~~
+Actividad 5: Port forwarding
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0. Vuelva a configurar apache para que escuche en el puerto 80.
-1. Edite el archivo de apache (``/usr/share/httpd/noindex/index.html``) de modo que el mensaje de bienvenida contenta su nombre.
+1. Edite el archivo de apache (``/usr/share/httpd/noindex/index.html``) de modo que el mensaje de bienvenida contenga su nombre y corrobore el acceso desde las diferenes PCs del lab.
 2. **Deshabilite** el proxy del navegador web.
 3. Limpie todas las reglas previas y establezca política por defecto ``ACCEPT`` en todas las cadenas de la tabla filter.
 4. Redirija los pedidos que le llegan al puerto 80 hacia otra PC del lab para que los atienda otro servidor web apache.
+5. Corrobore el funcionamiento
 
-Actividad 6
-~~~~~~~~~~~
+Actividad 6: NAT
+~~~~~~~~~~~~~~~~
+SNAT es utilizado para compartir una IP pública de salida hacia Internet por varios hosts locales con IP privada.
+Analicemos el funcionamiento de la traducción de direcciones de red (NAT)
+
+.. figure:: imagenes/snat.png
+   :scale: 55 %
+   :align: center
+
+   Funcionamiento de SNAT o Masquerade
 
 0. Utilice el sistema operativo host (ubuntu) de su PC (no el virtual).
-1. Modifique la IP de su PC a una de la red 10.0.0.0/24
+1. Modifique la IP de su PC a una de la red 10.0.0.0/24 (puede usar el network manager o cambiando el contenido del archivo ``/etc/network/interfaces``)
 2. Elija **UNA PC** del laboratorio para que haga de gateway de la red y agregue en ella una interfaz virtual con IP 10.0.0.1. Esta PC tendrá ambas IP, la otorgada por DHCP y la virtual.
 3. Corrobore que todas se vean mediante ``ping``.
 4. Habilite al sistema operativo ubuntu para hacer ruteo (``sysctl -w net.ipv4.ip_forward=1``).
@@ -538,26 +574,7 @@ nuestra red (red 10.0.0.0/24), para todos los usuarios excepto para el servidor 
    Fig. 8 - Ejemplo de red con firewall como gateway
 
 En este caso nos conviene utilizar como política por defecto a "Aceptar", y solo agregar las reglas pertinentes que cumplan con lo
-establecido. Para este caso, el conjunto de reglas sería el siguiente:
-
-.. code:: bash
-
-    # Definimos la política por defecto en Aceptar
-    iptables -P INPUT ACCEPT
-    iptables -P OUTPUT ACCEPT
-    iptables -P FORWARD ACCEPT
-
-    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP)
-    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
-
-    # El resto de la red no puede salir al puerto TCP 25
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 25 -j REJECT
-
-Es importante resaltar que las reglas fueron anexadas a la cadena *FORWARD* debido a que el origen y el destino son distintos del
-firewall (origen: equipos de la red interna, destino: equipos de otras redes). 
-
-A su vez, el orden en el que se evalúan las reglas es secuencial (recuerden que la opción -A agrega las reglas al final de la cadena)
-motivo por el cual primero permitimos la salida del servidor de correos y luego si denegamos el resto de la red. Otro detalle importante es que este conjunto de reglas se aplica y permanece en memoria, por lo que si el servidor se reinicia las mismas se pierden.
+establecido. 
 
 Actividad 8
 ~~~~~~~~~~~
@@ -572,56 +589,7 @@ saliente, a excepción de los siguientes servicios:
 -  SMTP (solo el servidor de correos)
 
 Dado que los equipos en la red interna tienen direccionamiento IP privado, necesariamente tienen que ser enmascarados (NAT) para poder
-salir a internet con la dirección IP del firewall, que en este caso es el default gateway. El conjunto de reglas sería el siguiente:
-
-.. code:: bash
-
-    #!/usr/bin/env bash
-
-    # Definimos la política por defecto en DROP
-
-    iptables -P INPUT DROP
-    iptables -P OUTPUT DROP
-    iptables -P FORWARD DROP
-
-    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP) 
-    # y TCP 465 (SMTPs)
-
-    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 465 -j ACCEPT
-
-    # Desde la subred local se puede salir a los puertos TCP 80(HTTP),443(HTTPs),
-    # 143(IMAP), 993(IMAPs), 110(POP3), 995(POP3s), 53(DNS) y UDP 53 (DNS).
-
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 80 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 443 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 143 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 993 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 110 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 995 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 53 -j ACCEPT
-    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p udp --dport 53 -j ACCEPT
-
-    # Acceso SSH al firewall
-    iptables -t filter -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
-    iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
-    iptables -A FORWARD -p tcp -m state --state ESTABLISHED -j ACCEPT
-
-
-    # A su vez necesitamos que desde el firewall también se acceda a 
-    # los servidores DNS
-    iptables -t filter -A OUTPUT -s 10.0.0.1 -p tcp --dport 53 -j ACCEPT
-    iptables -t filter -A OUTPUT -s 10.0.0.1 -p udp --dport 53 -j ACCEPT
-
-    # Se enmascaran todas las conexiones para que cuando salga a
-    # internet lo hagan con la IP pública del firewall
-
-    iptables -t nat -A POSTROUTING -o eth1 -s 10.0.0.0/24 -j MASQUERADE
-
-
-Como vemos, una política de seguridad muy simple se convierte en varias
-reglas de iptables, las que como mencionamos previamente, deben ser almacenadas para que 
-se ejecuten al inicio y se las aplique, porque sino al reiniciar el sistema se perderán. 
+salir a internet con la dirección IP del firewall, que en este caso es el default gateway. 
 
 Soluciones
 ----------
@@ -701,7 +669,8 @@ Limpiar reglas y aplicar política por defecto de ``ACCEPT`` y luego agregar:
 
 .. code:: bash
     
-    iptables -t nat -A PREROUTING -d 192.168.10.100 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.100:8080
+    iptables -t nat -A PREROUTING -d 192.168.10.100 -p tcp --dport 80 -j DNAT \\
+    --to-destination 192.168.10.100:8080
 
 
 Actividad 5
@@ -709,8 +678,115 @@ Actividad 5
 
 .. code:: bash
 
-    iptables -t nat -A PREROUTING -d 192.168.10.100 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.1:80
+    iptables -t nat -A PREROUTING -d 192.168.10.100 -p tcp --dport 80 -j DNAT \\
+    --to-destination 192.168.10.1:80
+    
     iptables -t nat -A POSTROUTING -d 192.168.10.1 -o enp0s8 -j MASQUERADE
+
+Actividad 6
+~~~~~~~~~~~
+
+Modifico ``/etc/network/interfaces`` para asignar una ip del rango 10.0.0.0/24
+
+.. code:: bash
+
+    auto eth0
+    iface eth0 inet static
+        address 10.0.0.50
+        netmask 255.255.255.0
+        network 10.0.0.0
+        gateway 10.0.0.1
+        dns-nameservers 8.8.8.8
+
+Luego de las reglas para limpiar y aplicar políticas por defecto:
+
+.. code:: bash
+    
+    # prohibimos salida a la IP 10.0.0.8
+    iptables -A FORDWARD -s 10.0.0.8 -j REJECT
+
+    # NATeamos la red 10
+    #iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j SNAT --to 1.2.3.1
+    iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j MASQUERADE
+
+Actividad 7
+~~~~~~~~~~~
+
+Para este caso, el conjunto de reglas sería el siguiente:
+
+.. code:: bash
+
+    # Definimos la política por defecto en Aceptar
+    iptables -P INPUT ACCEPT
+    iptables -P OUTPUT ACCEPT
+    iptables -P FORWARD ACCEPT
+
+    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP)
+    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
+
+    # El resto de la red no puede salir al puerto TCP 25
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 25 -j REJECT
+
+Es importante resaltar que las reglas fueron anexadas a la cadena *FORWARD* debido a que el origen y el destino son distintos del
+firewall (origen: equipos de la red interna, destino: equipos de otras redes). 
+
+A su vez, el orden en el que se evalúan las reglas es secuencial (recuerden que la opción -A agrega las reglas al final de la cadena)
+motivo por el cual primero permitimos la salida del servidor de correos y luego si denegamos el resto de la red. Otro detalle importante es que este conjunto de reglas se aplica y permanece en memoria, por lo que si el servidor se reinicia las mismas se pierden.
+
+
+Actividad 8
+~~~~~~~~~~~
+
+El conjunto de reglas sería el siguiente:
+
+.. code:: bash
+
+    #!/usr/bin/env bash
+
+    # Definimos la política por defecto en DROP
+
+    iptables -P INPUT DROP
+    iptables -P OUTPUT DROP
+    iptables -P FORWARD DROP
+
+    # El servidor de correos interno puede salir al puerto TCP 25 (SMTP) 
+    # y TCP 465 (SMTPs)
+
+    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 25 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.4 -p tcp --dport 465 -j ACCEPT
+
+    # Desde la subred local se puede salir a los puertos TCP 80(HTTP),443(HTTPs),
+    # 143(IMAP), 993(IMAPs), 110(POP3), 995(POP3s), 53(DNS) y UDP 53 (DNS).
+
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 80 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 443 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 143 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 993 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 110 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 995 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p tcp --dport 53 -j ACCEPT
+    iptables -t filter -A FORWARD -s 10.0.0.0/24 -p udp --dport 53 -j ACCEPT
+
+    # Acceso SSH al firewall
+    iptables -t filter -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
+    iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
+    iptables -A FORWARD -p tcp -m state --state ESTABLISHED -j ACCEPT
+
+
+    # A su vez necesitamos que desde el firewall también se acceda a 
+    # los servidores DNS
+    iptables -t filter -A OUTPUT -s 10.0.0.1 -p tcp --dport 53 -j ACCEPT
+    iptables -t filter -A OUTPUT -s 10.0.0.1 -p udp --dport 53 -j ACCEPT
+
+    # Se enmascaran todas las conexiones para que cuando salga a
+    # internet lo hagan con la IP pública del firewall
+
+    iptables -t nat -A POSTROUTING -o eth1 -s 10.0.0.0/24 -j MASQUERADE
+
+
+Como vemos, una política de seguridad muy simple se convierte en varias
+reglas de iptables, las que como mencionamos previamente, deben ser almacenadas para que 
+se ejecuten al inicio y se las aplique, porque sino al reiniciar el sistema se perderán. 
 
 Referencias
 -----------
@@ -723,3 +799,4 @@ Además se usaron como referencias:
 
 - Red Hat Enterprise Linux 7 Security Guide
 - Designing and Implementing Linux Firewalls and QoS using netfilter, iproute and L7-Filter. Lucian Gheorghe
+- https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Security_Guide/s1-firewall-ipt-fwd.html
