@@ -1,3 +1,10 @@
+.. image:: imagenes/iptables-card-black-demo.png
+	:scale: 180%
+
+.. raw:: pdf
+
+   PageBreak oneColumn
+
 Unidad 2: Configuración y políticas de Firewall
 ===============================================
 
@@ -652,15 +659,16 @@ Actividad 3
     iptables -P OUTPUT DROP
     iptables -P FORWARD DROP
 
-    iptables -A INPUT -s 192.168.10.72 -p tcp --dport 22 -j ACCEPT
+    iptables -A INPUT -s 192.168.10.72 -p tcp --dport 22 -m state --state \\
+    NEW,ESTABLISHED -j ACCEPT
     iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
 
     # otra forma podria ser en vez de la anterior esta otra ->
     #iptables -A OUTPUT -p tcp --sport 22 -d 192.168.10.1 -j ACCEPT
 
     # permitimos ping para todo el mundo
-    iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
-    iptables -A OUTPUT -p icmp --icmp-type echo-reply -j ACCEPT
+    iptables -A OUTPUT -p icmp --icmp-type echo-request -j ACCEPT
+    iptables -A INPUT -p icmp --icmp-type echo-reply -j ACCEPT
 
 Actividad 4
 ~~~~~~~~~~~
