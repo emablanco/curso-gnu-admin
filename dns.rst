@@ -1,6 +1,29 @@
 Funcionamiento de un DNS
 ========================
 
+:Autores: Emiliano López (emiliano.lopez@gmail.com)
+
+          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+
+:Fecha: |date| |time|
+
+.. |date| date:: %d/%m/%Y
+.. |time| date:: %H:%M
+
+.. header::
+  Curso Administracion GNU/Linux
+
+.. footer::
+    ###Page### / ###Total###
+
+.. contents:: Tabla de contenidos
+
+.. sectnum::
+
+.. raw:: pdf
+
+   PageBreak oneColumn
+
 El protocolo DNS
 ----------------
 
@@ -170,27 +193,40 @@ Tipos de registros en la zonas de autoridad
 La información de cada Zona de Autoridad es almacenada de forma local en un
 archivo en el Servidor DNS. Este archivo puede incluir varios tipos de registros:
 
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Tipo de Registro         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                      |
-+==========================+==================================================================================================================================================================================================================================================================================================================================================================================================================+
-| A (Address)              | Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv4 de 32 bits.                                                                                                                                                                                                                                                                                                                |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| AAAA                     | Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv6 de 128 bits.                                                                                                                                                                                                                                                                                                               |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| CNAME (Canonical Name)   | Registro de nombre canónico que hace que un nombre sea alias de otro. Los dominios con alias obtienen los sub-dominios y registros DNS del dominio original.                                                                                                                                                                                                                                                     |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| MX (Mail Exchanger)      | Registro de servidor de correo que sirve para definir una lista de servidores de correo para un dominio, así como la prioridad entre éstos.                                                                                                                                                                                                                                                                      |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| PTR (Pointer)            | Registro de apuntador que resuelve direcciones IPv4 hacia los nombres anfitriones. Es decir, hace lo contrario al registro A. Se utiliza en zonas de Resolución Inversa.                                                                                                                                                                                                                                         |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| NS (Name Server)         | Registro de servidor de nombres, que sirve para definir una lista de servidores de nombres con autoridad para un dominio.                                                                                                                                                                                                                                                                                        |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| SOA (Start of Authority) | Registro de inicio de autoridad, encargado de especificar el Servidor DNS Maestro (o Primario) que proporcionará la información con autoridad acerca de un dominio de Internet, dirección de correo electrónico del administrador, número de serie del dominio y parámetros de tiempo para la zona.                                                                                                              |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| SRV (Service)            | Registros de servicios, encargados de especificar información acerca de servicios disponibles a través del dominio. Protocolos como SIP (Session Initiation Protocol) y XMPP (Extensible Messaging and Presence Protocol) suelen requerir registros SRV en la zona para proporcionar información a los clientes.                                                                                                 |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| TXT (Text)               | Registros de texto, encargados de permitir al administrador insertar texto arbitrariamente en un registro DNS. Este tipo de registro es muy utilizado por los servidores de listas negras DNSBL (DNS-based Blackhole List) para la filtración de Spam. Otro ejemplo de uso sería el caso de las VPN, donde suele requerirse un registro TXT, para definir una firma digital que será utilizada por los clientes. |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+-----------------------------------------------------------------------------------------------------+
+| Tipo de Registro         | Descripción                                                                                         |
++==========================+=====================================================================================================+
+| A (Address)              | Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv4 de 32 bits.   |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+| AAAA                     | Registro de dirección que resuelve un nombre de un anfitrión hacia una dirección IPv6 de 128 bits.  |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+| CNAME                    | Registro de nombre canónico que hace que un nombre sea alias de otro.                               |
+| (Canonical Name)         | Los dominios con alias obtienen los sub-dominios y registros DNS del dominio original.              |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+| MX                       | Registro de servidor de correo que sirve para definir una lista de servidores de correo para un     |
+| (Mail Exchanger)         | dominio, así como la prioridad entre éstos.                                                         |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+| PTR                      | Registro de apuntador que resuelve direcciones IPv4 hacia los nombres anfitriones. Es decir, hace   |
+| (Pointer)                | lo contrario al registro A. Se utiliza en zonas de Resolución Inversa.                              |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+| NS                       | Registro de servidor de nombres, que sirve para definir una lista de servidores de nombres con      |
+| (Name Server)            | autoridad para un dominio.                                                                          |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+|                          | Registro de inicio de autoridad, encargado de especificar el Servidor DNS Maestro (o Primario) que  |
+| SOA                      | proporcionará la información con autoridad acerca de un dominio de Internet, dirección de correo    |
+| (Start of Authority)     | electrónico del administrador, número de serie del dominio y parámetros de tiempo para la zona.     |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+|                          | Registros de servicios, encargados de especificar información acerca de servicios disponibles a     |
+| SRV                      | a través del dominio. Protocolos como SIP (Session Initiation Protocol) y XMPP (Extensible Messaging|
+| (Service)                | and Presence Protocol) suelen requerir registros SRV en la zona para proporcionar información a los |
+|                          | clientes.                                                                                           |
++--------------------------+-----------------------------------------------------------------------------------------------------+
+|                          | Registros de texto, encargados de permitir al administrador insertar texto arbitrariamente en un    |
+|                          | registro DNS. Este tipo de registro es muy utilizado por los servidores de listas negras DNSBL      |
+| TXT                      | (DNS-based Blackhole List) para la filtración de Spam. Otro ejemplo de uso sería el caso de las VPN,|
+| (Text)                   | donde suele requerirse un registro TXT, para definir una firma digital que será utilizada por los   |
+|                          | clientes.                                                                                           |
++--------------------------+-----------------------------------------------------------------------------------------------------+
 
 Tipos de zonas de autoridad
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
