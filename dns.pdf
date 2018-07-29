@@ -1,0 +1,5017 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 71 0 R /F4 74 0 R /F5 80 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:emiliano.lopez@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 228.2023 708.0236 347.8223 720.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:maximiliano@boscovich.com.ar)
+>> /Border [ 0 0 0 ] /Rect [ 260.9723 690.0236 401.7023 702.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 65 0 R /XYZ 62.69291 753.0236 0 ] /Rect [ 62.69291 618.0236 207.1629 630.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 65 0 R /XYZ 62.69291 753.0236 0 ] /Rect [ 527.0227 618.7736 532.5827 630.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 753.0236 0 ] /Rect [ 82.69291 600.0236 181.6229 612.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 753.0236 0 ] /Rect [ 527.0227 600.7736 532.5827 612.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 591.0236 0 ] /Rect [ 82.69291 582.0236 314.4429 594.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 591.0236 0 ] /Rect [ 527.0227 582.7736 532.5827 594.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 453.0236 0 ] /Rect [ 82.69291 564.0236 327.2129 576.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 453.0236 0 ] /Rect [ 527.0227 564.7736 532.5827 576.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 189.0236 0 ] /Rect [ 82.69291 546.0236 204.9729 558.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 189.0236 0 ] /Rect [ 527.0227 546.7736 532.5827 558.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 129.0236 0 ] /Rect [ 102.6929 528.0236 193.2829 540.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 72 0 R /XYZ 62.69291 129.0236 0 ] /Rect [ 527.0227 528.7736 532.5827 540.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+18 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 663.0236 0 ] /Rect [ 102.6929 510.0236 204.9529 522.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+19 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 663.0236 0 ] /Rect [ 527.0227 510.7736 532.5827 522.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+20 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 546.0236 0 ] /Rect [ 102.6929 492.0236 421.1629 504.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+21 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 546.0236 0 ] /Rect [ 527.0227 492.7736 532.5827 504.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+22 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 315.0236 0 ] /Rect [ 102.6929 474.0236 319.4529 486.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 315.0236 0 ] /Rect [ 527.0227 474.7736 532.5827 486.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 162.0236 0 ] /Rect [ 102.6929 456.0236 220.5429 468.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+25 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 73 0 R /XYZ 62.69291 162.0236 0 ] /Rect [ 527.0227 456.7736 532.5827 468.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+26 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 75 0 R /XYZ 62.69291 543.8236 0 ] /Rect [ 122.6929 438.0236 353.3729 450.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 75 0 R /XYZ 62.69291 543.8236 0 ] /Rect [ 527.0227 438.7736 532.5827 450.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+28 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 675.0236 0 ] /Rect [ 122.6929 420.0236 287.7929 432.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+29 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 675.0236 0 ] /Rect [ 527.0227 420.7736 532.5827 432.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+30 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 633.0236 0 ] /Rect [ 142.6929 402.0236 271.6629 414.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+31 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 633.0236 0 ] /Rect [ 527.0227 402.7736 532.5827 414.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+32 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 483.0236 0 ] /Rect [ 142.6929 384.0236 319.4529 396.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+33 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 483.0236 0 ] /Rect [ 527.0227 384.7736 532.5827 396.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+34 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 141.0236 0 ] /Rect [ 62.69291 366.0236 257.2029 378.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+35 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 141.0236 0 ] /Rect [ 527.0227 366.7736 532.5827 378.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+36 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 108.0236 0 ] /Rect [ 82.69291 348.0236 158.2929 360.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+37 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 76 0 R /XYZ 62.69291 108.0236 0 ] /Rect [ 527.0227 348.7736 532.5827 360.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+38 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 77 0 R /XYZ 62.69291 424.6236 0 ] /Rect [ 82.69291 330.0236 152.7329 342.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+39 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 77 0 R /XYZ 62.69291 424.6236 0 ] /Rect [ 527.0227 330.7736 532.5827 342.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+40 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 78 0 R /XYZ 62.69291 198.6236 0 ] /Rect [ 82.69291 312.0236 164.9529 324.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+41 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 78 0 R /XYZ 62.69291 198.6236 0 ] /Rect [ 527.0227 312.7736 532.5827 324.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+42 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 81 0 R /XYZ 62.69291 599.8236 0 ] /Rect [ 62.69291 294.0236 191.6229 306.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+43 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 81 0 R /XYZ 62.69291 599.8236 0 ] /Rect [ 521.4627 294.7736 532.5827 306.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+44 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 81 0 R /XYZ 62.69291 506.8236 0 ] /Rect [ 82.69291 276.0236 265.5529 288.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+45 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 81 0 R /XYZ 62.69291 506.8236 0 ] /Rect [ 521.4627 276.7736 532.5827 288.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+46 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 81 0 R /XYZ 62.69291 215.6236 0 ] /Rect [ 82.69291 258.0236 129.3829 270.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+47 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 81 0 R /XYZ 62.69291 215.6236 0 ] /Rect [ 521.4627 258.7736 532.5827 270.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+48 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 83 0 R /XYZ 62.69291 506.6236 0 ] /Rect [ 82.69291 240.0236 188.8529 252.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+49 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 83 0 R /XYZ 62.69291 506.6236 0 ] /Rect [ 521.4627 240.7736 532.5827 252.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+50 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 84 0 R /XYZ 62.69291 405.0236 0 ] /Rect [ 102.6929 222.0236 394.5029 234.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+51 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 84 0 R /XYZ 62.69291 405.0236 0 ] /Rect [ 521.4627 222.7736 532.5827 234.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+52 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 84 0 R /XYZ 62.69291 224.8236 0 ] /Rect [ 82.69291 204.0236 223.3229 216.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+53 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 84 0 R /XYZ 62.69291 224.8236 0 ] /Rect [ 521.4627 204.7736 532.5827 216.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+54 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 85 0 R /XYZ 62.69291 393.0236 0 ] /Rect [ 102.6929 186.0236 437.8429 198.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+55 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 85 0 R /XYZ 62.69291 393.0236 0 ] /Rect [ 102.6929 174.0236 221.0629 186.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+56 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 85 0 R /XYZ 62.69291 393.0236 0 ] /Rect [ 521.4627 186.7736 532.5827 198.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+57 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 85 0 R /XYZ 62.69291 171.8236 0 ] /Rect [ 102.6929 156.0236 450.6429 168.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+58 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 85 0 R /XYZ 62.69291 171.8236 0 ] /Rect [ 521.4627 156.7736 532.5827 168.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+59 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 86 0 R /XYZ 62.69291 635.8236 0 ] /Rect [ 82.69291 138.0236 384.4929 150.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+60 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 86 0 R /XYZ 62.69291 635.8236 0 ] /Rect [ 521.4627 138.7736 532.5827 150.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+61 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 86 0 R /XYZ 62.69291 150.6236 0 ] /Rect [ 82.69291 120.0236 456.7329 132.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+62 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 86 0 R /XYZ 62.69291 150.6236 0 ] /Rect [ 521.4627 120.7736 532.5827 132.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+63 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 87 0 R /XYZ 62.69291 423.8236 0 ] /Rect [ 82.69291 102.0236 161.6229 114.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+64 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 87 0 R /XYZ 62.69291 423.8236 0 ] /Rect [ 521.4627 102.7736 532.5827 114.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+65 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 
+  14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 
+  24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 
+  34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 
+  44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 
+  54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 
+  64 0 R ] /Contents 127 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+66 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 87 0 R /XYZ 62.69291 228.6236 0 ] /Rect [ 82.69291 738.0236 266.1129 750.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+67 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 87 0 R /XYZ 62.69291 228.6236 0 ] /Rect [ 521.4627 738.7736 532.5827 750.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+68 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 91 0 R /XYZ 62.69291 367.8236 0 ] /Rect [ 62.69291 720.0236 133.2829 732.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+69 0 obj
+<<
+/Border [ 0 0 0 ] /Contents () /Dest [ 91 0 R /XYZ 62.69291 367.8236 0 ] /Rect [ 521.4627 720.7736 532.5827 732.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+70 0 obj
+<<
+/Annots [ 66 0 R 67 0 R 68 0 R 69 0 R ] /Contents 128 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+71 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+72 0 obj
+<<
+/Contents 129 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+73 0 obj
+<<
+/Contents 130 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+74 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+75 0 obj
+<<
+/Contents 131 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+76 0 obj
+<<
+/Contents 132 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+77 0 obj
+<<
+/Contents 133 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+78 0 obj
+<<
+/Contents 134 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+79 0 obj
+<<
+/Contents 135 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+80 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+81 0 obj
+<<
+/Contents 136 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+82 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://es.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 150.4236 411.3529 162.4236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+83 0 obj
+<<
+/Annots [ 82 0 R ] /Contents 137 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+84 0 obj
+<<
+/Contents 138 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+85 0 obj
+<<
+/Contents 139 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+86 0 obj
+<<
+/Contents 140 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+87 0 obj
+<<
+/Contents 141 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+88 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (http://www.alcancelibre.org/staticpages/index.php/introduccion-protocolo-dns)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 320.5736 425.8329 332.5736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+89 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)
+>> /Border [ 0 0 0 ] /Rect [ 61.8328 302.5736 556.4428 314.5736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+90 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-bind)
+>> /Border [ 0 0 0 ] /Rect [ 72.6378 284.5736 545.6378 296.5736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+91 0 obj
+<<
+/Annots [ 88 0 R 89 0 R 90 0 R ] /Contents 142 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 126 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+92 0 obj
+<<
+/Outlines 94 0 R /PageLabels 143 0 R /PageMode /UseNone /Pages 126 0 R /Type /Catalog
+>>
+endobj
+93 0 obj
+<<
+/Author () /CreationDate (D:20180729191735+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180729191735+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title () /Trapped /False
+>>
+endobj
+94 0 obj
+<<
+/Count 39 /First 95 0 R /Last 125 0 R /Type /Outlines
+>>
+endobj
+95 0 obj
+<<
+/Count 13 /Dest [ 65 0 R /XYZ 62.69291 753.0236 0 ] /First 96 0 R /Last 99 0 R /Next 109 0 R /Parent 94 0 R 
+  /Title (\376\377\0001\000\240\000\240\000\240\000F\000u\000n\000c\000i\000o\000n\000a\000m\000i\000e\000n\000t\000o\000 \000d\000e\000 \000u\000n\000 \000D\000N\000S)
+>>
+endobj
+96 0 obj
+<<
+/Dest [ 72 0 R /XYZ 62.69291 753.0236 0 ] /Next 97 0 R /Parent 95 0 R /Title (\376\377\0001\000.\0001\000\240\000\240\000\240\000E\000l\000 \000p\000r\000o\000t\000o\000c\000o\000l\000o\000 \000D\000N\000S)
+>>
+endobj
+97 0 obj
+<<
+/Dest [ 72 0 R /XYZ 62.69291 591.0236 0 ] /Next 98 0 R /Parent 95 0 R /Prev 96 0 R /Title (\376\377\0001\000.\0002\000\240\000\240\000\240\000\277\000Q\000u\000\351\000 \000e\000s\000 \000u\000n\000 \000N\000I\000C\000 \000\(\000N\000e\000t\000w\000o\000r\000k\000 \000I\000n\000f\000o\000r\000m\000a\000t\000i\000o\000n\000 \000C\000e\000n\000t\000e\000r\000\)\000?)
+>>
+endobj
+98 0 obj
+<<
+/Dest [ 72 0 R /XYZ 62.69291 453.0236 0 ] /Next 99 0 R /Parent 95 0 R /Prev 97 0 R /Title (\376\377\0001\000.\0003\000\240\000\240\000\240\000Q\000u\000\351\000 \000e\000s\000 \000u\000n\000 \000F\000Q\000D\000N\000 \000\(\000F\000u\000l\000l\000y\000 \000Q\000u\000a\000l\000i\000f\000i\000e\000d\000 \000D\000o\000m\000a\000i\000n\000 \000N\000a\000m\000e\000\)\000?)
+>>
+endobj
+99 0 obj
+<<
+/Count 9 /Dest [ 72 0 R /XYZ 62.69291 189.0236 0 ] /First 100 0 R /Last 104 0 R /Parent 95 0 R /Prev 98 0 R 
+  /Title (\376\377\0001\000.\0004\000\240\000\240\000\240\000C\000o\000m\000p\000o\000n\000e\000n\000t\000e\000s\000 \000d\000e\000 \000D\000N\000S)
+>>
+endobj
+100 0 obj
+<<
+/Dest [ 72 0 R /XYZ 62.69291 129.0236 0 ] /Next 101 0 R /Parent 99 0 R /Title (\376\377\0001\000.\0004\000.\0001\000\240\000\240\000\240\000C\000l\000i\000e\000n\000t\000e\000s\000 \000D\000N\000S)
+>>
+endobj
+101 0 obj
+<<
+/Dest [ 73 0 R /XYZ 62.69291 663.0236 0 ] /Next 102 0 R /Parent 99 0 R /Prev 100 0 R /Title (\376\377\0001\000.\0004\000.\0002\000\240\000\240\000\240\000S\000e\000r\000v\000i\000d\000o\000r\000e\000s\000 \000D\000N\000S)
+>>
+endobj
+102 0 obj
+<<
+/Dest [ 73 0 R /XYZ 62.69291 546.0236 0 ] /Next 103 0 R /Parent 99 0 R /Prev 101 0 R /Title (\376\377\0001\000.\0004\000.\0003\000\240\000\240\000\240\000\277\000C\000u\000\341\000n\000t\000o\000s\000 \000s\000e\000r\000v\000i\000d\000o\000r\000e\000s\000 \000D\000N\000S\000 \000d\000e\000b\000e\000 \000h\000a\000b\000e\000r\000 \000p\000a\000r\000a\000 \000r\000e\000s\000o\000l\000v\000e\000r\000 \000u\000n\000 \000d\000o\000m\000i\000n\000i\000o\000?)
+>>
+endobj
+103 0 obj
+<<
+/Dest [ 73 0 R /XYZ 62.69291 315.0236 0 ] /Next 104 0 R /Parent 99 0 R /Prev 102 0 R /Title (\376\377\0001\000.\0004\000.\0004\000\240\000\240\000\240\000T\000i\000p\000o\000s\000 \000d\000e\000 \000c\000o\000n\000s\000u\000l\000t\000a\000s\000 \000h\000a\000c\000i\000a\000 \000u\000n\000 \000s\000e\000r\000v\000i\000d\000o\000r\000 \000D\000N\000S)
+>>
+endobj
+104 0 obj
+<<
+/Count 4 /Dest [ 73 0 R /XYZ 62.69291 162.0236 0 ] /First 105 0 R /Last 106 0 R /Parent 99 0 R /Prev 103 0 R 
+  /Title (\376\377\0001\000.\0004\000.\0005\000\240\000\240\000\240\000Z\000o\000n\000a\000s\000 \000d\000e\000 \000A\000u\000t\000o\000r\000i\000d\000a\000d)
+>>
+endobj
+105 0 obj
+<<
+/Dest [ 75 0 R /XYZ 62.69291 543.8236 0 ] /Next 106 0 R /Parent 104 0 R /Title (\376\377\0001\000.\0004\000.\0005\000.\0001\000\240\000\240\000\240\000T\000i\000p\000o\000s\000 \000d\000e\000 \000r\000e\000g\000i\000s\000t\000r\000o\000s\000 \000e\000n\000 \000l\000a\000 \000z\000o\000n\000a\000s\000 \000d\000e\000 \000a\000u\000t\000o\000r\000i\000d\000a\000d)
+>>
+endobj
+106 0 obj
+<<
+/Count 2 /Dest [ 76 0 R /XYZ 62.69291 675.0236 0 ] /First 107 0 R /Last 108 0 R /Parent 104 0 R /Prev 105 0 R 
+  /Title (\376\377\0001\000.\0004\000.\0005\000.\0002\000\240\000\240\000\240\000T\000i\000p\000o\000s\000 \000d\000e\000 \000z\000o\000n\000a\000s\000 \000d\000e\000 \000a\000u\000t\000o\000r\000i\000d\000a\000d)
+>>
+endobj
+107 0 obj
+<<
+/Dest [ 76 0 R /XYZ 62.69291 633.0236 0 ] /Next 108 0 R /Parent 106 0 R /Title (\376\377\0001\000.\0004\000.\0005\000.\0002\000.\0001\000\240\000\240\000\240\000Z\000o\000n\000a\000s\000 \000d\000e\000 \000R\000e\000e\000n\000v\000\355\000o)
+>>
+endobj
+108 0 obj
+<<
+/Dest [ 76 0 R /XYZ 62.69291 483.0236 0 ] /Parent 106 0 R /Prev 107 0 R /Title (\376\377\0001\000.\0004\000.\0005\000.\0002\000.\0002\000\240\000\240\000\240\000Z\000o\000n\000a\000s\000 \000d\000e\000 \000R\000e\000s\000o\000l\000u\000c\000i\000\363\000n\000 \000I\000n\000v\000e\000r\000s\000a)
+>>
+endobj
+109 0 obj
+<<
+/Count 3 /Dest [ 76 0 R /XYZ 62.69291 141.0236 0 ] /First 110 0 R /Last 112 0 R /Next 113 0 R /Parent 94 0 R 
+  /Prev 95 0 R /Title (\376\377\0002\000\240\000\240\000\240\000H\000e\000r\000r\000a\000m\000i\000e\000n\000t\000a\000s\000 \000d\000e\000 \000b\000\372\000s\000q\000u\000e\000d\000a\000 \000y\000 \000c\000o\000n\000s\000u\000l\000t\000a)
+>>
+endobj
+110 0 obj
+<<
+/Dest [ 76 0 R /XYZ 62.69291 108.0236 0 ] /Next 111 0 R /Parent 109 0 R /Title (\376\377\0002\000.\0001\000\240\000\240\000\240\000U\000s\000o\000 \000d\000e\000 \000h\000o\000s\000t)
+>>
+endobj
+111 0 obj
+<<
+/Dest [ 77 0 R /XYZ 62.69291 424.6236 0 ] /Next 112 0 R /Parent 109 0 R /Prev 110 0 R /Title (\376\377\0002\000.\0002\000\240\000\240\000\240\000U\000s\000o\000 \000d\000e\000 \000d\000i\000g)
+>>
+endobj
+112 0 obj
+<<
+/Dest [ 78 0 R /XYZ 62.69291 198.6236 0 ] /Parent 109 0 R /Prev 111 0 R /Title (\376\377\0002\000.\0003\000\240\000\240\000\240\000U\000s\000o\000 \000d\000e\000 \000w\000h\000o\000i\000s)
+>>
+endobj
+113 0 obj
+<<
+/Count 11 /Dest [ 81 0 R /XYZ 62.69291 599.8236 0 ] /First 114 0 R /Last 124 0 R /Next 125 0 R /Parent 94 0 R 
+  /Prev 109 0 R /Title (\376\377\0003\000\240\000\240\000\240\000E\000l\000 \000s\000e\000r\000v\000i\000d\000o\000r\000 \000d\000e\000 \000D\000N\000S\000 \000B\000i\000n\000d)
+>>
+endobj
+114 0 obj
+<<
+/Dest [ 81 0 R /XYZ 62.69291 506.8236 0 ] /Next 115 0 R /Parent 113 0 R /Title (\376\377\0003\000.\0001\000\240\000\240\000\240\000D\000i\000r\000e\000c\000t\000o\000r\000i\000o\000s\000 \000d\000e\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000c\000i\000\363\000n\000 \000d\000e\000 \000B\000i\000n\000d)
+>>
+endobj
+115 0 obj
+<<
+/Dest [ 81 0 R /XYZ 62.69291 215.6236 0 ] /Next 116 0 R /Parent 113 0 R /Prev 114 0 R /Title (\376\377\0003\000.\0002\000\240\000\240\000\240\000A\000C\000L\000s)
+>>
+endobj
+116 0 obj
+<<
+/Count 1 /Dest [ 83 0 R /XYZ 62.69291 506.6236 0 ] /First 117 0 R /Last 117 0 R /Next 118 0 R /Parent 113 0 R 
+  /Prev 115 0 R /Title (\376\377\0003\000.\0003\000\240\000\240\000\240\000O\000p\000c\000i\000o\000n\000e\000s\000 \000\(\000o\000p\000t\000i\000o\000n\000s\000\))
+>>
+endobj
+117 0 obj
+<<
+/Dest [ 84 0 R /XYZ 62.69291 405.0236 0 ] /Parent 116 0 R /Title (\376\377\0003\000.\0003\000.\0001\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000 \000u\000n\000a\000 \000a\000r\000c\000h\000i\000v\000o\000 \000d\000e\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000c\000i\000\363\000n\000 \000\(\000/\000e\000t\000c\000/\000n\000a\000m\000e\000d\000.\000c\000o\000n\000f\000\))
+>>
+endobj
+118 0 obj
+<<
+/Count 2 /Dest [ 84 0 R /XYZ 62.69291 224.8236 0 ] /First 119 0 R /Last 120 0 R /Next 121 0 R /Parent 113 0 R 
+  /Prev 116 0 R /Title (\376\377\0003\000.\0004\000\240\000\240\000\240\000L\000a\000 \000s\000e\000n\000t\000e\000n\000c\000i\000a\000 \000Z\000o\000n\000e\000 \000\(\000z\000o\000n\000a\000s\000\))
+>>
+endobj
+119 0 obj
+<<
+/Dest [ 85 0 R /XYZ 62.69291 393.0236 0 ] /Next 120 0 R /Parent 118 0 R /Title (\376\377\0003\000.\0004\000.\0001\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000 \000a\000r\000c\000h\000i\000v\000o\000 \000d\000e\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000c\000i\000\363\000n\000 \000d\000e\000 \000z\000o\000n\000a\000 \000e\000n\000 \000u\000n\000 \000s\000e\000r\000v\000i\000d\000o\000r\000 \000p\000r\000i\000m\000a\000r\000i\000o\000 \000\(\000/\000e\000t\000c\000/\000n\000a\000m\000e\000d\000/\000e\000x\000a\000m\000p\000l\000e\000.\000c\000o\000m\000\))
+>>
+endobj
+120 0 obj
+<<
+/Dest [ 85 0 R /XYZ 62.69291 171.8236 0 ] /Parent 118 0 R /Prev 119 0 R /Title (\376\377\0003\000.\0004\000.\0002\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000 \000a\000r\000c\000h\000i\000v\000o\000 \000d\000e\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000c\000i\000\363\000n\000 \000d\000e\000 \000z\000o\000n\000a\000 \000e\000n\000 \000u\000n\000 \000s\000e\000r\000v\000i\000d\000o\000r\000 \000s\000e\000c\000u\000n\000d\000a\000r\000i\000o)
+>>
+endobj
+121 0 obj
+<<
+/Dest [ 86 0 R /XYZ 62.69291 635.8236 0 ] /Next 122 0 R /Parent 113 0 R /Prev 118 0 R /Title (\376\377\0003\000.\0005\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000 \000d\000e\000f\000i\000n\000i\000c\000i\000\363\000n\000 \000d\000e\000 \000z\000o\000n\000a\000 \000\(\000/\000v\000a\000r\000/\000n\000a\000m\000e\000d\000/\000e\000x\000a\000m\000p\000l\000e\000.\000c\000o\000m\000.\000z\000o\000n\000e\000\))
+>>
+endobj
+122 0 obj
+<<
+/Dest [ 86 0 R /XYZ 62.69291 150.6236 0 ] /Next 123 0 R /Parent 113 0 R /Prev 121 0 R /Title (\376\377\0003\000.\0006\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000 \000d\000e\000f\000i\000n\000i\000c\000i\000\363\000n\000 \000d\000e\000 \000z\000o\000n\000a\000 \000r\000e\000v\000e\000r\000s\000a\000 \000\(\000/\000v\000a\000r\000/\000n\000a\000m\000e\000d\000/\000r\000e\000v\000e\000r\000s\000o\000.\000e\000x\000a\000m\000p\000l\000e\000.\000c\000o\000m\000.\000z\000o\000n\000e\000\))
+>>
+endobj
+123 0 obj
+<<
+/Dest [ 87 0 R /XYZ 62.69291 423.8236 0 ] /Next 124 0 R /Parent 113 0 R /Prev 122 0 R /Title (\376\377\0003\000.\0007\000\240\000\240\000\240\000E\000n\000 \000r\000e\000s\000u\000m\000e\000n\000:)
+>>
+endobj
+124 0 obj
+<<
+/Dest [ 87 0 R /XYZ 62.69291 228.6236 0 ] /Parent 113 0 R /Prev 123 0 R /Title (\376\377\0003\000.\0008\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000l\000 \000a\000r\000c\000h\000i\000v\000o\000 \000/\000e\000t\000c\000/\000n\000a\000m\000e\000d\000.\000c\000o\000n\000f)
+>>
+endobj
+125 0 obj
+<<
+/Dest [ 91 0 R /XYZ 62.69291 367.8236 0 ] /Parent 94 0 R /Prev 113 0 R /Title (\376\377\0004\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000i\000a\000s)
+>>
+endobj
+126 0 obj
+<<
+/Count 16 /Kids [ 65 0 R 70 0 R 72 0 R 73 0 R 75 0 R 76 0 R 77 0 R 78 0 R 79 0 R 81 0 R 
+  83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 91 0 R ] /Type /Pages
+>>
+endobj
+127 0 obj
+<<
+/Length 9028
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 732.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (1   Funcionamiento de un DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Autores:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Emiliano L\363pez \() Tj 0 0 .501961 rg (emiliano.lopez@gmail.com) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Maximiliano Boscovich \() Tj 0 0 .501961 rg (maximiliano@boscovich.com.ar) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 672.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 40.80937 0 Td (Fecha:) Tj T* -40.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (29/07/2018 19:17) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 639.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Tabla de contenidos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 519 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Funcionamiento de un DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 519 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 501 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.1   El protocolo DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 501 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 483 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.2   \277Qu\351 es un NIC \(Network Information Center\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 483 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 465 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.3   Qu\351 es un FQDN \(Fully Qualified Domain Name\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 465 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 447 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4   Componentes de DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 447 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 429 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.1   Clientes DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 429 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 411 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.2   Servidores DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 411 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 393 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.3   \277Cu\341ntos servidores DNS debe haber para resolver un dominio?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 393 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 375 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.4   Tipos de consultas hacia un servidor DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 375 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 357 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.5   Zonas de Autoridad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 357 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 339 cm
+q
+BT 1 0 0 1 60 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.5.1   Tipos de registros en la zonas de autoridad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 339 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 321 cm
+q
+BT 1 0 0 1 60 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.5.2   Tipos de zonas de autoridad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 321 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 303 cm
+q
+BT 1 0 0 1 80 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.5.2.1   Zonas de Reenv\355o) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 303 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 285 cm
+q
+BT 1 0 0 1 80 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1.4.5.2.2   Zonas de Resoluci\363n Inversa) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 285 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 267 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   Herramientas de b\372squeda y consulta) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 267 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 249 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.1   Uso de host) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 249 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 231 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.2   Uso de dig) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 231 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 213 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.3   Uso de whois) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 213 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 195 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   El servidor de DNS Bind) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 195 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 177 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.1   Directorios de configuraci\363n de Bind) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 177 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 159 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2   ACLs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 159 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 141 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.3   Opciones \(options\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 141 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 123 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.3.1   Ejemplo de una archivo de configuraci\363n \(/etc/named.conf\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 123 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (12) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 105 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4   La sentencia Zone \(zonas\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 105 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (12) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 40 14 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.1   Ejemplo de archivo de configuraci\363n de zona en un servidor primario) Tj T* (\(/etc/named/example.com\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 87 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.2   Ejemplo de archivo de configuraci\363n de zona en un servidor secundario) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.5   Ejemplo de definici\363n de zona \(/var/named/example.com.zone\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (14) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.6   Ejemplo de definici\363n de zona reversa \(/var/named/reverso.example.com.zone\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (14) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.7   En resumen:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (15) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (1 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+128 0 obj
+<<
+/Length 910
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.8   Ejemplo del archivo /etc/named.conf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (15) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Referencias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (16) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (2 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+129 0 obj
+<<
+/Length 6009
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (1.1   El protocolo DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .086235 Tw (DNS \(acr\363nimo de Domain Name System\) es una base de datos distribuida y jer\341rquica, que almacena la) Tj T* 0 Tw .534269 Tw (informaci\363n necesaria para los nombres de dominio. Sus usos principales son la asignaci\363n de nombres) Tj T* 0 Tw 1.44784 Tw (de dominio a direcciones IP y la localizaci\363n de los servidores de correo electr\363nico correspondientes) Tj T* 0 Tw 1.06332 Tw (para cada dominio. El DNS naci\363 de la necesidad de facilitar a los seres humanos el acceso hacia los) Tj T* 0 Tw .201984 Tw (servidores disponibles a trav\351s de Internet permitiendo hacerlo por un nombre, algo m\341s f\341cil de recordar) Tj T* 0 Tw (que una direcci\363n IP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.127045 Tw (Los Servidores DNS utilizan TCP y UDP, en el puerto 53 para responder las consultas. Casi todas las) Tj T* 0 Tw 1.237984 Tw (consultas consisten de una sola solicitud UDP desde un Cliente DNS, seguida por una sola respuesta) Tj T* 0 Tw .503516 Tw (UDP del servidor. Se realiza una conexi\363n TCP cuando el tama\361o de los datos de la respuesta exceden) Tj T* 0 Tw (los 512 bytes, tal como ocurre con tareas como transferencia de zonas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (1.2   \277Qu\351 es un NIC \(Network Information Center\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .907318 Tw (NIC \(acr\363nimo de Network Information Center o Centro de Informaci\363n sobre la Red\) es una instituci\363n) Tj T* 0 Tw .673735 Tw (encargada de asignar los nombres de dominio en Internet ya sean nombres de dominio gen\351ricos o por) Tj T* 0 Tw 1.681984 Tw (pa\355ses, permitiendo personas o empresas, montar sitios de Internet a trav\351s de un ISP, mediante un) Tj T* 0 Tw .907765 Tw (DNS. T\351cnicamente existe un NIC por cada pa\355s en el mundo y cada uno de \351stos es responsable por) Tj T* 0 Tw 1.831984 Tw (todos los dominios con la terminaci\363n correspondiente a su pa\355s. Por ejemplo: NIC.AR es la entidad) Tj T* 0 Tw .294983 Tw (encargada de gestionar todos los dominios con terminaci\363n .ar, la cual es la terminaci\363n correspondiente) Tj T* 0 Tw (asignada a los dominios de Argentina.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (La informaci\363n publicada por los NIC es consultada con la herramienta whois.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (1.3   Qu\351 es un FQDN \(Fully Qualified Domain Name\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.014269 Tw (FQDN \(acr\363nimo de Fully Qualified Domain Name o Nombre de Dominio Plenamente Calificado\) es un) Tj T* 0 Tw .15436 Tw (Nombre de Dominio ambiguo que especifica la posici\363n absoluta del nodo en el \341rbol jer\341rquico del DNS.) Tj T* 0 Tw (Se distingue de un nombre regular porque lleva un punto al final.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.459318 Tw (Como ejemplo: suponiendo que se tiene un dispositivo cuyo nombre de anfitri\363n es \253maquina1\273 y un) Tj T* 0 Tw 2.336647 Tw (dominio llamado \253dominio.com\273, el FQDN ser\355a \253maquina1.dominio.com.\273, as\355 es que se define de) Tj T* 0 Tw 3.30816 Tw (forma \372nica al dispositivo mientras que pudieran existir muchos anfitriones llamados \253maquina1\273,) Tj T* 0 Tw 1.17498 Tw (solamente puede haber uno llamado \253maquina1.dominio.com.\273. La ausencia del punto al final definir\355a) Tj T* 0 Tw .612126 Tw (que se pudiera tratar solamente de un prefijo, es decir \253maquina1.dominio.com\273 pudiera ser un dominio) Tj T* 0 Tw (de otro m\341s largo como \253maquina1.dominio.com.ar\273.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .969431 Tw (La longitud m\341xima de un FQDN es de 255 bytes, con una restricci\363n adicional de 63 bytes para cada) Tj T* 0 Tw .501235 Tw (etiqueta dentro del nombre del dominio. Solamente se permiten los caracteres A-Z de ASCII, d\355gitos y el) Tj T* 0 Tw (car\341cter \253-\273 \(gui\363n medio\). Sin distinci\363n de may\372sculas y min\372sculas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .015318 Tw (Desde 2004, a solicitud de varios pa\355ses de Europa, existe el est\341ndar IDN \(acr\363nimo de Internationalized) Tj T* 0 Tw .808314 Tw (Domain Name\) que permite caracteres no-ASCII, codificando caracteres Unicode dentro de cadenas de) Tj T* 0 Tw .606235 Tw (bytes dentro del conjunto normal de caracteres de FQDN. Como resultado, los limites de longitud de los) Tj T* 0 Tw (nombres de dominio IDN dependen directamente del contenido mismo del nombre.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para resumir: un FQDN es un nombre de anfitri\363n \372nico con un punto al final.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (1.4   Componentes de DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.351984 Tw (El protocolo DNS opera a trav\351s de tres componentes: Clientes DNS, Servidores DNS y Zonas de) Tj T* 0 Tw (Autoridad.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (1.4.1   Clientes DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (3 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+130 0 obj
+<<
+/Length 6969
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 705.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .050651 Tw (Son todos aquellos programas que ejecuta un usuario y que generan peticiones de consulta para resolver) Tj T* 0 Tw 1.922126 Tw (nombres y direcciones IP. B\341sicamente preguntan por la direcci\363n IP que corresponde a un nombre) Tj T* 0 Tw .23152 Tw (determinado. Pr\341cticamente todas las aplicaciones que requieren definir un nombre de anfitri\363n entre sus) Tj T* 0 Tw (argumentos se consideran clientes DNS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .70936 Tw (Por ejemplo: un cliente SSH \227a\372n siendo cliente de otro protocolo\227 realiza una consulta de DNS para) Tj T* 0 Tw (determinar la direcci\363n IP de un servidor al cual se va a conectar.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (1.4.2   Servidores DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 618.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .758651 Tw (Son servicios que contestan las consultas realizadas por los Clientes DNS. Hay dos tipos de servidores) Tj T* 0 Tw (de nombres:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.269213 Tw (Servidor Maestro: Tambi\351n denominado Primario. Obtiene los datos del dominio a partir de un) Tj T* 0 Tw (archivo alojado en el mismo servidor.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 582.0236 cm
+Q
+q
+1 0 0 1 62.69291 558.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .173828 Tw (Servidor Esclavo: Tambi\351n denominado Secundario. Al iniciar obtiene los datos del dominio a trav\351s) Tj T* 0 Tw (de un Servidor Maestro \(o primario\), realizando un proceso denominado transferencia de zona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 558.0236 cm
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (1.4.3   \277Cu\341ntos servidores DNS debe haber para resolver un dominio?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .987485 Tw (Un gran n\372mero de problemas de operaci\363n de servidores DNS se atribuyen a las pobres opciones de) Tj T* 0 Tw .636457 Tw (servidores secundarios para las zona de DNS. De acuerdo al RFC 2182, el DNS requiere que al menos) Tj T* 0 Tw (tres servidores existan para todos los dominios delegados \(o zonas\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.126457 Tw (Una de las principales razones para tener al menos tres servidores para cada zona, es permitir que la) Tj T* 0 Tw 1.093735 Tw (informaci\363n de la zona misma est\351 disponible siempre y de forma confiable, hacia los Clientes DNS, a) Tj T* 0 Tw 3.487485 Tw (trav\351s de Internet cuando un servidor DNS de dicha zona falle, est\351 fuera de servicio y/o est\351) Tj T* 0 Tw (inalcanzable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.684651 Tw (Contar con m\372ltiples servidores tambi\351n facilita la propagaci\363n de la zona y mejoran la eficiencia del) Tj T* 0 Tw .313984 Tw (sistema en general al brindar opciones a los Clientes DNS si acaso encontraran dificultades para realizar) Tj T* 0 Tw 1.016651 Tw (una consulta en un Servidor DNS. En otras palabras: tener m\372ltiples servidores para una zona permite) Tj T* 0 Tw (contar con redundancia y respaldo, del servicio.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .573735 Tw (Con m\372ltiples servidores, por lo general uno act\372a como Servidor Maestro o Primario y los dem\341s como) Tj T* 0 Tw .916136 Tw (Servidores Esclavos o Secundarios. Correctamente configurados y una vez creados los datos para una) Tj T* 0 Tw 2.794983 Tw (zona, es innecesario copiarlos a cada Servidor Esclavo o Secundario, pues \351ste se encargar\341 de) Tj T* 0 Tw (transferir los datos de manera autom\341tica cada vez que sea necesario.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 300.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (1.4.4   Tipos de consultas hacia un servidor DNS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 282.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Los Servidores DNS responden dos tipos de consultas:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 276.0236 cm
+Q
+q
+1 0 0 1 62.69291 276.0236 cm
+Q
+q
+1 0 0 1 62.69291 228.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .077318 Tw (Consultas Iterativas \(no recursivas\): El cliente hace una consulta al Servidor DNS y \351ste le responde) Tj T* 0 Tw 1.049431 Tw (con la mejor respuesta que pueda darse basada sobre su cach\351 o en las zonas locales. Si no es) Tj T* 0 Tw .080697 Tw (posible dar una respuesta, la consulta se reenv\355a hacia otro Servidor DNS repiti\351ndose este proceso) Tj T* 0 Tw (hasta encontrar al Servidor DNS que tiene la Zona de Autoridad capaz de resolver la consulta.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 222.0236 cm
+Q
+q
+1 0 0 1 62.69291 174.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 3.29248 Tw (Consultas Recursivas: El Servidor DNS asume toda la carga de proporcionar una respuesta) Tj T* 0 Tw 2.740751 Tw (completa para la consulta realizada por el Cliente DNS. El Servidor DNS desarrolla entonces) Tj T* 0 Tw 1.543828 Tw (Consultas Iterativas separadas hacia otros Servidores DNS \(en lugar de hacerlo el Cliente DNS\)) Tj T* 0 Tw (para obtener la respuesta solicitada.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 174.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (1.4.5   Zonas de Autoridad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.833318 Tw (\311stas permiten al Servidor Maestro o Primario cargar la informaci\363n de una zona. Cada Zona de) Tj T* 0 Tw .746136 Tw (Autoridad abarca al menos un dominio y \227posiblemente\227 sus sub-dominios, cuando estos \372ltimos son) Tj T* 0 Tw (imposibles de delegar a otras zonas de autoridad.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (4 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+131 0 obj
+<<
+/Length 7528
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .96832 Tw (Las zonas de autoridad se crean en archivos de texto simple o registros de una base de datos. Deben) Tj T* 0 Tw 2.279984 Tw (incluir el tiempo total de vida \(TTL\) predeterminado, la informaci\363n del servidor DNS principal y los) Tj T* 0 Tw (registros que componen la zona. El contenido m\355nimo de \351stos archivos debe ser el siguiente:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 587.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 342 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 72 60 12 re f*
+.960784 .960784 .862745 rg
+n 90 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 54 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 54 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 12 6 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg ($TTL) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3600) Tj 0 0 0 rg  T* (@    IN    SOA   dns1.dominio.com.    usuario.gmail.com. ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg  T* (     ) Tj .4 .4 .4 rg (2016091901) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( n\372mero de serie. Se recomienda sea en formato de fecha.) Tj T* (     ) Tj .4 .4 .4 rg (7200) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( tiempo de refresco del registro SOA.) Tj T* (     ) Tj .4 .4 .4 rg (900) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( tiempo a esperar entre un intento de consulta fallido y otro.) Tj T* (     ) Tj .4 .4 .4 rg (1209600) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( caducidad del registro SOA en otros servidores DNS.) Tj T* (     ) Tj .4 .4 .4 rg (3600) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( tiempo total de vida del registro SOA en otros servidores DNS.) Tj T* (     ) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (@    IN    NS    NS    dns.dominio.com.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 555.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .877209 Tw (A continuaci\363n se explican los registros usados arriba y el resto de los tipos de registro que se pueden) Tj T* 0 Tw (utilizar.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (1.4.5.1   Tipos de registros en la zonas de autoridad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.026457 Tw (La informaci\363n de cada Zona de Autoridad es almacenada de forma local en un archivo en el Servidor) Tj T* 0 Tw (DNS. Este archivo puede incluir varios tipos de registros:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.8236 cm
+Q
+q
+1 0 0 1 62.69291 153.8236 cm
+1 1 1 rg
+n 0 342 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 324 469.8898 -30 re f*
+1 1 1 rg
+n 0 294 469.8898 -30 re f*
+.878431 .878431 .878431 rg
+n 0 264 469.8898 -42 re f*
+1 1 1 rg
+n 0 222 469.8898 -30 re f*
+.878431 .878431 .878431 rg
+n 0 192 469.8898 -42 re f*
+1 1 1 rg
+n 0 150 469.8898 -30 re f*
+.878431 .878431 .878431 rg
+n 0 120 469.8898 -54 re f*
+1 1 1 rg
+n 0 66 469.8898 -66 re f*
+.960784 .960784 .862745 rg
+n 0 342 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 327 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 84.1979 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.418952 0 Td (Tipo de Registro) Tj T* -5.418952 0 Td ET
+Q
+Q
+q
+1 0 0 1 102.1979 327 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 361.6919 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 154.7309 0 Td (Descripci\363n) Tj T* -154.7309 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 309 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A \(Address\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 297 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Registro de direcci\363n que resuelve un nombre de un anfitri\363n hacia una direcci\363n) Tj T* (IPv4 de 32 bits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (AAAA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 267 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Registro de direcci\363n que resuelve un nombre de un anfitri\363n hacia una direcci\363n) Tj T* (IPv6 de 128 bits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (CNAME) Tj T* (\(Canonical Name\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 225 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Registro de nombre can\363nico que hace que un nombre sea alias de otro. Los) Tj T* (dominios con alias obtienen los sub-dominios y registros DNS del dominio) Tj T* (original.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 195 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (MX \(Mail) Tj T* (Exchanger\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 195 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Registro de servidor de correo que sirve para definir una lista de servidores de) Tj T* (correo para un dominio, as\355 como la prioridad entre \351stos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (PTR \(Pointer\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 153 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Registro de apuntador que resuelve direcciones IPv4 hacia los nombres) Tj T* (anfitriones. Es decir, hace lo contrario al registro A. Se utiliza en zonas de) Tj T* (Resoluci\363n Inversa.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (NS \(Name Server\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Registro de servidor de nombres, que sirve para definir una lista de servidores de) Tj T* (nombres con autoridad para un dominio.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (SOA \(Start of) Tj T* (Authority\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL (Registro de inicio de autoridad, encargado de especificar el Servidor DNS) Tj T* (Maestro \(o Primario\) que proporcionar\341 la informaci\363n con autoridad acerca de) Tj T* (un dominio de Internet, direcci\363n de correo electr\363nico del administrador, n\372mero) Tj T* (de serie del dominio y par\341metros de tiempo para la zona.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (SRV \(Service\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Registros de servicios, encargados de especificar informaci\363n acerca de) Tj T* (servicios disponibles a a trav\351s del dominio. Protocolos como SIP \(Session) Tj T* (Initiation Protocol\) y XMPP \(Extensible Messaging and Presence Protocol\)) Tj T* (suelen requerir registros SRV en la zona para proporcionar informaci\363n a los) Tj T* (clientes.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 0 m 469.8898 0 l S
+n 0 324 m 469.8898 324 l S
+n 0 294 m 469.8898 294 l S
+n 0 264 m 469.8898 264 l S
+n 0 222 m 469.8898 222 l S
+n 0 192 m 469.8898 192 l S
+n 0 150 m 469.8898 150 l S
+n 0 120 m 469.8898 120 l S
+n 0 66 m 469.8898 66 l S
+n 96.1979 0 m 96.1979 342 l S
+n 0 342 m 469.8898 342 l S
+n 0 0 m 0 342 l S
+n 469.8898 0 m 469.8898 342 l S
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (5 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+132 0 obj
+<<
+/Length 6416
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 687.0236 cm
+1 1 1 rg
+n 0 66 469.8898 -66 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TXT \(Text\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 102.1979 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL (Registros de texto, encargados de permitir al administrador insertar texto) Tj T* (arbitrariamente en un registro DNS. Este tipo de registro es muy utilizado por los) Tj T* (servidores de listas negras DNSBL \(DNS-based Blackhole List\) para la filtraci\363n) Tj T* (de Spam. Otro ejemplo de uso ser\355a el caso de las VPN, donde suele requerirse) Tj T* (un registro TXT, para definir una firma digital que ser\341 utilizada por los clientes.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 66 m 469.8898 66 l S
+n 96.1979 0 m 96.1979 66 l S
+n 0 0 m 0 66 l S
+n 469.8898 0 m 469.8898 66 l S
+n 0 0 m 469.8898 0 l S
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (1.4.5.2   Tipos de zonas de autoridad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Las zonas que se pueden resolver son:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (1.4.5.2.1   Zonas de Reenv\355o) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.47748 Tw (Devuelven direcciones IP para las b\372squedas hechas para nombres FQDN \(Fully Qualified Domain) Tj T* 0 Tw (Name\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .077045 Tw (En el caso de dominios p\372blicos, la responsabilidad de que exista una Zona de Autoridad para cada Zona) Tj T* 0 Tw 3.153555 Tw (de Reenv\355o, corresponde a la autoridad misma del dominio, es decir quien est\351 registrado como) Tj T* 0 Tw .643984 Tw (autoridad del dominio en la base de datos WHOIS donde est\351 registrado el dominio. Quienes adquieren) Tj T* 0 Tw .71061 Tw (dominios a trav\351s de un NIC \(por ejemplo: www.nic.ar\), son quienes deben hacerse cargo de las Zonas) Tj T* 0 Tw (de Reenv\355o ya sea a trav\351s de su propio Servidor DNS o bien a trav\351s de los Servidores DNS de su ISP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .18683 Tw (Salvo que se trate de un dominio para uso en una red local, todo dominio debe ser primero tramitado con) Tj T* 0 Tw (un NIC, como requisito para tener derecho legal a utilizarlo y poder propagarlo a trav\351s de Internet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (1.4.5.2.2   Zonas de Resoluci\363n Inversa) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .76498 Tw (Devuelven nombres FQDN \(Fully Qualified Domain Name\) para las b\372squedas hechas para direcciones) Tj T* 0 Tw (IP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .165318 Tw (La resoluci\363n inversa o rDNS se encuentra completamente separada de la resoluci\363n DNS regular, por lo) Tj T* 0 Tw .41152 Tw (tanto, si el dominio "www.example.com" apunta hacia la IP 11.22.33.44, no necesariamente significa que) Tj T* 0 Tw (la IP 11.22.33.44 apunte a www.example.com.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 2.203984 Tw (Para almacenar los registros de resoluci\363n inversa, se utiliza un tipo de registro DNS espec\355fico: el) Tj T* 0 Tw .571654 Tw (registro PTR. El registro PTR es el registro de recurso \(RR\) de un dominio que define las direcciones IP) Tj T* 0 Tw .134987 Tw (de todos los sistemas en una notaci\363n invertida. Esta inversi\363n permite que se pueda buscar una IP en el) Tj T* 0 Tw .343988 Tw (DNS, ya que a la notaci\363n de la IP invertida se le a\361ade el dominio in-addr.arpa, convirtiendo la IP en un) Tj T* 0 Tw .165318 Tw (nombre de dominio. Un ejemplo, para convertir la direcci\363n IP 11.22.33.44 en un registro PTR, invertimos) Tj T* 0 Tw (la IP y a\361adimos el dominio in-addr.arpa siendo el registro resultante: 44.33.22.11.in-addr.arpa.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .013876 Tw (Aunque la operaci\363n m\341s habitual con el Sistema de Nombres de Dominio o DNS es obtener o resolver la) Tj T* 0 Tw .643984 Tw (direcci\363n IP partiendo de un nombre; hay veces que queremos hacer la operaci\363n opuesta, encontrar el) Tj T* 0 Tw 1.503145 Tw (nombre de un elemento conectado a Internet o en la red local \(como es nuestro caso\) a partir de su) Tj T* 0 Tw (direcci\363n IP. A este proceso se le conoce como resoluci\363n inversa o rDNS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .778735 Tw (La configuraci\363n de la resoluci\363n reverse DNS es importante para una aplicaci\363n en concreto, y es que) Tj T* 0 Tw 2.98498 Tw (muchos servidores de correo electr\363nico en Internet est\341n configurados para rechazar los correos) Tj T* 0 Tw (electr\363nicos entrantes desde cualquier direcci\363n IP que no tenga reverse DNS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .978935 Tw (Por ello, si utiliza su propio servidor de correo debe tener la DNS inversa para la direcci\363n IP desde la) Tj T* 0 Tw (que se env\355a el correo saliente.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .734104 Tw (No importa a qu\351 direcci\363n IP apunte el registro DNS inverso siempre y cuando el dominio est\351 alojado) Tj T* 0 Tw 2.956412 Tw (en ese servidor. Si aloja varios dominios en un servidor de correo electr\363nico, simplemente debe) Tj T* 0 Tw (configurar la reverse DNS para cualquier nombre de dominio que considere prioritario.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 120.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (2   Herramientas de b\372squeda y consulta) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 90.02362 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (2.1   Uso de host) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (6 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+133 0 obj
+<<
+/Length 7297
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .869318 Tw (Host es una herramienta simple para hacer consultas en Servidores DNS. Es utilizado para obtener las) Tj T* 0 Tw (direcciones IP de los nombres de anfitri\363n y viceversa.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .535318 Tw (De modo predeterminado, realiza las consultas en los Servidores DNS que est\351n definidos en el archivo) Tj T* 0 Tw (/etc/resolv.conf del anfitri\363n local, pudiendo definirse de manera opcional cualquier otro Servidor DNS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 629.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 12 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (vagrant@localhost ~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ host fsf.org) Tj T* (fsf.org has address ) Tj .4 .4 .4 rg (208) Tj 0 0 0 rg (.118.235.174) Tj T* (fsf.org has IPv6 address ) Tj .4 .4 .4 rg (2001) Tj 0 0 0 rg (:4830:134:4::a) Tj T* (fsf.org mail is handled by ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg ( mail.fsf.org.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 597.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.239983 Tw (Lo anterior realiza una b\372squeda en los Servidores DNS definidos en el archivo /etc/resolv.conf del) Tj T* 0 Tw (sistema, devolviendo como resultado una direcci\363n IP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 468.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 36 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 12 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F4 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (vagrant@localhost ~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ host fsf.org ) Tj .4 .4 .4 rg (8) Tj 0 0 0 rg (.8.8.8) Tj T* (Using domain server:) Tj T* (Name: ) Tj .4 .4 .4 rg (8) Tj 0 0 0 rg (.8.8.8) Tj T* (Address: ) Tj .4 .4 .4 rg (8) Tj 0 0 0 rg (.8.8.8#53) Tj T* (Aliases:) Tj T*  T* (fsf.org has address ) Tj .4 .4 .4 rg (208) Tj 0 0 0 rg (.118.235.174) Tj T* (fsf.org has IPv6 address ) Tj .4 .4 .4 rg (2001) Tj 0 0 0 rg (:4830:134:4::a) Tj T* (fsf.org mail is handled by ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg ( mail.fsf.org.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 436.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.607984 Tw (Lo anterior realiza una b\372squeda en los Servidor DNS en la direcci\363n IP 8.8.8.8, devolviendo una) Tj T* 0 Tw (direcci\363n IP como resultado.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 406.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (2.2   Uso de dig) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 352.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .876905 Tw (Dig \(domain information groper\) es una herramienta flexible para realizar consultas en Servidores DNS.) Tj T* 0 Tw 3.65229 Tw (Realiza b\372squedas y muestra las respuestas que son regresadas por los servidores que fueron) Tj T* 0 Tw 1.30061 Tw (consultados. Debido a su flexibilidad y claridad en la salida, es que la mayor\355a de los administradores) Tj T* 0 Tw (utilizan dig para diagnosticar problemas de DNS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 310.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.696136 Tw (De modo predeterminado, realiza las b\372squedas en los Servidores DNS definidos en el archivo) Tj T* 0 Tw 1.085814 Tw (/etc/resolv.conf, pudiendo definirse de manera opcional cualquier otro Servidor DNS. La sintaxis b\341sica) Tj T* 0 Tw (ser\355a:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 277.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (dig @servidor dominio.tld TIPO) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 233.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.654597 Tw (Donde servidor corresponde al nombre o direcci\363n IP del Servidor DNS a consultar, dominio.tld) Tj T* 0 Tw 1.64686 Tw (corresponde al nombre del registro del recurso que se est\341 buscando y TIPO corresponde al tipo de) Tj T* 0 Tw (consulta requerido \(ANY, A, MX, SOA, NS, etc.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 215.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ejemplo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 98.22362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 18 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 312 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 0 6 12 re f*
+BT 1 0 0 1 0 86 Tm 12 TL /F4 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (vagrant@localhost ~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ dig @8.8.8.8 fsf.org MX) Tj T*  T* 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj (<) Tj (<) Tj (>) Tj (>) Tj ( DiG ) Tj .4 .4 .4 rg (9) Tj 0 0 0 rg (.9.4-RedHat-9.9.4-51.el7_4.2 ) Tj (<) Tj (<) Tj (>) Tj (>) Tj ( @8.8.8.8 fsf.org MX) Tj T* 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (\() Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( server found) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( global options: +cmd) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( Got answer:) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( -) Tj (>) Tj (>) Tj (HEADER) Tj .729412 .129412 .129412 rg (<) Tj (<) Tj (- opco) Tj 0 0 0 rg (de: QUERY, status: NOERROR, id: ) Tj .4 .4 .4 rg (53783) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( flags: qr rd ra) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( QUERY: ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (, ANSWER: ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (, AUTHORITY: ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (, ADDITIONAL: ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (7 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+134 0 obj
+<<
+/Length 7944
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 547.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 204 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 144 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 288 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 120 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 114 36 12 12 re f*
+BT 1 0 0 1 0 182 Tm 12 TL /F4 10 Tf 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( OPT PSEUDOSECTION:) Tj T* 0 0 0 rg (;) Tj 0 0 0 rg ( EDNS: version: ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (, flags:) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( udp: ) Tj .4 .4 .4 rg (512) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( QUESTION SECTION:) Tj T* 0 0 0 rg (;) Tj 0 0 0 rg (fsf.org.                       IN      MX) Tj T*  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( ANSWER SECTION:) Tj T* (fsf.org.                ) Tj .4 .4 .4 rg (299) Tj 0 0 0 rg (     IN      MX      ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg ( mail.fsf.org.) Tj T*  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( Query time: ) Tj .4 .4 .4 rg (249) Tj 0 0 0 rg ( msec) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( SERVER: ) Tj .4 .4 .4 rg (8) Tj 0 0 0 rg (.8.8.8#53) Tj .4 .4 .4 rg (\() Tj .4 .4 .4 rg (8) Tj 0 0 0 rg (.8.8.8) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( WHEN: Tue May ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg (:34:26 -03 ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( MSG SIZE  rcvd: ) Tj .4 .4 .4 rg (57) Tj 0 0 0 rg  T*  T*  T* (dig @8.8.8.8 fsf.org MX) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 515.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .136654 Tw (Lo anterior realiza una b\372squeda en el Servidor DNS en la direcci\363n IP 8.8.8.8 para los registros MX para) Tj T* 0 Tw (el dominio fsf.org.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 242.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 264 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 180 36 12 re f*
+.960784 .960784 .862745 rg
+n 312 180 30 12 re f*
+.960784 .960784 .862745 rg
+n 0 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 132 30 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 144 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 144 60 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 132 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 12 12 re f*
+BT 1 0 0 1 0 242 Tm 12 TL /F4 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (vagrant@localhost ~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ dig fsf.org NS) Tj T*  T* 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj (<) Tj (<) Tj (>) Tj (>) Tj ( DiG ) Tj .4 .4 .4 rg (9) Tj 0 0 0 rg (.9.4-RedHat-9.9.4-51.el7_4.2 ) Tj (<) Tj (<) Tj (>) Tj (>) Tj ( fsf.org NS) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( global options: +cmd) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( Got answer:) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( -) Tj (>) Tj (>) Tj (HEADER) Tj .729412 .129412 .129412 rg (<) Tj (<) Tj (- opco) Tj 0 0 0 rg (de: QUERY, status: NOERROR, id: ) Tj .4 .4 .4 rg (20939) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( flags: qr rd ra) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( QUERY: ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg (, ANSWER: ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg (, AUTHORITY: ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (, ADDITIONAL: ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg  T*  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( OPT PSEUDOSECTION:) Tj T* 0 0 0 rg (;) Tj 0 0 0 rg ( EDNS: version: ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (, flags:) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( udp: ) Tj .4 .4 .4 rg (65494) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( QUESTION SECTION:) Tj T* 0 0 0 rg (;) Tj 0 0 0 rg (fsf.org.                       IN      NS) Tj T*  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( ANSWER SECTION:) Tj T* (fsf.org.                ) Tj .4 .4 .4 rg (300) Tj 0 0 0 rg (     IN      NS      ns1.gnu.org.) Tj T* (fsf.org.                ) Tj .4 .4 .4 rg (300) Tj 0 0 0 rg (     IN      NS      ns3.gnu.org.) Tj T*  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( Query time: ) Tj .4 .4 .4 rg (248) Tj 0 0 0 rg ( msec) Tj T* 0 0 0 rg (;;) Tj 0 0 0 rg ( SERVER: ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.2.3#53) Tj .4 .4 .4 rg (\() Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.2.3) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( WHEN: Tue May ) Tj .4 .4 .4 rg (08) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (17) Tj 0 0 0 rg (:36:36 -03 ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg  T* 0 0 0 rg (;;) Tj 0 0 0 rg ( MSG SIZE  rcvd: ) Tj .4 .4 .4 rg (76) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 210.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.239983 Tw (Lo anterior realiza una b\372squeda en los Servidores DNS definidos en el archivo /etc/resolv.conf del) Tj T* 0 Tw (sistema para los registros NS para el dominio fsf.org.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 180.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (2.3   Uso de whois) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 162.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Es una herramienta de consulta a trav\351s de servidores WHOIS. La sintaxis b\341sica es:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (whois dominio.tld) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 109.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ejemplo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (8 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+135 0 obj
+<<
+/Length 3658
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 91.82362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 528 660 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 636 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 636 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 576 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 564 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 552 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 516 12 12 re f*
+.960784 .960784 .862745 rg
+n 114 420 12 12 re f*
+.960784 .960784 .862745 rg
+n 144 384 30 12 re f*
+.960784 .960784 .862745 rg
+n 84 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 114 228 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 72 30 12 re f*
+BT 1 0 0 1 0 638 Tm 12 TL /F4 10 Tf .4 .4 .4 rg ([) Tj 0 0 0 rg (vagrant@localhost ~) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ($ whois fsf.org) Tj T* (Domain Name: FSF.ORG) Tj T* (Registry Domain ID: D789250-LROR) Tj T* (Registrar WHOIS Server: whois.gandi.net) Tj T* (Registrar URL: http://www.gandi.net) Tj T* (Updated Date: ) Tj .4 .4 .4 rg (2017) Tj 0 0 0 rg (-12-29T21:14:20Z) Tj T* (Creation Date: ) Tj .4 .4 .4 rg (1991) Tj 0 0 0 rg (-02-01T05:00:00Z) Tj T* (Registry Expiry Date: ) Tj .4 .4 .4 rg (2020) Tj 0 0 0 rg (-02-02T05:00:00Z) Tj T* (Registrar Registration Expiration Date:) Tj T* (Registrar: Gandi SAS) Tj T* (Registrar IANA ID: ) Tj .4 .4 .4 rg (81) Tj 0 0 0 rg  T* (Registrar Abuse Contact Email: abuse@support.gandi.net) Tj T* (Registrar Abuse Contact Phone: +33.170377661) Tj T* (Reseller:) Tj T* (Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited) Tj T* (Registry Registrant ID: C5446326-LROR) Tj T* (Registrant Name: GNU/FSF Hostmaster) Tj T* (Registrant Organization: Free Software Foundation) Tj T* (Registrant Street: ) Tj .4 .4 .4 rg (51) Tj 0 0 0 rg ( Franklin Street, Fifth Floor) Tj T* (Registrant City: Boston) Tj T* (Registrant State/Province: MA) Tj T* (Registrant Postal Code: ) Tj .4 .4 .4 rg (02110) Tj 0 0 0 rg (-1301) Tj T* (Registrant Country: US) Tj T* (Registrant Phone: +1.6175425942) Tj T* (Registrant Phone Ext:) Tj T* (Registrant Fax: +1.6175422652) Tj T* (Registrant Fax Ext:) Tj T* (Registrant Email: hostmaster@gnu.org) Tj T* (Registry Admin ID: C12474186-LROR) Tj T* (Admin Name: GNU/FSF Hostmaster) Tj T* (Admin Organization: Free Software Foundation) Tj T* (Admin Street: ) Tj .4 .4 .4 rg (51) Tj 0 0 0 rg ( Franklin Street, Fifth Floor) Tj T* (Admin City: Boston) Tj T* (Admin State/Province: MA) Tj T* (Admin Postal Code: ) Tj .4 .4 .4 rg (02110) Tj 0 0 0 rg (-1301) Tj T* (Admin Country: US) Tj T* (Admin Phone: +1.6175425942) Tj T* (Admin Phone Ext:) Tj T* (Admin Fax: +1.6175422652) Tj T* (Admin Fax Ext:) Tj T* (Admin Email: hostmaster@gnu.org) Tj T* (Registry Tech ID: C6122580-LROR) Tj T* (Tech Name: Service Technique) Tj T* (Tech Organization: GANDI SARL) Tj T* (Tech Street: ) Tj .4 .4 .4 rg (63) Tj 0 0 0 rg ( - ) Tj .4 .4 .4 rg (65) Tj 0 0 0 rg ( Boulevard Massena) Tj T* (Tech City: Paris) Tj T* (Tech State/Province:) Tj T* (Tech Postal Code: ) Tj .4 .4 .4 rg (75013) Tj 0 0 0 rg  T* (Tech Country: FR) Tj T* (Tech Phone: +33.143737851) Tj T* (Tech Phone Ext:) Tj T* (Tech Fax:) Tj T* (Tech Fax Ext:) Tj T* (Tech Email: support@gandi.net) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 228.4349 0 Td (9 / 16) Tj T* -228.4349 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+136 0 obj
+<<
+/Length 8760
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 631.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 6906 120 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 210 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 336 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 1572 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 2322 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 2724 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 3204 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 3216 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 4368 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 4518 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 4548 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 4560 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 4572 0 36 12 re f*
+BT 1 0 0 1 0 98 Tm 12 TL /F4 10 Tf 0 0 0 rg (Name Server: NS1.GNU.ORG) Tj T* (Name Server: NS3.GNU.ORG) Tj T* (DNSSEC: unsigned) Tj T* (URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/) Tj T* (>) Tj (>) Tj (>) Tj ( Last update of WHOIS database: ) Tj .4 .4 .4 rg (2018) Tj 0 0 0 rg (-05-08T20:37:21Z ) Tj .4 .4 .4 rg (<) Tj (<) Tj (<) Tj 0 0 0 rg  T*  T* (For more information on Whois status codes, please visit https://icann.org/epp) Tj T*  T* (Access to Public Interest Registry WHOIS information is provided to assist persons in determining thecontents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry ) Tj /F5 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only ) Tj /F5 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( query-based access. You agree that you will use this data only ) Tj /F5 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( lawful purposes and that, under no circumstances will you use this data to: ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (a) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient) Tj 0 0 0 rg (') Tj 0 0 0 rg (s own existing customers) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( or ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (b) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (enable) Tj 0 0 0 rg ( high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. PublicInterest Registry reserves the right to modify these terms at any time. By submitting this query, youagree to abide by this policy.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 611.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Lo anterior regresa la informaci\363n correspondiente al dominio fsf.org.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 578.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   El servidor de DNS Bind) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 548.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.135814 Tw (BIND \(Berkeley Internet Name Domain, anteriormente: Berkeley Internet Name Daemon\) es el servidor) Tj T* 0 Tw (de DNS m\341s com\372nmente usado en Internet. Es patrocinado por la Internet Systems Consortium.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.894147 Tw (Su versi\363n actual, BIND 9, incluye entre otras caracter\355sticas importantes: TSIG, notificaci\363n DNS,) Tj T* 0 Tw (nsupdate, IPv6, rndc flush, vistas y procesamiento en paralelo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 488.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.1   Directorios de configuraci\363n de Bind) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 446.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .95061 Tw (La configuraci\363n de Bind se encuentra en el archivo /etc/named.conf, y tambi\351n se suele guardar en el) Tj T* 0 Tw 3.678314 Tw (directorio /etc/named archivos de configuraci\363n separados que luego son incluidos en el archivo) Tj T* 0 Tw (/etc/named.conf.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 428.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (La sintaxis de dicho archivo es la siguientes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 227.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 192 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 72 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 168 108 12 re f*
+.960784 .960784 .862745 rg
+n 186 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 306 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 108 108 12 re f*
+.960784 .960784 .862745 rg
+n 186 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 306 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 48 108 12 re f*
+.960784 .960784 .862745 rg
+n 186 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 306 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 170 Tm 12 TL /F4 10 Tf 0 0 0 rg (statement-1 ) Tj .4 .4 .4 rg ([) Tj .729412 .129412 .129412 rg ("statement-1-name") Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (statement-1-class) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  option-1) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  option-2) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  option-N) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (statement-2 ) Tj .4 .4 .4 rg ([) Tj .729412 .129412 .129412 rg ("statement-2-name") Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (statement-2-class) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  option-1) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  option-2) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  option-N) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (statement-N ) Tj .4 .4 .4 rg ([) Tj .729412 .129412 .129412 rg ("statement-N-name") Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (statement-N-class) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  option-1) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  option-2) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  option-N) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 197.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.2   ACLs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 155.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.23061 Tw (La sentencia ACL \(Access Control List\) nos permite definir grupos de hosts, a los que luego podemos) Tj T* 0 Tw 2.03061 Tw (permitirle o denegarle el acceso a ciertos tipos de consulta sobre el servidor de nombres, e incluso) Tj T* 0 Tw (asociarlos con diferentes opciones.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 137.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Su sintaxis es la siguientes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 92.42362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 78 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 0 0 rg (acl acl-name ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  match-element) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (10 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+137 0 obj
+<<
+/Length 8114
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 715.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 0 0 rg (  ...) Tj T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 695.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Por ejemplo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 168 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 90 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 120 18 12 re f*
+.960784 .960784 .862745 rg
+n 96 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 120 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 146 Tm 12 TL /F4 10 Tf 0 0 0 rg (acl black-hats ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.2.0/24) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.0/24) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (1234) Tj 0 0 0 rg (:5678::9abc/24) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (acl red-hats ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.1.0/24) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (options ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  blackhole ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( black-hats) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  allow-query ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( red-hats) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  allow-query-cache ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( red-hats) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 488.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.3   Opciones \(options\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .294983 Tw (Las opciones, permiten definir configuraciones globales y por defecto del servidor. Se utilizan para definir) Tj T* 0 Tw (la ubicaci\363n del directorio de trabajo, los tipos de consultas que est\341n permitidas y mucho m\341s.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 440.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Su sintaxis es la siguiente) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 371.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 48 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 0 0 rg (options ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  option) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  ...) Tj T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 351.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Las opciones m\341s comunes son:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.4236 cm
+Q
+q
+1 0 0 1 62.69291 345.4236 cm
+Q
+q
+1 0 0 1 62.69291 321.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .140814 Tw 12 TL /F2 10 Tf 0 0 0 rg (allow-query) Tj /F1 10 Tf (: Especifica que hosts pueden realizar consultas autoritativas. Si no se especifica, todos) Tj T* 0 Tw (los hosts est\341n permitidos por defecto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 315.4236 cm
+Q
+q
+1 0 0 1 62.69291 291.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .419147 Tw 12 TL /F2 10 Tf 0 0 0 rg (allow-query-cache) Tj /F1 10 Tf (: Especifica que host pueden realizar consultas no autoritativas, como lo son las) Tj T* 0 Tw (consultas recursivas. Solo localhost y localnets est\341n permitidas por defecto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 285.4236 cm
+Q
+q
+1 0 0 1 62.69291 249.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .001412 Tw 12 TL /F2 10 Tf 0 0 0 rg (blackhole) Tj /F1 10 Tf (: Especifica que host no tienen permitido realizar consultas de ning\372n tipo al servidor. Esta) Tj T* 0 Tw -0.068765 Tw (opci\363n deber\355a utilizarse cuando un determinado host o red realiza un ataque al servidor. El valor por) Tj T* 0 Tw (defecto es none.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 243.4236 cm
+Q
+q
+1 0 0 1 62.69291 231.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (directory) Tj /F1 10 Tf (: Especifica el directorio de trabajo. El valor por defecto es /var/named/.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 225.4236 cm
+Q
+q
+1 0 0 1 62.69291 141.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 74 Tm .303828 Tw 12 TL /F2 10 Tf 0 0 0 rg (dnssec-enable) Tj /F1 10 Tf (: Especifica si el servidor va a trabajar con las extensiones de seguridad \(DNSSEC\).) Tj T* 0 Tw .81229 Tw (Este tipo de extensiones fueron incorporadas para brindar mayor seguridad, dado que el protocolo) Tj T* 0 Tw .599982 Tw (DNS originalmente no fue dise\361ado pensando en la seguridad. Permiten entre otras cosas, realizar) Tj T* 0 Tw 2.299984 Tw (la autenticaci\363n de las respuestas y a su vez brindar compatibilidad hacia atr\341s con el mismo) Tj T* 0 Tw 62.67744 Tw (protocolo. Para mayor informaci\363n consultar) Tj T* 0 Tw 3.235953 Tw 0 0 .501961 rg (https://es.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) Tj 0 0 0 rg (. El valor por defecto es) Tj T* 0 Tw (yes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 135.4236 cm
+Q
+q
+1 0 0 1 62.69291 111.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .996412 Tw 12 TL /F2 10 Tf 0 0 0 rg (dnssec-validation) Tj /F1 10 Tf (: Especifica si se debe probar si un registro DNS es autentico via DNSSEC. La) Tj T* 0 Tw (opci\363n por defecto es yes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 105.4236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (11 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+138 0 obj
+<<
+/Length 9680
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .31436 Tw 12 TL /F2 10 Tf 0 0 0 rg (forwarders) Tj /F1 10 Tf (: Especifica una lista de IPs de servidores de nombre v\341lidas a las cuales se les pueden) Tj T* 0 Tw (reenviar consultas de resoluci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (forward) Tj /F1 10 Tf (: Especifica el comportamiento de la directiva forwarders. Acepta los siguientes valores:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 51 cm
+Q
+q
+1 0 0 1 23 51 cm
+Q
+q
+1 0 0 1 23 27 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .841318 Tw 12 TL /F2 10 Tf 0 0 0 rg (first) Tj /F1 10 Tf (: El servidor consultara al listado de servidores de nombres antes de tratar de resolver el) Tj T* 0 Tw (mismo dicha consulta.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm -0.052874 Tw 12 TL /F2 10 Tf 0 0 0 rg (only) Tj /F1 10 Tf (: Cuando no se pueda consultar al listado de servidores forwarders, el servidor no intentar\341) Tj T* 0 Tw (resolver por el mismo dicha consulta.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm .002209 Tw 12 TL /F2 10 Tf 0 0 0 rg (listen-on) Tj /F1 10 Tf (: Especifica el puerto y la direcci\363n de red IPv4 en la que escuchar\341 el servidor. En un DNS) Tj T* 0 Tw 2.094597 Tw (que actua solo como gateway, se puede usar esta opci\363n para responder consultas originadas) Tj T* 0 Tw .628651 Tw (desde una \372nica red solamente. Por defecto todas las Interfaces IPv4 son usadas para atender las) Tj T* 0 Tw (con) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (listen-on-v6) Tj /F1 10 Tf (: Similar a la opci\363n anterior, pero para IPv6.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 3.570814 Tw 12 TL /F2 10 Tf 0 0 0 rg (max-cache-size) Tj /F1 10 Tf (: Especifica el m\341ximo de memoria cache que se utilizar\341 para guardar las) Tj T* 0 Tw (respuestas de las consultas realizadas. La opci\363n por defecto es 32M.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 81 cm
+q
+BT 1 0 0 1 0 14 Tm 1.947126 Tw 12 TL /F2 10 Tf 0 0 0 rg (notify) Tj /F1 10 Tf (: Especifica a cuales de sus servidores secundarios se debe notificar cuando una de sus) Tj T* 0 Tw (zonas es actualizada. Las opciones que acepta son las siguientes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 75 cm
+Q
+q
+1 0 0 1 23 75 cm
+Q
+q
+1 0 0 1 23 63 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (yes) Tj /F1 10 Tf (: Se notificar\341 a todos los secundarios.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 57 cm
+Q
+q
+1 0 0 1 23 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (no) Tj /F1 10 Tf (: No se notificar\341 a nadie.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 39 cm
+Q
+q
+1 0 0 1 23 27 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (master-only) Tj /F1 10 Tf (: El servidor notificar\341 solo a los primarios.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.283314 Tw 12 TL /F2 10 Tf 0 0 0 rg (explicit) Tj /F1 10 Tf (: El servidor notificar\341 solo a los servidores secundarios especificados en la clausula) Tj T* 0 Tw (also-notify de dicha zona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (recursion) Tj /F1 10 Tf (: especifica si el servidor debe trabajar de manera recursiva. El valor por defecto es yes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (3.3.1   Ejemplo de una archivo de configuraci\363n \(/etc/named.conf\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 236.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 144 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 48 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 204 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 60 72 12 re f*
+.960784 .960784 .862745 rg
+n 192 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 122 Tm 12 TL /F4 10 Tf 0 0 0 rg (options ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  allow-query       ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( localhost) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  listen-on port    ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (127) Tj 0 0 0 rg (.0.0.1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  listen-on-v6 port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ::1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  max-cache-size    256M) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  directory         ) Tj .729412 .129412 .129412 rg ("/var/named") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (  recursion         yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  dnssec-enable     yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  dnssec-validation yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 206.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.4   La sentencia Zone \(zonas\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 164.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.831318 Tw (La sentencia zone permite definir caracter\355sticas de una zona particular, como es la ubicaci\363n de su) Tj T* 0 Tw .534983 Tw (archivo de configuraci\363n u opciones especificas de la misma, y pueden ser utilizadas para sobre-escribir) Tj T* 0 Tw (las opciones globales. Su sintaxis es la siguiente) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 95.62362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 90 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 0 0 rg (zone zone-name ) Tj .4 .4 .4 rg ([) Tj 0 0 0 rg (zone-class) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  option) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  ...) Tj T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (12 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+139 0 obj
+<<
+/Length 8968
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.942651 Tw (La variable zone-name especifica el nombre de la zona y opcionalmente zone-class el tipo de clase) Tj T* 0 Tw 1.088555 Tw (correspondiente a la misma. La clave option especifica las opciones particulares dentro de dicha zona,) Tj T* 0 Tw (entre las que podemos destacar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (allow-query) Tj /F1 10 Tf (: similar a la opci\363n global, pero solo aplicable para esta zona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.560976 Tw 12 TL /F2 10 Tf 0 0 0 rg (allow-transfer) Tj /F1 10 Tf (: Especifica que servidores secundarios pueden solicitar la transferencia de esta) Tj T* 0 Tw (zona. Por defecto todas las peticiones de transferencia estan permitidas.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 1.950976 Tw 12 TL /F2 10 Tf 0 0 0 rg (allow-update) Tj /F1 10 Tf (: Especifica que hosts tienen permitido actualizar din\341micamente la informaci\363n en) Tj T* 0 Tw 1.00686 Tw (esta zona. Por defecto esta en deny all. Se debe ser cuidadoso al permitir quien puede actualizar) Tj T* 0 Tw (estas.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (file) Tj /F1 10 Tf (: Especifica el nombre del archivo que contiene la especificaci\363n de la zona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.729979 Tw 12 TL /F2 10 Tf 0 0 0 rg (masters) Tj /F1 10 Tf (: Especifica desde que direcciones IP se pueden realizar consultas autoritativas. Esta) Tj T* 0 Tw (opci\363n es utilizada unicamente si la zona esta definida como esclava.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (notify) Tj /F1 10 Tf (: Similar a la opci\363n global, pero aplicable solo para esta zona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 135 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (type) Tj /F1 10 Tf (: Especifica el tipo de zona. Esta opci\363n acepta los siguientes valores:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 129 cm
+Q
+q
+1 0 0 1 23 129 cm
+Q
+q
+1 0 0 1 23 93 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .821647 Tw 12 TL /F2 10 Tf 0 0 0 rg (delegation-only) Tj /F1 10 Tf (: Fuerza la delegaci\363n de zonas de infrastructuras como COM, NET, \363 ORG.) Tj T* 0 Tw .713059 Tw (Cualquier respuesta qu es recibida sin una delegaci\363n explicita o implicita, son tratadas como) Tj T* 0 Tw (NXDOMAIN. Esta opci\363n es solo aplicable en las zonas raiz o TLDs \(Top-Level Domains\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 87 cm
+Q
+q
+1 0 0 1 23 75 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (forward) Tj /F1 10 Tf (: Reenvia todas las consultas de esta zona a otros servidores de nombre.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 69 cm
+Q
+q
+1 0 0 1 23 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.892126 Tw 12 TL /F2 10 Tf 0 0 0 rg (hint) Tj /F1 10 Tf (: Un tipo especial de zona utilizada para apuntar a servidores ra\355z para que resuelvan) Tj T* 0 Tw (consultas cuando una zona no es conocida.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 39 cm
+Q
+q
+1 0 0 1 23 15 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.395366 Tw 12 TL /F2 10 Tf 0 0 0 rg (master) Tj /F1 10 Tf (: Define quienes son los servidores de nombre autoritativos para esta zona. La zona) Tj T* 0 Tw (deber\355a definirse como master, si la configuraci\363n de la misma reside en el sistema solamente.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (slave) Tj /F1 10 Tf (: Especifica los servidores esclavos para esta zona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+BT 1 0 0 1 0 17.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (3.4.1   Ejemplo de archivo de configuraci\363n de zona en un servidor primario) Tj T* (\(/etc/named/example.com\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.669213 Tw (Este archivo deber\355a guardarse en el directorio /etc/named/example.com y luego ser incluido en el) Tj T* 0 Tw (archivo /etc/named.conf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 251.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 30 48 78 12 re f*
+.960784 .960784 .862745 rg
+n 132 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 108 12 re f*
+.960784 .960784 .862745 rg
+n 150 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F4 10 Tf 0 0 0 rg (zone ) Tj .729412 .129412 .129412 rg ("example.com") Tj 0 0 0 rg ( IN ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  ) Tj 0 .501961 0 rg (type) Tj 0 0 0 rg ( master) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  file ) Tj .729412 .129412 .129412 rg ("example.com.zone") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  allow-transfer ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.2) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 183.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .151163 Tw (En este caso le decimos que la zona que se denomina "example.com" esta definida como master en este) Tj T* 0 Tw 2.367045 Tw (servidor, que su archivo con la definici\363n de los host que pertenecen a la misma se encuentra en) Tj T* 0 Tw .690888 Tw ("example.com.zone" \(por defecto en /var/named/example.com.zone\) y que se le permite la transferencia) Tj T* 0 Tw .928221 Tw (de la misma al equipo 192.168.0.2 \(el que deber\355a ser otro servidor dns definido como esclavo de esta) Tj T* 0 Tw (zona\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 156.8236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (3.4.2   Ejemplo de archivo de configuraci\363n de zona en un servidor secundario) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 126.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.137976 Tw (Este archivo deber\355a guardarse en el directorio /etc/named/example.com del servidor secundario) Tj T* 0 Tw (\(192.168.0.2\). Tambi\351n debe ser incluido en el archivo /etc/named.conf de dicho servidor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (13 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+140 0 obj
+<<
+/Length 7640
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 679.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 30 48 78 12 re f*
+.960784 .960784 .862745 rg
+n 114 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 150 12 re f*
+.960784 .960784 .862745 rg
+n 192 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F4 10 Tf 0 0 0 rg (zone ) Tj .729412 .129412 .129412 rg ("example.com") Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (  ) Tj 0 .501961 0 rg (type) Tj 0 0 0 rg ( slave) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  file ) Tj .729412 .129412 .129412 rg ("slaves/example.com.zone") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (  masters ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 647.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.622619 Tw (Como ver\341n la diferencia es muy m\355nima, solo cambia el tipo y en este caso le decimos quien es el) Tj T* 0 Tw (master de dicha zona para que acepte las actualizaciones cuando se realizan cambios en la misma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 599.8236 cm
+q
+BT 1 0 0 1 0 21 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.5   Ejemplo de definici\363n de zona) Tj T* (\(/var/named/example.com.zone\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 545.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.059986 Tw (En el archivo anterior definimos las opciones correspondientes a la zona, lo que nos resta es definir la) Tj T* 0 Tw .85061 Tw (zona misma, es decir, que registros formar\341n parte de la misma. En Centos se recomienda guardar las) Tj T* 0 Tw 8.098443 Tw (definiciones de zonas en el directorio /var/named, por lo que el archivo de ejemplo) Tj T* 0 Tw (/var/named/example.com.zone podr\355a ser algo as\355) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 236.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 528 300 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 276 24 12 re f*
+.960784 .960784 .862745 rg
+n 36 276 30 12 re f*
+.960784 .960784 .862745 rg
+n 72 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 264 42 12 re f*
+.960784 .960784 .862745 rg
+n 336 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 240 60 12 re f*
+.960784 .960784 .862745 rg
+n 138 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 210 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 186 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 84 18 12 re f*
+.960784 .960784 .862745 rg
+n 186 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 60 18 12 re f*
+.960784 .960784 .862745 rg
+n 186 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 240 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 6 12 re f*
+BT 1 0 0 1 0 278 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg ($TTL) Tj 0 0 0 rg (  ) Tj .4 .4 .4 rg (86400) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (24) Tj 0 0 0 rg ( horas) Tj T* .098039 .090196 .486275 rg ($ORIGIN) Tj 0 0 0 rg ( example.com.) Tj T* (@  1D  IN  SOA ns1.example.com. hostmaster.example.com. ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg  T* (            ) Tj .4 .4 .4 rg (2002022401) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( serial) Tj T* (            3H ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( refresh) Tj T* (            ) Tj .4 .4 .4 rg (15) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( retry) Tj T* (            1w ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( expire) Tj T* (            3h ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( nxdomain ttl) Tj T* (          ) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (      IN  NS     ns1.example.com.  ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Servidor de nombres en el dominio) Tj T* (      IN  NS     ns2.example.com.  ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Otro servidor de nombres) Tj T* (      IN  MX  ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg ( mail.example.com. ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Servidor de mail del dominio.) Tj T*  T* 0 0 0 rg (;) Tj 0 0 0 rg ( Definicion de host en el dominio) Tj T* (ns1    IN  A      ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.1  ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Servidor de nombres ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (el mismo) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T* (ns2    IN  A      ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.2  ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Servidor de nombres ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (el mismo) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (www    IN  A      ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.3  ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Servidor web del dominio) Tj T* (ftp    IN  CNAME  www.example.com.  ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Servidor ftp del dominio) Tj T*  T* 0 0 0 rg (;) Tj 0 0 0 rg ( Otras definiciones de hosts) Tj T* (mickyvainilla    IN  A      ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.4 ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Este seria el host mickyvainilla.example.com) Tj T* (capitanpiluso    IN  A      ) Tj .4 .4 .4 rg (192) Tj 0 0 0 rg (.168.0.5 ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( Este seria el host capitanpiluso.example.com) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 204.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .503735 Tw (Si observan definimos gran parte de los registros m\341s utilizados, como son los registros A, registros NS,) Tj T* 0 Tw (registros MX, registros CNAME y registros SOA.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 162.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .53686 Tw (A su vez hemos definido varios par\341metros relacionados con la parametrizaci\363n de la zona, como el nro) Tj T* 0 Tw 1.647318 Tw (de serie de la configuraci\363n \(utilizado por los servidores secundarios para detectar los cambios en la) Tj T* 0 Tw (zona\), el per\355odo TTL \(tiempo por el que no deber\355a volver a consultarse por el mismo registro\), etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.6236 cm
+q
+BT 1 0 0 1 0 21 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.6   Ejemplo de definici\363n de zona reversa) Tj T* (\(/var/named/reverso.example.com.zone\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (14 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+141 0 obj
+<<
+/Length 8536
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.26561 Tw (Nuevamente el archivo se debe guardar en el directorio /var/named/ y luego ser incluido en el archivo) Tj T* 0 Tw 1.462823 Tw (/etc/named.conf. Supongamos que lo llamamos /var/named/reverso.example.com.zone podr\355a contener) Tj T* 0 Tw (los siguientes registros de nuestro ejemplo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 467.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 480 240 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 216 42 12 re f*
+.960784 .960784 .862745 rg
+n 0 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 192 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 192 18 12 re f*
+.960784 .960784 .862745 rg
+n 462 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 180 60 12 re f*
+.960784 .960784 .862745 rg
+n 162 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 162 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 48 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+BT 1 0 0 1 0 218 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg ($ORIGIN) Tj 0 0 0 rg ( .) Tj T* .098039 .090196 .486275 rg ($TTL) Tj 0 0 0 rg ( 24h) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (168) Tj 0 0 0 rg (.192.in-addr.arpa IN      SOA     ) Tj .4 .4 .4 rg (168) Tj 0 0 0 rg (.192.in-addr.arpa. root.example.com. ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg  T* (                ) Tj .4 .4 .4 rg (2016070192) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( serial) Tj T* (                3h         ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( refresh) Tj T* (                ) Tj .4 .4 .4 rg (15) Tj 0 0 0 rg (         ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( retry) Tj T* (                1w         ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( expire) Tj T* (                3h         ) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( minimum) Tj T* (                ) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (                NS dns1.example.com.) Tj T* (                NS dns2.example.com.) Tj T*  T* .098039 .090196 .486275 rg ($ORIGIN) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.168.192.in-addr.arpa.) Tj T* .4 .4 .4 rg (1) Tj 0 0 0 rg (       IN PTR ns1.example.com.) Tj T* .4 .4 .4 rg (2) Tj 0 0 0 rg (       IN PTR ns2.example.com.) Tj T* .4 .4 .4 rg (3) Tj 0 0 0 rg (       IN PTR www.example.com.) Tj T* .4 .4 .4 rg (4) Tj 0 0 0 rg (       IN PTR mickyvainilla.example.com.) Tj T* .4 .4 .4 rg (5) Tj 0 0 0 rg (       IN PTR capitanpiluso.example.com.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 435.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.112209 Tw (Con esta configuraci\363n el servidor Bind ya es capaz de resolver no solo de nombre a IP, sino que) Tj T* 0 Tw (tambi\351n puede resolver de IP a nombre para esta zona.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.7   En resumen:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.8236 cm
+Q
+q
+1 0 0 1 62.69291 393.8236 cm
+Q
+q
+1 0 0 1 62.69291 345.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.479979 Tw (Debemos crear los archivos de configuraci\363n de zona. Por ejemplo /etc/named/example.com y) Tj T* 0 Tw 1.05664 Tw (/etc/named/reverse.example.com. Estos archivos permiten definir las caracter\355sticas y opciones de) Tj T* 0 Tw 1.178221 Tw (la zona \(permisos sobre la zona, a quien se le puede transferir la misma, donde se encuentra su) Tj T* 0 Tw (archivo de definici\363n, etc\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 339.8236 cm
+Q
+q
+1 0 0 1 62.69291 315.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.113555 Tw (Luego debemos crear el archivo de definici\363n de zona, y cargar all\355 los registros correspondiente.) Tj T* 0 Tw (Por ejemplo los archivos /var/named/example.com.zone y /var/named/reverse.example.com.zone) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 309.8236 cm
+Q
+q
+1 0 0 1 62.69291 285.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.594597 Tw (Por \372ltimo debemos editar el archivo /etc/named.conf e incluir los archivos de "configuraci\363n" de) Tj T* 0 Tw (zona del siguiente modo) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 285.8236 cm
+Q
+q
+1 0 0 1 62.69291 240.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 48 12 144 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 192 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 0 0 rg (include ) Tj .729412 .129412 .129412 rg ("/etc/named/example.com") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/reverse.example.com") Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 210.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.8   Ejemplo del archivo /etc/named.conf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.42362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 48 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 48 72 12 re f*
+.960784 .960784 .862745 rg
+n 216 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 36 186 12 re f*
+.960784 .960784 .862745 rg
+n 330 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 24 198 12 re f*
+.960784 .960784 .862745 rg
+n 342 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 12 222 12 re f*
+.960784 .960784 .862745 rg
+n 384 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 0 6 12 re f*
+BT 1 0 0 1 0 86 Tm 12 TL /F4 10 Tf 0 0 0 rg (options ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        listen-on port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (127) Tj 0 0 0 rg (.0.0.1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        listen-on-v6 port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ::1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        directory       ) Tj .729412 .129412 .129412 rg ("/var/named") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dump-file       ) Tj .729412 .129412 .129412 rg ("/var/named/data/cache_dump.db") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        statistics-file ) Tj .729412 .129412 .129412 rg ("/var/named/data/named_stats.txt") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        memstatistics-file ) Tj .729412 .129412 .129412 rg ("/var/named/data/named_mem_stats.txt") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        allow-query     ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( localhost) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (15 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+142 0 obj
+<<
+/Length 5589
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 379.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 372 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 126 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 276 138 12 re f*
+.960784 .960784 .862745 rg
+n 270 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 252 120 12 re f*
+.960784 .960784 .862745 rg
+n 306 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 228 132 12 re f*
+.960784 .960784 .862745 rg
+n 234 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 216 144 12 re f*
+.960784 .960784 .862745 rg
+n 288 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 156 96 12 re f*
+.960784 .960784 .862745 rg
+n 222 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 30 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 102 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 72 60 12 re f*
+.960784 .960784 .862745 rg
+n 138 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 36 156 12 re f*
+.960784 .960784 .862745 rg
+n 204 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 126 12 re f*
+.960784 .960784 .862745 rg
+n 174 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 144 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 192 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 6 12 re f*
+BT 1 0 0 1 0 350 Tm 12 TL /F4 10 Tf 0 0 0 rg  T* (        recursion yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (        dnssec-enable yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dnssec-validation yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (        bindkeys-file ) Tj .729412 .129412 .129412 rg ("/etc/named.iscdlv.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (        managed-keys-directory ) Tj .729412 .129412 .129412 rg ("/var/named/dynamic") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (        pid-file ) Tj .729412 .129412 .129412 rg ("/run/named/named.pid") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        session-keyfile ) Tj .729412 .129412 .129412 rg ("/run/named/session.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (logging ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        channel default_debug ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (                file ) Tj .729412 .129412 .129412 rg ("data/named.run") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (                severity dynamic) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (zone ) Tj .729412 .129412 .129412 rg (".") Tj 0 0 0 rg ( IN ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        ) Tj 0 .501961 0 rg (type) Tj 0 0 0 rg ( hint) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        file ) Tj .729412 .129412 .129412 rg ("named.ca") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named.rfc1912.zones") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named.root.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/example.com") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/reverse.example.com") Tj 0 0 0 rg (;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 346.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Referencias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 334.8236 cm
+Q
+q
+1 0 0 1 62.69291 334.8236 cm
+Q
+q
+1 0 0 1 62.69291 322.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.alcancelibre.org/staticpages/index.php/introduccion-protocolo-dns) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 316.8236 cm
+Q
+q
+1 0 0 1 38.8328 304.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 298.8236 cm
+Q
+q
+1 0 0 1 49.6378 286.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-bind) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 286.8236 cm
+Q
+q
+1 0 0 1 62.69291 286.8236 cm
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 167.5949 0 Td (Curso Administracion GNU/Linux) Tj T* -167.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (16 / 16) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+143 0 obj
+<<
+/Nums [ 0 144 0 R 1 145 0 R 2 146 0 R 3 147 0 R 4 148 0 R 
+  5 149 0 R 6 150 0 R 7 151 0 R 8 152 0 R 9 153 0 R 
+  10 154 0 R 11 155 0 R 12 156 0 R 13 157 0 R 14 158 0 R 
+  15 159 0 R ]
+>>
+endobj
+144 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+145 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+146 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+147 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+148 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+149 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+150 0 obj
+<<
+/S /D /St 7
+>>
+endobj
+151 0 obj
+<<
+/S /D /St 8
+>>
+endobj
+152 0 obj
+<<
+/S /D /St 9
+>>
+endobj
+153 0 obj
+<<
+/S /D /St 10
+>>
+endobj
+154 0 obj
+<<
+/S /D /St 11
+>>
+endobj
+155 0 obj
+<<
+/S /D /St 12
+>>
+endobj
+156 0 obj
+<<
+/S /D /St 13
+>>
+endobj
+157 0 obj
+<<
+/S /D /St 14
+>>
+endobj
+158 0 obj
+<<
+/S /D /St 15
+>>
+endobj
+159 0 obj
+<<
+/S /D /St 16
+>>
+endobj
+xref
+0 160
+0000000000 65535 f 
+0000000073 00000 n 
+0000000147 00000 n 
+0000000254 00000 n 
+0000000366 00000 n 
+0000000549 00000 n 
+0000000736 00000 n 
+0000000904 00000 n 
+0000001072 00000 n 
+0000001240 00000 n 
+0000001408 00000 n 
+0000001577 00000 n 
+0000001746 00000 n 
+0000001915 00000 n 
+0000002084 00000 n 
+0000002253 00000 n 
+0000002422 00000 n 
+0000002591 00000 n 
+0000002760 00000 n 
+0000002929 00000 n 
+0000003098 00000 n 
+0000003267 00000 n 
+0000003436 00000 n 
+0000003605 00000 n 
+0000003774 00000 n 
+0000003943 00000 n 
+0000004112 00000 n 
+0000004281 00000 n 
+0000004450 00000 n 
+0000004619 00000 n 
+0000004788 00000 n 
+0000004957 00000 n 
+0000005126 00000 n 
+0000005295 00000 n 
+0000005464 00000 n 
+0000005633 00000 n 
+0000005802 00000 n 
+0000005971 00000 n 
+0000006140 00000 n 
+0000006309 00000 n 
+0000006478 00000 n 
+0000006647 00000 n 
+0000006816 00000 n 
+0000006985 00000 n 
+0000007154 00000 n 
+0000007323 00000 n 
+0000007492 00000 n 
+0000007661 00000 n 
+0000007830 00000 n 
+0000007999 00000 n 
+0000008168 00000 n 
+0000008337 00000 n 
+0000008506 00000 n 
+0000008675 00000 n 
+0000008844 00000 n 
+0000009013 00000 n 
+0000009182 00000 n 
+0000009351 00000 n 
+0000009520 00000 n 
+0000009689 00000 n 
+0000009858 00000 n 
+0000010027 00000 n 
+0000010196 00000 n 
+0000010365 00000 n 
+0000010534 00000 n 
+0000010703 00000 n 
+0000011362 00000 n 
+0000011531 00000 n 
+0000011700 00000 n 
+0000011869 00000 n 
+0000012038 00000 n 
+0000012286 00000 n 
+0000012406 00000 n 
+0000012614 00000 n 
+0000012822 00000 n 
+0000012928 00000 n 
+0000013136 00000 n 
+0000013344 00000 n 
+0000013552 00000 n 
+0000013760 00000 n 
+0000013968 00000 n 
+0000014079 00000 n 
+0000014287 00000 n 
+0000014508 00000 n 
+0000014735 00000 n 
+0000014943 00000 n 
+0000015151 00000 n 
+0000015359 00000 n 
+0000015567 00000 n 
+0000015796 00000 n 
+0000016055 00000 n 
+0000016309 00000 n 
+0000016550 00000 n 
+0000016658 00000 n 
+0000016916 00000 n 
+0000016992 00000 n 
+0000017292 00000 n 
+0000017521 00000 n 
+0000017911 00000 n 
+0000018303 00000 n 
+0000018583 00000 n 
+0000018804 00000 n 
+0000019049 00000 n 
+0000019530 00000 n 
+0000019905 00000 n 
+0000020197 00000 n 
+0000020584 00000 n 
+0000020932 00000 n 
+0000021197 00000 n 
+0000021517 00000 n 
+0000021890 00000 n 
+0000022097 00000 n 
+0000022313 00000 n 
+0000022525 00000 n 
+0000022837 00000 n 
+0000023172 00000 n 
+0000023358 00000 n 
+0000023657 00000 n 
+0000024095 00000 n 
+0000024429 00000 n 
+0000025056 00000 n 
+0000025566 00000 n 
+0000026032 00000 n 
+0000026578 00000 n 
+0000026799 00000 n 
+0000027126 00000 n 
+0000027322 00000 n 
+0000027493 00000 n 
+0000036574 00000 n 
+0000037536 00000 n 
+0000043598 00000 n 
+0000050620 00000 n 
+0000058201 00000 n 
+0000064670 00000 n 
+0000072020 00000 n 
+0000080017 00000 n 
+0000083728 00000 n 
+0000092541 00000 n 
+0000100708 00000 n 
+0000110441 00000 n 
+0000119462 00000 n 
+0000127155 00000 n 
+0000135744 00000 n 
+0000141386 00000 n 
+0000141594 00000 n 
+0000141629 00000 n 
+0000141664 00000 n 
+0000141699 00000 n 
+0000141734 00000 n 
+0000141769 00000 n 
+0000141804 00000 n 
+0000141839 00000 n 
+0000141874 00000 n 
+0000141909 00000 n 
+0000141945 00000 n 
+0000141981 00000 n 
+0000142017 00000 n 
+0000142053 00000 n 
+0000142089 00000 n 
+0000142125 00000 n 
+trailer
+<<
+/ID 
+[<36d1d5deb8cfad9b74c74dfe0732420c><36d1d5deb8cfad9b74c74dfe0732420c>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 93 0 R
+/Root 92 0 R
+/Size 160
+>>
+startxref
+142161
+%%EOF
