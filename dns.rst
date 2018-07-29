@@ -1,9 +1,9 @@
-Funcionamiento de un DNS
+Domain Name System (DNS)
 ========================
 
-:Autores: Emiliano López (emiliano.lopez@gmail.com)
+:Autores: Maximiliano Boscovich (maximiliano@boscovich.com.ar)
 
-          Maximiliano Boscovich (maximiliano@boscovich.com.ar)
+          Emiliano López (emiliano.lopez@gmail.com)
 
 :Fecha: |date| |time|
 
@@ -431,7 +431,8 @@ Ejemplo:
   Registrar Abuse Contact Email: abuse@support.gandi.net
   Registrar Abuse Contact Phone: +33.170377661
   Reseller:
-  Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+  Domain Status: clientTransferProhibited 
+    https://icann.org/epp#clientTransferProhibited
   Registry Registrant ID: C5446326-LROR
   Registrant Name: GNU/FSF Hostmaster
   Registrant Organization: Free Software Foundation
@@ -479,7 +480,22 @@ Ejemplo:
 
   For more information on Whois status codes, please visit https://icann.org/epp
 
-  Access to Public Interest Registry WHOIS information is provided to assist persons in determining thecontents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to: (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. PublicInterest Registry reserves the right to modify these terms at any time. By submitting this query, youagree to abide by this policy.
+  Access to Public Interest Registry WHOIS information is provided to assist 
+    persons in determining thecontents of a domain name registration record in 
+    the Public Interest Registry registry database. The data in this record is 
+    provided by Public Interest Registry for informational purposes only, and 
+    Public Interest Registry does not guarantee its accuracy. This service is 
+    intended only for query-based access. You agree that you will use this data 
+    only for lawful purposes and that, under no circumstances will you use this 
+    data to: (a) allow, enable, or otherwise support the transmission by e-mail, 
+    telephone, or facsimile of mass unsolicited, commercial advertising or 
+    solicitations to entities other than the data recipient's own existing 
+    customers; or (b) enable high volume, automated, electronic processes that 
+    send queries or data to the systems of Registry Operator, a Registrar, or 
+    Afilias except as reasonably necessary to register domain names or modify 
+    existing registrations. All rights reserved. PublicInterest Registry 
+    reserves the right to modify these terms at any time. By submitting this 
+    query, youagree to abide by this policy.
 
 Lo anterior regresa la información correspondiente al dominio fsf.org.
 
@@ -777,8 +793,8 @@ podría ser algo así
   ftp    IN  CNAME  www.example.com.  ; Servidor ftp del dominio
 
   ; Otras definiciones de hosts
-  mickyvainilla    IN  A      192.168.0.4 ; Este seria el host mickyvainilla.example.com
-  capitanpiluso    IN  A      192.168.0.5 ; Este seria el host capitanpiluso.example.com
+  mickyvainilla    IN  A      192.168.0.4 ; host mickyvainilla.example.com
+  capitanpiluso    IN  A      192.168.0.5 ; host capitanpiluso.example.com
 
 Si observan definimos gran parte de los registros más utilizados, como son los 
 registros A, registros NS, registros MX, registros CNAME y registros SOA. 
