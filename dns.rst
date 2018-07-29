@@ -118,7 +118,7 @@ dos tipos de servidores de nombres:
   denominado transferencia de zona.
 
 ¿Cuántos servidores DNS debe haber para resolver un dominio?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Un gran número de problemas de operación de servidores DNS se atribuyen a las
 pobres opciones de servidores secundarios para las zona de DNS. De acuerdo al
@@ -143,7 +143,7 @@ a cada Servidor Esclavo o Secundario, pues éste se encargará de transferir los
 datos de manera automática cada vez que sea necesario.
 
 Tipos de consultas hacia un servidor DNS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Los Servidores DNS responden dos tipos de consultas:
 
