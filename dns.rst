@@ -95,6 +95,16 @@ A continuación veamos como es el modo en que responden los diferentes niveles d
    :align: center
 
 
+ACTIVIDAD 1
+-----------
+
+- Instale los manuales (``yum install man-pages-es man-pages-es-extra``)
+- Modifique en el archivo ``/etc/hosts`` el nombre para identificar las PCs del laboratorio. Vea la ayuda haciendo ``man hosts``.
+- Investigue el contenido del archivo ``/etc/resolv.conf`` y expliquelo, use el ``man resolv.conf``.
+- Modifique el contenido de este archivo usando los DNS públicos ``8.8.8.8`` y ``8.8.4.4``
+- Reinice el servicio de red (``systemct restart network``) y corrobore si se mantiene el contenido previo
+- Modifique el archivo ``/etc/sysconfig/network-scripts/ifcfg-epn0s8`` para agregar los DNS previos usando DNS1=8.8.8.8 y DNS2=8.8.4.4 y reinicie el servicio de red nuevamente. Corrobore el contenido de ``/etc/resolv.conf``.
+
 ¿Qué es un NIC (Network Information Center)?
 --------------------------------------------
 
@@ -228,15 +238,19 @@ El contenido mínimo de éstos archivos debe ser el siguiente:
 
 .. code:: bash
 
-  $TTL 3600
-  @    IN    SOA   dns1.dominio.com.    usuario.gmail.com. (
-       2016091901 ; número de serie. Se recomienda sea en formato de fecha.
-       7200       ; tiempo de refresco del registro SOA.
-       900        ; tiempo a esperar entre un intento de consulta fallido y otro.
-       1209600    ; caducidad del registro SOA en otros servidores DNS.
-       3600       ; tiempo total de vida del registro SOA en otros servidores DNS.
-       )
-  @    IN    NS    dns.dominio.com.
+  $TTL 12h ; directive - comment terminates the line
+  $ORIGIN example.com. ; Start of Authority (SOA) record defining the zone (domain)
+  ; illustrates an RR record spread over more than one line
+  ; using the enclosing parentheses
+  @ IN SOA ns1.example.com. hostmaster.example.com. (
+            2003080800 ; se = serial number
+            3h    ; ref = refresh
+            15m   ; ret = update retry
+            3w    ; ex = expiry
+            2h20m ; min = minimum
+  )
+  ; single line RR
+    IN NS ns1.example.com.
 
 El formato del **Zone File** puede contener 4 tipos de entradas siguiendo un determinado formato (http://zytrax.com/books/dns/ch8/index.html#zone):
 
@@ -244,6 +258,10 @@ El formato del **Zone File** puede contener 4 tipos de entradas siguiendo un det
 - **Directivas**: comienzan con el signo ``$`` y son usadas para controlar el procesamiento del archivo de zonas
 - **Registros de recursos (RR)**: usado para definir las características, propiedades o entidades dentro del dominio. Los RRs son contenidas en una única línea con excepción de aquellas que estén dentro de paréntesis pudiendo ocupar varias líneas.
 - **Separadores de campos:** los separadores de campos en un RR pueden ser tanto espacios como ``tabs``. 
+
+.. note::
+
+  **Ayuda:** El sitio http://www.zonefile.org/ permite generar en forma automática el zone file y la sección correspondiente para agregar en el ``named.conf``.
 
 **ACA EXPLICAR  COMO ESTA EN LA PAG 30 Y 31 DEL BROLI PRO DNS AND BIND 10 y vincular con lo de la web http://zytrax.com/books/dns/ch8/origin.html**
 
@@ -562,6 +580,13 @@ Ejemplo:
 
 Lo anterior regresa la información correspondiente al dominio fsf.org.
 
+ACTIVIDAD 2
+-----------
+
+- Pruebe los comandos host y whois.
+- Utilice el comando dig para hacer consultas de distintos tipos de registros a diferentes servidores DNS
+- Instale los manuales de los comandos previos 
+- Instale ``dnstracer`` y pruebe su uso de la siguiente manera: ``dnstracer -s . -4 -o www.epe.santafe.gov.ar`` . Analice su salida.
 
 El servidor de DNS Bind
 =======================
