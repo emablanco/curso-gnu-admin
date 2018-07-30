@@ -167,7 +167,7 @@ Cada Zona de Autoridad abarca al menos un dominio y -posiblemente- sus
 sub-dominios, cuando estos últimos son imposibles de delegar a otras zonas de
 autoridad.
 
-Las zonas de autoridad se crean en archivos de texto simple (etandardizado por RFC 1035) o registros de una
+Las zonas de autoridad se crean en archivos de texto plano (estandardizado por RFC 1035) o registros de una
 base de datos. Deben incluir el tiempo total de vida (TTL) predeterminado, la
 información del servidor DNS principal y los registros que componen la zona.
 El contenido mínimo de éstos archivos debe ser el siguiente:
@@ -176,19 +176,28 @@ El contenido mínimo de éstos archivos debe ser el siguiente:
 
   $TTL 3600
   @    IN    SOA   dns1.dominio.com.    usuario.gmail.com. (
-       2016091901; número de serie. Se recomienda sea en formato de fecha.
-       7200; tiempo de refresco del registro SOA.
-       900; tiempo a esperar entre un intento de consulta fallido y otro.
-       1209600; caducidad del registro SOA en otros servidores DNS.
-       3600; tiempo total de vida del registro SOA en otros servidores DNS.
+       2016091901 ; número de serie. Se recomienda sea en formato de fecha.
+       7200       ; tiempo de refresco del registro SOA.
+       900        ; tiempo a esperar entre un intento de consulta fallido y otro.
+       1209600    ; caducidad del registro SOA en otros servidores DNS.
+       3600       ; tiempo total de vida del registro SOA en otros servidores DNS.
        )
   @    IN    NS    dns.dominio.com.
+
+El formato del **Zone File** puede contener 4 tipos de entradas siguiendo un determinado formato (http://zytrax.com/books/dns/ch8/index.html#zone):
+
+- **Comentarios**: comienzan con ``;`` y continúan hasta el final de la línea
+- **Directivas**: comienzan con el signo ``$`` y son usadas para controlar el procesamiento del archivo de zonas
+- **Registros de recursos (RR)**: usado para definir las características, propiedades o entidades dentro del dominio. Los RRs son contenidas en una única línea con excepción de aquellas que estén dentro de paréntesis pudiendo ocupar varias líneas.
+- **Separadores de campos:** los separadores de campos en un RR pueden ser tanto espacios como ``tabs``. 
+
+**ACA EXPLICAR  COMO ESTA EN LA PAG 30 Y 31 DEL BROLI PRO DNS AND BIND 10 y vincular con lo de la web http://zytrax.com/books/dns/ch8/origin.html**
 
 A continuación se explican los registros usados arriba y el resto de los tipos
 de registro que se pueden utilizar.
 
-Tipos de registros en la zonas de autoridad
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Tipos de registros de recursos (RR)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La información de cada Zona de Autoridad es almacenada de forma local en un
 archivo en el Servidor DNS. Este archivo puede incluir varios tipos de registros:
@@ -741,8 +750,8 @@ pertenecen a la misma se encuentra en "example.com.zone" (por defecto en /var/na
 y que se le permite la transferencia de la misma al equipo 192.168.0.2 (el que debería ser otro
 servidor dns definido como esclavo de esta zona)
 
-Ejemplo de archivo de configuración de zona en un servidor secundario
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ejemplo de configuración de zona en un servidor secundario
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este archivo debería guardarse en el directorio /etc/named/example.com  del servidor 
 secundario (192.168.0.2). También debe ser incluido en el archivo /etc/named.conf de 
@@ -760,8 +769,8 @@ Como verán la diferencia es muy mínima, solo cambia el tipo y en este
 caso le decimos quien es el master de dicha zona para que acepte las 
 actualizaciones cuando se realizan cambios en la misma.
 
-Ejemplo de definición de zona (/var/named/example.com.zone)
------------------------------------------------------------
+Ejemplo de zona (/var/named/example.com.zone)
+---------------------------------------------
 
 En el archivo anterior definimos las opciones correspondientes a la zona, lo que 
 nos resta es definir la zona misma, es decir, que registros formarán parte de la 
@@ -804,8 +813,8 @@ la zona, como el nro de serie de la configuración (utilizado por los servidores
 secundarios para detectar los cambios en la zona), el período TTL (tiempo por el 
 que no debería volver a consultarse por el mismo registro), etc.
 
-Ejemplo de definición de zona reversa (/var/named/reverso.example.com.zone)
----------------------------------------------------------------------------
+Ejemplo de zona reversa (/var/named/reverso.example.com.zone)
+-------------------------------------------------------------
 
 Nuevamente el archivo se debe guardar en el directorio /var/named/ y luego ser incluido 
 en el archivo /etc/named.conf. Supongamos que lo llamamos /var/named/reverso.example.com.zone 
