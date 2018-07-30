@@ -41,6 +41,60 @@ un Cliente DNS, seguida por una sola respuesta UDP del servidor. Se realiza una
 conexión TCP cuando el tamaño de los datos de la respuesta exceden los 512 bytes,
 tal como ocurre con tareas como transferencia de zonas.
 
+Implementación y estructura del DNS
+-----------------------------------
+
+The Domain Name System uses a tree (or hierarchical) name structure.
+El DNS usa una estructura de nombres de árbol (o jerárquica). En el tope del árbol están los 
+nodos raíz, seguidos por los **Top-Level Domains (TLDs)**, luego por los **Second-Level Domains (SLDs)**,
+y luego cualquier n[umero de niveles infierores separados por puntos. 
+
+Los TLDs se dividen en dos tipos, *generic TLDs (gTLD)* y los *country code TLDs (ccTLD)* tal como se observa
+en la siguiente figura.
+
+.. figure:: imagenes/dns0.png
+   :scale: 65 %
+   :align: center
+
+
+.. note::
+
+  **Autoridad de dominio y delegación**: Cada nodo dentro de una jerarquía de dominios es asignado a una autoridad, esto es, una organización o persona responsable. La autoridad para un nodo particular a su vez puede delegar autoridad para los niveles 
+  inferiores de ese nodo dentro de la jerarquía del nombre de dominio.
+
+
+Secuencia del proceso de resolución
+-----------------------------------
+
+El proceso de resolución de nombres en GNU/Linux la lleva a cabo el ``resolver``
+presente en la biblioteca estándar de C (``glibc``) fundamentalmente 
+mediante dos funcionalidades ``gethostbyname()`` y ``gethostbyaddr()`` que resuelven
+las direcciones IP asociadas a un nombre y viceversa.
+
+Las funciones del resolver leen primeramente el contenido del archivo ``/etc/host.conf``
+o ``/etc/nsswitch.conf`` donde se indica qué servicios utilizar y el orden. Para ver
+las diferentes configuraciones en detalle vea la guía LNA_
+
+.. _LNA: https://www.safaribooksonline.com/library/view/linux-network-administrators/1565924002/ch06.html
+
+En una configuración estándar los pasos a resolver son: 
+
+- Leer el archivo ``/etc/hosts``
+- Buscar en el archivo ``/etc/resolv.conf`` a quién consultar
+
+La secuencia completa se muestra en la siguiente figura para el ejemplo de un pedido desde un 
+navegador web:
+
+.. figure:: imagenes/dns1.png
+   :scale: 65 %
+   :align: center
+
+A continuación veamos como es el modo en que responden los diferentes niveles del árbol DNS para llegar al dominio ``fred.example.com``
+
+.. figure:: imagenes/dns2.png
+   :scale: 65 %
+   :align: center
+
 
 ¿Qué es un NIC (Network Information Center)?
 --------------------------------------------
@@ -48,7 +102,8 @@ tal como ocurre con tareas como transferencia de zonas.
 NIC (acrónimo de Network Information Center o Centro de Información sobre la Red)
 es una institución encargada de asignar los nombres de dominio en Internet ya
 sean nombres de dominio genéricos o por países, permitiendo personas o empresas,
-montar sitios de Internet a través de un ISP, mediante un DNS. Técnicamente existe
+montar sitios de Internet a través de un ISP, mediante un DNS. Es lo que previamente
+denominamos como **ccTLDs**. Técnicamente existe
 un NIC por cada país en el mundo y cada uno de éstos es responsable por todos los
 dominios con la terminación correspondiente a su país. Por ejemplo: NIC.AR es
 la entidad encargada de gestionar todos los dominios con terminación .ar, la cual
