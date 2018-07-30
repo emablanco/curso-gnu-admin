@@ -117,8 +117,8 @@ dos tipos de servidores de nombres:
   del dominio a través de un Servidor Maestro (o primario), realizando un proceso
   denominado transferencia de zona.
 
-¿Cuántos servidores DNS debe haber para resolver un dominio?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Cantidad de servidores para resolver un dominio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Un gran número de problemas de operación de servidores DNS se atribuyen a las
 pobres opciones de servidores secundarios para las zona de DNS. De acuerdo al
@@ -163,11 +163,11 @@ Zonas de Autoridad
 ~~~~~~~~~~~~~~~~~~
 
 Éstas permiten al Servidor Maestro o Primario cargar la información de una zona.
-Cada Zona de Autoridad abarca al menos un dominio y —posiblemente— sus
+Cada Zona de Autoridad abarca al menos un dominio y -posiblemente- sus
 sub-dominios, cuando estos últimos son imposibles de delegar a otras zonas de
 autoridad.
 
-Las zonas de autoridad se crean en archivos de texto simple o registros de una
+Las zonas de autoridad se crean en archivos de texto simple (etandardizado por RFC 1035) o registros de una
 base de datos. Deben incluir el tiempo total de vida (TTL) predeterminado, la
 información del servidor DNS principal y los registros que componen la zona.
 El contenido mínimo de éstos archivos debe ser el siguiente:
@@ -182,7 +182,7 @@ El contenido mínimo de éstos archivos debe ser el siguiente:
        1209600; caducidad del registro SOA en otros servidores DNS.
        3600; tiempo total de vida del registro SOA en otros servidores DNS.
        )
-  @    IN    NS    NS    dns.dominio.com.
+  @    IN    NS    dns.dominio.com.
 
 A continuación se explican los registros usados arriba y el resto de los tipos
 de registro que se pueden utilizar.
@@ -512,9 +512,9 @@ nsupdate, IPv6, rndc flush, vistas y procesamiento en paralelo.
 
 Directorios de configuración de Bind
 ------------------------------------
-La configuración de Bind se encuentra en el archivo /etc/named.conf, y también
-se suele guardar en el directorio /etc/named archivos de configuración separados
-que luego son incluidos en el archivo /etc/named.conf.
+La configuración de Bind se encuentra en el archivo ``/etc/named.conf``, y también
+se suele guardar en el directorio ``/etc/named`` archivos de configuración separados
+que luego son incluidos en el archivo ``/etc/named.conf``.
 
 La sintaxis de dicho archivo es la siguientes
 
