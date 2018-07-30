@@ -44,10 +44,9 @@ tal como ocurre con tareas como transferencia de zonas.
 Implementación y estructura del DNS
 -----------------------------------
 
-The Domain Name System uses a tree (or hierarchical) name structure.
 El DNS usa una estructura de nombres de árbol (o jerárquica). En el tope del árbol están los 
 nodos raíz, seguidos por los **Top-Level Domains (TLDs)**, luego por los **Second-Level Domains (SLDs)**,
-y luego cualquier n[umero de niveles infierores separados por puntos. 
+y luego cualquier número de niveles inferiores separados por puntos. 
 
 Los TLDs se dividen en dos tipos, *generic TLDs (gTLD)* y los *country code TLDs (ccTLD)* tal como se observa
 en la siguiente figura.
