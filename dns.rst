@@ -275,8 +275,8 @@ nombre de un elemento conectado a Internet o en la red local (como es nuestro ca
 dirección IP. A este proceso se le conoce como resolución inversa o rDNS.
 
 La configuración de la resolución reverse DNS es importante para una aplicación en concreto, y es 
-que muchos servidores de correo electrónico en Internet están configurados para rechazar los correos 
-electrónicos entrantes desde cualquier dirección IP que no tenga reverse DNS.
+que **muchos servidores de correo electrónico en Internet están configurados para rechazar los correos 
+electrónicos entrantes desde cualquier dirección IP que no tenga reverse DNS**.
 
 Por ello, si utiliza su propio servidor de correo debe tener la DNS inversa para la dirección IP 
 desde la que se envía el correo saliente.
