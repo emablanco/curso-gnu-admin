@@ -970,6 +970,27 @@ la zona, como el nro de serie de la configuración (utilizado por los servidores
 secundarios para detectar los cambios en la zona), el período TTL (tiempo por el 
 que no debería volver a consultarse por el mismo registro), etc.
 
+
+Configuración de zona reversa en un servidor primario (``/etc/named/reverse.example.com``)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Este archivo debería guardarse en el directorio ``/etc/named/reverse.example.com`` y luego ser incluido en el 
+archivo ``/etc/named.conf``
+
+.. code:: bash
+
+  zone "168.192.in-addr.arpa" IN {
+      type master;
+      file "reverse.example.com.zone";
+      allow-transfer { 192.168.0.2; };
+  };
+
+En este caso le decimos que la zona que se denomina "168.192.in-addr.arpa" esta definida
+como master en este servidor, que su archivo con la definición de los host que
+pertenecen a la misma se encuentra en "reverse.example.com.zone" (por defecto en /var/named/reverse.example.com.zone) 
+y que se le permite la transferencia de la misma al equipo 192.168.0.2 (el que debería ser otro
+servidor dns definido como esclavo de esta zona)
+
 Ejemplo de zona reversa (``/var/named/reverso.example.com.zone``)
 -----------------------------------------------------------------
 
