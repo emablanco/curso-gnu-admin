@@ -648,11 +648,30 @@ Consortium.
 Su versión actual, BIND 9, incluye entre otras características importantes: TSIG, notificación DNS, 
 nsupdate, IPv6, rndc flush, vistas y procesamiento en paralelo.
 
-Directorios de configuración de Bind
-------------------------------------
-La configuración de Bind se encuentra en el archivo ``/etc/named.conf``, y también
-se suele guardar en el directorio ``/etc/named`` archivos de configuración separados
-que luego son incluidos en el archivo ``/etc/named.conf``.
+Configuración de Bind
+---------------------
+
+En general, la configuración de Bind se realiza usando los siguientes archivos:
+
+* **Configuración de zona**
+
+  Por ejemplo ``/etc/named/example.com`` y 
+  ``/etc/named/reverse.example.com``. Estos archivos permiten definir las características y 
+  opciones de la zona (permisos sobre la zona, a quien se le puede transferir la misma, 
+  donde se encuentra su archivo de definición, etc).
+
+* **Definición de zona**
+
+  Se cargan allí los RRs correspondientes. 
+  Por ejemplo los archivos ``/var/named/example.com.zone`` y ``/var/named/reverse.example.com.zone``
+
+* **Configuración global**
+
+  En ``/etc/named.conf`` e incluir los archivos de *configuración* de zona 
+
+
+La configuración global de Bind se encuentra en el archivo ``/etc/named.conf`` desde donde
+suelen incluirse archivos de configuración separados almacenados en el directorio ``/etc/named/``.
 
 La sintaxis de dicho archivo es la siguientes
 
@@ -707,8 +726,8 @@ Por ejemplo
     allow-query-cache { red-hats; };
   };
 
-Opciones (options)
-------------------
+Opciones
+--------
 Las opciones, permiten definir configuraciones globales y por defecto del
 servidor. Se utilizan para definir la ubicación del directorio de trabajo,
 los tipos de consultas que están permitidas y mucho más.
@@ -787,8 +806,8 @@ Las opciones más comunes son:
 * **recursion**: especifica si el servidor debe trabajar de manera recursiva. El
   valor por defecto es yes.
 
-Ejemplo de una archivo de configuración (/etc/named.conf)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Archivo de configuración (``/etc/named.conf``)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: bash
 
@@ -859,11 +878,11 @@ opciones particulares dentro de dicha zona, entre las que podemos destacar
   
   * **slave**: Especifica los servidores esclavos para esta zona.
 
-Ejemplo de archivo de configuración de zona en un servidor primario (/etc/named/example.com)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Configuración de zona en un servidor primario (``/etc/named/example.com``)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este archivo debería guardarse en el directorio /etc/named/example.com y luego ser incluido en el 
-archivo /etc/named.conf
+Este archivo debería guardarse en el directorio ``/etc/named/example.com`` y luego ser incluido en el 
+archivo ``/etc/named.conf``
 
 .. code:: bash
 
@@ -879,11 +898,11 @@ pertenecen a la misma se encuentra en "example.com.zone" (por defecto en /var/na
 y que se le permite la transferencia de la misma al equipo 192.168.0.2 (el que debería ser otro
 servidor dns definido como esclavo de esta zona)
 
-Ejemplo de configuración de zona en un servidor secundario
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Configuración de zona en un servidor secundario
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este archivo debería guardarse en el directorio /etc/named/example.com  del servidor 
-secundario (192.168.0.2). También debe ser incluido en el archivo /etc/named.conf de 
+Este archivo debería guardarse en el directorio ``/etc/named/example.com``  del servidor 
+secundario (192.168.0.2). También debe ser incluido en el archivo ``/etc/named.conf`` de 
 dicho servidor.
 
 .. code:: bash
@@ -898,8 +917,8 @@ Como verán la diferencia es muy mínima, solo cambia el tipo y en este
 caso le decimos quien es el master de dicha zona para que acepte las 
 actualizaciones cuando se realizan cambios en la misma.
 
-Ejemplo de zona (/var/named/example.com.zone)
----------------------------------------------
+Ejemplo de zona (``/var/named/example.com.zone``)
+-------------------------------------------------
 
 En el archivo anterior definimos las opciones correspondientes a la zona, lo que 
 nos resta es definir la zona misma, es decir, que registros formarán parte de la 
@@ -942,8 +961,8 @@ la zona, como el nro de serie de la configuración (utilizado por los servidores
 secundarios para detectar los cambios en la zona), el período TTL (tiempo por el 
 que no debería volver a consultarse por el mismo registro), etc.
 
-Ejemplo de zona reversa (/var/named/reverso.example.com.zone)
--------------------------------------------------------------
+Ejemplo de zona reversa (``/var/named/reverso.example.com.zone``)
+-----------------------------------------------------------------
 
 Nuevamente el archivo se debe guardar en el directorio /var/named/ y luego ser incluido 
 en el archivo /etc/named.conf. Supongamos que lo llamamos /var/named/reverso.example.com.zone 
@@ -974,20 +993,20 @@ podría contener los siguientes registros de nuestro ejemplo
 Con esta configuración el servidor Bind ya es capaz de resolver no solo de nombre a IP, 
 sino que también puede resolver de IP a nombre para esta zona.
 
-En resumen:
------------
+En resumen
+----------
 
 * Debemos crear los archivos de configuración de zona. Por 
-  ejemplo /etc/named/example.com y /etc/named/reverse.example.com. Estos archivos 
+  ejemplo ``/etc/named/example.com`` y ``/etc/named/reverse.example.com``. Estos archivos 
   permiten definir las características y opciones de la zona (permisos sobre la 
   zona, a quien se le puede transferir la misma, donde se encuentra su archivo de 
   definición, etc).
 
 * Luego debemos crear el archivo de definición de zona, y cargar allí los registros 
-  correspondiente. Por ejemplo los archivos /var/named/example.com.zone y 
-  /var/named/reverse.example.com.zone
+  correspondiente. Por ejemplo los archivos ``/var/named/example.com.zone`` y 
+  ``/var/named/reverse.example.com.zone``
 
-* Por último debemos editar el archivo /etc/named.conf e incluir los archivos de "configuración" de zona 
+* Por último debemos editar el archivo ``/etc/named.conf`` e incluir los archivos de "configuración" de zona 
   del siguiente modo
 
 .. code:: bash
@@ -995,8 +1014,8 @@ En resumen:
   include "/etc/named/example.com";
   include "/etc/named/reverse.example.com";
 
-Ejemplo del archivo /etc/named.conf
------------------------------------
+Ejemplo del archivo ``/etc/named.conf``
+---------------------------------------
 
 .. code:: bash
 
