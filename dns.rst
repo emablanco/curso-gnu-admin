@@ -657,12 +657,6 @@ En general, la configuración de Bind se realiza usando los siguientes archivos:
 
   En ``/etc/named.conf`` e incluir los archivos de *configuración* de zona 
 
-
-* **Definición de zona**
-
-  Se cargan allí los RRs correspondientes. 
-  Por ejemplo los archivos ``/var/named/example.com.zone`` y ``/var/named/reverse.example.com.zone``
-
 * **Configuración de zona**
 
   Por ejemplo ``/etc/named/example.com`` y 
@@ -670,17 +664,25 @@ En general, la configuración de Bind se realiza usando los siguientes archivos:
   opciones de la zona (permisos sobre la zona, a quien se le puede transferir la misma, 
   donde se encuentra su archivo de definición, etc).
 
+* **Definición de zona**
+
+  Se cargan allí los RRs correspondientes. 
+  Por ejemplo los archivos ``/var/named/example.com.zone`` y ``/var/named/reverse.example.com.zone``
+
+
+En la siguiente figura se observa la estructura de archivos y directorios de bind
 
 .. figure:: imagenes/dns3.png
-   :scale: 65 %
-   :align: center
+  :scale: 40 %
+  :align: center
 
+  Archivos y directorios de bind
 
 
 La configuración global de Bind se encuentra en el archivo ``/etc/named.conf`` desde donde
 suelen incluirse archivos de configuración separados almacenados en el directorio ``/etc/named/``.
 
-La sintaxis de dicho archivo es la siguientes
+La sintaxis de dicho archivo es la siguiente:
 
 .. code:: bash
 
