@@ -265,6 +265,56 @@ El formato del **Zone File** puede contener 4 tipos de entradas siguiendo un det
 
 **ACA EXPLICAR  COMO ESTA EN LA PAG 30 Y 31 DEL BROLI PRO DNS AND BIND 10 y vincular con lo de la web http://zytrax.com/books/dns/ch8/origin.html**
 
+La sintaxis del RR SOA tiene el siguiente significado:
+
++-------------+------------------+------------------------------------------------------------------------------------+
+| Tipo        | Ejemplo          | Descripción                                                                        |
++=============+==================+====================================================================================+
+| name        | @                | sustituye el valor de $ORIGIN (example.com.).                                      |
++-------------+------------------+------------------------------------------------------------------------------------+
+| class       | IN               | define la clase Internet.                                                          |
++-------------+------------------+------------------------------------------------------------------------------------+
+| name-server | ns1.example.com. |                                                                                    |
+|             |                  | define el servidor de nombre primario maestro para la zona,                        |
+|             |                  | que además debe ser definido agregando un RR NS.                                   |
++-------------+------------------+------------------------------------------------------------------------------------+
+| email       | hostmaster.      |                                                                                    |
+|             | example.com.     | email administrativo para la zona, inusualmente no utiliza el                      |
+|             |                  | arroba para separar el dominio ya que tiene otro significado,                      |
+|             |                  | en su lugar se usa un punto.                                                       |
++-------------+------------------+------------------------------------------------------------------------------------+
+| sn          | 2003080800       |                                                                                    |
+|             |                  | número serie asociado a la zona. Cada vez que se hace un cambien                   |
+|             |                  | el servidor de modificarse este valor (de 0 a 4294967295).                         |
++-------------+------------------+------------------------------------------------------------------------------------+
+| refresh     | 12h              |                                                                                    |
+|             |                  | tiempo en el que el servidor de nombres esclavo leerá el                           |
+|             |                  | RR SOA del master.                                                                 |
++-------------+------------------+------------------------------------------------------------------------------------+
+| retry       | 15m              | si el refresh falla reintenta cada este tiempo (10 a 60 min).                      |
++-------------+------------------+------------------------------------------------------------------------------------+
+| expriry     | 3w               |                                                                                    |
+|             |                  | Los registros podrán ser considerados inválidos y consecuentemente                 |
+|             |                  | dejar de responder consultas para la zona.                                         |
+|             |                  |                                                                                    |
+|             |                  | Cuando se alcanza el tiempo de refresh, el esclavo tratará de contactar la         |
+|             |                  | zona master, en caso de falla, intentará la reconexión en el período ``retry``,    |
+|             |                  | Si el contacto se produce, entonces ambos se resetean, en cambio si el esclavo     |
+|             |                  | falla durante el tiempo ``expire`` entonces dejar[a de responder consultas         |
+|             |                  | y la zona será considerada muerta. El valor típoco es elevado, de 1 a 3 semanas.   |
++-------------+------------------+------------------------------------------------------------------------------------+
+| nx          | 3h               |                                                                                    |
+|             |                  | El período de tiempo en que las respuestas negativas pueden ser cacheadas.         |
+|             |                  | Si por ejemplo la consulta hecha para fred.example.com no puede ser resuelta       |
+|             |                  | (porque no existe) el resolver retornará ``Name error`` y asi seguirá hasta        |
+|             |                  | expire el período, momento en el reintentará la consulta. El rango es de 0 a 10800 |
+|             |                  | (3 horas).                                                                         |
++-------------+------------------+------------------------------------------------------------------------------------+
+
+.. note::
+
+  Algunos ejemplos del uso de ``$ORIGIN`` en http://zytrax.com/books/dns/ch8/origin.html**
+
 A continuación se explican los registros usados arriba y el resto de los tipos
 de registro que se pueden utilizar.
 
