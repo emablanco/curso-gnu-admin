@@ -706,7 +706,7 @@ Modifico ``/etc/network/interfaces`` para asignar una ip del rango 10.0.0.0/24
         gateway 10.0.0.1
         dns-nameservers 8.8.8.8
 
-Luego de las reglas para limpiar y aplicar políticas por defecto:
+Luego de las reglas para limpiar y aplicar políticas por defecto de aceptar:
 
 .. code:: bash
     
@@ -715,7 +715,8 @@ Luego de las reglas para limpiar y aplicar políticas por defecto:
 
     # NATeamos la red 10
     #iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j SNAT --to 1.2.3.1
-    iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j MASQUERADE
+    # ETHX es la interfaz de salida
+    iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o ETHX -j MASQUERADE
 
 Actividad 7
 ~~~~~~~~~~~

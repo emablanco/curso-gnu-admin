@@ -378,32 +378,32 @@ endobj
 endobj
 71 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 111 0 R /XYZ 62.69291 170.0236 0 ] /Rect [ 102.6929 720.0236 182.1829 732.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 111 0 R /XYZ 62.69291 158.0236 0 ] /Rect [ 102.6929 720.0236 182.1829 732.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 72 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 111 0 R /XYZ 62.69291 170.0236 0 ] /Rect [ 521.4627 720.7736 532.5827 732.7736 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 111 0 R /XYZ 62.69291 158.0236 0 ] /Rect [ 521.4627 720.7736 532.5827 732.7736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 73 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 62.69291 545.8236 0 ] /Rect [ 102.6929 702.0236 182.1829 714.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 62.69291 521.8236 0 ] /Rect [ 102.6929 702.0236 182.1829 714.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 74 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 62.69291 545.8236 0 ] /Rect [ 521.4627 702.7736 532.5827 714.7736 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 62.69291 521.8236 0 ] /Rect [ 521.4627 702.7736 532.5827 714.7736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 75 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 114 0 R /XYZ 62.69291 587.8236 0 ] /Rect [ 82.69291 684.0236 163.8429 696.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 114 0 R /XYZ 62.69291 563.8236 0 ] /Rect [ 82.69291 684.0236 163.8429 696.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 76 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 114 0 R /XYZ 62.69291 587.8236 0 ] /Rect [ 521.4627 684.7736 532.5827 696.7736 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 114 0 R /XYZ 62.69291 563.8236 0 ] /Rect [ 521.4627 684.7736 532.5827 696.7736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 77 0 obj
@@ -733,7 +733,7 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Security_Guide/s1-firewall-ipt-fwd.html)
->> /Border [ 0 0 0 ] /Rect [ 39.3178 435.5736 578.9578 447.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 39.3178 411.5736 578.9578 423.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 114 0 obj
@@ -753,7 +753,7 @@ endobj
 endobj
 116 0 obj
 <<
-/Author () /CreationDate (D:20180726172231+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180726172231+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180801142815+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180801142815+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -924,17 +924,17 @@ endobj
 endobj
 149 0 obj
 <<
-/Dest [ 111 0 R /XYZ 62.69291 170.0236 0 ] /Next 150 0 R /Parent 143 0 R /Prev 148 0 R /Title (\376\377\0001\000.\0009\000.\0006\000\240\000\240\000\240\000A\000c\000t\000i\000v\000i\000d\000a\000d\000 \0007)
+/Dest [ 111 0 R /XYZ 62.69291 158.0236 0 ] /Next 150 0 R /Parent 143 0 R /Prev 148 0 R /Title (\376\377\0001\000.\0009\000.\0006\000\240\000\240\000\240\000A\000c\000t\000i\000v\000i\000d\000a\000d\000 \0007)
 >>
 endobj
 150 0 obj
 <<
-/Dest [ 112 0 R /XYZ 62.69291 545.8236 0 ] /Parent 143 0 R /Prev 149 0 R /Title (\376\377\0001\000.\0009\000.\0007\000\240\000\240\000\240\000A\000c\000t\000i\000v\000i\000d\000a\000d\000 \0008)
+/Dest [ 112 0 R /XYZ 62.69291 521.8236 0 ] /Parent 143 0 R /Prev 149 0 R /Title (\376\377\0001\000.\0009\000.\0007\000\240\000\240\000\240\000A\000c\000t\000i\000v\000i\000d\000a\000d\000 \0008)
 >>
 endobj
 151 0 obj
 <<
-/Dest [ 114 0 R /XYZ 62.69291 587.8236 0 ] /Parent 118 0 R /Prev 143 0 R /Title (\376\377\0001\000.\0001\0000\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000i\000a\000s)
+/Dest [ 114 0 R /XYZ 62.69291 563.8236 0 ] /Parent 118 0 R /Prev 143 0 R /Title (\376\377\0001\000.\0001\0000\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000i\000a\000s)
 >>
 endobj
 152 0 obj
@@ -1032,7 +1032,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (26/07/2018 17:22) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (01/08/2018 14:28) Tj T* ET
 Q
 Q
 q
@@ -5091,7 +5091,7 @@ endstream
 endobj
 169 0 obj
 <<
-/Length 6195
+/Length 5908
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -5247,11 +5247,11 @@ q
 1 0 0 1 62.69291 275.2236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Luego de las reglas para limpiar y aplicar pol\355ticas por defecto:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Luego de las reglas para limpiar y aplicar pol\355ticas por defecto de aceptar:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 182.0236 cm
+1 0 0 1 62.69291 170.0236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5261,58 +5261,38 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 84 re B*
+n -6 -6 468.6898 96 re B*
 Q
 q
 .960784 .960784 .862745 rg
-n 0 60 216 12 re f*
+n 0 72 216 12 re f*
 .960784 .960784 .862745 rg
-n 144 48 12 12 re f*
+n 144 60 12 12 re f*
 .960784 .960784 .862745 rg
-n 0 24 120 12 re f*
+n 0 36 120 12 re f*
 .960784 .960784 .862745 rg
-n 0 12 402 12 re f*
+n 0 24 402 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 186 12 re f*
 .960784 .960784 .862745 rg
 n 204 0 12 12 re f*
-BT 1 0 0 1 0 62 Tm 12 TL /F6 10 Tf .25098 .501961 .501961 rg (# prohibimos salida a la IP 10.0.0.8) Tj T* /F5 10 Tf 0 0 0 rg (iptables -A FORDWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.8 -j REJECT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# NATeamos la red 10) Tj T* (#iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j SNAT --to 1.2.3.1) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t nat -A POSTROUTING -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -j MASQUERADE) Tj T* ET
+BT 1 0 0 1 0 74 Tm 12 TL /F6 10 Tf .25098 .501961 .501961 rg (# prohibimos salida a la IP 10.0.0.8) Tj T* /F5 10 Tf 0 0 0 rg (iptables -A FORDWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.8 -j REJECT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# NATeamos la red 10) Tj T* (#iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -j SNAT --to 1.2.3.1) Tj T* (# ETHX es la interfaz de salida) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t nat -A POSTROUTING -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -o ETHX -j MASQUERADE) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 155.0236 cm
+1 0 0 1 62.69291 143.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (1.9.6   Actividad 7) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 137.0236 cm
+1 0 0 1 62.69291 125.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Para este caso, el conjunto de reglas ser\355a el siguiente:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 91.82362 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
-Q
-q
-.960784 .960784 .862745 rg
-n 0 12 276 12 re f*
-BT 1 0 0 1 0 14 Tm 12 TL /F6 10 Tf .25098 .501961 .501961 rg (# Definimos la pol\355tica por defecto en Aceptar) Tj T* /F5 10 Tf 0 0 0 rg (iptables -P INPUT ACCEPT) Tj T* ET
-Q
-Q
-Q
 Q
 Q
 q
@@ -5334,12 +5314,12 @@ endstream
 endobj
 170 0 obj
 <<
-/Length 6934
+/Length 6944
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 643.8236 cm
+1 0 0 1 62.69291 619.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5349,9 +5329,11 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 108 re B*
+n -6 -6 468.6898 132 re B*
 Q
 q
+.960784 .960784 .862745 rg
+n 0 108 276 12 re f*
 .960784 .960784 .862745 rg
 n 0 48 408 12 re f*
 .960784 .960784 .862745 rg
@@ -5364,33 +5346,33 @@ n 0 12 312 12 re f*
 n 198 0 12 12 re f*
 .960784 .960784 .862745 rg
 n 360 0 12 12 re f*
-BT 1 0 0 1 0 86 Tm 12 TL /F5 10 Tf 0 0 0 rg (iptables -P OUTPUT ACCEPT) Tj T* (iptables -P FORWARD ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# El servidor de correos interno puede salir al puerto TCP 25 \(SMTP\)) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.4 -p tcp --dport ) Tj .4 .4 .4 rg (25) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# El resto de la red no puede salir al puerto TCP 25) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (25) Tj 0 0 0 rg ( -j REJECT) Tj T* ET
+BT 1 0 0 1 0 110 Tm 12 TL /F6 10 Tf .25098 .501961 .501961 rg (# Definimos la pol\355tica por defecto en Aceptar) Tj T* /F5 10 Tf 0 0 0 rg (iptables -P INPUT ACCEPT) Tj T* (iptables -P OUTPUT ACCEPT) Tj T* (iptables -P FORWARD ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# El servidor de correos interno puede salir al puerto TCP 25 \(SMTP\)) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.4 -p tcp --dport ) Tj .4 .4 .4 rg (25) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# El resto de la red no puede salir al puerto TCP 25) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (25) Tj 0 0 0 rg ( -j REJECT) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 611.8236 cm
+1 0 0 1 62.69291 587.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .043876 Tw 12 TL /F1 10 Tf 0 0 0 rg (Es importante resaltar que las reglas fueron anexadas a la cadena ) Tj /F3 10 Tf (FORWARD) Tj /F1 10 Tf ( debido a que el origen y el) Tj T* 0 Tw (destino son distintos del firewall \(origen: equipos de la red interna, destino: equipos de otras redes\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 557.8236 cm
+1 0 0 1 62.69291 533.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .510988 Tw (A su vez, el orden en el que se eval\372an las reglas es secuencial \(recuerden que la opci\363n -A agrega las) Tj T* 0 Tw 1.467209 Tw (reglas al final de la cadena\) motivo por el cual primero permitimos la salida del servidor de correos y) Tj T* 0 Tw .362093 Tw (luego si denegamos el resto de la red. Otro detalle importante es que este conjunto de reglas se aplica y) Tj T* 0 Tw (permanece en memoria, por lo que si el servidor se reinicia las mismas se pierden.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 530.8236 cm
+1 0 0 1 62.69291 506.8236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (1.9.7   Actividad 8) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 512.8236 cm
+1 0 0 1 62.69291 488.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (El conjunto de reglas ser\355a el siguiente:) Tj T* ET
@@ -5407,41 +5389,33 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 474 408 re B*
+n -6 -6 474 384 re B*
 Q
 q
 .960784 .960784 .862745 rg
-n 0 384 114 12 re f*
+n 0 360 114 12 re f*
 .960784 .960784 .862745 rg
-n 0 360 258 12 re f*
+n 0 336 258 12 re f*
 .960784 .960784 .862745 rg
-n 0 288 408 12 re f*
+n 0 264 408 12 re f*
 .960784 .960784 .862745 rg
-n 0 276 114 12 re f*
+n 0 252 114 12 re f*
 .960784 .960784 .862745 rg
-n 198 252 12 12 re f*
+n 198 228 12 12 re f*
 .960784 .960784 .862745 rg
-n 342 252 12 12 re f*
+n 342 228 12 12 re f*
 .960784 .960784 .862745 rg
-n 198 240 12 12 re f*
+n 198 216 12 12 re f*
 .960784 .960784 .862745 rg
-n 342 240 18 12 re f*
+n 342 216 18 12 re f*
 .960784 .960784 .862745 rg
-n 0 216 462 12 re f*
+n 0 192 462 12 re f*
 .960784 .960784 .862745 rg
-n 0 204 426 12 re f*
-.960784 .960784 .862745 rg
-n 198 180 12 12 re f*
-.960784 .960784 .862745 rg
-n 360 180 12 12 re f*
-.960784 .960784 .862745 rg
-n 198 168 12 12 re f*
-.960784 .960784 .862745 rg
-n 360 168 18 12 re f*
+n 0 180 426 12 re f*
 .960784 .960784 .862745 rg
 n 198 156 12 12 re f*
 .960784 .960784 .862745 rg
-n 360 156 18 12 re f*
+n 360 156 12 12 re f*
 .960784 .960784 .862745 rg
 n 198 144 12 12 re f*
 .960784 .960784 .862745 rg
@@ -5457,20 +5431,26 @@ n 360 120 18 12 re f*
 .960784 .960784 .862745 rg
 n 198 108 12 12 re f*
 .960784 .960784 .862745 rg
-n 360 108 12 12 re f*
+n 360 108 18 12 re f*
 .960784 .960784 .862745 rg
 n 198 96 12 12 re f*
 .960784 .960784 .862745 rg
-n 360 96 12 12 re f*
+n 360 96 18 12 re f*
 .960784 .960784 .862745 rg
-n 0 72 144 12 re f*
+n 198 84 12 12 re f*
 .960784 .960784 .862745 rg
-n 186 60 12 12 re f*
+n 360 84 12 12 re f*
 .960784 .960784 .862745 rg
-n 348 60 12 12 re f*
+n 198 72 12 12 re f*
 .960784 .960784 .862745 rg
-n 0 0 384 12 re f*
-BT 1 0 0 1 0 386 Tm 12 TL /F5 10 Tf 0 0 0 rg (#!/usr/bin/env bash) Tj T* 0 0 0 rg  T* /F6 10 Tf .25098 .501961 .501961 rg (# Definimos la pol\355tica por defecto en DROP) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -P INPUT DROP) Tj T* (iptables -P OUTPUT DROP) Tj T* (iptables -P FORWARD DROP) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# El servidor de correos interno puede salir al puerto TCP 25 \(SMTP\)) Tj T* (# y TCP 465 \(SMTPs\)) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.4 -p tcp --dport ) Tj .4 .4 .4 rg (25) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.4 -p tcp --dport ) Tj .4 .4 .4 rg (465) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# Desde la subred local se puede salir a los puertos TCP 80\(HTTP\),443\(HTTPs\),) Tj T* (# 143\(IMAP\), 993\(IMAPs\), 110\(POP3\), 995\(POP3s\), 53\(DNS\) y UDP 53 \(DNS\).) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (80) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (443) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (143) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (993) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (110) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (995) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p udp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# Acceso SSH al firewall) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A INPUT -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT) Tj T* (iptables -A FORWARD -p tcp -m state --state ESTABLISHED -j ACCEPT) Tj T*  T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# A su vez necesitamos que desde el firewall tambi\351n se acceda a) Tj T* ET
+n 360 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 144 12 re f*
+.960784 .960784 .862745 rg
+n 186 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 348 36 12 12 re f*
+BT 1 0 0 1 0 362 Tm 12 TL /F5 10 Tf 0 0 0 rg (#!/usr/bin/env bash) Tj T* 0 0 0 rg  T* /F6 10 Tf .25098 .501961 .501961 rg (# Definimos la pol\355tica por defecto en DROP) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -P INPUT DROP) Tj T* (iptables -P OUTPUT DROP) Tj T* (iptables -P FORWARD DROP) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# El servidor de correos interno puede salir al puerto TCP 25 \(SMTP\)) Tj T* (# y TCP 465 \(SMTPs\)) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.4 -p tcp --dport ) Tj .4 .4 .4 rg (25) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.4 -p tcp --dport ) Tj .4 .4 .4 rg (465) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# Desde la subred local se puede salir a los puertos TCP 80\(HTTP\),443\(HTTPs\),) Tj T* (# 143\(IMAP\), 993\(IMAPs\), 110\(POP3\), 995\(POP3s\), 53\(DNS\) y UDP 53 \(DNS\).) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (80) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (443) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (143) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (993) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (110) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (995) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A FORWARD -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p udp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# Acceso SSH al firewall) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A INPUT -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -p tcp --dport ) Tj .4 .4 .4 rg (22) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -A OUTPUT -p tcp -m state --state ESTABLISHED -j ACCEPT) Tj T* (iptables -A FORWARD -p tcp -m state --state ESTABLISHED -j ACCEPT) Tj T*  T* ET
 Q
 Q
 Q
@@ -5495,12 +5475,12 @@ endstream
 endobj
 171 0 obj
 <<
-/Length 4109
+/Length 4256
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 643.8236 cm
+1 0 0 1 62.69291 619.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5510,9 +5490,11 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 108 re B*
+n -6 -6 468.6898 132 re B*
 Q
 q
+.960784 .960784 .862745 rg
+n 0 96 384 12 re f*
 .960784 .960784 .862745 rg
 n 0 84 120 12 re f*
 .960784 .960784 .862745 rg
@@ -5529,40 +5511,40 @@ n 0 36 360 12 re f*
 n 0 24 300 12 re f*
 .960784 .960784 .862745 rg
 n 252 0 12 12 re f*
-BT 1 0 0 1 0 86 Tm 12 TL /F6 10 Tf .25098 .501961 .501961 rg (# los servidores DNS) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A OUTPUT -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.1 -p tcp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A OUTPUT -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.1 -p udp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# Se enmascaran todas las conexiones para que cuando salga a) Tj T* (# internet lo hagan con la IP p\372blica del firewall) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -t nat -A POSTROUTING -o eth1 -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -j MASQUERADE) Tj T* ET
+BT 1 0 0 1 0 110 Tm 12 TL /F5 10 Tf 0 0 0 rg  T* /F6 10 Tf .25098 .501961 .501961 rg (# A su vez necesitamos que desde el firewall tambi\351n se acceda a) Tj T* (# los servidores DNS) Tj T* /F5 10 Tf 0 0 0 rg (iptables -t filter -A OUTPUT -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.1 -p tcp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T* (iptables -t filter -A OUTPUT -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.1 -p udp --dport ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( -j ACCEPT) Tj T*  T* /F6 10 Tf .25098 .501961 .501961 rg (# Se enmascaran todas las conexiones para que cuando salga a) Tj T* (# internet lo hagan con la IP p\372blica del firewall) Tj T* /F5 10 Tf 0 0 0 rg  T* (iptables -t nat -A POSTROUTING -o eth1 -s ) Tj .4 .4 .4 rg (10) Tj 0 0 0 rg (.0.0.0/24 -j MASQUERADE) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 599.8236 cm
+1 0 0 1 62.69291 575.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.33561 Tw (Como vemos, una pol\355tica de seguridad muy simple se convierte en varias reglas de iptables, las que) Tj T* 0 Tw .237984 Tw (como mencionamos previamente, deben ser almacenadas para que se ejecuten al inicio y se las aplique,) Tj T* 0 Tw (porque sino al reiniciar el sistema se perder\341n.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 569.8236 cm
+1 0 0 1 62.69291 545.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (1.10   Referencias) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 551.8236 cm
+1 0 0 1 62.69291 527.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (El documento fue creado fundamentalmente a partir de:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 545.8236 cm
-Q
-q
-1 0 0 1 62.69291 545.8236 cm
+1 0 0 1 62.69291 521.8236 cm
 Q
 q
 1 0 0 1 62.69291 521.8236 cm
+Q
+q
+1 0 0 1 62.69291 497.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5583,23 +5565,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 521.8236 cm
+1 0 0 1 62.69291 497.8236 cm
 Q
 q
-1 0 0 1 62.69291 503.8236 cm
+1 0 0 1 62.69291 479.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Adem\341s se usaron como referencias:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 497.8236 cm
+1 0 0 1 62.69291 473.8236 cm
 Q
 q
-1 0 0 1 62.69291 497.8236 cm
+1 0 0 1 62.69291 473.8236 cm
 Q
 q
-1 0 0 1 62.69291 485.8236 cm
+1 0 0 1 62.69291 461.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5620,10 +5602,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 479.8236 cm
+1 0 0 1 62.69291 455.8236 cm
 Q
 q
-1 0 0 1 62.69291 455.8236 cm
+1 0 0 1 62.69291 431.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5644,10 +5626,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 449.8236 cm
+1 0 0 1 62.69291 425.8236 cm
 Q
 q
-1 0 0 1 16.3178 437.8236 cm
+1 0 0 1 16.3178 413.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5669,10 +5651,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 437.8236 cm
+1 0 0 1 62.69291 413.8236 cm
 Q
 q
-1 0 0 1 62.69291 437.8236 cm
+1 0 0 1 62.69291 413.8236 cm
 Q
 q
 1 0 0 1 56.69291 773.1969 cm
@@ -5966,32 +5948,32 @@ xref
 0001896204 00000 n 
 0001903835 00000 n 
 0001908405 00000 n 
-0001914653 00000 n 
-0001921640 00000 n 
-0001925802 00000 n 
-0001926043 00000 n 
-0001926078 00000 n 
-0001926113 00000 n 
-0001926148 00000 n 
-0001926183 00000 n 
-0001926218 00000 n 
-0001926253 00000 n 
-0001926288 00000 n 
-0001926323 00000 n 
-0001926358 00000 n 
-0001926394 00000 n 
-0001926430 00000 n 
-0001926466 00000 n 
-0001926502 00000 n 
-0001926538 00000 n 
-0001926574 00000 n 
-0001926610 00000 n 
-0001926646 00000 n 
-0001926682 00000 n 
+0001914366 00000 n 
+0001921363 00000 n 
+0001925672 00000 n 
+0001925913 00000 n 
+0001925948 00000 n 
+0001925983 00000 n 
+0001926018 00000 n 
+0001926053 00000 n 
+0001926088 00000 n 
+0001926123 00000 n 
+0001926158 00000 n 
+0001926193 00000 n 
+0001926228 00000 n 
+0001926264 00000 n 
+0001926300 00000 n 
+0001926336 00000 n 
+0001926372 00000 n 
+0001926408 00000 n 
+0001926444 00000 n 
+0001926480 00000 n 
+0001926516 00000 n 
+0001926552 00000 n 
 trailer
 <<
 /ID 
-[<c2dd5bf0b9d6c98f6b0878d8f0aa8f43><c2dd5bf0b9d6c98f6b0878d8f0aa8f43>]
+[<087cfe1c535272f8c29cd49488298b27><087cfe1c535272f8c29cd49488298b27>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 116 0 R
@@ -5999,5 +5981,5 @@ trailer
 /Size 192
 >>
 startxref
-1926718
+1926588
 %%EOF
