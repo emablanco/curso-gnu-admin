@@ -648,6 +648,15 @@ Consortium.
 Su versión actual, BIND 9, incluye entre otras características importantes: TSIG, notificación DNS, 
 nsupdate, IPv6, rndc flush, vistas y procesamiento en paralelo.
 
+Instalación
+-----------
+
+Actualice el sistema y luego instale bind:
+
+.. code:: bash
+  
+  yum -y install bind bind-libs bind-chroot bind-utils
+
 Configuración de Bind
 ---------------------
 
@@ -691,11 +700,6 @@ La sintaxis de dicho archivo es la siguiente:
     option-2;
     option-N;
   };
-  statement-2 ["statement-2-name"] [statement-2-class] {
-    option-1;
-    option-2;
-    option-N;
-  };
   statement-N ["statement-N-name"] [statement-N-class] {
     option-1;
     option-2;
@@ -704,8 +708,8 @@ La sintaxis de dicho archivo es la siguiente:
 
 ACLs
 ----
-La sentencia ACL (Access Control List) nos permite definir grupos de hosts, a
-los que luego podemos permitirle o denegarle el acceso a ciertos tipos de consulta
+La sentencia ACL (Access Control List) nos permite definir dentro del ``/etc/named.conf`` grupos de hosts, 
+a los que luego podemos permitirle o denegarle el acceso a ciertos tipos de consulta
 sobre el servidor de nombres, e incluso asociarlos con diferentes opciones.
 
 Su sintaxis es la siguientes
@@ -737,9 +741,8 @@ Por ejemplo
 
 Opciones
 --------
-Las opciones, permiten definir configuraciones globales y por defecto del
-servidor. Se utilizan para definir la ubicación del directorio de trabajo,
-los tipos de consultas que están permitidas y mucho más.
+Las opciones, permiten definir en ``/etc/named.conf`` configuraciones globales y por defecto del
+servidor. Se utilizan para definir la ubicación del directorio de trabajo y los tipos de consultas que están permitidas, entre otras.
 
 Su sintaxis es la siguiente
 
@@ -765,15 +768,14 @@ Las opciones más comunes son:
   none.
 
 * **directory**: Especifica el directorio de trabajo. El valor por defecto es
-  /var/named/.
+  ``/var/named/``.
 
 * **dnssec-enable**: Especifica si el servidor va a trabajar con las extensiones
   de seguridad (DNSSEC). Este tipo de extensiones fueron incorporadas para brindar
   mayor seguridad, dado que el protocolo DNS originalmente no fue diseñado pensando
   en la seguridad. Permiten entre otras cosas, realizar la autenticación de las
   respuestas y a su vez brindar compatibilidad hacia atrás con el mismo protocolo.
-  Para mayor información consultar https://es.wikipedia.org/wiki/Domain_Name_System_Security_Extensions.
-  El valor por defecto es yes.
+  Para mayor información consultar DNSExtensions_. El valor por defecto es ``yes``.  
 
 * **dnssec-validation**: Especifica si se debe probar si un registro DNS es autentico
   via DNSSEC. La opción por defecto es yes.
@@ -814,6 +816,8 @@ Las opciones más comunes son:
 
 * **recursion**: especifica si el servidor debe trabajar de manera recursiva. El
   valor por defecto es yes.
+
+.. _DNSExtensions: https://es.wikipedia.org/wiki/Domain_Name_System_Security_Extensions.
 
 Archivo de configuración (``/etc/named.conf``)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -947,15 +951,12 @@ podría ser algo así
               3h ; nxdomain ttl
             )
             
-        IN  NS     ns1.example.com.  ; Servidor de nombres en el dominio
-        IN  NS     ns2.example.com.  ; Otro servidor de nombres
-        IN  MX  10 mail.example.com. ; Servidor de mail del dominio.
-
-  ; Definicion de host en el dominio
-  ns1    IN  A      192.168.0.1  ; Servidor de nombres (el mismo)
-  ns2    IN  A      192.168.0.2  ; Servidor de nombres (el mismo)
-
-  www    IN  A      192.168.0.3  ; Servidor web del dominio
+         IN  NS     ns1.example.com.  ; Servidor de nombres en el dominio
+         IN  NS     ns2.example.com.  ; Otro servidor de nombres
+         IN  MX  10 mail.example.com. ; Servidor de mail del dominio.
+  ns1    IN  A      192.168.0.1       ; Servidor de nombres (el mismo)
+  ns2    IN  A      192.168.0.2       ; Servidor de nombres (el mismo)
+  www    IN  A      192.168.0.3       ; Servidor web del dominio
   ftp    IN  CNAME  www.example.com.  ; Servidor ftp del dominio
 
   ; Otras definiciones de hosts
@@ -1059,14 +1060,10 @@ Ejemplo del archivo ``/etc/named.conf``
           allow-query     { localhost; };
 
           recursion yes;
-
           dnssec-enable yes;
           dnssec-validation yes;
-
           bindkeys-file "/etc/named.iscdlv.key";
-
           managed-keys-directory "/var/named/dynamic";
-
           pid-file "/run/named/named.pid";
           session-keyfile "/run/named/session.key"; 
   };
