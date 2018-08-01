@@ -174,10 +174,10 @@ Servidores DNS
 Son servicios que contestan las consultas realizadas por los Clientes DNS. Hay
 dos tipos de servidores de nombres:
 
-* Servidor Maestro: También denominado Primario. Obtiene los datos del dominio
+* **Maestro/Primario**: Obtiene los datos del dominio
   a partir de un archivo alojado en el mismo servidor.
 
-* Servidor Esclavo: También denominado Secundario. Al iniciar obtiene los datos
+* **Esclavo/Secundario**: Al iniciar obtiene los datos
   del dominio a través de un Servidor Maestro (o primario), realizando un proceso
   denominado transferencia de zona.
 
@@ -252,7 +252,7 @@ El contenido mínimo de éstos archivos debe ser el siguiente:
   ; single line RR
     IN NS ns1.example.com.
 
-El formato del **Zone File** puede contener 4 tipos de entradas siguiendo un determinado formato (http://zytrax.com/books/dns/ch8/index.html#zone):
+El formato del **Zone File** puede contener 4 tipos de entradas:
 
 - **Comentarios**: comienzan con ``;`` y continúan hasta el final de la línea
 - **Directivas**: comienzan con el signo ``$`` y son usadas para controlar el procesamiento del archivo de zonas
@@ -261,9 +261,10 @@ El formato del **Zone File** puede contener 4 tipos de entradas siguiendo un det
 
 .. note::
 
-  **Ayuda:** El sitio http://www.zonefile.org/ permite generar en forma automática el zone file y la sección correspondiente para agregar en el ``named.conf``.
+  **Ayuda:** El sitio http://www.zonefile.org/ permite generar en forma automática el archivo de **la definición** y el de la 
+  **definición** de la zona. En http://zytrax.com/books/dns/ch8/index.html#zone puede conocer en mayor detalle los tipos de entradas
+  del zonefile.
 
-**ACA EXPLICAR  COMO ESTA EN LA PAG 30 Y 31 DEL BROLI PRO DNS AND BIND 10 y vincular con lo de la web http://zytrax.com/books/dns/ch8/origin.html**
 
 La sintaxis del RR SOA tiene el siguiente significado:
 
@@ -634,8 +635,12 @@ ACTIVIDAD 2
 -----------
 
 - Pruebe los comandos host y whois.
-- Utilice el comando dig para hacer consultas de distintos tipos de registros a diferentes servidores DNS
-- Instale los manuales de los comandos previos 
+- Ejecute dig sin argumentos y analice la salida del comando.
+- Utilice el comando dig para hacer consultas de distintos dominios usando los DNS por defecto
+- Utilice dig usando DNS especificados en el comando
+- Use dig para consultar por cada uno de los RR (SOA, MX, NS, ANY)
+- Haciendo ``dig +trace dominio.com`` muestra la traza y saltos de la petición hasta que llega al servidor autoritativo
+- Pruebe la resolución inversa haciendo: ``dig -x 8.8.8.8``
 - Instale ``dnstracer`` y pruebe su uso de la siguiente manera: ``dnstracer -s . -4 -o www.epe.santafe.gov.ar`` . Analice su salida.
 
 El servidor de DNS Bind
