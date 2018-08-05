@@ -965,8 +965,10 @@ podría ser algo así
          IN  MX  10 mail.example.com. ; Servidor de mail del dominio.
   ns1    IN  A      192.168.0.1       ; IP del DNS (el mismo)
   ns2    IN  A      192.168.0.2       ; IP del DNS secundario
+  mail   IN  A      192.168.0.55      ; IP del mailserver
   www    IN  A      192.168.0.3       ; Servidor web del dominio
   ftp    IN  CNAME  www.example.com.  ; Servidor ftp del dominio
+  
 
   ; Otras definiciones de hosts
   mickyvainilla    IN  A      192.168.0.4 ; host mickyvainilla.example.com
@@ -1026,6 +1028,7 @@ podría contener los siguientes registros de nuestro ejemplo
   $ORIGIN 0.168.192.in-addr.arpa.
   1   IN PTR ns1.example.com.
   2   IN PTR ns2.example.com.
+  55  IN PTR mail.example.com.
   3   IN PTR www.example.com.
   4   IN PTR mickyvainilla.example.com.
   5   IN PTR capitanpiluso.example.com.
