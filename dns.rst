@@ -1053,7 +1053,7 @@ En resumen
   del siguiente modo
 
 .. code:: bash
-
+  ...
   include "/etc/named/example.com";
   include "/etc/named/reverse.example.com";
 

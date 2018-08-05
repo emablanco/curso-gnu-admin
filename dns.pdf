@@ -472,27 +472,27 @@ endobj
 endobj
 92 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 128 0 R /XYZ 62.69291 392.6236 0 ] /Rect [ 82.69291 606.0236 197.7429 618.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 128 0 R /XYZ 62.69291 416.6236 0 ] /Rect [ 82.69291 606.0236 197.7429 618.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 93 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 128 0 R /XYZ 62.69291 392.6236 0 ] /Rect [ 200.5229 606.0236 290.5229 618.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 128 0 R /XYZ 62.69291 416.6236 0 ] /Rect [ 200.5229 606.0236 290.5229 618.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 94 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 128 0 R /XYZ 62.69291 392.6236 0 ] /Rect [ 521.4627 606.7736 532.5827 618.7736 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 128 0 R /XYZ 62.69291 416.6236 0 ] /Rect [ 521.4627 606.7736 532.5827 618.7736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 95 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 132 0 R /XYZ 62.69291 583.8236 0 ] /Rect [ 62.69291 588.0236 133.2829 600.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 132 0 R /XYZ 62.69291 607.8236 0 ] /Rect [ 62.69291 588.0236 133.2829 600.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 96 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 132 0 R /XYZ 62.69291 583.8236 0 ] /Rect [ 521.4627 588.7736 532.5827 600.7736 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 132 0 R /XYZ 62.69291 607.8236 0 ] /Rect [ 521.4627 588.7736 532.5827 600.7736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 97 0 obj
@@ -787,21 +787,21 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (http://www.alcancelibre.org/staticpages/index.php/introduccion-protocolo-dns)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 536.5736 425.8329 548.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 560.5736 425.8329 572.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 130 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)
->> /Border [ 0 0 0 ] /Rect [ 61.8328 518.5736 556.4428 530.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 61.8328 542.5736 556.4428 554.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 131 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-bind)
->> /Border [ 0 0 0 ] /Rect [ 72.6378 500.5736 545.6378 512.5736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 72.6378 524.5736 545.6378 536.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 132 0 obj
@@ -821,7 +821,7 @@ endobj
 endobj
 134 0 obj
 <<
-/Author () /CreationDate (D:20180805180114+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180805180114+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20180805180152+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180805180152+03'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -1022,12 +1022,12 @@ endobj
 endobj
 172 0 obj
 <<
-/Dest [ 128 0 R /XYZ 62.69291 392.6236 0 ] /Parent 158 0 R /Prev 171 0 R /Title (\376\377\0003\000.\0001\0000\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000l\000 \000a\000r\000c\000h\000i\000v\000o\000 \000/\000e\000t\000c\000/\000n\000a\000m\000e\000d\000.\000c\000o\000n\000f)
+/Dest [ 128 0 R /XYZ 62.69291 416.6236 0 ] /Parent 158 0 R /Prev 171 0 R /Title (\376\377\0003\000.\0001\0000\000\240\000\240\000\240\000E\000j\000e\000m\000p\000l\000o\000 \000d\000e\000l\000 \000a\000r\000c\000h\000i\000v\000o\000 \000/\000e\000t\000c\000/\000n\000a\000m\000e\000d\000.\000c\000o\000n\000f)
 >>
 endobj
 173 0 obj
 <<
-/Dest [ 132 0 R /XYZ 62.69291 583.8236 0 ] /Parent 135 0 R /Prev 158 0 R /Title (\376\377\0004\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000i\000a\000s)
+/Dest [ 132 0 R /XYZ 62.69291 607.8236 0 ] /Parent 135 0 R /Prev 158 0 R /Title (\376\377\0004\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000i\000a\000s)
 >>
 endobj
 174 0 obj
@@ -6167,7 +6167,7 @@ endstream
 endobj
 194 0 obj
 <<
-/Length 8881
+/Length 8608
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -6298,35 +6298,12 @@ q
 1 0 0 1 62.69291 449.8236 cm
 Q
 q
-1 0 0 1 62.69291 404.6236 cm
+1 0 0 1 62.69291 428.6236 cm
 q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
-Q
-q
-.960784 .960784 .862745 rg
-n 48 12 144 12 re f*
-.960784 .960784 .862745 rg
-n 192 12 6 12 re f*
-.960784 .960784 .862745 rg
-n 48 0 192 12 re f*
-.960784 .960784 .862745 rg
-n 240 0 6 12 re f*
-BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (include ) Tj .729412 .129412 .129412 rg ("/etc/named/example.com") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/reverse.example.com") Tj 0 0 0 rg (;) Tj T* ET
-Q
-Q
-Q
 Q
 Q
 q
-1 0 0 1 62.69291 374.6236 cm
+1 0 0 1 62.69291 398.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.10   Ejemplo del archivo ) Tj /F3 15 Tf 0 0 0 rg (/etc/named.conf) Tj T* ET
 Q
@@ -6342,94 +6319,102 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 276 re B*
+n -6 -6 468.6898 300 re B*
 Q
 q
 .960784 .960784 .862745 rg
-n 48 252 6 12 re f*
+n 48 276 6 12 re f*
 .960784 .960784 .862745 rg
-n 138 240 12 12 re f*
+n 138 264 12 12 re f*
 .960784 .960784 .862745 rg
-n 156 240 6 12 re f*
+n 156 264 6 12 re f*
 .960784 .960784 .862745 rg
-n 168 240 18 12 re f*
+n 168 264 18 12 re f*
 .960784 .960784 .862745 rg
-n 222 240 6 12 re f*
+n 222 264 6 12 re f*
 .960784 .960784 .862745 rg
-n 234 240 6 12 re f*
+n 234 264 6 12 re f*
 .960784 .960784 .862745 rg
-n 240 240 6 12 re f*
+n 240 264 6 12 re f*
 .960784 .960784 .862745 rg
-n 156 228 12 12 re f*
+n 156 252 12 12 re f*
 .960784 .960784 .862745 rg
-n 174 228 6 12 re f*
+n 174 252 6 12 re f*
 .960784 .960784 .862745 rg
-n 204 228 6 12 re f*
+n 204 252 6 12 re f*
 .960784 .960784 .862745 rg
-n 216 228 6 12 re f*
+n 216 252 6 12 re f*
 .960784 .960784 .862745 rg
-n 222 228 6 12 re f*
+n 222 252 6 12 re f*
 .960784 .960784 .862745 rg
-n 144 216 72 12 re f*
+n 144 240 72 12 re f*
 .960784 .960784 .862745 rg
-n 216 216 6 12 re f*
+n 216 240 6 12 re f*
 .960784 .960784 .862745 rg
-n 144 204 186 12 re f*
+n 144 228 186 12 re f*
 .960784 .960784 .862745 rg
-n 330 204 6 12 re f*
+n 330 228 6 12 re f*
 .960784 .960784 .862745 rg
-n 144 192 198 12 re f*
+n 144 216 198 12 re f*
 .960784 .960784 .862745 rg
-n 342 192 6 12 re f*
+n 342 216 6 12 re f*
 .960784 .960784 .862745 rg
-n 162 180 222 12 re f*
+n 162 204 222 12 re f*
 .960784 .960784 .862745 rg
-n 384 180 6 12 re f*
+n 384 204 6 12 re f*
 .960784 .960784 .862745 rg
-n 144 168 6 12 re f*
+n 144 192 6 12 re f*
 .960784 .960784 .862745 rg
-n 210 168 6 12 re f*
+n 210 192 6 12 re f*
 .960784 .960784 .862745 rg
-n 222 168 6 12 re f*
+n 222 192 6 12 re f*
 .960784 .960784 .862745 rg
-n 228 168 6 12 re f*
+n 228 192 6 12 re f*
 .960784 .960784 .862745 rg
-n 126 144 6 12 re f*
+n 126 168 6 12 re f*
 .960784 .960784 .862745 rg
-n 150 132 6 12 re f*
+n 150 156 6 12 re f*
 .960784 .960784 .862745 rg
-n 174 120 6 12 re f*
+n 174 144 6 12 re f*
 .960784 .960784 .862745 rg
-n 132 108 138 12 re f*
+n 132 132 138 12 re f*
 .960784 .960784 .862745 rg
-n 270 108 6 12 re f*
+n 270 132 6 12 re f*
 .960784 .960784 .862745 rg
-n 186 96 120 12 re f*
+n 186 120 120 12 re f*
 .960784 .960784 .862745 rg
-n 306 96 6 12 re f*
+n 306 120 6 12 re f*
 .960784 .960784 .862745 rg
-n 102 84 132 12 re f*
+n 102 108 132 12 re f*
 .960784 .960784 .862745 rg
-n 234 84 6 12 re f*
+n 234 108 6 12 re f*
 .960784 .960784 .862745 rg
-n 144 72 144 12 re f*
+n 144 96 144 12 re f*
 .960784 .960784 .862745 rg
-n 288 72 6 12 re f*
+n 288 96 6 12 re f*
 .960784 .960784 .862745 rg
-n 0 60 6 12 re f*
+n 0 84 6 12 re f*
 .960784 .960784 .862745 rg
-n 6 60 6 12 re f*
+n 6 84 6 12 re f*
 .960784 .960784 .862745 rg
-n 48 36 6 12 re f*
+n 48 60 6 12 re f*
 .960784 .960784 .862745 rg
-n 180 24 6 12 re f*
+n 180 48 6 12 re f*
 .960784 .960784 .862745 rg
-n 126 12 96 12 re f*
+n 126 36 96 12 re f*
 .960784 .960784 .862745 rg
-n 222 12 6 12 re f*
+n 222 36 6 12 re f*
 .960784 .960784 .862745 rg
-n 192 0 6 12 re f*
-BT 1 0 0 1 0 254 Tm 12 TL /F3 10 Tf 0 0 0 rg (options ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        listen-on port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (127) Tj 0 0 0 rg (.0.0.1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        listen-on-v6 port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ::1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        directory       ) Tj .729412 .129412 .129412 rg ("/var/named") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dump-file       ) Tj .729412 .129412 .129412 rg ("/var/named/data/cache_dump.db") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        statistics-file ) Tj .729412 .129412 .129412 rg ("/var/named/data/named_stats.txt") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        memstatistics-file ) Tj .729412 .129412 .129412 rg ("/var/named/data/named_mem_stats.txt") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        allow-query     ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( localhost) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (        recursion yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dnssec-enable yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dnssec-validation yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        bindkeys-file ) Tj .729412 .129412 .129412 rg ("/etc/named.iscdlv.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        managed-keys-directory ) Tj .729412 .129412 .129412 rg ("/var/named/dynamic") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        pid-file ) Tj .729412 .129412 .129412 rg ("/run/named/named.pid") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        session-keyfile ) Tj .729412 .129412 .129412 rg ("/run/named/session.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (logging ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        channel default_debug ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (                file ) Tj .729412 .129412 .129412 rg ("data/named.run") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (                severity dynamic) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* ET
+n 192 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 6 12 re f*
+BT 1 0 0 1 0 278 Tm 12 TL /F3 10 Tf 0 0 0 rg (options ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        listen-on port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (127) Tj 0 0 0 rg (.0.0.1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        listen-on-v6 port ) Tj .4 .4 .4 rg (53) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( ::1) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        directory       ) Tj .729412 .129412 .129412 rg ("/var/named") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dump-file       ) Tj .729412 .129412 .129412 rg ("/var/named/data/cache_dump.db") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        statistics-file ) Tj .729412 .129412 .129412 rg ("/var/named/data/named_stats.txt") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        memstatistics-file ) Tj .729412 .129412 .129412 rg ("/var/named/data/named_mem_stats.txt") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        allow-query     ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg ( localhost) Tj 0 0 0 rg (;) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (        recursion yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dnssec-enable yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        dnssec-validation yes) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        bindkeys-file ) Tj .729412 .129412 .129412 rg ("/etc/named.iscdlv.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        managed-keys-directory ) Tj .729412 .129412 .129412 rg ("/var/named/dynamic") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        pid-file ) Tj .729412 .129412 .129412 rg ("/run/named/named.pid") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        session-keyfile ) Tj .729412 .129412 .129412 rg ("/run/named/session.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (logging ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        channel default_debug ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (                file ) Tj .729412 .129412 .129412 rg ("data/named.run") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (                severity dynamic) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* ET
 Q
 Q
 Q
@@ -6454,12 +6439,12 @@ endstream
 endobj
 195 0 obj
 <<
-/Length 3728
+/Length 3432
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 595.8236 cm
+1 0 0 1 62.69291 619.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -6469,17 +6454,9 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 156 re B*
+n -6 -6 468.6898 132 re B*
 Q
 q
-.960784 .960784 .862745 rg
-n 48 132 6 12 re f*
-.960784 .960784 .862745 rg
-n 54 132 6 12 re f*
-.960784 .960784 .862745 rg
-n 0 120 6 12 re f*
-.960784 .960784 .862745 rg
-n 6 120 6 12 re f*
 .960784 .960784 .862745 rg
 n 30 96 18 12 re f*
 .960784 .960784 .862745 rg
@@ -6512,26 +6489,26 @@ n 192 12 6 12 re f*
 n 48 0 192 12 re f*
 .960784 .960784 .862745 rg
 n 240 0 6 12 re f*
-BT 1 0 0 1 0 134 Tm 12 TL /F3 10 Tf 0 0 0 rg (        ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (zone ) Tj .729412 .129412 .129412 rg (".") Tj 0 0 0 rg ( IN ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        ) Tj 0 .501961 0 rg (type) Tj 0 0 0 rg ( hint) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        file ) Tj .729412 .129412 .129412 rg ("named.ca") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named.rfc1912.zones") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named.root.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/example.com") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/reverse.example.com") Tj 0 0 0 rg (;) Tj T* ET
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg  T* (zone ) Tj .729412 .129412 .129412 rg (".") Tj 0 0 0 rg ( IN ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* (        ) Tj 0 .501961 0 rg (type) Tj 0 0 0 rg ( hint) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (        file ) Tj .729412 .129412 .129412 rg ("named.ca") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg (;) Tj 0 0 0 rg  T*  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named.rfc1912.zones") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named.root.key") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/example.com") Tj 0 0 0 rg (;) Tj 0 0 0 rg  T* (include ) Tj .729412 .129412 .129412 rg ("/etc/named/reverse.example.com") Tj 0 0 0 rg (;) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 562.8236 cm
+1 0 0 1 62.69291 586.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Referencias) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 550.8236 cm
+1 0 0 1 62.69291 574.8236 cm
 Q
 q
-1 0 0 1 62.69291 550.8236 cm
+1 0 0 1 62.69291 574.8236 cm
 Q
 q
-1 0 0 1 62.69291 538.8236 cm
+1 0 0 1 62.69291 562.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6553,10 +6530,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 532.8236 cm
+1 0 0 1 62.69291 556.8236 cm
 Q
 q
-1 0 0 1 38.8328 520.8236 cm
+1 0 0 1 38.8328 544.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6578,10 +6555,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 514.8236 cm
+1 0 0 1 62.69291 538.8236 cm
 Q
 q
-1 0 0 1 49.6378 502.8236 cm
+1 0 0 1 49.6378 526.8236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6603,10 +6580,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 502.8236 cm
+1 0 0 1 62.69291 526.8236 cm
 Q
 q
-1 0 0 1 62.69291 502.8236 cm
+1 0 0 1 62.69291 526.8236 cm
 Q
 q
 1 0 0 1 56.69291 773.1969 cm
@@ -6936,33 +6913,33 @@ xref
 0000433822 00000 n 
 0000442361 00000 n 
 0000449900 00000 n 
-0000458834 00000 n 
-0000462615 00000 n 
-0000462881 00000 n 
-0000462916 00000 n 
+0000458561 00000 n 
+0000462046 00000 n 
+0000462312 00000 n 
+0000462347 00000 n 
+0000462382 00000 n 
+0000462417 00000 n 
+0000462452 00000 n 
+0000462487 00000 n 
+0000462522 00000 n 
+0000462557 00000 n 
+0000462592 00000 n 
+0000462627 00000 n 
+0000462663 00000 n 
+0000462699 00000 n 
+0000462735 00000 n 
+0000462771 00000 n 
+0000462807 00000 n 
+0000462843 00000 n 
+0000462879 00000 n 
+0000462915 00000 n 
 0000462951 00000 n 
-0000462986 00000 n 
-0000463021 00000 n 
-0000463056 00000 n 
-0000463091 00000 n 
-0000463126 00000 n 
-0000463161 00000 n 
-0000463196 00000 n 
-0000463232 00000 n 
-0000463268 00000 n 
-0000463304 00000 n 
-0000463340 00000 n 
-0000463376 00000 n 
-0000463412 00000 n 
-0000463448 00000 n 
-0000463484 00000 n 
-0000463520 00000 n 
-0000463556 00000 n 
-0000463592 00000 n 
+0000462987 00000 n 
+0000463023 00000 n 
 trailer
 <<
 /ID 
-[<8f89a98a3bfd1a93b6ad6d6009d867db><8f89a98a3bfd1a93b6ad6d6009d867db>]
+[<89855c4e27a3bc0a5306847101836bcc><89855c4e27a3bc0a5306847101836bcc>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 134 0 R
@@ -6970,5 +6947,5 @@ trailer
 /Size 218
 >>
 startxref
-463628
+463059
 %%EOF
