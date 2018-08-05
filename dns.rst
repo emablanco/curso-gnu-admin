@@ -1019,16 +1019,16 @@ podría contener los siguientes registros de nuestro ejemplo
                   1w         ; expire
                   3h         ; minimum
                   )
-
-                  NS ns1.example.com.
-                  NS ns2.example.com.
+  ; name servers
+      IN  NS ns1.example.com.
+      IN  NS ns2.example.com.
   ; Registros PTR
   $ORIGIN 0.168.192.in-addr.arpa.
-  1       IN PTR ns1.example.com.
-  2       IN PTR ns2.example.com.
-  3       IN PTR www.example.com.
-  4       IN PTR mickyvainilla.example.com.
-  5       IN PTR capitanpiluso.example.com.
+  1   IN PTR ns1.example.com.
+  2   IN PTR ns2.example.com.
+  3   IN PTR www.example.com.
+  4   IN PTR mickyvainilla.example.com.
+  5   IN PTR capitanpiluso.example.com.
 
 Con esta configuración el servidor Bind ya es capaz de resolver no solo de nombre a IP, 
 sino que también puede resolver de IP a nombre para esta zona.
