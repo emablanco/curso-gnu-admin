@@ -959,13 +959,12 @@ podría ser algo así
               15 ; retry
               1w ; expire
               3h ; nxdomain ttl
-            )
-            
-         IN  NS     ns1.example.com.  ; Servidor de nombres en el dominio
-         IN  NS     ns2.example.com.  ; Otro servidor de nombres
+            )   
+         IN  NS     ns1.example.com.  ; DNS primario
+         IN  NS     ns2.example.com.  ; DNS secundario
          IN  MX  10 mail.example.com. ; Servidor de mail del dominio.
-  ns1    IN  A      192.168.0.1       ; Servidor de nombres (el mismo)
-  ns2    IN  A      192.168.0.2       ; Servidor de nombres (el mismo)
+  ns1    IN  A      192.168.0.1       ; IP del DNS (el mismo)
+  ns2    IN  A      192.168.0.2       ; IP del DNS secundario
   www    IN  A      192.168.0.3       ; Servidor web del dominio
   ftp    IN  CNAME  www.example.com.  ; Servidor ftp del dominio
 
@@ -1021,9 +1020,9 @@ podría contener los siguientes registros de nuestro ejemplo
                   3h         ; minimum
                   )
 
-                  NS dns1.example.com.
-                  NS dns2.example.com.
-
+                  NS ns1.example.com.
+                  NS ns2.example.com.
+  ; Registros PTR
   $ORIGIN 0.168.192.in-addr.arpa.
   1       IN PTR ns1.example.com.
   2       IN PTR ns2.example.com.
