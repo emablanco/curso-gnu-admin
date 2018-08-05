@@ -103,7 +103,7 @@ ACTIVIDAD 1
 - Investigue el contenido del archivo ``/etc/resolv.conf`` y expliquelo, use el ``man resolv.conf``.
 - Modifique el contenido de este archivo usando los DNS públicos ``8.8.8.8`` y ``8.8.4.4``
 - Reinice el servicio de red (``systemct restart network``) y corrobore si se mantiene el contenido previo
-- Modifique el archivo ``/etc/sysconfig/network-scripts/ifcfg-epn0s8`` para agregar los DNS previos usando DNS1=8.8.8.8 y DNS2=8.8.4.4 y reinicie el servicio de red nuevamente. Corrobore el contenido de ``/etc/resolv.conf``.
+- Modifique el archivo ``/etc/sysconfig/network-scripts/ifcfg-enp0s8`` para agregar los DNS previos usando DNS1=8.8.8.8 y DNS2=8.8.4.4 y reinicie el servicio de red nuevamente. Corrobore el contenido de ``/etc/resolv.conf``.
 
 ¿Qué es un NIC (Network Information Center)?
 --------------------------------------------
@@ -662,6 +662,15 @@ Actualice el sistema y luego instale bind:
   
   yum -y install bind bind-libs bind-chroot bind-utils
 
+Inicio del servicio
+-------------------
+
+Una vez configurado se debe levantar el servicio haciendo:
+
+.. code:: bash
+
+  systemct start named
+
 Configuración de Bind
 ---------------------
 
@@ -705,11 +714,7 @@ La sintaxis de dicho archivo es la siguiente:
     option-2;
     option-N;
   };
-  statement-N ["statement-N-name"] [statement-N-class] {
-    option-1;
-    option-2;
-    option-N;
-  };
+  ...
 
 ACLs
 ----
@@ -831,7 +836,7 @@ Archivo de configuración (``/etc/named.conf``)
 
   options {
     allow-query       { localhost; };
-    listen-on port    53 { 127.0.0.1; };
+    listen-on port    53 { 127.0.0.1; 192.168.10.100};
     listen-on-v6 port 53 { ::1; };
     max-cache-size    256M;
     directory         "/var/named";
