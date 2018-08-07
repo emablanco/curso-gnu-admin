@@ -941,6 +941,10 @@ Como verán la diferencia es muy mínima, solo cambia el tipo y en este
 caso le decimos quien es el master de dicha zona para que acepte las 
 actualizaciones cuando se realizan cambios en la misma.
 
+.. note::
+
+  Es muy **importante** que se especificó la ruta bajo el directorio ``slaves``, que por defecto buscará dentro de ``/var/named``, ya que cuenta con los permisos adecuados para escribir los archivos que le transfiera el servidor master.
+
 Ejemplo de zona (``/var/named/example.com.zone``)
 -------------------------------------------------
 
@@ -992,10 +996,11 @@ archivo ``/etc/named.conf``
 
 .. code:: bash
 
-  zone "168.192.in-addr.arpa" IN {
+  zone "0.168.192.in-addr.arpa" IN {
       type master;
       file "reverse.example.com.zone";
       allow-transfer { 192.168.0.2; };
+      notify yes;
   };
 
 En este caso le decimos que la zona que se denomina "168.192.in-addr.arpa" esta definida
@@ -1029,7 +1034,7 @@ podría contener los siguientes registros de nuestro ejemplo
 
   $ORIGIN .
   $TTL 24h;
-  168.192.in-addr.arpa IN      SOA     168.192.in-addr.arpa. root.example.com. (
+  168.192.0.in-addr.arpa IN      SOA     168.192.0.in-addr.arpa. root.example.com. (
                   2016070192 ; serial
                   3h         ; refresh
                   15         ; retry
@@ -1078,7 +1083,7 @@ Ejemplo del archivo ``/etc/named.conf``
 .. code:: bash
 
   options {
-          listen-on port 53 { 127.0.0.1; };
+          listen-on port 53 { 127.0.0.1; IPLOCAL};
           listen-on-v6 port 53 { ::1; };
           directory       "/var/named";
           dump-file       "/var/named/data/cache_dump.db";
@@ -1112,16 +1117,28 @@ Ejemplo del archivo ``/etc/named.conf``
   include "/etc/named/example.com";
   include "/etc/named/reverse.example.com";
 
+
+Vistas
+------
+
+Bind permite la configuración de vistas (``views``) que permiten usar una u otra definición de zona en función de la dirección IP o red de la que provenga la consulta. Esto es muy útil cuando el servidor DNS resuelve tanto para clientes externos como internos.
+
+
 ACTIVIDAD 3
 -----------
 
-- Organice el laboratorio con 4 PCs, formando dos grupos de trabajo
-- Cada grupo debe configurar un servidor maestro (primario) y esclavo (secundario) agregando registros A utilizando nombres diferentes para cada PC del laboratorio.
-- Cada grupo debe configurar el sistema operativo host (ubuntu) con los DNSs del otro grupo (tanto el primario como secundario), esto es, modifique el archivo ``/etc/resolv.conf`` o con la interfaz GUI Network Manager.
+- Organice el laboratorio con 4 PCs, formando dos grupos de trabajo: grupo A y B.
+- Cada grupo debe configurar un servidor maestro/primario y esclavo/secundario agregando un registro A (``www``) y un registro MX (``mail``) utilizando nombres diferentes para cada PC del laboratorio (sin la zona reversa). Dominio del **grupo A: epe.com**, dominio del **grupo B: epec.com**.
+- Cada grupo debe configurar el sistema operativo host (ubuntu) con los DNSs del otro grupo (tanto el primario como secundario), esto es, modifique el archivo ``/etc/resolv.conf`` o con la interfaz GUI Network Manager. 
 - Verifique que la resolución funciona utilizando las herramientas vistas previamente (dig y host) y ping.
+- Agregue un nuevo registro A en el servidor primario y corrobore si se actualiza en forma automática consultando al servidor secundario por medio del comando dig.
 - Cada grupo debe apagar el DNS primario (bajando el servicio named o apagando la máquina virtual) y debe verificar que la resolución DNS siga funcionando desde el SO host.
+- Agregue la configuración de la zona reversa en cada DNS. 
 
 
+.. note::
+
+  En ``/etc/resolv.conf`` es posible indicar el tiempo en el cual considera que un servidor DNS está caído (por defecto es 5 segundos),esto se hace con ``option timeout:1`` para que espere 1 segundo de timeout.
 
 Referencias
 ===========
