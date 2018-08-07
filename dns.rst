@@ -1105,3 +1105,4 @@ Referencias
 * https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts
 
 * https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-bind
+* http://www.zytrax.com/books/dns/ch9/delegate.html
