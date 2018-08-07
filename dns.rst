@@ -844,6 +844,7 @@ Archivo de configuración (``/etc/named.conf``)
     recursion         yes;
     dnssec-enable     yes;
     dnssec-validation yes;
+    forwarders {8.8.8.8; 8.8.4.4;};
   };
 
 La sentencia Zone (zonas)
@@ -1110,6 +1111,16 @@ Ejemplo del archivo ``/etc/named.conf``
   include "/etc/named.root.key";
   include "/etc/named/example.com";
   include "/etc/named/reverse.example.com";
+
+ACTIVIDAD 3
+-----------
+
+- Organice el laboratorio con 4 PCs, formando dos grupos de trabajo
+- Cada grupo debe configurar un servidor maestro (primario) y esclavo (secundario) agregando registros A utilizando nombres diferentes para cada PC del laboratorio.
+- Cada grupo debe configurar el sistema operativo host (ubuntu) con los DNSs del otro grupo (tanto el primario como secundario), esto es, modifique el archivo ``/etc/resolv.conf`` o con la interfaz GUI Network Manager.
+- Verifique que la resolución funciona utilizando las herramientas vistas previamente (dig y host) y ping.
+- Cada grupo debe apagar el DNS primario (bajando el servicio named o apagando la máquina virtual) y debe verificar que la resolución DNS siga funcionando desde el SO host.
+
 
 
 Referencias
