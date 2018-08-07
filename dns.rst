@@ -1003,6 +1003,20 @@ pertenecen a la misma se encuentra en "reverse.example.com.zone" (por defecto en
 y que se le permite la transferencia de la misma al equipo 192.168.0.2 (el que debería ser otro
 servidor dns definido como esclavo de esta zona)
 
+Delegación de subdominio
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+En caso que se quiera delegar a otro servidor DNS un subdominio, se deben agregar las siguientes líneas (ejemplo de subdominio ``epe.example.com``):
+
+.. code:: bash
+
+  epe.example.com.    IN    NS    ns1.epe.example.com
+  epe.example.com.    IN    NS    ns2.epe.example.com
+  ns1.epe.example.com    IN    A    10.0.1.10
+  ns2.epe.example.com    IN    A    10.0.1.20
+
+
+
 Ejemplo de zona reversa (``/var/named/reverso.example.com.zone``)
 -----------------------------------------------------------------
 
