@@ -285,8 +285,8 @@ La sintaxis del RR SOA tiene el siguiente significado:
 |             |                  | en su lugar se usa un punto.                                                       |
 +-------------+------------------+------------------------------------------------------------------------------------+
 | sn          | 2003080800       |                                                                                    |
-|             |                  | número serie asociado a la zona. Cada vez que se hace un cambien                   |
-|             |                  | el servidor de modificarse este valor (de 0 a 4294967295).                         |
+|             |                  | número serie asociado a la zona. Cada vez que se hace un cambio                    |
+|             |                  | el servidor de modificar este valor (de 0 a 4294967295).                           |
 +-------------+------------------+------------------------------------------------------------------------------------+
 | refresh     | 12h              |                                                                                    |
 |             |                  | tiempo en el que el servidor de nombres esclavo leerá el                           |
@@ -301,8 +301,8 @@ La sintaxis del RR SOA tiene el siguiente significado:
 |             |                  | Cuando se alcanza el tiempo de refresh, el esclavo tratará de contactar la         |
 |             |                  | zona master, en caso de falla, intentará la reconexión en el período ``retry``,    |
 |             |                  | Si el contacto se produce, entonces ambos se resetean, en cambio si el esclavo     |
-|             |                  | falla durante el tiempo ``expire`` entonces dejar[a de responder consultas         |
-|             |                  | y la zona será considerada muerta. El valor típoco es elevado, de 1 a 3 semanas.   |
+|             |                  | falla durante el tiempo ``expire`` entonces dejará de responder consultas          |
+|             |                  | y la zona será considerada muerta. El valor típico es elevado, de 1 a 3 semanas.   |
 +-------------+------------------+------------------------------------------------------------------------------------+
 | nx          | 3h               |                                                                                    |
 |             |                  | El período de tiempo en que las respuestas negativas pueden ser cacheadas.         |
@@ -835,8 +835,8 @@ Archivo de configuración (``/etc/named.conf``)
 .. code:: bash
 
   options {
-    allow-query       { localhost; };
-    listen-on port    53 { 127.0.0.1; 192.168.10.100};
+    allow-query       { localhost; IP_RED/MASCARA;};
+    listen-on port    53 { 127.0.0.1; IPLOCAL};
     listen-on-v6 port 53 { ::1; };
     max-cache-size    256M;
     directory         "/var/named";
@@ -844,7 +844,7 @@ Archivo de configuración (``/etc/named.conf``)
     recursion         yes;
     dnssec-enable     yes;
     dnssec-validation yes;
-    forwarders {8.8.8.8; 8.8.4.4;};
+    forwarders {8.8.8.8; 8.8.4.4;}; forwardear hacia arriba
   };
 
 La sentencia Zone (zonas)
@@ -968,6 +968,7 @@ podría ser algo así
          IN  NS     ns1.example.com.  ; DNS primario
          IN  NS     ns2.example.com.  ; DNS secundario
          IN  MX  10 mail.example.com. ; Servidor de mail del dominio.
+       
   ns1    IN  A      192.168.0.1       ; IP del DNS (el mismo)
   ns2    IN  A      192.168.0.2       ; IP del DNS secundario
   mail   IN  A      192.168.0.55      ; IP del mailserver
@@ -1034,7 +1035,7 @@ podría contener los siguientes registros de nuestro ejemplo
 
   $ORIGIN .
   $TTL 24h;
-  168.192.0.in-addr.arpa IN      SOA     168.192.0.in-addr.arpa. root.example.com. (
+  0.168.192.in-addr.arpa IN      SOA     0.168.192.in-addr.arpa. root.example.com. (
                   2016070192 ; serial
                   3h         ; refresh
                   15         ; retry
@@ -1089,7 +1090,7 @@ Ejemplo del archivo ``/etc/named.conf``
           dump-file       "/var/named/data/cache_dump.db";
           statistics-file "/var/named/data/named_stats.txt";
           memstatistics-file "/var/named/data/named_mem_stats.txt";
-          allow-query     { localhost; };
+          allow-query       { localhost; IP_RED/MASCARA;};
 
           recursion yes;
           dnssec-enable yes;
